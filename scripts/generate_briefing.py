@@ -1,54 +1,46 @@
 import json
 import os
 from datetime import datetime, timezone
-from typing import Any, Dict
+from typing import Any, Dict, List
 
 from openai import OpenAI
 
-# --- Prompt (English) ---
-PROMPT = r"""
-You are an expert scientific research assistant specialized in biotechnology, cell and gene therapy, and translational biomedical research.
+# -----------------------------
+# Config
+# -----------------------------
+OWNER = "paulweber2912"
+REPO = "Biotech-Briefing-Agent"
+OUT_PATH = "briefings/latest.json"
 
-Generate a DAILY BIOTECH BRIEFING for an advanced life science researcher.
+MODEL = "gpt-4o-mini-search-preview"  # günstig + Web Search-fähig (für Daily Briefing ideal)
 
-GOAL
-Produce a concise, high-quality daily briefing covering the MOST IMPORTANT recent developments in:
-- Cell & Gene Therapy
-- CRISPR / genome editing
-- RNA therapeutics
-- Advanced biologics
-- Clinical trials (Phase I–III)
-- Regulatory and manufacturing developments (FDA, EMA, CMC)
-- AI in biotech/pharma (drug discovery, CGT development, manufacturing/CMC, clinical operations), ONLY when materially relevant (no hype)
+TOPIC_PROMPT = """
+You are a biotech & Cell/Gene Therapy research analyst.
+Create a DAILY Biotech/CGT briefing with 3–5 truly important items from the last ~48 hours.
 
-CONTENT RULES
-1) Select ONLY 3–5 genuinely relevant headlines.
-2) Do NOT force content if nothing meaningful happened (return fewer items).
-3) Prefer scientific and regulatory relevance over hype or stock market noise.
-4) Avoid press-release language / marketing tone.
-5) Ensure factual accuracy; do not invent studies, endpoints, or statements.
-6) ALWAYS include sources with direct URLs; prefer primary sources (papers, regulators, trial registries).
+Hard requirements:
+- Use web search to find real, recent sources.
+- Do NOT invent companies, trials, papers, or URLs.
+- Every item must have at least 2 sources (prefer primary sources when possible):
+  e.g. PubMed/journal page, ClinicalTrials.gov, FDA/EMA, company press release/IR, reputable news.
+- Include "AI in drug discovery / CRISPR / CGT" developments when relevant.
+- Output must match the JSON schema exactly.
+- Keep writing concise, non-hype, technically accurate, with short background context.
 
-FOR EACH ITEM PROVIDE
-- headline: clear, factual
-- preview: 1–2 sentences
-- article: 2–4 short paragraphs, plus a "Why this matters" paragraph and brief background if needed
-- sources: 1–4 sources with {name, url, type}
-
-OUTPUT FORMAT
-Return valid JSON strictly matching the schema.
+Output language: English.
 """
 
-# --- Strict JSON schema for Structured Outputs ---
 JSON_SCHEMA: Dict[str, Any] = {
-    "name": "biotech_briefing",
+    "name": "biotech_briefing_schema",
     "schema": {
         "type": "object",
         "additionalProperties": False,
         "properties": {
-            "date": {"type": "string"},  # YYYY-MM-DD
+            "date": {"type": "string", "description": "YYYY-MM-DD (UTC)"},
             "items": {
                 "type": "array",
+                "minItems": 3,
+                "maxItems": 5,
                 "items": {
                     "type": "object",
                     "additionalProperties": False,
@@ -59,6 +51,7 @@ JSON_SCHEMA: Dict[str, Any] = {
                         "article": {"type": "string"},
                         "sources": {
                             "type": "array",
+                            "minItems": 2,
                             "items": {
                                 "type": "object",
                                 "additionalProperties": False,
@@ -82,63 +75,60 @@ JSON_SCHEMA: Dict[str, Any] = {
     },
 }
 
-
 def _utc_today_yyyy_mm_dd() -> str:
     return datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
-
 def main() -> None:
-    api_key = os.environ.get("OPENAI_API_KEY", "").strip()
+    api_key = os.environ.get("OPENAI_API_KEY")
     if not api_key:
-        raise RuntimeError("OPENAI_API_KEY env var is missing. Add it as a GitHub Actions secret.")
-
-    # Model chosen in workflow via env var; fallback here
-    model = os.environ.get("OPENAI_MODEL", "gpt-4o-mini").strip() or "gpt-4o-mini"
-    today = _utc_today_yyyy_mm_dd()
+        raise RuntimeError("Missing OPENAI_API_KEY env var")
 
     client = OpenAI(api_key=api_key)
 
-    resp = client.responses.create(
-        model=model,
+    today = _utc_today_yyyy_mm_dd()
+
+    response = client.responses.create(
+        model=MODEL,
+        tools=[
+            {
+                "type": "web_search_preview",
+                # optional: you can hint location, but not required
+                # "user_location": {"type": "approximate", "country": "DE", "city": "Berlin"},
+            }
+        ],
         input=[
             {
                 "role": "system",
-                "content": (
-                    "You must return ONLY valid JSON that matches the provided schema. "
-                    "Do not fabricate URLs. If uncertain, omit."
-                ),
+                "content": TOPIC_PROMPT.strip(),
             },
-            {"role": "user", "content": f"Today's date is {today}.\n\n{PROMPT}"},
+            {
+                "role": "user",
+                "content": f"Date (UTC): {today}\n\nGenerate today's briefing now.",
+            },
         ],
-        text={
-            "format": {
-                "type": "json_schema",
-                "name": JSON_SCHEMA["name"],
-                "schema": JSON_SCHEMA["schema"],
-                "strict": True,
-            }
+        # Force strict JSON output matching schema
+        response_format={
+            "type": "json_schema",
+            "json_schema": JSON_SCHEMA,
         },
     )
 
-    # The SDK provides the final text in output_text
-    raw = (resp.output_text or "").strip()
-    if not raw:
-        raise RuntimeError("Model returned empty output_text.")
+    # The SDK exposes the final text in output_text for JSON responses as well
+    raw_text = response.output_text
+    data = json.loads(raw_text)
 
-    data = json.loads(raw)
-    # Enforce date if missing/empty
-    if not data.get("date"):
-        data["date"] = today
+    # Ensure date is set (and stable)
+    data["date"] = today
 
-    os.makedirs("briefings", exist_ok=True)
-    with open("briefings/latest.json", "w", encoding="utf-8") as f:
+    # Ensure stable string IDs
+    for i, item in enumerate(data.get("items", []), start=1):
+        item["id"] = str(i)
+
+    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
+    with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-    # Archive copy
-    os.makedirs("briefings/archive", exist_ok=True)
-    with open(f"briefings/archive/{today}.json", "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
+    print(f"Wrote {OUT_PATH} with {len(data.get('items', []))} items.")
 
 if __name__ == "__main__":
     main()
