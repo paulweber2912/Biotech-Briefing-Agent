@@ -28,8 +28,7 @@ jobs:
 
       - name: Generate briefing JSON
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          OPENAI_MODEL: gpt-4o-mini
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python scripts/generate_briefing.py
 
@@ -38,5 +37,5 @@ jobs:
           git config user.name "fitgen-briefing-bot"
           git config user.email "actions@users.noreply.github.com"
           git add briefings/latest.json briefings/archive/*.json
-          git commit -m "Update daily briefing" || echo "No changes to commit"
+          git commit -m "🔬 Update daily briefing (Claude)" || echo "No changes to commit"
           git push
