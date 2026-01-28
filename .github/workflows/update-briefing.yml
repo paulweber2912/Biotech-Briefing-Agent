@@ -1,0 +1,38 @@
+name: Update Biotech Briefing
+
+on:
+  schedule:
+    # Runs every day at 6:00 AM UTC (7:00 AM CET, 8:00 AM CEST)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  update-briefing:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+          
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+          
+      - name: Generate briefing
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          python biotech_briefing.py
+          
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add briefing.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🔬 Update biotech briefing - $(date +'%Y-%m-%d %H:%M UTC')" && git push)
