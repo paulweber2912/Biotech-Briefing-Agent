@@ -1,4 +1,5 @@
 import anthropic
+import re
 import json
 import os
 from datetime import datetime, timezone
@@ -80,19 +81,31 @@ def main() -> None:
         if block.type == "text":
             briefing_text += block.text
 
-    # Parse JSON from response
-    # Claude might wrap it in markdown code blocks, so we clean it
-    briefing_text = briefing_text.strip()
-    if briefing_text.startswith("```json"):
-        briefing_text = briefing_text[7:]  # Remove ```json
-    if briefing_text.startswith("```"):
-        briefing_text = briefing_text[3:]  # Remove ```
-    if briefing_text.endswith("```"):
-        briefing_text = briefing_text[:-3]  # Remove trailing ```
-    briefing_text = briefing_text.strip()
+    def extract_json(text: str) -> str:
+        t = text.strip()
+
+        # 1) Prefer fenced JSON block: ```json ... ```
+        m = re.search(r"```json\s*(\{.*?\})\s*```", t, flags=re.DOTALL)
+        if m:
+            return m.group(1).strip()
+
+        # 2) Any fenced block: ``` ... ```
+        m = re.search(r"```\s*(\{.*?\})\s*```", t, flags=re.DOTALL)
+        if m:
+            return m.group(1).strip()
+
+        # 3) Fallback: grab first '{' to last '}' (best effort)
+        start = t.find("{")
+        end = t.rfind("}")
+        if start != -1 and end != -1 and end > start:
+            return t[start:end + 1].strip()
+
+        raise ValueError("No JSON object found in model output")
 
     try:
-        data = json.loads(briefing_text)
+        json_str = extract_json(briefing_text)
+        data = json.loads(json_str)
+      
     except json.JSONDecodeError as e:
         print(f"❌ Failed to parse JSON response: {e}")
         print(f"Raw response:\n{briefing_text}")
