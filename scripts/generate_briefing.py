@@ -70,7 +70,7 @@ def main() -> None:
         }],
         messages=[{
             "role": "user",
-            "content": PROMPT.format(today=today)
+            "content": PROMPT.replace("{today}", today)
         }]
     )
 
