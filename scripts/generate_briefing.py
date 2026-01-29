@@ -15,6 +15,54 @@ from pathlib import Path
 
 from anthropic import Anthropic
 
+
+def _json_escape_control_chars_inside_strings(s: str) -> str:
+    """
+    Escapes literal control characters (especially newlines) that appear inside quoted JSON strings.
+    Some model responses look like JSON but contain raw newlines inside string values, which is invalid JSON.
+    This function only escapes control characters when we are inside a JSON string.
+    """
+    out = []
+    in_str = False
+    esc = False
+
+    for ch in s:
+        if in_str:
+            if esc:
+                out.append(ch)
+                esc = False
+                continue
+
+            if ch == "\\":
+                out.append(ch)
+                esc = True
+                continue
+
+            if ch == '"':
+                out.append(ch)
+                in_str = False
+                continue
+
+            # Escape invalid control characters inside strings
+            if ch == "\n":
+                out.append("\\n")
+            elif ch == "\r":
+                out.append("\\r")
+            elif ch == "\t":
+                out.append("\\t")
+            elif ord(ch) < 0x20:
+                out.append(f"\\u{ord(ch):04x}")
+            else:
+                out.append(ch)
+        else:
+            if ch == '"':
+                out.append(ch)
+                in_str = True
+            else:
+                out.append(ch)
+
+    return "".join(out)
+
 ROOT = Path(__file__).resolve().parents[1]
 BRIEFINGS_DIR = ROOT / "briefings"
 ARCHIVE_DIR = BRIEFINGS_DIR / "archive"
@@ -90,10 +138,16 @@ def main() -> None:
 
     try:
         data = json.loads(json_text)
-    except Exception as e:
-        print("❌ Failed to parse JSON response:", e)
-        print("Raw response:\n", raw)
-        raise
+    except json.JSONDecodeError as e:
+        # Attempt a repair for the most common failure mode: literal control characters in strings.
+        repaired = _json_escape_control_chars_inside_strings(json_text)
+        try:
+            data = json.loads(repaired)
+            json_text = repaired  # keep repaired text for any downstream logging/debug
+        except json.JSONDecodeError:
+            print(f"❌ Failed to parse JSON response: {e}")
+            print("Raw response:\n", raw)
+            raise
 
     # normalize
     data.setdefault("date", today)
