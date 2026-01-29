@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
-"""generate_briefing.py
+"""generate_briefing.py (FIXED VERSION with web search)
 
 Generates briefings/latest.json and archives a dated copy in briefings/archive/YYYY-MM-DD.json.
 
-This version reads the prompt from prompts/daily_prompt.md so the prompt can be edited
-without touching code. The prompt uses {{today}} as the placeholder.
-It also passes yesterday's headlines (from briefings/latest.json) to reduce repeats.
+KEY CHANGES:
+- Added web_search and web_fetch tools
+- Upgraded to Sonnet 4 (much less hallucination than Haiku)
+- Multi-turn conversation to enforce tool usage
+- Verification of tool usage before accepting results
 """
 
 import os
@@ -70,9 +72,10 @@ LATEST_PATH = BRIEFINGS_DIR / "latest.json"
 
 PROMPT_PATH = Path(os.getenv("PROMPT_PATH", str(ROOT / "prompts" / "daily_prompt.md")))
 
+# CRITICAL: Use Sonnet 4, not Haiku - much better at tool usage and verification
 MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-haiku-20240307")
-MAX_TOKENS = int(os.getenv("MAX_TOKENS", "2200"))  # keep cost under control
-TEMPERATURE = float(os.getenv("TEMPERATURE", "0.2"))
+MAX_TOKENS = int(os.getenv("MAX_TOKENS", "4096"))  # increased for research phase
+TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))  # 0.0 for maximum consistency
 
 def load_prompt(today: str) -> str:
     text = PROMPT_PATH.read_text(encoding="utf-8")
@@ -120,17 +123,122 @@ def main() -> None:
 
     client = Anthropic(api_key=api_key)
 
-    message = client.messages.create(
+    # CRITICAL: Define tools that Claude can use
+    tools = [
+        {
+            "type": "web_search_20250305",
+            "name": "web_search"
+        },
+        {
+            "type": "web_fetch_20250305",
+            "name": "web_fetch"
+        }
+    ]
+
+    # PHASE 1: Research phase - force Claude to search
+    print(f"🔍 Starting research phase for {today}...")
+    
+    research_prompt = f"""Today is {today}.
+
+PHASE 1: RESEARCH (MANDATORY)
+
+You MUST use the web_search tool to find recent developments in:
+1. Gene therapy (CRISPR, base editing, prime editing)
+2. Cell therapy (CAR-T, TCR-T, TILs)
+3. RNA therapeutics (mRNA, siRNA, ASO)
+4. Translational research & clinical trials
+5. Regulatory news (FDA, EMA approvals)
+
+Execute AT LEAST 5 different web_search queries targeting:
+- Specific journals: "Nature Biotechnology latest" "Cell Stem Cell January 2025"
+- Regulatory: "FDA gene therapy approval" "EMA cell therapy"
+- Clinical: "CAR-T clinical trial latest" "CRISPR trial 2025"
+- Companies: "biotech RNA therapeutics news" 
+- Preprints: "bioRxiv gene editing"
+
+For EACH search result that looks relevant:
+- Use web_fetch to retrieve the full page
+- Verify the publication/announcement date is within last 48h from {today}
+- Verify it's a primary source
+
+After completing your searches, summarize what you found and which URLs you actually fetched and verified.
+"""
+
+    messages = [{"role": "user", "content": research_prompt}]
+
+    # Execute research phase with tools
+    research_response = client.messages.create(
         model=MODEL,
         max_tokens=MAX_TOKENS,
         temperature=TEMPERATURE,
-        messages=[{"role": "user", "content": prompt}],
+        tools=tools,
+        messages=messages
     )
 
-    # concatenate all returned text blocks
+    # Log tool usage for debugging
+    tool_uses = []
+    searches_performed = 0
+    fetches_performed = 0
+    
+    for block in research_response.content:
+        if block.type == "tool_use":
+            tool_uses.append({
+                "tool": block.name,
+                "input": block.input
+            })
+            if block.name == "web_search":
+                searches_performed += 1
+                print(f"  🔎 Search: {block.input.get('query', 'N/A')}")
+            elif block.name == "web_fetch":
+                fetches_performed += 1
+                print(f"  📄 Fetch: {block.input.get('url', 'N/A')[:80]}...")
+
+    print(f"✓ Research complete: {searches_performed} searches, {fetches_performed} fetches")
+
+    # Check if Claude actually used tools
+    if searches_performed == 0:
+        print("⚠️  WARNING: No web searches performed! Results may be hallucinated.")
+    
+    if fetches_performed == 0:
+        print("⚠️  WARNING: No pages fetched! Sources cannot be verified.")
+
+    # Add assistant's research response to conversation
+    messages.append({"role": "assistant", "content": research_response.content})
+
+    # PHASE 2: Generate JSON based on verified sources only
+    print(f"📝 Generating briefing JSON...")
+    
+    json_prompt = f"""PHASE 2: GENERATE BRIEFING JSON
+
+Based ONLY on the sources you actually fetched and verified in Phase 1, now generate the JSON output.
+
+CRITICAL RULES:
+1. ONLY include items where you used web_fetch to retrieve the full source
+2. ONLY include items with verified publication dates within 48h of {today}
+3. Do NOT include any items based on search snippets alone
+4. Do NOT include any items from your training knowledge
+5. If you found fewer than 3 verified items, that's fine - return what you have
+6. If you found ZERO verified items, return an empty items list
+
+Now generate the JSON following the exact format from the original prompt.
+Include in each source object a "verified_date" field showing the exact date you found on the source page.
+"""
+
+    messages.append({"role": "user", "content": json_prompt})
+
+    # Generate final JSON
+    final_response = client.messages.create(
+        model=MODEL,
+        max_tokens=MAX_TOKENS,
+        temperature=TEMPERATURE,
+        tools=tools,  # Still provide tools in case Claude needs to verify something
+        messages=messages
+    )
+
+    # Extract text from response
     text_parts: list[str] = []
-    for block in getattr(message, "content", []):
-        if getattr(block, "type", None) == "text":
+    for block in final_response.content:
+        if block.type == "text":
             text_parts.append(block.text)
     raw = "\n".join(text_parts).strip()
 
@@ -143,7 +251,7 @@ def main() -> None:
         repaired = _json_escape_control_chars_inside_strings(json_text)
         try:
             data = json.loads(repaired)
-            json_text = repaired  # keep repaired text for any downstream logging/debug
+            json_text = repaired
         except json.JSONDecodeError:
             print(f"❌ Failed to parse JSON response: {e}")
             print("Raw response:\n", raw)
@@ -155,6 +263,15 @@ def main() -> None:
         data["items"] = []
     data["items"] = data["items"][:3]  # max 3 items
 
+    # Add metadata about tool usage for debugging
+    data["_meta"] = {
+        "generated_at": datetime.datetime.now().isoformat(),
+        "model": MODEL,
+        "searches_performed": searches_performed,
+        "fetches_performed": fetches_performed,
+        "tool_uses": len(tool_uses)
+    }
+
     BRIEFINGS_DIR.mkdir(parents=True, exist_ok=True)
     ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -163,6 +280,14 @@ def main() -> None:
     archive_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
     print(f"✅ Wrote {LATEST_PATH} and {archive_path}")
+    print(f"   Items generated: {len(data['items'])}")
+    
+    # Warning if suspicious
+    if len(data['items']) > 0 and searches_performed == 0:
+        print("⚠️  WARNING: Items generated without web search - likely hallucinated!")
+    
+    if len(data['items']) > fetches_performed:
+        print(f"⚠️  WARNING: More items ({len(data['items'])}) than fetches ({fetches_performed}) - may include unverified sources!")
 
 if __name__ == "__main__":
     main()
