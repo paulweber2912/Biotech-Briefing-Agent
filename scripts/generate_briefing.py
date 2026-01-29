@@ -1,140 +1,114 @@
-import anthropic
-import re
-import json
+#!/usr/bin/env python3
+"""generate_briefing.py
+
+Generates briefings/latest.json and archives a dated copy in briefings/archive/YYYY-MM-DD.json.
+
+This version reads the prompt from prompts/daily_prompt.md so the prompt can be edited
+without touching code. The prompt uses {{today}} as the placeholder.
+It also passes yesterday's headlines (from briefings/latest.json) to reduce repeats.
+"""
+
 import os
-from datetime import datetime, timezone
-from typing import Any, Dict
+import json
+import datetime
+from pathlib import Path
 
-# -----------------------------
-# Config
-# -----------------------------
-OUT_PATH = "briefings/latest.json"
-MODEL = "claude-sonnet-4-20250514"
+from anthropic import Anthropic
 
-PROMPT = """You are a biotech & Cell/Gene Therapy research analyst.
-Create a DAILY Biotech/CGT briefing with 3-5 truly important items from the last ~48 hours.
+ROOT = Path(__file__).resolve().parents[1]
+BRIEFINGS_DIR = ROOT / "briefings"
+ARCHIVE_DIR = BRIEFINGS_DIR / "archive"
+LATEST_PATH = BRIEFINGS_DIR / "latest.json"
 
-Hard requirements:
-- Use web search to find real, recent sources.
-- Do NOT invent companies, trials, papers, or URLs.
-- Every item must have at least 2 sources (prefer primary sources when possible):
-  e.g. PubMed/journal page, ClinicalTrials.gov, FDA/EMA, company press release/IR, reputable news.
-- Include "AI in drug discovery / CRISPR / CGT" developments when relevant.
-- Keep writing concise, non-hype, technically accurate, with short background context.
+PROMPT_PATH = Path(os.getenv("PROMPT_PATH", str(ROOT / "prompts" / "daily_prompt.md")))
 
-Output language: English.
+MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-latest")
+MAX_TOKENS = int(os.getenv("MAX_TOKENS", "2200"))  # keep cost under control
+TEMPERATURE = float(os.getenv("TEMPERATURE", "0.2"))
 
-Please respond with a JSON object in this exact format:
-{
-  "date": "YYYY-MM-DD",
-  "items": [
-    {
-      "id": "1",
-      "headline": "...",
-      "preview": "...",
-      "article": "...",
-      "sources": [
-        {
-          "name": "...",
-          "url": "...",
-          "type": "paper|regulator|trial_registry|news|company"
-        }
-      ]
-    }
-  ]
-}
+def load_prompt(today: str) -> str:
+    text = PROMPT_PATH.read_text(encoding="utf-8")
+    return text.replace("{{today}}", today)
 
-Date (UTC): {today}
+def load_yesterday_headlines() -> list[str]:
+    if not LATEST_PATH.exists():
+        return []
+    try:
+        data = json.loads(LATEST_PATH.read_text(encoding="utf-8"))
+        items = data.get("items", []) if isinstance(data, dict) else []
+        return [it.get("headline", "") for it in items if isinstance(it, dict) and it.get("headline")]
+    except Exception:
+        return []
 
-Generate today's briefing now."""
+def extract_json(text: str) -> str:
+    """Extract the first top-level JSON object from a response."""
+    t = text.strip()
 
-
-def _utc_today_yyyy_mm_dd() -> str:
-    return datetime.now(timezone.utc).strftime("%Y-%m-%d")
-
-
-def main() -> None:
-    api_key = os.environ.get("ANTHROPIC_API_KEY")
-    if not api_key:
-        raise RuntimeError("Missing ANTHROPIC_API_KEY env var")
-
-    client = anthropic.Anthropic(api_key=api_key)
-    today = _utc_today_yyyy_mm_dd()
-
-    # Make API call with web search enabled
-    message = client.messages.create(
-        model=MODEL,
-        max_tokens=4000,
-        tools=[{
-            "type": "web_search_20250305",
-            "name": "web_search"
-        }],
-        messages=[{
-            "role": "user",
-            "content": PROMPT.replace("{today}", today)
-        }]
-    )
-
-    # Extract the text response
-    briefing_text = ""
-    for block in message.content:
-        if block.type == "text":
-            briefing_text += block.text
-
-    def extract_json(text: str) -> str:
-        t = text.strip()
-
-        # 1) Prefer fenced JSON block: ```json ... ```
-        m = re.search(r"```json\s*(\{.*?\})\s*```", t, flags=re.DOTALL)
-        if m:
-            return m.group(1).strip()
-
-        # 2) Any fenced block: ``` ... ```
-        m = re.search(r"```\s*(\{.*?\})\s*```", t, flags=re.DOTALL)
-        if m:
-            return m.group(1).strip()
-
-        # 3) Fallback: grab first '{' to last '}' (best effort)
+    # remove markdown fences if present
+    if t.startswith("```"):
         start = t.find("{")
         end = t.rfind("}")
         if start != -1 and end != -1 and end > start:
-            return t[start:end + 1].strip()
+            return t[start:end + 1]
+        return t.strip("`")
 
-        raise ValueError("No JSON object found in model output")
+    start = t.find("{")
+    end = t.rfind("}")
+    if start != -1 and end != -1 and end > start:
+        return t[start:end + 1]
+    return t
+
+def main() -> None:
+    api_key = os.getenv("ANTHROPIC_API_KEY")
+    if not api_key:
+        raise SystemExit("Missing ANTHROPIC_API_KEY environment variable.")
+
+    today = datetime.date.today().isoformat()
+    prompt = load_prompt(today)
+
+    yesterday = load_yesterday_headlines()
+    if yesterday:
+        prompt += "\n\nYESTERDAY_HEADLINES (avoid repeats unless clearly new):\n" + "\n".join(f"- {h}" for h in yesterday)
+
+    client = Anthropic(api_key=api_key)
+
+    message = client.messages.create(
+        model=MODEL,
+        max_tokens=MAX_TOKENS,
+        temperature=TEMPERATURE,
+        messages=[{"role": "user", "content": prompt}],
+    )
+
+    # concatenate all returned text blocks
+    text_parts: list[str] = []
+    for block in getattr(message, "content", []):
+        if getattr(block, "type", None) == "text":
+            text_parts.append(block.text)
+    raw = "\n".join(text_parts).strip()
+
+    json_text = extract_json(raw)
 
     try:
-        json_str = extract_json(briefing_text)
-        data = json.loads(json_str)
-      
-    except json.JSONDecodeError as e:
-        print(f"❌ Failed to parse JSON response: {e}")
-        print(f"Raw response:\n{briefing_text}")
+        data = json.loads(json_text)
+    except Exception as e:
+        print("❌ Failed to parse JSON response:", e)
+        print("Raw response:\n", raw)
         raise
 
-    # Ensure date is set correctly
-    data["date"] = today
+    # normalize
+    data.setdefault("date", today)
+    if not isinstance(data.get("items"), list):
+        data["items"] = []
+    data["items"] = data["items"][:3]  # max 3 items
 
-    # Ensure stable string IDs
-    for i, item in enumerate(data.get("items", []), start=1):
-        item["id"] = str(i)
+    BRIEFINGS_DIR.mkdir(parents=True, exist_ok=True)
+    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
 
-    # Save to latest.json
-    os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
-    with open(OUT_PATH, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
+    LATEST_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    archive_path = ARCHIVE_DIR / f"{today}.json"
+    archive_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    # Also save to archive with date
-    archive_path = f"briefings/archive/{today}.json"
-    os.makedirs(os.path.dirname(archive_path), exist_ok=True)
-    with open(archive_path, "w", encoding="utf-8") as f:
-        json.dump(data, f, ensure_ascii=False, indent=2)
-
-    print(f"✅ Briefing successfully generated!")
-    print(f"📅 Date: {data['date']}")
-    print(f"📊 Items: {len(data.get('items', []))}")
-    print(f"💾 Saved to: {OUT_PATH}")
-    print(f"📁 Archived to: {archive_path}")
-
+    print(f"✅ Wrote {LATEST_PATH} and {archive_path}")
 
 if __name__ == "__main__":
     main()
