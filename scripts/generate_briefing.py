@@ -72,9 +72,9 @@ LATEST_PATH = BRIEFINGS_DIR / "latest.json"
 
 PROMPT_PATH = Path(os.getenv("PROMPT_PATH", str(ROOT / "prompts" / "daily_prompt.md")))
 
-# CRITICAL: Use Sonnet 4, not Haiku - much better at tool usage and verification
-MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-haiku-20240307")
-MAX_TOKENS = int(os.getenv("MAX_TOKENS", "4096"))  # increased for research phase
+# Using Haiku for cost efficiency - with optimized prompting to reduce hallucinations
+MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-5-haiku-20241022")
+MAX_TOKENS = int(os.getenv("MAX_TOKENS", "3000"))  # balanced for research + JSON output
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))  # 0.0 for maximum consistency
 
 def load_prompt(today: str) -> str:
@@ -123,15 +123,11 @@ def main() -> None:
 
     client = Anthropic(api_key=api_key)
 
-    # CRITICAL: Define tools that Claude can use
+    # CRITICAL: Only web_search is available in the API (web_fetch is claude.ai only)
     tools = [
         {
             "type": "web_search_20250305",
             "name": "web_search"
-        },
-        {
-            "type": "web_fetch_20250305",
-            "name": "web_fetch"
         }
     ]
 
@@ -142,26 +138,36 @@ def main() -> None:
 
 PHASE 1: RESEARCH (MANDATORY)
 
-You MUST use the web_search tool to find recent developments in:
-1. Gene therapy (CRISPR, base editing, prime editing)
-2. Cell therapy (CAR-T, TCR-T, TILs)
-3. RNA therapeutics (mRNA, siRNA, ASO)
-4. Translational research & clinical trials
-5. Regulatory news (FDA, EMA approvals)
+You MUST use the web_search tool multiple times to find recent developments.
 
-Execute AT LEAST 5 different web_search queries targeting:
-- Specific journals: "Nature Biotechnology latest" "Cell Stem Cell January 2025"
-- Regulatory: "FDA gene therapy approval" "EMA cell therapy"
-- Clinical: "CAR-T clinical trial latest" "CRISPR trial 2025"
-- Companies: "biotech RNA therapeutics news" 
-- Preprints: "bioRxiv gene editing"
+CRITICAL INSTRUCTIONS:
+1. Perform AT LEAST 8-10 targeted web_search queries
+2. Focus on PRIMARY SOURCES with visible dates in search results
+3. Look for results that show publication dates in the snippet
+4. Pay close attention to URLs - they often contain dates
 
-For EACH search result that looks relevant:
-- Use web_fetch to retrieve the full page
-- Verify the publication/announcement date is within last 48h from {today}
-- Verify it's a primary source
+TARGET SEARCHES (execute these types):
+- "site:nature.com/nbt articles January 2025"
+- "site:fda.gov/news gene therapy approval 2025"
+- "site:ema.europa.eu cell therapy recommendation"
+- "site:clinicaltrials.gov CAR-T new 2025"
+- "site:biorxiv.org CRISPR latest"
+- "site:science.org/doi gene editing 2025"
+- "biotech company press release gene therapy January 2025"
 
-After completing your searches, summarize what you found and which URLs you actually fetched and verified.
+VERIFICATION FROM SEARCH RESULTS:
+For each result, check the snippet for:
+- Does the URL contain a date? (e.g., /2025/01/29/ or -20250129-)
+- Does the snippet mention a publication date?
+- Is it from a primary source domain?
+- Is the date within 48h of {today}?
+
+Only include results where you can see date evidence in the search results themselves.
+
+After searching, list the most promising items you found with:
+- The URL (must contain visible date markers if possible)
+- The date evidence you saw (in URL or snippet)
+- Why it's relevant
 """
 
     messages = [{"role": "user", "content": research_prompt}]
@@ -178,7 +184,6 @@ After completing your searches, summarize what you found and which URLs you actu
     # Log tool usage for debugging
     tool_uses = []
     searches_performed = 0
-    fetches_performed = 0
     
     for block in research_response.content:
         if block.type == "tool_use":
@@ -189,18 +194,15 @@ After completing your searches, summarize what you found and which URLs you actu
             if block.name == "web_search":
                 searches_performed += 1
                 print(f"  🔎 Search: {block.input.get('query', 'N/A')}")
-            elif block.name == "web_fetch":
-                fetches_performed += 1
-                print(f"  📄 Fetch: {block.input.get('url', 'N/A')[:80]}...")
 
-    print(f"✓ Research complete: {searches_performed} searches, {fetches_performed} fetches")
+    print(f"✓ Research complete: {searches_performed} searches")
 
     # Check if Claude actually used tools
     if searches_performed == 0:
-        print("⚠️  WARNING: No web searches performed! Results may be hallucinated.")
-    
-    if fetches_performed == 0:
-        print("⚠️  WARNING: No pages fetched! Sources cannot be verified.")
+        print("⚠️  WARNING: No web searches performed! Results will be hallucinated.")
+        print("⚠️  Consider making the research prompt more explicit.")
+    elif searches_performed < 5:
+        print(f"⚠️  WARNING: Only {searches_performed} searches - recommend 8-10 for good coverage.")
 
     # Add assistant's research response to conversation
     messages.append({"role": "assistant", "content": research_response.content})
@@ -210,18 +212,31 @@ After completing your searches, summarize what you found and which URLs you actu
     
     json_prompt = f"""PHASE 2: GENERATE BRIEFING JSON
 
-Based ONLY on the sources you actually fetched and verified in Phase 1, now generate the JSON output.
+Based ONLY on the search results from Phase 1, now generate the JSON output.
 
 CRITICAL RULES:
-1. ONLY include items where you used web_fetch to retrieve the full source
-2. ONLY include items with verified publication dates within 48h of {today}
-3. Do NOT include any items based on search snippets alone
-4. Do NOT include any items from your training knowledge
-5. If you found fewer than 3 verified items, that's fine - return what you have
-6. If you found ZERO verified items, return an empty items list
+1. ONLY include items where you saw DATE EVIDENCE in the search results (URL path, snippet text, etc.)
+2. Dates must be within 48h of {today}
+3. URLs must be from PRIMARY SOURCES (Nature, Science, FDA, EMA, company IR pages, etc.)
+4. Do NOT include items based on vague or undated search results
+5. Do NOT include items from aggregator sites (generic news, press release aggregators)
+6. If you found fewer than 3 verified items, that's fine - return what you have
+7. If you found ZERO items with clear date evidence, return an empty items list
+
+ACCEPTABLE DATE EVIDENCE:
+✓ URL contains date: nature.com/articles/s41587-025-02543-2 with "29 January 2025" in snippet
+✓ Snippet says: "Published: January 29, 2025"
+✓ FDA URL: fda.gov/news-events/press-announcements/2025/01/...
+✓ Press release: "Company XYZ announced today..." in snippet with today's date visible
+
+UNACCEPTABLE (exclude these):
+✗ Generic URLs with no date markers
+✗ Search results that just say "recent" or "latest"
+✗ Secondary news sources without visible dates
+✗ Your memory of what might have been published
 
 Now generate the JSON following the exact format from the original prompt.
-Include in each source object a "verified_date" field showing the exact date you found on the source page.
+For each source, the URL must be one you saw in search results, and verified_date must reflect the date evidence you found.
 """
 
     messages.append({"role": "user", "content": json_prompt})
@@ -268,7 +283,6 @@ Include in each source object a "verified_date" field showing the exact date you
         "generated_at": datetime.datetime.now().isoformat(),
         "model": MODEL,
         "searches_performed": searches_performed,
-        "fetches_performed": fetches_performed,
         "tool_uses": len(tool_uses)
     }
 
@@ -286,8 +300,8 @@ Include in each source object a "verified_date" field showing the exact date you
     if len(data['items']) > 0 and searches_performed == 0:
         print("⚠️  WARNING: Items generated without web search - likely hallucinated!")
     
-    if len(data['items']) > fetches_performed:
-        print(f"⚠️  WARNING: More items ({len(data['items'])}) than fetches ({fetches_performed}) - may include unverified sources!")
+    if len(data['items']) > 0 and searches_performed < 5:
+        print(f"⚠️  WARNING: Only {searches_performed} searches for {len(data['items'])} items - may include unverified sources!")
 
 if __name__ == "__main__":
     main()
