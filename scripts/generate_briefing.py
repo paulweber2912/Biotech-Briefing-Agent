@@ -22,7 +22,7 @@ LATEST_PATH = BRIEFINGS_DIR / "latest.json"
 
 PROMPT_PATH = Path(os.getenv("PROMPT_PATH", str(ROOT / "prompts" / "daily_prompt.md")))
 
-MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-5-sonnet-latest")
+MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-haiku-20240307")
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "2200"))  # keep cost under control
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.2"))
 
