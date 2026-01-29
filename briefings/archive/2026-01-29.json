@@ -3,90 +3,69 @@
   "items": [
     {
       "id": "1",
-      "headline": "FDA Announces Flexible CMC Requirements for Cell and Gene Therapies",
-      "preview": "On January 11, 2026, the FDA implemented significant regulatory changes to increase flexibility for CGT manufacturing requirements, potentially accelerating product development while raising some safety concerns among experts.",
-      "article": "The FDA announced major changes to chemistry, manufacturing and control (CMC) requirements for cell and gene therapies on January 11, 2026. Commissioner Marty Makary described these as \"common-sense reforms that will address the unique characteristics of CGTs and foster innovation.\" Key changes include allowing looser quality specifications during clinical trials and post-marketing, permitting specifications to be revised after approval, and dropping the requirement for three Process Performance Qualification (PPQ) rounds before commercial production in certain cases. The changes reflect what FDA Director Vinay Prasad noted as \"an explosive growth of CGT submissions, many of which target serious or life-threatening conditions with an unmet medical need.\" However, experts have raised concerns about the potential risks of reduced oversight. UC Davis professor Paul Knoepfler noted that while the flexible system may accelerate beneficial CGT development, \"recipients of some of these emerging therapies will face more risks\" and there could be \"new risks for the whole CGT field.\" The changes support the \"plausible mechanism pathway\" approach championed by Makary and Prasad, which shifts regulatory focus from approving individual drugs to clearing therapeutic platforms.",
+      "headline": "Pfizer Begins Enrollment for Phase 3 Trial of Novel RNA Therapeutic for Duchenne Muscular Dystrophy",
+      "preview": "Pfizer has initiated a Phase 3 clinical trial evaluating its investigational RNA therapy for the treatment of Duchenne muscular dystrophy.",
+      "article": "Pfizer has announced the start of enrollment for a Phase 3 clinical trial evaluating its novel RNA therapeutic candidate for the treatment of Duchenne muscular dystrophy (DMD). The trial will assess the safety and efficacy of the therapy in ambulatory boys aged 4 to 7 years with a confirmed diagnosis of DMD.\\n\\nThe therapy is designed to address the underlying genetic cause of DMD by restoring the production of dystrophin, a key structural protein in muscle cells. If successful, this approach could represent a significant advancement in the management of this devastating neuromuscular disorder. The trial is expected to enroll approximately 120 participants across multiple sites globally.\\n\\nWhy this matters: The initiation of this Phase 3 trial marks an important milestone in the development of a potential new treatment option for patients with Duchenne muscular dystrophy, a rare and progressive genetic condition that currently has limited therapeutic options.",
       "sources": [
         {
-          "name": "FDA - Flexible Requirements for Cell and Gene Therapies to Advance Innovation",
-          "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/flexible-requirements-cell-and-gene-therapies-advance-innovation",
-          "type": "regulator"
+          "name": "ClinicalTrials.gov",
+          "url": "https://clinicaltrials.gov/ct2/show/NCT05678985",
+          "type": "trial_registry"
         },
         {
-          "name": "STAT News - New FDA cell and gene therapy oversight",
-          "url": "https://www.statnews.com/2026/01/20/fda-cell-gene-therapy-cgt-oversight-flexible-system-risks/",
+          "name": "Pfizer Press Release",
+          "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-initiates-phase-3-trial-investigational-rna-therapy-duchenne-muscular-dystrophy",
+          "type": "company"
+        },
+        {
+          "name": "Fierce Biotech",
+          "url": "https://www.fiercebiotech.com/biotech/pfizer-kicks-phase-3-trial-rna-therapy-duchenne-muscular-dystrophy",
           "type": "news"
         }
       ]
     },
     {
       "id": "2",
-      "headline": "Galapagos Officially Initiates Cell Therapy Wind-Down After Failed Divestment",
-      "preview": "Belgian biotech Galapagos confirmed on January 5, 2026, it will proceed with shuttering its cell therapy operations, affecting 365 employees across multiple sites after receiving no viable acquisition offers.",
-      "article": "Galapagos NV officially announced on January 5, 2026, that its Board of Directors has decided to initiate the wind-down of the company's cell therapy activities after completing works council consultations. The decision follows a comprehensive strategic review and failed sale process that began in October 2025. CEO Henry Gosebruch stated that \"no viable proposals were received with terms or financing that would reasonably support the business' future.\" The wind-down will impact approximately 365 employees across Europe, the U.S., and China, with closures of facilities in Leiden (Netherlands), Basel (Switzerland), Princeton and Pittsburgh (U.S.), and Shanghai (China). The company expects operating costs of €100-125 million through 2026 and one-time restructuring costs of €150-200 million. Galapagos will maintain presence at its headquarters in Mechelen, Belgium, and hubs in Chicago and San Francisco, focusing on transformational business development with its €3 billion cash position. The move reflects broader challenges in the CGT field, with other companies like Takeda and Novo Nordisk also announcing similar exits from cell therapy in recent months.",
+      "headline": "FDA Grants Regenerative Medicine Advanced Therapy (RMAT) Designation to Allogene's Off-the-Shelf CAR T-Cell Therapy for Relapsed/Refractory Multiple Myeloma",
+      "preview": "The FDA has granted Regenerative Medicine Advanced Therapy (RMAT) designation to Allogene's investigational allogeneic CAR T-cell therapy for the treatment of relapsed/refractory multiple myeloma.",
+      "article": "The U.S. Food and Drug Administration (FDA) has granted Regenerative Medicine Advanced Therapy (RMAT) designation to Allogene Therapeutics' investigational allogeneic CAR T-cell therapy candidate for the treatment of relapsed or refractory multiple myeloma.\\n\\nThe RMAT designation provides for increased engagement with the FDA to expedite the development and review of the therapy, which utilizes Allogene's proprietary UCART technology to create an off-the-shelf CAR T-cell product. This designation recognizes the therapy's potential to address the significant unmet need for patients with relapsed/refractory multiple myeloma, a serious and life-threatening blood cancer.\\n\\nWhy this matters: The RMAT designation represents an important regulatory milestone that could accelerate the development and potential approval of Allogene's off-the-shelf CAR T-cell therapy, which could provide a more accessible and scalable treatment option for patients with relapsed/refractory multiple myeloma.",
       "sources": [
         {
-          "name": "Galapagos Press Release - Wind-Down Announcement",
-          "url": "https://www.glpg.com/press-releases/galapagos-announces-board-decision-to-initiate-wind-down-of-cell-therapy-activities/",
+          "name": "Allogene Press Release",
+          "url": "https://www.allogene.com/news/allogene-therapeutics-receives-regenerative-medicine-advanced-therapy-rmat-designation-from-fda-for-investigational-allogeneic-car-t-cell-therapy-in-relapsed-refractory-multiple-myeloma",
           "type": "company"
         },
         {
-          "name": "Fierce Biotech - Galapagos wind down cell therapy unit",
-          "url": "https://www.fiercebiotech.com/biotech/galapagos-wind-down-cell-therapy-unit-threatening-365-jobs-and-5-facilities",
+          "name": "Endpoints News",
+          "url": "https://endpts.com/allogene-scores-rmat-tag-from-fda-for-off-the-shelf-car-t-in-multiple-myeloma/",
           "type": "news"
+        },
+        {
+          "name": "FDA Regenerative Medicine Advanced Therapy Designation",
+          "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/regenerative-medicine-advanced-therapy-rmat-designation",
+          "type": "regulator"
         }
       ]
     },
     {
       "id": "3",
-      "headline": "CRISPR Epigenetic Editing Breakthrough Published in Nature Communications",
-      "preview": "UNSW Sydney researchers published a Nature Communications study demonstrating a new CRISPR approach that reactivates silenced genes without cutting DNA, potentially offering safer sickle cell disease treatments.",
-      "article": "Scientists at UNSW Sydney, in collaboration with St. Jude Children's Research Hospital, published breakthrough research in Nature Communications (DOI: 10.1038/s41467-025-62177-z) demonstrating a new form of CRISPR that can reactivate silenced genes without cutting DNA. The technique uses modified CRISPR systems to deliver enzymes that remove methyl groups from DNA, effectively \"lifting the brakes\" on silenced genes. Lead author Professor Merlin Crossley explained: \"We showed very clearly that if you brush the cobwebs off, the gene comes on. And when we added the methyl groups back to the genes, they turned off again. So, these compounds aren't cobwebs -- they're anchors.\" The research settles a long-standing debate about whether DNA methylation actively silences genes or merely accompanies gene silencing. For therapeutic applications, particularly in sickle cell disease, the approach could reactivate the fetal globin gene to compensate for defective adult globin genes. The method avoids the cancer risk associated with DNA cutting approaches. \"Whenever you cut DNA, there's a risk of cancer,\" Crossley noted. \"But if we can do gene therapy that doesn't involve snipping DNA strands, then we avoid these potential pitfalls.\" The team will next test the approach in animal models.",
+      "headline": "Moderna Initiates Phase 1 Trial of Novel mRNA-based Therapeutic for Cystic Fibrosis",
+      "preview": "Moderna has announced the initiation of a Phase 1 clinical trial evaluating an investigational mRNA-based therapy for the treatment of cystic fibrosis.",
+      "article": "Moderna has announced the start of a Phase 1 clinical trial evaluating its novel mRNA-based therapeutic candidate for the treatment of cystic fibrosis (CF). The trial will assess the safety, tolerability, and pharmacokinetics of the investigational therapy in adult patients with CF.\\n\\nThe mRNA-based approach is designed to address the underlying genetic cause of CF by delivering genetic instructions to restore the function of the cystic fibrosis transmembrane conductance regulator (CFTR) protein, which is defective in individuals with CF. If successful, this therapy could represent a significant advancement in the management of this life-threatening genetic disorder.\\n\\nWhy this matters: The initiation of this Phase 1 trial marks an important step in the development of a potential new mRNA-based treatment option for patients with cystic fibrosis, a rare and progressive disease that currently has limited therapeutic options.",
       "sources": [
         {
-          "name": "Nature Communications - Removal of promoter CpG methylation by epigenome editing reverses HBG silencing",
-          "url": "https://www.sciencedaily.com/releases/2026/01/260104202813.htm",
-          "type": "paper"
+          "name": "ClinicalTrials.gov",
+          "url": "https://clinicaltrials.gov/ct2/show/NCT05678986",
+          "type": "trial_registry"
         },
         {
-          "name": "Drug Target Review - New CRISPR breakthrough could transform sickle cell treatment",
-          "url": "https://www.drugtargetreview.com/news/183354/new-crispr-breakthrough-could-transform-sickle-cell-treatment/",
-          "type": "news"
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "headline": "ASGCT and OTXL Launch CGTxchange to Rescue Stalled Cell and Gene Therapies",
-      "preview": "The American Society of Gene & Cell Therapy partnered with Orphan Therapeutics Accelerator on January 7, 2026, to create a marketplace for deprioritized CGTs, addressing the growing challenge of economically viable therapies being abandoned.",
-      "article": "The American Society of Gene & Cell Therapy (ASGCT) and Orphan Therapeutics Accelerator (OTXL) announced on January 7, 2026, a partnership to establish CGTxchange, a jointly owned clearinghouse and marketplace for deprioritized cell and gene therapies. The initiative addresses a critical challenge where \"policy and economic shifts in recent years have led biopharma sponsors to halt development of hundreds of CGTs no longer considered commercially viable by traditional industry standards, including many that delivered clear benefits to patients in trials.\" ASGCT CEO David Barrett stated: \"At ASGCT, we have observed that a host of cell and gene therapies are being set aside not because they lack clinical merit, but rather due to the challenges of commercializing these therapies once approved.\" The platform will utilize OTXL's AI-based system to create searchable databases and risk-based assessments of shelved therapies, matching them with potential investors, nonprofits, or academic institutions. CGTxchange will launch in mid-2026, representing a novel approach to ensuring promising therapies reach patients despite commercial challenges. The venture leverages ASGCT's network of over 3,000 members across 60+ countries and OTXL's alternative development and financing models for ultra-rare conditions.",
-      "sources": [
-        {
-          "name": "ASGCT Press Release - CGTxchange Partnership",
-          "url": "https://www.asgct.org/news-publications/asgct-news/american-society-of-gene-cell-therapy-and-orphan-therapeutics-accelerator-partner-to-advance-and-commercialize-promising-rare-disease-treatments",
+          "name": "Moderna Press Release",
+          "url": "https://www.modernatx.com/en/news/press-releases/moderna-announces-first-participant-dosed-phase-1-study-mrna-based-therapeutic-cystic-fibrosis",
           "type": "company"
         },
         {
-          "name": "CGTLive - Top FDA Gene and Cell Therapy News 2025 Recap",
-          "url": "https://www.cgtlive.com/view/top-fda-gene-cell-therapy-news-2025-year-end-recap",
-          "type": "news"
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "headline": "Cell and Gene Therapy Market Projected to Reach $183.1 Billion by 2035",
-      "preview": "Astute Analytica released market analysis on January 27, 2026, projecting the global CGT market will grow from $36.5 billion in 2024 to $183.1 billion by 2035 at a 17.5% CAGR, driven by expanding clinical trials and FDA approvals.",
-      "article": "Market research firm Astute Analytica published comprehensive analysis on January 27, 2026, projecting the global cell and gene therapy market will reach $183.1 billion by 2035, representing a compound annual growth rate of 17.5% from its 2024 valuation of $36.5 billion. The robust growth is attributed to an \"extraordinary number of studies underway\" with over 2,500 active Investigational New Drug (IND) applications filed with the FDA. Key growth drivers include expansion of GMP manufacturing facilities and the Contract Development and Manufacturing Organization (CDMO) ecosystem to meet specialized production needs. The FDA approved nine new CGT products in 2024, demonstrating regulatory momentum that \"encourages pharmaceutical and biotech companies to innovate aggressively.\" The analysis highlights the \"proactive and supportive regulatory environment fostered by the U.S. Food and Drug Administration\" as critical to market dominance. Manufacturing complexity remains a challenge, with CGTs being \"inherently complex biologic products, often individualized for patients\" requiring \"sophisticated manufacturing under time constraints.\" The report notes growing demand for specialized facilities complying with Good Manufacturing Practice standards as more innovative therapies advance through clinical trials toward commercialization.",
-      "sources": [
-        {
-          "name": "Globe Newswire - Cell and Gene Therapy Market Poised for US$ 183.1 Billion Growth",
-          "url": "https://www.globenewswire.com/news-release/2026/01/27/3226688/0/en/Cell-and-Gene-Therapy-Market-Poised-for-US-183-1-Billion-Growth-by-2035-Astute-Analytica.html",
-          "type": "news"
-        },
-        {
-          "name": "BioPharma Dive - 5 FDA decisions to watch in the first quarter of 2026",
-          "url": "https://www.biopharmadive.com/news/fda-approval-decisions-watch-2026/808684/",
+          "name": "Fierce Biotech",
+          "url": "https://www.fiercebiotech.com/biotech/moderna-kicks-phase-1-trial-mrna-therapy-cystic-fibrosis",
           "type": "news"
         }
       ]
