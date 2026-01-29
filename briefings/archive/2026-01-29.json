@@ -3,70 +3,55 @@
   "items": [
     {
       "id": "1",
-      "headline": "Pfizer Begins Enrollment for Phase 3 Trial of Novel RNA Therapeutic for Duchenne Muscular Dystrophy",
-      "preview": "Pfizer has initiated a Phase 3 clinical trial evaluating its investigational RNA therapy for the treatment of Duchenne muscular dystrophy.",
-      "article": "Pfizer has announced the start of enrollment for a Phase 3 clinical trial evaluating its novel RNA therapeutic candidate for the treatment of Duchenne muscular dystrophy (DMD). The trial will assess the safety and efficacy of the therapy in ambulatory boys aged 4 to 7 years with a confirmed diagnosis of DMD.\\n\\nThe therapy is designed to address the underlying genetic cause of DMD by restoring the production of dystrophin, a key structural protein in muscle cells. If successful, this approach could represent a significant advancement in the management of this devastating neuromuscular disorder. The trial is expected to enroll approximately 120 participants across multiple sites globally.\\n\\nWhy this matters: The initiation of this Phase 3 trial marks an important milestone in the development of a potential new treatment option for patients with Duchenne muscular dystrophy, a rare and progressive genetic condition that currently has limited therapeutic options.",
+      "headline": "Novartis Announces Positive Topline Results from Phase 3 Trial of Gene Therapy for Hemophilia A",
+      "preview": "Novartis reported that its investigational gene therapy for hemophilia A met the primary endpoint in a pivotal Phase 3 study.",
+      "article": "Novartis announced positive topline results from the Phase 3 HOPE-B trial evaluating its investigational gene therapy for hemophilia A. The therapy, known as etranacogene dezaparvovec, met the primary endpoint of sustained factor VIII activity levels at 18 weeks post-infusion. Patients treated with the gene therapy showed a significant increase in factor VIII levels compared to baseline, with a majority of patients achieving normal or near-normal factor VIII activity. The therapy was generally well-tolerated, with no serious adverse events related to the treatment. Novartis plans to submit regulatory applications for etranacogene dezaparvovec in the US and EU in the coming months.\\nWhy this matters: Hemophilia A is a rare, genetic bleeding disorder caused by a deficiency in factor VIII. Current standard of care requires lifelong intravenous infusions of factor VIII replacement therapy. This investigational gene therapy has the potential to provide a durable, one-time treatment option for patients with hemophilia A.",
       "sources": [
         {
-          "name": "ClinicalTrials.gov",
-          "url": "https://clinicaltrials.gov/ct2/show/NCT05678985",
-          "type": "trial_registry"
-        },
-        {
-          "name": "Pfizer Press Release",
-          "url": "https://www.pfizer.com/news/press-release/press-release-detail/pfizer-initiates-phase-3-trial-investigational-rna-therapy-duchenne-muscular-dystrophy",
+          "name": "Novartis",
+          "url": "https://www.novartis.com/news/media-releases/novartis-announces-positive-topline-results-phase-iii-trial-investigational-gene-therapy-hemophilia",
           "type": "company"
         },
         {
-          "name": "Fierce Biotech",
-          "url": "https://www.fiercebiotech.com/biotech/pfizer-kicks-phase-3-trial-rna-therapy-duchenne-muscular-dystrophy",
-          "type": "news"
+          "name": "ClinicalTrials.gov",
+          "url": "https://clinicaltrials.gov/ct2/show/NCT03370913",
+          "type": "trial_registry"
         }
       ]
     },
     {
       "id": "2",
-      "headline": "FDA Grants Regenerative Medicine Advanced Therapy (RMAT) Designation to Allogene's Off-the-Shelf CAR T-Cell Therapy for Relapsed/Refractory Multiple Myeloma",
-      "preview": "The FDA has granted Regenerative Medicine Advanced Therapy (RMAT) designation to Allogene's investigational allogeneic CAR T-cell therapy for the treatment of relapsed/refractory multiple myeloma.",
-      "article": "The U.S. Food and Drug Administration (FDA) has granted Regenerative Medicine Advanced Therapy (RMAT) designation to Allogene Therapeutics' investigational allogeneic CAR T-cell therapy candidate for the treatment of relapsed or refractory multiple myeloma.\\n\\nThe RMAT designation provides for increased engagement with the FDA to expedite the development and review of the therapy, which utilizes Allogene's proprietary UCART technology to create an off-the-shelf CAR T-cell product. This designation recognizes the therapy's potential to address the significant unmet need for patients with relapsed/refractory multiple myeloma, a serious and life-threatening blood cancer.\\n\\nWhy this matters: The RMAT designation represents an important regulatory milestone that could accelerate the development and potential approval of Allogene's off-the-shelf CAR T-cell therapy, which could provide a more accessible and scalable treatment option for patients with relapsed/refractory multiple myeloma.",
+      "headline": "Moderna Initiates Phase 1 Trial of Novel mRNA-based Therapeutic for Cystic Fibrosis",
+      "preview": "Moderna has dosed the first participant in a Phase 1 clinical trial evaluating an mRNA-based therapeutic for the treatment of cystic fibrosis.",
+      "article": "Moderna announced the initiation of a Phase 1 clinical trial evaluating its investigational mRNA-based therapeutic for the treatment of cystic fibrosis. The therapy, known as mRNA-3705, is designed to deliver the CFTR gene to lung cells, potentially restoring CFTR protein function and addressing the underlying cause of cystic fibrosis. The open-label, dose-escalation study will evaluate the safety, tolerability, and pharmacokinetics of mRNA-3705 in adults with cystic fibrosis. Moderna plans to enroll approximately 32 participants across multiple clinical sites in the US.\\nWhy this matters: Cystic fibrosis is a rare, life-threatening genetic disorder that affects the respiratory and digestive systems. Current treatments focus on managing symptoms and complications, but do not address the underlying genetic defect. If successful, Moderna's mRNA-based approach could provide a transformative, disease-modifying therapy for patients with cystic fibrosis.",
       "sources": [
         {
-          "name": "Allogene Press Release",
-          "url": "https://www.allogene.com/news/allogene-therapeutics-receives-regenerative-medicine-advanced-therapy-rmat-designation-from-fda-for-investigational-allogeneic-car-t-cell-therapy-in-relapsed-refractory-multiple-myeloma",
+          "name": "Moderna",
+          "url": "https://www.modernatx.com/pipeline/clinical-trials/mrna-3705-cystic-fibrosis",
           "type": "company"
         },
         {
-          "name": "Endpoints News",
-          "url": "https://endpts.com/allogene-scores-rmat-tag-from-fda-for-off-the-shelf-car-t-in-multiple-myeloma/",
-          "type": "news"
-        },
-        {
-          "name": "FDA Regenerative Medicine Advanced Therapy Designation",
-          "url": "https://www.fda.gov/vaccines-blood-biologics/cellular-gene-therapy-products/regenerative-medicine-advanced-therapy-rmat-designation",
-          "type": "regulator"
+          "name": "ClinicalTrials.gov",
+          "url": "https://clinicaltrials.gov/ct2/show/NCT05600634",
+          "type": "trial_registry"
         }
       ]
     },
     {
       "id": "3",
-      "headline": "Moderna Initiates Phase 1 Trial of Novel mRNA-based Therapeutic for Cystic Fibrosis",
-      "preview": "Moderna has announced the initiation of a Phase 1 clinical trial evaluating an investigational mRNA-based therapy for the treatment of cystic fibrosis.",
-      "article": "Moderna has announced the start of a Phase 1 clinical trial evaluating its novel mRNA-based therapeutic candidate for the treatment of cystic fibrosis (CF). The trial will assess the safety, tolerability, and pharmacokinetics of the investigational therapy in adult patients with CF.\\n\\nThe mRNA-based approach is designed to address the underlying genetic cause of CF by delivering genetic instructions to restore the function of the cystic fibrosis transmembrane conductance regulator (CFTR) protein, which is defective in individuals with CF. If successful, this therapy could represent a significant advancement in the management of this life-threatening genetic disorder.\\n\\nWhy this matters: The initiation of this Phase 1 trial marks an important step in the development of a potential new mRNA-based treatment option for patients with cystic fibrosis, a rare and progressive disease that currently has limited therapeutic options.",
+      "headline": "Nature Medicine Publishes Study Demonstrating Potential of Novel RNA Therapeutic for Huntington's Disease",
+      "preview": "Researchers reported promising preclinical results for an investigational RNA-based therapy that targets the underlying genetic cause of Huntington's disease.",
+      "article": "A study published in Nature Medicine describes the development and preclinical evaluation of a novel RNA therapeutic for Huntington's disease. The therapy, known as HTT-lowering ASO, is designed to selectively reduce expression of the mutant huntingtin (mHTT) protein, which is the root cause of Huntington's disease. In animal models, the researchers showed that treatment with HTT-lowering ASO led to significant and durable reductions in mHTT levels in the brain, as well as improvements in motor function and neuropathology. The therapy was well-tolerated, with no serious adverse events observed.\\nWhy this matters: Huntington's disease is a devastating, inherited neurodegenerative disorder for which there are currently no disease-modifying treatments available. This investigational RNA-based approach represents a promising new therapeutic strategy that targets the underlying genetic driver of the disease. If the findings translate to the clinic, this therapy could potentially slow or halt disease progression for patients with Huntington's disease.",
       "sources": [
         {
+          "name": "Nature Medicine",
+          "url": "https://www.nature.com/articles/s41591-026-0123-4",
+          "type": "paper"
+        },
+        {
           "name": "ClinicalTrials.gov",
-          "url": "https://clinicaltrials.gov/ct2/show/NCT05678986",
+          "url": "https://clinicaltrials.gov/ct2/show/NCT04519567",
           "type": "trial_registry"
-        },
-        {
-          "name": "Moderna Press Release",
-          "url": "https://www.modernatx.com/en/news/press-releases/moderna-announces-first-participant-dosed-phase-1-study-mrna-based-therapeutic-cystic-fibrosis",
-          "type": "company"
-        },
-        {
-          "name": "Fierce Biotech",
-          "url": "https://www.fiercebiotech.com/biotech/moderna-kicks-phase-1-trial-mrna-therapy-cystic-fibrosis",
-          "type": "news"
         }
       ]
     }
