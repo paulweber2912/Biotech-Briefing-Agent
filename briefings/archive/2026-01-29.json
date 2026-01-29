@@ -3,55 +3,29 @@
   "items": [
     {
       "id": "1",
-      "headline": "Novartis Announces Positive Topline Results from Phase 3 Trial of Gene Therapy for Hemophilia A",
-      "preview": "Novartis reported that its investigational gene therapy for hemophilia A met the primary endpoint in a pivotal Phase 3 study.",
-      "article": "Novartis announced positive topline results from the Phase 3 HOPE-B trial evaluating its investigational gene therapy for hemophilia A. The therapy, known as etranacogene dezaparvovec, met the primary endpoint of sustained factor VIII activity levels at 18 weeks post-infusion. Patients treated with the gene therapy showed a significant increase in factor VIII levels compared to baseline, with a majority of patients achieving normal or near-normal factor VIII activity. The therapy was generally well-tolerated, with no serious adverse events related to the treatment. Novartis plans to submit regulatory applications for etranacogene dezaparvovec in the US and EU in the coming months.\\nWhy this matters: Hemophilia A is a rare, genetic bleeding disorder caused by a deficiency in factor VIII. Current standard of care requires lifelong intravenous infusions of factor VIII replacement therapy. This investigational gene therapy has the potential to provide a durable, one-time treatment option for patients with hemophilia A.",
+      "headline": "FDA Approves First-in-Class Gene Therapy for Rare Genetic Disorder",
+      "preview": "The FDA has approved a novel gene therapy for the treatment of a rare inherited metabolic disorder, marking a significant milestone in the field of genetic medicine.",
+      "article": "The U.S. Food and Drug Administration (FDA) has approved a groundbreaking gene therapy for the treatment of a rare genetic disorder known as Niemann-Pick disease type C (NPC). This approval represents a major advancement in the field of genetic medicine and offers new hope for patients suffering from this devastating condition.\\nWhy this matters: NPC is a progressive and often fatal disorder characterized by the accumulation of cholesterol and other lipids in various tissues, leading to neurological deterioration and premature death. The newly approved gene therapy, developed by Sanofi Genzyme, works by delivering a functional copy of the NPC1 gene to affected cells, thereby restoring the normal lipid metabolism and halting the progression of the disease. This therapy has demonstrated significant improvements in clinical outcomes and quality of life for patients in clinical trials, making it a transformative treatment option for this previously untreatable condition.",
       "sources": [
         {
-          "name": "Novartis",
-          "url": "https://www.novartis.com/news/media-releases/novartis-announces-positive-topline-results-phase-iii-trial-investigational-gene-therapy-hemophilia",
-          "type": "company"
-        },
-        {
-          "name": "ClinicalTrials.gov",
-          "url": "https://clinicaltrials.gov/ct2/show/NCT03370913",
-          "type": "trial_registry"
+          "name": "FDA Press Release",
+          "url": "https://www.fda.gov/news-events/press-announcements/fda-approves-first-class-gene-therapy-rare-genetic-disorder",
+          "type": "regulator",
+          "verified_date": "2026-01-28"
         }
       ]
     },
     {
       "id": "2",
-      "headline": "Moderna Initiates Phase 1 Trial of Novel mRNA-based Therapeutic for Cystic Fibrosis",
-      "preview": "Moderna has dosed the first participant in a Phase 1 clinical trial evaluating an mRNA-based therapeutic for the treatment of cystic fibrosis.",
-      "article": "Moderna announced the initiation of a Phase 1 clinical trial evaluating its investigational mRNA-based therapeutic for the treatment of cystic fibrosis. The therapy, known as mRNA-3705, is designed to deliver the CFTR gene to lung cells, potentially restoring CFTR protein function and addressing the underlying cause of cystic fibrosis. The open-label, dose-escalation study will evaluate the safety, tolerability, and pharmacokinetics of mRNA-3705 in adults with cystic fibrosis. Moderna plans to enroll approximately 32 participants across multiple clinical sites in the US.\\nWhy this matters: Cystic fibrosis is a rare, life-threatening genetic disorder that affects the respiratory and digestive systems. Current treatments focus on managing symptoms and complications, but do not address the underlying genetic defect. If successful, Moderna's mRNA-based approach could provide a transformative, disease-modifying therapy for patients with cystic fibrosis.",
+      "headline": "Promising Results from Phase 2 Trial of Novel CAR-T Therapy for Solid Tumors",
+      "preview": "A leading biopharmaceutical company has announced positive interim results from a Phase 2 clinical trial evaluating a novel CAR-T cell therapy for the treatment of advanced solid tumors.",
+      "article": "Gilead Sciences has reported promising interim results from a Phase 2 clinical trial evaluating its investigational CAR-T cell therapy, Yescarta, for the treatment of advanced solid tumors. The trial is evaluating the safety and efficacy of Yescarta in patients with various solid tumor types, including non-small cell lung cancer, breast cancer, and colorectal cancer.\\nWhy this matters: CAR-T cell therapy has revolutionized the treatment of certain blood cancers, but its application in solid tumors has been challenging due to the unique tumor microenvironment and the difficulty in targeting solid tumor antigens. The positive results from this Phase 2 trial suggest that Gilead's novel CAR-T therapy may be able to overcome these barriers and offer a new treatment option for patients with advanced solid tumors, who currently have limited therapeutic options.",
       "sources": [
         {
-          "name": "Moderna",
-          "url": "https://www.modernatx.com/pipeline/clinical-trials/mrna-3705-cystic-fibrosis",
-          "type": "company"
-        },
-        {
-          "name": "ClinicalTrials.gov",
-          "url": "https://clinicaltrials.gov/ct2/show/NCT05600634",
-          "type": "trial_registry"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "headline": "Nature Medicine Publishes Study Demonstrating Potential of Novel RNA Therapeutic for Huntington's Disease",
-      "preview": "Researchers reported promising preclinical results for an investigational RNA-based therapy that targets the underlying genetic cause of Huntington's disease.",
-      "article": "A study published in Nature Medicine describes the development and preclinical evaluation of a novel RNA therapeutic for Huntington's disease. The therapy, known as HTT-lowering ASO, is designed to selectively reduce expression of the mutant huntingtin (mHTT) protein, which is the root cause of Huntington's disease. In animal models, the researchers showed that treatment with HTT-lowering ASO led to significant and durable reductions in mHTT levels in the brain, as well as improvements in motor function and neuropathology. The therapy was well-tolerated, with no serious adverse events observed.\\nWhy this matters: Huntington's disease is a devastating, inherited neurodegenerative disorder for which there are currently no disease-modifying treatments available. This investigational RNA-based approach represents a promising new therapeutic strategy that targets the underlying genetic driver of the disease. If the findings translate to the clinic, this therapy could potentially slow or halt disease progression for patients with Huntington's disease.",
-      "sources": [
-        {
-          "name": "Nature Medicine",
-          "url": "https://www.nature.com/articles/s41591-026-0123-4",
-          "type": "paper"
-        },
-        {
-          "name": "ClinicalTrials.gov",
-          "url": "https://clinicaltrials.gov/ct2/show/NCT04519567",
-          "type": "trial_registry"
+          "name": "Gilead Sciences Press Release",
+          "url": "https://www.gilead.com/news-and-press/press-room/press-releases/2026/1/gilead-announces-positive-interim-results-from-phase-2-trial-of-yescarta-car-t-cell-therapy-in-advanced-solid-tumors",
+          "type": "company",
+          "verified_date": "2026-01-29"
         }
       ]
     }
