@@ -72,15 +72,9 @@ LATEST_PATH = BRIEFINGS_DIR / "latest.json"
 
 PROMPT_PATH = Path(os.getenv("PROMPT_PATH", str(ROOT / "prompts" / "daily_prompt.md")))
 
-<<<<<<< HEAD
 # Using Haiku for cost efficiency - with optimized prompting to reduce hallucinations
 MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-5-haiku-20241022")
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "3000"))  # balanced for research + JSON output
-=======
-# CRITICAL: Use Sonnet 4, not Haiku - much better at tool usage and verification
-MODEL = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514")
-MAX_TOKENS = int(os.getenv("MAX_TOKENS", "4096"))  # increased for research phase
->>>>>>> d39c0a6d29080ec68c0c1182b06b1cae82571cf9
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))  # 0.0 for maximum consistency
 
 def load_prompt(today: str) -> str:
