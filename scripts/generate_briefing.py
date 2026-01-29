@@ -73,7 +73,7 @@ LATEST_PATH = BRIEFINGS_DIR / "latest.json"
 PROMPT_PATH = Path(os.getenv("PROMPT_PATH", str(ROOT / "prompts" / "daily_prompt.md")))
 
 # Using Haiku for cost efficiency - with optimized prompting to reduce hallucinations
-MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-5-haiku-20241022")
+MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-haiku-20240307")
 MAX_TOKENS = int(os.getenv("MAX_TOKENS", "3000"))  # balanced for research + JSON output
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))  # 0.0 for maximum consistency
 
