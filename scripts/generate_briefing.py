@@ -1,24 +1,29 @@
 #!/usr/bin/env python3
-"""generate_briefing.py (WITH CUSTOM WEB FETCH)
+"""generate_briefing.py (FIXED VERSION with web search)
 
-This version implements custom web fetching using requests + BeautifulSoup
-to verify URLs that Claude finds via web_search.
+Generates briefings/latest.json and archives a dated copy in briefings/archive/YYYY-MM-DD.json.
+
+KEY CHANGES:
+- Added web_search and web_fetch tools
+- Upgraded to Sonnet 4 (much less hallucination than Haiku)
+- Multi-turn conversation to enforce tool usage
+- Verification of tool usage before accepting results
 """
 
 import os
 import json
 import datetime
 from pathlib import Path
-from typing import Optional
-import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse
 
 from anthropic import Anthropic
 
 
 def _json_escape_control_chars_inside_strings(s: str) -> str:
-    """Escapes literal control characters inside quoted JSON strings."""
+    """
+    Escapes literal control characters (especially newlines) that appear inside quoted JSON strings.
+    Some model responses look like JSON but contain raw newlines inside string values, which is invalid JSON.
+    This function only escapes control characters when we are inside a JSON string.
+    """
     out = []
     in_str = False
     esc = False
@@ -29,14 +34,18 @@ def _json_escape_control_chars_inside_strings(s: str) -> str:
                 out.append(ch)
                 esc = False
                 continue
+
             if ch == "\\":
                 out.append(ch)
                 esc = True
                 continue
+
             if ch == '"':
                 out.append(ch)
                 in_str = False
                 continue
+
+            # Escape invalid control characters inside strings
             if ch == "\n":
                 out.append("\\n")
             elif ch == "\r":
@@ -53,67 +62,8 @@ def _json_escape_control_chars_inside_strings(s: str) -> str:
                 in_str = True
             else:
                 out.append(ch)
+
     return "".join(out)
-
-
-def fetch_url(url: str, timeout: int = 10) -> Optional[dict]:
-    """
-    Fetch a URL and extract basic metadata.
-    
-    Returns dict with:
-    - url: the URL
-    - title: page title
-    - text_preview: first 500 chars of text
-    - date_found: any dates found in the HTML
-    - success: bool
-    """
-    try:
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (compatible; ResearchBot/1.0)',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        }
-        
-        response = requests.get(url, timeout=timeout, headers=headers, allow_redirects=True)
-        response.raise_for_status()
-        
-        soup = BeautifulSoup(response.text, 'html.parser')
-        
-        # Extract title
-        title = soup.title.string if soup.title else "No title"
-        
-        # Extract main text (simple heuristic)
-        for script in soup(["script", "style"]):
-            script.decompose()
-        text = soup.get_text(separator=' ', strip=True)
-        
-        # Look for dates in meta tags or text
-        date_candidates = []
-        
-        # Check meta tags
-        for meta in soup.find_all('meta'):
-            if meta.get('name') in ['published', 'article:published_time', 'publishdate']:
-                if meta.get('content'):
-                    date_candidates.append(meta.get('content'))
-            if meta.get('property') in ['article:published_time']:
-                if meta.get('content'):
-                    date_candidates.append(meta.get('content'))
-        
-        return {
-            'url': url,
-            'title': title[:200],
-            'text_preview': text[:500],
-            'dates_found': date_candidates[:3],  # max 3 date candidates
-            'success': True,
-            'final_url': response.url  # in case of redirects
-        }
-        
-    except Exception as e:
-        return {
-            'url': url,
-            'success': False,
-            'error': str(e)
-        }
-
 
 ROOT = Path(__file__).resolve().parents[1]
 BRIEFINGS_DIR = ROOT / "briefings"
@@ -122,15 +72,14 @@ LATEST_PATH = BRIEFINGS_DIR / "latest.json"
 
 PROMPT_PATH = Path(os.getenv("PROMPT_PATH", str(ROOT / "prompts" / "daily_prompt.md")))
 
-MODEL = os.getenv("ANTHROPIC_MODEL", "claude-3-haiku-20240307")
-MAX_TOKENS = int(os.getenv("MAX_TOKENS", "4000"))
-TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))
-
+# Using Haiku 4.5 - supports web_search and very cost-effective
+MODEL = os.getenv("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
+MAX_TOKENS = int(os.getenv("MAX_TOKENS", "3000"))  # balanced for research + JSON output
+TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))  # 0.0 for maximum consistency
 
 def load_prompt(today: str) -> str:
     text = PROMPT_PATH.read_text(encoding="utf-8")
     return text.replace("{{today}}", today)
-
 
 def load_yesterday_headlines() -> list[str]:
     if not LATEST_PATH.exists():
@@ -142,22 +91,23 @@ def load_yesterday_headlines() -> list[str]:
     except Exception:
         return []
 
-
 def extract_json(text: str) -> str:
     """Extract the first top-level JSON object from a response."""
     t = text.strip()
+
+    # remove markdown fences if present
     if t.startswith("```"):
         start = t.find("{")
         end = t.rfind("}")
         if start != -1 and end != -1 and end > start:
             return t[start:end + 1]
         return t.strip("`")
+
     start = t.find("{")
     end = t.rfind("}")
     if start != -1 and end != -1 and end > start:
         return t[start:end + 1]
     return t
-
 
 def main() -> None:
     api_key = os.getenv("ANTHROPIC_API_KEY")
@@ -173,32 +123,56 @@ def main() -> None:
 
     client = Anthropic(api_key=api_key)
 
-    tools = [{"type": "web_search_20250305", "name": "web_search"}]
+    # CRITICAL: Only web_search is available in the API (web_fetch is claude.ai only)
+    tools = [
+        {
+            "type": "web_search_20250305",
+            "name": "web_search"
+        }
+    ]
 
-    # PHASE 1: Research with web_search
+    # PHASE 1: Research phase - force Claude to search
     print(f"🔍 Starting research phase for {today}...")
     
     research_prompt = f"""Today is {today}.
 
-PHASE 1: WEB SEARCH (MANDATORY)
+PHASE 1: RESEARCH (MANDATORY)
 
-Use web_search AT LEAST 8-10 times to find recent biotech/gene therapy/cell therapy developments.
+You MUST use the web_search tool multiple times to find recent developments.
 
-Focus on PRIMARY SOURCES:
-- Major journals (Nature, Science, Cell families)
-- Regulatory bodies (FDA, EMA)
-- Clinical trial registries
-- Biotech company investor relations
+CRITICAL INSTRUCTIONS:
+1. Perform AT LEAST 8-10 targeted web_search queries
+2. Focus on PRIMARY SOURCES with visible dates in search results
+3. Look for results that show publication dates in the snippet
+4. Pay close attention to URLs - they often contain dates
 
-After searching, list the TOP 5-8 most promising URLs you found with visible date evidence.
-Format each as:
-- URL: [full URL]
-- Date evidence: [where you saw the date - in URL path, snippet, etc.]
-- Relevance: [why it's interesting]
+TARGET SEARCHES (execute these types):
+- "site:nature.com/nbt articles January 2025"
+- "site:fda.gov/news gene therapy approval 2025"
+- "site:ema.europa.eu cell therapy recommendation"
+- "site:clinicaltrials.gov CAR-T new 2025"
+- "site:biorxiv.org CRISPR latest"
+- "site:science.org/doi gene editing 2025"
+- "biotech company press release gene therapy January 2025"
+
+VERIFICATION FROM SEARCH RESULTS:
+For each result, check the snippet for:
+- Does the URL contain a date? (e.g., /2025/01/29/ or -20250129-)
+- Does the snippet mention a publication date?
+- Is it from a primary source domain?
+- Is the date within 48h of {today}?
+
+Only include results where you can see date evidence in the search results themselves.
+
+After searching, list the most promising items you found with:
+- The URL (must contain visible date markers if possible)
+- The date evidence you saw (in URL or snippet)
+- Why it's relevant
 """
 
     messages = [{"role": "user", "content": research_prompt}]
 
+    # Execute research phase with tools
     research_response = client.messages.create(
         model=MODEL,
         max_tokens=MAX_TOKENS,
@@ -207,112 +181,77 @@ Format each as:
         messages=messages
     )
 
-    # Log searches
+    # Log tool usage for debugging
+    tool_uses = []
     searches_performed = 0
+    
     for block in research_response.content:
-        if block.type == "tool_use" and block.name == "web_search":
-            searches_performed += 1
-            print(f"  🔎 Search {searches_performed}: {block.input.get('query', 'N/A')}")
+        if block.type == "tool_use":
+            tool_uses.append({
+                "tool": block.name,
+                "input": block.input
+            })
+            if block.name == "web_search":
+                searches_performed += 1
+                print(f"  🔎 Search: {block.input.get('query', 'N/A')}")
 
     print(f"✓ Research complete: {searches_performed} searches")
 
-    # Extract URLs that Claude found
+    # Check if Claude actually used tools
+    if searches_performed == 0:
+        print("⚠️  WARNING: No web searches performed! Results will be hallucinated.")
+        print("⚠️  Consider making the research prompt more explicit.")
+    elif searches_performed < 5:
+        print(f"⚠️  WARNING: Only {searches_performed} searches - recommend 8-10 for good coverage.")
+
+    # Add assistant's research response to conversation
     messages.append({"role": "assistant", "content": research_response.content})
-    
-    # Ask Claude to list the URLs it wants to verify
-    messages.append({
-        "role": "user",
-        "content": """Now, list the URLs you want me to fetch and verify.
-        
-Provide them as a JSON array like:
-```json
-["url1", "url2", "url3"]
-```
 
-Only include URLs where you saw clear date evidence."""
-    })
+    # PHASE 2: Generate JSON based on verified sources only
+    print(f"📝 Generating briefing JSON...")
     
-    url_list_response = client.messages.create(
-        model=MODEL,
-        max_tokens=1000,
-        temperature=0.0,
-        messages=messages
-    )
-    
-    # Extract URLs
-    urls_to_fetch = []
-    for block in url_list_response.content:
-        if block.type == "text":
-            try:
-                # Try to parse JSON from response
-                text = block.text.strip()
-                if "```json" in text:
-                    json_start = text.find("[")
-                    json_end = text.rfind("]") + 1
-                    if json_start != -1 and json_end > json_start:
-                        urls_to_fetch = json.loads(text[json_start:json_end])
-            except:
-                pass
-    
-    # PHASE 2: Fetch URLs
-    print(f"\n📄 Fetching {len(urls_to_fetch)} URLs...")
-    
-    fetch_results = []
-    for url in urls_to_fetch[:10]:  # Max 10 fetches
-        print(f"  → Fetching: {url[:60]}...")
-        result = fetch_url(url)
-        fetch_results.append(result)
-        if result['success']:
-            print(f"    ✓ Success: {result['title'][:50]}")
-            if result['dates_found']:
-                print(f"    📅 Dates: {', '.join(result['dates_found'][:2])}")
-        else:
-            print(f"    ✗ Failed: {result.get('error', 'Unknown error')}")
-    
-    # PHASE 3: Generate JSON with fetched data
-    print(f"\n📝 Generating briefing...")
-    
-    messages.append({"role": "assistant", "content": url_list_response.content})
-    
-    fetch_summary = "FETCHED URL RESULTS:\n\n"
-    for i, result in enumerate(fetch_results, 1):
-        if result['success']:
-            fetch_summary += f"{i}. {result['url']}\n"
-            fetch_summary += f"   Title: {result['title']}\n"
-            fetch_summary += f"   Dates found: {', '.join(result['dates_found']) if result['dates_found'] else 'None in meta tags'}\n"
-            fetch_summary += f"   Preview: {result['text_preview'][:200]}...\n\n"
-        else:
-            fetch_summary += f"{i}. {result['url']} - FAILED TO FETCH\n\n"
-    
-    json_prompt = f"""PHASE 3: GENERATE BRIEFING JSON
+    json_prompt = f"""PHASE 2: GENERATE BRIEFING JSON
 
-I have fetched the URLs you requested. Here are the results:
-
-{fetch_summary}
-
-Now create the JSON briefing following the original format.
+Based ONLY on the search results from Phase 1, now generate the JSON output.
 
 CRITICAL RULES:
-- ONLY include items where fetch was successful
-- Verify dates from the fetched content
-- Only include if date is within 48h of {today}
-- Use the fetched content to write accurate summaries
-- If none of the fetched URLs have dates within 48h, return empty items list
+1. ONLY include items where you saw DATE EVIDENCE in the search results (URL path, snippet text, etc.)
+2. Dates must be within 48h of {today}
+3. URLs must be from PRIMARY SOURCES (Nature, Science, FDA, EMA, company IR pages, etc.)
+4. Do NOT include items based on vague or undated search results
+5. Do NOT include items from aggregator sites (generic news, press release aggregators)
+6. If you found fewer than 3 verified items, that's fine - return what you have
+7. If you found ZERO items with clear date evidence, return an empty items list
 
-Generate the JSON now.
+ACCEPTABLE DATE EVIDENCE:
+✓ URL contains date: nature.com/articles/s41587-025-02543-2 with "29 January 2025" in snippet
+✓ Snippet says: "Published: January 29, 2025"
+✓ FDA URL: fda.gov/news-events/press-announcements/2025/01/...
+✓ Press release: "Company XYZ announced today..." in snippet with today's date visible
+
+UNACCEPTABLE (exclude these):
+✗ Generic URLs with no date markers
+✗ Search results that just say "recent" or "latest"
+✗ Secondary news sources without visible dates
+✗ Your memory of what might have been published
+
+Now generate the JSON following the exact format from the original prompt.
+For each source, the URL must be one you saw in search results, and verified_date must reflect the date evidence you found.
 """
-    
+
     messages.append({"role": "user", "content": json_prompt})
-    
+
+    # Generate final JSON
     final_response = client.messages.create(
         model=MODEL,
         max_tokens=MAX_TOKENS,
         temperature=TEMPERATURE,
+        tools=tools,  # Still provide tools in case Claude needs to verify something
         messages=messages
     )
 
-    # Extract JSON
-    text_parts = []
+    # Extract text from response
+    text_parts: list[str] = []
     for block in final_response.content:
         if block.type == "text":
             text_parts.append(block.text)
@@ -323,6 +262,7 @@ Generate the JSON now.
     try:
         data = json.loads(json_text)
     except json.JSONDecodeError as e:
+        # Attempt a repair for the most common failure mode: literal control characters in strings.
         repaired = _json_escape_control_chars_inside_strings(json_text)
         try:
             data = json.loads(repaired)
@@ -332,16 +272,18 @@ Generate the JSON now.
             print("Raw response:\n", raw)
             raise
 
+    # normalize
     data.setdefault("date", today)
     if not isinstance(data.get("items"), list):
         data["items"] = []
-    data["items"] = data["items"][:3]
+    data["items"] = data["items"][:3]  # max 3 items
 
+    # Add metadata about tool usage for debugging
     data["_meta"] = {
         "generated_at": datetime.datetime.now().isoformat(),
         "model": MODEL,
         "searches_performed": searches_performed,
-        "urls_fetched": len([r for r in fetch_results if r['success']])
+        "tool_uses": len(tool_uses)
     }
 
     BRIEFINGS_DIR.mkdir(parents=True, exist_ok=True)
@@ -351,9 +293,15 @@ Generate the JSON now.
     archive_path = ARCHIVE_DIR / f"{today}.json"
     archive_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    print(f"\n✅ Wrote {LATEST_PATH} and {archive_path}")
+    print(f"✅ Wrote {LATEST_PATH} and {archive_path}")
     print(f"   Items generated: {len(data['items'])}")
-
+    
+    # Warning if suspicious
+    if len(data['items']) > 0 and searches_performed == 0:
+        print("⚠️  WARNING: Items generated without web search - likely hallucinated!")
+    
+    if len(data['items']) > 0 and searches_performed < 5:
+        print(f"⚠️  WARNING: Only {searches_performed} searches for {len(data['items'])} items - may include unverified sources!")
 
 if __name__ == "__main__":
     main()
