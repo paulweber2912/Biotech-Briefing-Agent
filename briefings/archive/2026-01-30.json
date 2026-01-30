@@ -4,13 +4,13 @@
     {
       "id": "1",
       "headline": "Sensorion raised \u20ac60M backed by \u20ac20M from Sanofi to advance gene therapies for hearing loss",
-      "preview": "Sensorion has secured \u20ac60 million in funding, including a strategic investment from Sanofi.",
-      "article": "French biotech company Sensorion announced a \u20ac60 million reserved offering, which includes a \u20ac20 million strategic investment from Sanofi. The funds will support the advancement of its gene therapies targeting hearing loss, specifically SENS-501 and SENS-601.\n\nWhy this matters: This funding will help Sensorion progress its clinical development efforts, aiming for regulatory approvals and patient enrollment in upcoming trials. The company is well-positioned to advance innovative treatments for genetic hearing loss, addressing a significant unmet medical need.",
+      "preview": "Sensorion has announced a \u20ac60 million funding round, including a strategic investment from Sanofi.",
+      "article": "French biotech company Sensorion has raised \u20ac60 million (about $72 million) in a reserved offering, which includes a \u20ac20 million strategic investment from Sanofi. The remaining \u20ac40 million was subscribed by existing shareholders and new investors, extending the company's cash runway to the first half of 2027.\n\nSensorion's pipeline focuses on innovative therapies for inner ear disorders, including two gene therapies (SENS-501 and SENS-601) targeting genetic hearing loss. The new funding will support the advancement of these programs, with specific milestones including regulatory approvals and patient enrollment for SENS-601, designed to treat congenital deafness and progressive hearing loss.\n\nWhy this matters: This funding positions Sensorion to advance critical gene therapy programs that could provide transformative treatments for patients with genetic hearing loss.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
           "url": "https://european-biotechnology.com/latest-news/sensorion-raised-e60m-backed-by-e20m-from-sanofi-to-advance-gene-therapies-for-hearing-loss/",
-          "type": "company",
+          "type": "news",
           "verified_date": "2026-01-28"
         }
       ]
@@ -18,13 +18,13 @@
     {
       "id": "2",
       "headline": "Timing of Cord Blood Transplant Affects Graft Disease",
-      "preview": "New research links circadian rhythms to the success of cord blood transplants.",
-      "article": "Researchers have discovered a crucial link between circadian rhythms and the success of cord blood transplantation, particularly regarding acute graft-versus-host disease (aGVHD). The study highlights how the timing of transplantation can influence the risk and severity of aGVHD, suggesting that aligning transplant procedures with the body's biological clock could improve outcomes.\n\nWhy this matters: This finding could lead to personalized transplant protocols that enhance graft tolerance and reduce complications, potentially transforming practices in transplant medicine and improving patient survival rates.",
+      "preview": "New research reveals the impact of circadian rhythms on cord blood transplantation outcomes.",
+      "article": "Researchers have discovered a significant link between circadian rhythms and the success of cord blood transplantation (CBT), particularly regarding the risk of acute graft-versus-host disease (aGVHD). The study highlights how the timing of transplantation can influence immune responses, suggesting that aligning procedures with the body's natural biological clock could enhance patient outcomes.\n\nThe research indicates that higher levels of soluble CD26 during specific times of day may suppress T cell activity that leads to aGVHD. By synchronizing transplant procedures with these fluctuations, clinicians could potentially improve graft tolerance and reduce complications.\n\nWhy this matters: This insight could lead to personalized transplant protocols that optimize timing based on individual circadian rhythms, significantly improving the success rates of cord blood transplants.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
           "url": "https://bioengineer.org/timing-of-cord-blood-transplant-affects-graft-disease/",
-          "type": "paper",
+          "type": "news",
           "verified_date": "2026-01-30"
         }
       ]
@@ -32,13 +32,13 @@
     {
       "id": "3",
       "headline": "Dresden biotech Seamless lands up to $1.1B Eli Lilly deal for gene therapy hearing loss",
-      "preview": "Seamless Therapeutics has partnered with Eli Lilly for gene therapy development in hearing loss.",
-      "article": "Seamless Therapeutics has entered a global research collaboration with Eli Lilly to develop gene therapies for genetically caused hearing loss, potentially worth up to $1.1 billion. This partnership will leverage Seamless's proprietary recombinase platform, which allows for precise DNA modifications.\n\nWhy this matters: The collaboration represents a significant validation of Seamless's technology and could lead to innovative treatments for hearing loss, addressing a critical area of unmet medical need.",
+      "preview": "Seamless Therapeutics has partnered with Eli Lilly to develop gene therapies for hearing loss.",
+      "article": "Seamless Therapeutics has entered a global research collaboration with Eli Lilly to develop programmable, recombinase-based gene therapies for genetically caused hearing loss. The partnership could yield up to $1.1 billion in funding if milestones are met.\n\nSeamless will leverage its proprietary recombinase platform, which allows for precise DNA modifications, while Lilly contributes its expertise in genetic hearing disorders. This collaboration validates Seamless's technology and positions it for future partnerships.\n\nWhy this matters: The collaboration represents a significant step forward in the development of innovative gene therapies for hearing loss, potentially addressing a critical unmet medical need.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
           "url": "https://european-biotechnology.com/latest-news/gene-editing-hearing-loss-billion-dollar-deal-seamless-therapeutics/",
-          "type": "company",
+          "type": "news",
           "verified_date": "2026-01-28"
         }
       ]
@@ -47,27 +47,27 @@
       "id": "4",
       "headline": "Regenxbio gene therapy trials suspended by FDA over safety worries",
       "preview": "The FDA has placed a clinical hold on Regenxbio's gene therapy trials due to safety concerns.",
-      "article": "Regenxbio's clinical trials for gene therapies RGX-111 and RGX-121 have been put on hold by the FDA following a case of brain cancer in a child who received RGX-111. The hold was extended to RGX-121 due to shared risks between the studies.\n\nWhy this matters: This decision underscores the potential safety concerns associated with gene therapies, highlighting the need for rigorous safety evaluations in clinical development.",
+      "article": "Regenxbio's clinical trials for two gene therapies have been suspended by the FDA following a case of brain cancer in a child who received RGX-111. The agency extended the hold to RGX-121 due to similarities between the two therapies.\n\nDespite no established causal link between RGX-111 and the child's condition, the decision has raised concerns about the safety of gene therapies. The hold comes just before a critical FDA decision on RGX-121, which is aimed at treating Hunter syndrome.\n\nWhy this matters: This suspension highlights the ongoing safety challenges in gene therapy development and the FDA's cautious approach to balancing innovation with patient safety.",
       "sources": [
         {
           "name": "BioPharma Dive - Latest News",
           "url": "https://www.biopharmadive.com/news/regenxbio-fda-hold-hunter-hurler-syndrome-gene-therapy/810691/",
-          "type": "regulator",
+          "type": "news",
           "verified_date": "2026-01-28"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "After a turbulent phase: a new milestone from Takeda for Heidelberg Pharma",
-      "preview": "Heidelberg Pharma receives a milestone payment from Takeda, signaling operational progress.",
-      "article": "Heidelberg Pharma has received a milestone payment from Takeda following the dosing of the first patient in a Phase I/II clinical trial. This positive signal comes after a turbulent period for the company, which faced setbacks and restructuring.\n\nWhy this matters: The milestone payment indicates progress in Heidelberg Pharma's partnership with Takeda and reinforces confidence in its ATAC technology, potentially paving the way for future developments in its clinical pipeline.",
+      "headline": "Correction: Oxygen supersaturation has negligible effects on warming tolerance across diverse aquatic ectotherms",
+      "preview": "A correction has been issued regarding the funding statement of a recent study.",
+      "article": "A correction has been published for the study on oxygen supersaturation and its effects on warming tolerance in aquatic ectotherms. The funding statement was incorrect and has been updated to reflect the accurate sources of financial support for the research.\n\nThe study was funded by various grants, including those from the European Research Council and the Natural Sciences and Engineering Research Council of Canada. The correction emphasizes the importance of transparency in research funding.\n\nWhy this matters: Accurate funding disclosures are crucial for maintaining the integrity of scientific research and ensuring proper attribution of support.",
       "sources": [
         {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/after-a-turbulent-phase-a-new-milestone-from-takeda-for-heidelberg-pharma/",
-          "type": "company",
-          "verified_date": "2026-01-29"
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003626",
+          "type": "paper",
+          "verified_date": "2026-01-28"
         }
       ]
     }
