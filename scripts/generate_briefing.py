@@ -1,21 +1,11 @@
 #!/usr/bin/env python3
 """
-Biotech-Briefing-Agent – FINAL (v2: Debug JSON + Source Cap + Paper Guarantee)
-=============================================================================
-
-Pipeline:
-- Load RSS feeds from sources.yaml
-- Collect RSS items (≤48h)
-- Tavily Search for no-RSS / paywalled sites (budget-safe)
-- Fetch full article text locally (trafilatura)
-- Hard filters (date, dedupe, text length)
-- Rule-based scoring
-- Select Top 5 with:
-    * source cap (max 2 items per source)
-    * optional paper guarantee (at least 1 paper/preprint if available)
-- OpenAI formats VERIFIED content into JSON
-- Write latest.json + archive/YYYY-MM-DD.json
-- Write debug JSON to briefings/debug/latest_debug.json (+ archive)
+Biotech-Briefing-Agent – v3
+==========================
+Fixes on top of v2 (debug + caps):
+- Filters/penalizes low-value journal notices (Correction/Erratum/Retraction/etc.)
+- "Paper guarantee" now means: include at least 1 TOPICAL paper/preprint if available.
+  If only non-topical papers/corrections exist, we do NOT force them into Top 5.
 
 NO LLM RESEARCH. NO HALLUCINATIONS.
 """
@@ -40,7 +30,7 @@ from openai import OpenAI
 WINDOW_HOURS = 48
 MAX_ITEMS = 5
 MAX_PER_SOURCE = 2
-REQUIRE_AT_LEAST_ONE_PAPER = True
+REQUIRE_AT_LEAST_ONE_PAPER = True  # only if a topical one exists
 
 MIN_ARTICLE_CHARS = 800
 MAX_ARTICLE_CHARS = 12000
@@ -83,20 +73,27 @@ def parse_date(entry):
         return dt.datetime(*entry.updated_parsed[:6])
     return None
 
+LOW_VALUE_JOURNAL_NOTICES = [
+    "correction", "erratum", "corrigendum", "retraction",
+    "expression of concern", "publisher correction"
+]
+
+def is_low_value_notice(title: str) -> bool:
+    t = (title or "").strip().lower()
+    return any(k in t for k in LOW_VALUE_JOURNAL_NOTICES)
+
 def detect_kind(url: str, source_name: str) -> str:
     """Return: paper | preprint | regulator | trial_registry | company | news"""
     u = (url or "").lower()
-    s = (source_name or "").lower()
 
     if "biorxiv.org" in u or "medrxiv" in u:
         return "preprint"
-    if "cell.com" in u or "nature.com" in u or "science.org" in u or "nejm.org" in u or "rupress.org" in u or "plos.org" in u or "tctjournal.org" in u:
+    if any(d in u for d in ["cell.com", "nature.com", "science.org", "nejm.org", "rupress.org", "plos.org", "tctjournal.org"]):
         return "paper"
     if "fda.gov" in u or "ema.europa.eu" in u:
         return "regulator"
     if "clinicaltrials.gov" in u:
         return "trial_registry"
-    # heuristic: company/blog/news
     if any(x in u for x in ["ir.", "/investors", "/press", "/newsroom"]):
         return "company"
     return "news"
@@ -210,27 +207,33 @@ def tavily_search(query: str) -> Tuple[List[Dict], Optional[str]]:
     return results, None
 
 # --------------------------------------------------
-# Scoring
+# Scoring + topicality
 # --------------------------------------------------
 
 KEYWORDS_HIGH = [
     "gene therapy", "cell therapy", "car-t", "aav",
-    "crispr", "base editing", "prime editing", "in vivo"
+    "crispr", "base editing", "prime editing", "in vivo",
+    "rna", "mrna", "lnp", "oligonucleotide", "si rna", "as o"
 ]
 
 KEYWORDS_CLINICAL = [
-    "clinical trial", "phase i", "phase ii",
-    "first-in-human", "patients"
+    "clinical trial", "phase i", "phase ii", "phase iii",
+    "first-in-human", "patients", "clinical hold", "fda", "ema"
 ]
 
 HIGH_VALUE_DOMAINS = [
-    "nature.com", "cell.com", "nejm.org",
-    "science.org", "ema.europa.eu", "fda.gov"
+    "nature.com", "cell.com", "nejm.org", "science.org",
+    "ema.europa.eu", "fda.gov", "biorxiv.org", "medrxiv.org"
 ]
 
 NEGATIVE_KEYWORDS = [
     "price target", "earnings", "stock", "shares", "downgrade", "upgrade"
 ]
+
+def is_topical(title: str, text: str) -> bool:
+    t = (title or "").lower()
+    b = (text or "").lower()
+    return any(k in t or k in b for k in KEYWORDS_HIGH + KEYWORDS_CLINICAL)
 
 def score_item(item: Dict, text: str) -> int:
     score = 0
@@ -256,22 +259,27 @@ def score_item(item: Dict, text: str) -> int:
     elif age < 24:
         score += 1
 
-    # Small penalty for finance-y articles
+    # Penalize finance-y articles
     if any(kw in title for kw in NEGATIVE_KEYWORDS):
         score -= 3
+
+    # HARD penalty for low-value journal notices (Correction/Erratum/etc.)
+    if is_low_value_notice(item.get("title", "")):
+        score -= 20
 
     return score
 
 # --------------------------------------------------
-# Selection with source cap + paper guarantee
+# Selection with source cap + topical paper guarantee
 # --------------------------------------------------
 
 def select_top_items(enriched: List[Dict], debug: Dict) -> List[Dict]:
     enriched_sorted = sorted(enriched, key=lambda x: x["score"], reverse=True)
 
-    # Apply source cap first
-    selected = []
-    per_source = {}
+    selected: List[Dict] = []
+    per_source: Dict[str, int] = {}
+
+    # First pass: pick best items obeying source caps
     for item in enriched_sorted:
         src = item["source"]["name"]
         if per_source.get(src, 0) >= MAX_PER_SOURCE:
@@ -281,33 +289,44 @@ def select_top_items(enriched: List[Dict], debug: Dict) -> List[Dict]:
         if len(selected) >= MAX_ITEMS:
             break
 
-    # Optional: ensure at least one paper/preprint if available
+    # Paper guarantee (ONLY if a topical, non-correction paper/preprint exists)
     if REQUIRE_AT_LEAST_ONE_PAPER:
-        has_paper = any(is_paper_like(it["kind"]) for it in selected)
-        if not has_paper:
+        has_topical_paper = any(
+            is_paper_like(it["kind"]) and it["topical"] and not it["low_value_notice"]
+            for it in selected
+        )
+
+        if not has_topical_paper:
             best_paper = None
             for it in enriched_sorted:
-                if is_paper_like(it["kind"]):
-                    # respect source cap if swapped in
-                    src = it["source"]["name"]
-                    if per_source.get(src, 0) >= MAX_PER_SOURCE:
-                        continue
-                    best_paper = it
-                    break
+                if not is_paper_like(it["kind"]):
+                    continue
+                if not it["topical"]:
+                    continue
+                if it["low_value_notice"]:
+                    continue
+                src = it["source"]["name"]
+                if per_source.get(src, 0) >= MAX_PER_SOURCE:
+                    continue
+                best_paper = it
+                break
+
             if best_paper:
-                # Replace the lowest-scoring non-paper (prefer news/company)
+                # Replace lowest scoring non-paper; if none, replace lowest overall
                 non_papers = [it for it in selected if not is_paper_like(it["kind"])]
-                if non_papers:
-                    to_remove = sorted(non_papers, key=lambda x: x["score"])[0]
-                    selected.remove(to_remove)
-                    per_source[to_remove["source"]["name"]] -= 1
-                    selected.append(best_paper)
-                    per_source[best_paper["source"]["name"]] = per_source.get(best_paper["source"]["name"], 0) + 1
-                    # keep deterministic order (score desc)
-                    selected = sorted(selected, key=lambda x: x["score"], reverse=True)
-                    debug["paper_guarantee_applied"] = True
-                    debug["paper_inserted_url"] = best_paper["source"]["url"]
-                    debug["paper_replaced_url"] = to_remove["source"]["url"]
+                to_remove_pool = non_papers if non_papers else selected[:]
+                to_remove = sorted(to_remove_pool, key=lambda x: x["score"])[0]
+
+                selected.remove(to_remove)
+                per_source[to_remove["source"]["name"]] -= 1
+
+                selected.append(best_paper)
+                per_source[best_paper["source"]["name"]] = per_source.get(best_paper["source"]["name"], 0) + 1
+                selected = sorted(selected, key=lambda x: x["score"], reverse=True)
+
+                debug["paper_guarantee_applied"] = True
+                debug["paper_inserted_url"] = best_paper["source"]["url"]
+                debug["paper_replaced_url"] = to_remove["source"]["url"]
 
     debug["selection_source_counts"] = per_source
     debug["selected_count"] = len(selected)
@@ -328,10 +347,7 @@ def format_with_openai(items: List[Dict], today: str) -> Dict:
     client = OpenAI(api_key=api_key)
     prompt = load_prompt()
 
-    payload = {
-        "date": today,
-        "items": items
-    }
+    payload = {"date": today, "items": items}
 
     resp = client.chat.completions.create(
         model=OPENAI_MODEL,
@@ -341,7 +357,6 @@ def format_with_openai(items: List[Dict], today: str) -> Dict:
             {"role": "user", "content": json.dumps(payload)}
         ]
     )
-
     return json.loads(resp.choices[0].message.content)
 
 # --------------------------------------------------
@@ -366,12 +381,12 @@ def main():
         "paper_guarantee_applied": False
     }
 
-    # 1) Collect RSS candidates
+    # 1) RSS
     rss_feeds = load_rss_feeds()
     debug["rss_feeds_count"] = len(rss_feeds)
     rss_items = collect_rss_items(rss_feeds, debug)
 
-    # 2) Collect Search candidates (Tavily)
+    # 2) Tavily search
     search_items: List[Dict] = []
     search_errors: List[str] = []
     for q in TAVILY_QUERIES:
@@ -411,6 +426,8 @@ def main():
 
         debug["fetched_ok"] += 1
         kind = detect_kind(c["url"], c["source"])
+        topical = is_topical(c.get("title", ""), text)
+        low_value_notice = is_low_value_notice(c.get("title", ""))
         score = score_item(c, text)
 
         item = {
@@ -418,6 +435,8 @@ def main():
             "text": text,
             "score": score,
             "kind": kind,
+            "topical": topical,
+            "low_value_notice": low_value_notice,
             "age_hours": round(hours_old(c["published"]), 2),
             "source": {
                 "name": c["source"],
@@ -427,20 +446,21 @@ def main():
         }
         enriched.append(item)
 
-        # keep small preview for debug (top 50 later)
         scored_preview.append({
             "headline": c["title"],
             "url": c["url"],
             "source": c["source"],
             "kind": kind,
+            "topical": topical,
+            "low_value_notice": low_value_notice,
             "age_hours": round(hours_old(c["published"]), 2),
             "score": score
         })
 
-    # 5) Select Top 5 with caps + paper guarantee
+    # 5) Select Top 5 with caps + topical paper guarantee
     selected = select_top_items(enriched, debug)
 
-    # Build LLM input items
+    # 6) LLM input items
     llm_items = []
     for i, t in enumerate(selected, 1):
         llm_items.append({
@@ -451,13 +471,13 @@ def main():
             "kind": t["kind"]
         })
 
-    # 6) Format JSON with OpenAI (or empty)
+    # 7) Format JSON with OpenAI (or empty)
     if llm_items:
         output = format_with_openai(llm_items, today)
     else:
         output = {"date": today, "items": []}
 
-    # 7) Write outputs
+    # 8) Write outputs
     BRIEFINGS_DIR.mkdir(exist_ok=True)
     (BRIEFINGS_DIR / "archive").mkdir(exist_ok=True)
 
@@ -467,21 +487,20 @@ def main():
     with open(BRIEFINGS_DIR / "archive" / f"{today}.json", "w") as f:
         json.dump(output, f, indent=2)
 
-    # 8) Write debug outputs
+    # 9) Write debug outputs
     DEBUG_DIR.mkdir(exist_ok=True)
     DEBUG_ARCHIVE_DIR.mkdir(exist_ok=True)
 
-    # Store a ranked preview list (top 50 by score)
     scored_preview_sorted = sorted(scored_preview, key=lambda x: x["score"], reverse=True)[:50]
     debug["scored_preview_top50"] = scored_preview_sorted
-
-    # Store selected list (for transparency)
     debug["selected_items"] = [
         {
             "headline": x["headline"],
             "url": x["source"]["url"],
             "source": x["source"]["name"],
             "kind": x["kind"],
+            "topical": x["topical"],
+            "low_value_notice": x["low_value_notice"],
             "age_hours": x["age_hours"],
             "score": x["score"],
         }
