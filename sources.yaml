@@ -1,0 +1,169 @@
+rss:
+
+  # ============================================================
+  # 1) CORE SCIENCE & TRANSLATIONAL JOURNALS
+  # ============================================================
+
+  - name: Nature – Biotechnology
+    url: "https://www.nature.com/subjects/biotechnology.rss"
+
+  - name: Nature – Gene Therapy
+    url: "https://www.nature.com/subjects/gene-therapy.rss"
+
+  - name: Nature – Cell Therapies
+    url: "https://www.nature.com/subjects/cell-therapies.rss"
+
+  - name: Nature – Cancer Therapy
+    url: "https://www.nature.com/subjects/cancer-therapy.rss"
+
+  - name: Nature Medicine
+    url: "https://www.nature.com/nm.rss.xml"
+
+  - name: Science – Current News
+    url: "https://www.science.org/rss/news_current.xml"
+
+  - name: Cell – Current Issue
+    url: "https://www.cell.com/cell/current.rss?code=cell-site"
+
+  - name: Cell – In Press
+    url: "https://www.cell.com/cell/inpress.rss?code=cell-site"
+
+  - name: Immunity – Current Issue
+    url: "https://www.cell.com/immunity/current.rss?code=cell-site"
+
+  - name: Cancer Cell – Current Issue
+    url: "https://www.cell.com/cancer-cell/current.rss?code=cell-site"
+
+  - name: Molecular Therapy – Family
+    url: "https://www.cell.com/rssfeed/molecular-therapy-family"
+
+  - name: Journal of Cell Biology
+    url: "https://rupress.org/rss/site_1000001.xml"
+
+  - name: PLOS Biology
+    url: "https://journals.plos.org/plosbiology/feed/atom"
+
+
+  # ============================================================
+  # 2) PREPRINTS
+  # ============================================================
+
+  - name: bioRxiv – All
+    url: "https://www.biorxiv.org/rss/latest.xml"
+
+  - name: medRxiv – All
+    url: "https://connect.biorxiv.org/medrxiv/rss"
+
+
+  # ============================================================
+  # 3) CELL & GENE THERAPY / CLINICAL
+  # ============================================================
+
+  - name: Transplantation and Cellular Therapy (TCT)
+    url: "https://www.tctjournal.org/current.rss?code=ybmt-site"
+
+  - name: Stem Cell Science News
+    url: "https://www.stemcellsciencenews.com/feed/"
+
+  - name: Global Stem Cell Therapy Blog
+    url: "https://globalstemcelltherapy.com/blog/feed/"
+
+
+  # ============================================================
+  # 4) BIOTECH & PHARMA INDUSTRY
+  # ============================================================
+
+  - name: Fierce Biotech
+    url: "https://www.fiercebiotech.com/rss/biotech"
+
+  - name: BioPharma Dive
+    url: "https://www.biopharmadive.com/feeds/news/"
+
+  - name: Endpoints News
+    url: "https://endpts.com/feed/"
+
+  - name: STAT – Biotech
+    url: "https://www.statnews.com/category/biotech/feed/"
+
+  - name: GEN – Genetic Engineering & Biotechnology News
+    url: "https://feeds.feedburner.com/GenGengNews"
+
+  - name: BioSpace – News
+    url: "http://rss.biospace.com/news.rss"
+
+  - name: Bio.News
+    url: "https://bio.news/feed"
+
+  - name: Labiotech.eu
+    url: "https://labiotech.eu/feed"
+
+  - name: European Biotechnology
+    url: "https://european-biotechnology.com/feed"
+
+  - name: Bioengineer.org
+    url: "https://bioengineer.org/feed"
+
+  - name: Biotech Express Magazine
+    url: "https://biotechexpressmag.com/feed"
+
+  - name: BioTecNika – Biotech
+    url: "https://biotecnika.org/category/biotech/rss"
+
+
+  # ============================================================
+  # 5) ANALYSIS / VC / STRATEGY
+  # ============================================================
+
+  - name: LifeSciVC
+    url: "https://lifescivc.com/feed"
+
+  - name: Decoding Bio (Substack)
+    url: "https://decodingbio.substack.com/feed"
+
+  - name: Rough Diamonds (Substack)
+    url: "https://sarahconstantin.substack.com/feed"
+
+  - name: BioCentury
+    url: "https://biocentury.com/rss/BioCentury"
+
+  - name: BioTechniques
+    url: "https://biotechniques.com/feed"
+
+
+  # ============================================================
+  # 6) REGULATORY & CLINICAL TRIALS
+  # ============================================================
+
+  - name: EMA – Press Releases
+    url: "https://www.ema.europa.eu/en/news-events/rss-feeds?feed=press-releases"
+
+  - name: FDA – What’s New
+    url: "https://www.fda.gov/about-fda/what-we-do/rss-feeds"
+
+  - name: ClinicalTrials.gov – News
+    url: "https://clinicaltrials.gov/ct2/rss/news.xml"
+
+
+  # ============================================================
+  # 7) GERMANY / EU CONTEXT
+  # ============================================================
+
+  - name: vfa – Verband der forschenden Pharmaunternehmen
+    url: "https://www.vfa.de/vfa.rss"
+
+  - name: BVMed – MedTech Verband
+    url: "https://www.bvmed.de/rss"
+
+
+  # ============================================================
+  # 8) BROADER SCIENCE SIGNAL (OPTIONAL)
+  # ============================================================
+
+  - name: ScienceDaily – Biotechnology & Bioengineering
+    url: "https://www.sciencedaily.com/rss/feeds/biotechnology_and_bioengineering.xml"
+
+  - name: Phys.org – Biotechnology
+    url: "https://phys.org/rss-feed/biology-news/biotechnology/"
+
+  - name: Biology News Net
+    url: "https://www.biologynews.net/rss.php"

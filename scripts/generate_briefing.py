@@ -1,307 +1,296 @@
 #!/usr/bin/env python3
-"""generate_briefing.py (FIXED VERSION with web search)
+"""
+Biotech-Briefing-Agent – FINAL VERSION
+=====================================
 
-Generates briefings/latest.json and archives a dated copy in briefings/archive/YYYY-MM-DD.json.
+Pipeline:
+- Load RSS feeds from sources.yaml
+- Collect RSS items (≤48h)
+- Tavily Search for no-RSS / paywalled sites (budget-safe)
+- Fetch full article text locally (trafilatura)
+- Hard filters (date, dedupe, text length)
+- Rule-based scoring
+- Select Top 5
+- OpenAI formats VERIFIED content into JSON
+- Write latest.json + archive/YYYY-MM-DD.json
 
-KEY CHANGES:
-- Added web_search and web_fetch tools
-- Upgraded to Sonnet 4 (much less hallucination than Haiku)
-- Multi-turn conversation to enforce tool usage
-- Verification of tool usage before accepting results
+NO LLM RESEARCH. NO HALLUCINATIONS.
 """
 
 import os
 import json
-import datetime
+import datetime as dt
 from pathlib import Path
+from typing import List, Dict
 
-from anthropic import Anthropic
+import feedparser
+import requests
+import trafilatura
+import yaml
 
+from openai import OpenAI
 
-def _json_escape_control_chars_inside_strings(s: str) -> str:
-    """
-    Escapes literal control characters (especially newlines) that appear inside quoted JSON strings.
-    Some model responses look like JSON but contain raw newlines inside string values, which is invalid JSON.
-    This function only escapes control characters when we are inside a JSON string.
-    """
-    out = []
-    in_str = False
-    esc = False
+# --------------------------------------------------
+# Configuration
+# --------------------------------------------------
 
-    for ch in s:
-        if in_str:
-            if esc:
-                out.append(ch)
-                esc = False
-                continue
+WINDOW_HOURS = 48
+MAX_ITEMS = 5
+MIN_ARTICLE_CHARS = 800
+MAX_ARTICLE_CHARS = 12000
 
-            if ch == "\\":
-                out.append(ch)
-                esc = True
-                continue
+OPENAI_MODEL = "gpt-4o-mini"
 
-            if ch == '"':
-                out.append(ch)
-                in_str = False
-                continue
+TAVILY_MAX_RESULTS = 5
+TAVILY_QUERIES = [
+    'site:wsj.com biotech OR "gene therapy" OR "cell therapy"',
+    'site:handelsblatt.com Biotechnologie OR Gentherapie',
+    'site:faz.net Biotechnologie OR Medizin',
+]
 
-            # Escape invalid control characters inside strings
-            if ch == "\n":
-                out.append("\\n")
-            elif ch == "\r":
-                out.append("\\r")
-            elif ch == "\t":
-                out.append("\\t")
-            elif ord(ch) < 0x20:
-                out.append(f"\\u{ord(ch):04x}")
-            else:
-                out.append(ch)
-        else:
-            if ch == '"':
-                out.append(ch)
-                in_str = True
-            else:
-                out.append(ch)
+BASE_DIR = Path(__file__).resolve().parents[1]
+BRIEFINGS_DIR = BASE_DIR / "briefings"
+PROMPT_PATH = BASE_DIR / "prompts" / "daily_prompt.md"
+SOURCES_PATH = BASE_DIR / "sources.yaml"
 
-    return "".join(out)
+# --------------------------------------------------
+# Helpers
+# --------------------------------------------------
 
-ROOT = Path(__file__).resolve().parents[1]
-BRIEFINGS_DIR = ROOT / "briefings"
-ARCHIVE_DIR = BRIEFINGS_DIR / "archive"
-LATEST_PATH = BRIEFINGS_DIR / "latest.json"
+def now_utc():
+    return dt.datetime.utcnow()
 
-PROMPT_PATH = Path(os.getenv("PROMPT_PATH", str(ROOT / "prompts" / "daily_prompt.md")))
+def within_window(published: dt.datetime) -> bool:
+    return (now_utc() - published).total_seconds() <= WINDOW_HOURS * 3600
 
-# Using Haiku 4.5 - supports web_search and very cost-effective
-MODEL = os.getenv("ANTHROPIC_MODEL", "claude-haiku-4-5-20251001")
-MAX_TOKENS = int(os.getenv("MAX_TOKENS", "3000"))  # balanced for research + JSON output
-TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))  # 0.0 for maximum consistency
+def parse_date(entry):
+    if hasattr(entry, "published_parsed") and entry.published_parsed:
+        return dt.datetime(*entry.published_parsed[:6])
+    if hasattr(entry, "updated_parsed") and entry.updated_parsed:
+        return dt.datetime(*entry.updated_parsed[:6])
+    return None
 
-def load_prompt(today: str) -> str:
-    text = PROMPT_PATH.read_text(encoding="utf-8")
-    return text.replace("{{today}}", today)
+# --------------------------------------------------
+# Fetch article text
+# --------------------------------------------------
 
-def load_yesterday_headlines() -> list[str]:
-    if not LATEST_PATH.exists():
-        return []
+def fetch_article_text(url: str) -> str | None:
     try:
-        data = json.loads(LATEST_PATH.read_text(encoding="utf-8"))
-        items = data.get("items", []) if isinstance(data, dict) else []
-        return [it.get("headline", "") for it in items if isinstance(it, dict) and it.get("headline")]
+        downloaded = trafilatura.fetch_url(url)
+        if not downloaded:
+            return None
+        text = trafilatura.extract(downloaded)
+        if not text or len(text) < MIN_ARTICLE_CHARS:
+            return None
+        return text[:MAX_ARTICLE_CHARS]
     except Exception:
+        return None
+
+# --------------------------------------------------
+# RSS ingestion
+# --------------------------------------------------
+
+def load_rss_feeds() -> List[str]:
+    if not SOURCES_PATH.exists():
+        raise FileNotFoundError("sources.yaml not found in repo root")
+    with open(SOURCES_PATH, "r") as f:
+        data = yaml.safe_load(f)
+    return [item["url"] for item in data.get("rss", [])]
+
+def collect_rss_items(feed_urls: List[str]) -> List[Dict]:
+    items = []
+    for feed_url in feed_urls:
+        feed = feedparser.parse(feed_url)
+        source_name = feed.feed.get("title", "RSS")
+        for e in feed.entries:
+            published = parse_date(e)
+            if not published or not within_window(published):
+                continue
+            items.append({
+                "title": e.title,
+                "url": e.link,
+                "published": published,
+                "source": source_name
+            })
+    return items
+
+# --------------------------------------------------
+# Tavily Search
+# --------------------------------------------------
+
+def tavily_search(query: str) -> List[Dict]:
+    api_key = os.getenv("TAVILY_API_KEY")
+    if not api_key:
         return []
 
-def extract_json(text: str) -> str:
-    """Extract the first top-level JSON object from a response."""
-    t = text.strip()
-
-    # remove markdown fences if present
-    if t.startswith("```"):
-        start = t.find("{")
-        end = t.rfind("}")
-        if start != -1 and end != -1 and end > start:
-            return t[start:end + 1]
-        return t.strip("`")
-
-    start = t.find("{")
-    end = t.rfind("}")
-    if start != -1 and end != -1 and end > start:
-        return t[start:end + 1]
-    return t
-
-def main() -> None:
-    api_key = os.getenv("ANTHROPIC_API_KEY")
-    if not api_key:
-        raise SystemExit("Missing ANTHROPIC_API_KEY environment variable.")
-
-    today = datetime.date.today().isoformat()
-    prompt = load_prompt(today)
-
-    yesterday = load_yesterday_headlines()
-    if yesterday:
-        prompt += "\n\nYESTERDAY_HEADLINES (avoid repeats unless clearly new):\n" + "\n".join(f"- {h}" for h in yesterday)
-
-    client = Anthropic(api_key=api_key)
-
-    # CRITICAL: Only web_search is available in the API (web_fetch is claude.ai only)
-    tools = [
-        {
-            "type": "web_search_20250305",
-            "name": "web_search"
-        }
-    ]
-
-    # PHASE 1: Research phase - force Claude to search
-    print(f"🔍 Starting research phase for {today}...")
-    
-    research_prompt = f"""Today is {today}.
-
-PHASE 1: RESEARCH (MANDATORY)
-
-You MUST use the web_search tool multiple times to find recent developments.
-
-CRITICAL INSTRUCTIONS:
-1. Perform AT LEAST 8-10 targeted web_search queries
-2. Focus on PRIMARY SOURCES with visible dates in search results
-3. Look for results that show publication dates in the snippet
-4. Pay close attention to URLs - they often contain dates
-
-TARGET SEARCHES (execute these types):
-- "site:nature.com/nbt articles January 2025"
-- "site:fda.gov/news gene therapy approval 2025"
-- "site:ema.europa.eu cell therapy recommendation"
-- "site:clinicaltrials.gov CAR-T new 2025"
-- "site:biorxiv.org CRISPR latest"
-- "site:science.org/doi gene editing 2025"
-- "biotech company press release gene therapy January 2025"
-
-VERIFICATION FROM SEARCH RESULTS:
-For each result, check the snippet for:
-- Does the URL contain a date? (e.g., /2025/01/29/ or -20250129-)
-- Does the snippet mention a publication date?
-- Is it from a primary source domain?
-- Is the date within 48h of {today}?
-
-Only include results where you can see date evidence in the search results themselves.
-
-After searching, list the most promising items you found with:
-- The URL (must contain visible date markers if possible)
-- The date evidence you saw (in URL or snippet)
-- Why it's relevant
-"""
-
-    messages = [{"role": "user", "content": research_prompt}]
-
-    # Execute research phase with tools
-    research_response = client.messages.create(
-        model=MODEL,
-        max_tokens=MAX_TOKENS,
-        temperature=TEMPERATURE,
-        tools=tools,
-        messages=messages
+    resp = requests.post(
+        "https://api.tavily.com/search",
+        json={
+            "api_key": api_key,
+            "query": query,
+            "max_results": TAVILY_MAX_RESULTS,
+            "search_depth": "basic"
+        },
+        timeout=30
     )
+    resp.raise_for_status()
+    data = resp.json()
 
-    # Log tool usage for debugging
-    tool_uses = []
-    searches_performed = 0
-    
-    for block in research_response.content:
-        if block.type == "tool_use":
-            tool_uses.append({
-                "tool": block.name,
-                "input": block.input
-            })
-            if block.name == "web_search":
-                searches_performed += 1
-                print(f"  🔎 Search: {block.input.get('query', 'N/A')}")
-
-    print(f"✓ Research complete: {searches_performed} searches")
-
-    # Check if Claude actually used tools
-    if searches_performed == 0:
-        print("⚠️  WARNING: No web searches performed! Results will be hallucinated.")
-        print("⚠️  Consider making the research prompt more explicit.")
-    elif searches_performed < 5:
-        print(f"⚠️  WARNING: Only {searches_performed} searches - recommend 8-10 for good coverage.")
-
-    # Add assistant's research response to conversation
-    messages.append({"role": "assistant", "content": research_response.content})
-
-    # PHASE 2: Generate JSON based on verified sources only
-    print(f"📝 Generating briefing JSON...")
-    
-    json_prompt = f"""PHASE 2: GENERATE BRIEFING JSON
-
-Based ONLY on the search results from Phase 1, now generate the JSON output.
-
-CRITICAL RULES:
-1. ONLY include items where you saw DATE EVIDENCE in the search results (URL path, snippet text, etc.)
-2. Dates must be within 48h of {today}
-3. URLs must be from PRIMARY SOURCES (Nature, Science, FDA, EMA, company IR pages, etc.)
-4. Do NOT include items based on vague or undated search results
-5. Do NOT include items from aggregator sites (generic news, press release aggregators)
-6. If you found fewer than 3 verified items, that's fine - return what you have
-7. If you found ZERO items with clear date evidence, return an empty items list
-
-ACCEPTABLE DATE EVIDENCE:
-✓ URL contains date: nature.com/articles/s41587-025-02543-2 with "29 January 2025" in snippet
-✓ Snippet says: "Published: January 29, 2025"
-✓ FDA URL: fda.gov/news-events/press-announcements/2025/01/...
-✓ Press release: "Company XYZ announced today..." in snippet with today's date visible
-
-UNACCEPTABLE (exclude these):
-✗ Generic URLs with no date markers
-✗ Search results that just say "recent" or "latest"
-✗ Secondary news sources without visible dates
-✗ Your memory of what might have been published
-
-Now generate the JSON following the exact format from the original prompt.
-For each source, the URL must be one you saw in search results, and verified_date must reflect the date evidence you found.
-"""
-
-    messages.append({"role": "user", "content": json_prompt})
-
-    # Generate final JSON
-    final_response = client.messages.create(
-        model=MODEL,
-        max_tokens=MAX_TOKENS,
-        temperature=TEMPERATURE,
-        tools=tools,  # Still provide tools in case Claude needs to verify something
-        messages=messages
-    )
-
-    # Extract text from response
-    text_parts: list[str] = []
-    for block in final_response.content:
-        if block.type == "text":
-            text_parts.append(block.text)
-    raw = "\n".join(text_parts).strip()
-
-    json_text = extract_json(raw)
-
-    try:
-        data = json.loads(json_text)
-    except json.JSONDecodeError as e:
-        # Attempt a repair for the most common failure mode: literal control characters in strings.
-        repaired = _json_escape_control_chars_inside_strings(json_text)
+    results = []
+    for r in data.get("results", []):
         try:
-            data = json.loads(repaired)
-            json_text = repaired
-        except json.JSONDecodeError:
-            print(f"❌ Failed to parse JSON response: {e}")
-            print("Raw response:\n", raw)
-            raise
+            published = dt.datetime.fromisoformat(r.get("published_date"))
+        except Exception:
+            continue
+        if not within_window(published):
+            continue
+        results.append({
+            "title": r.get("title"),
+            "url": r.get("url"),
+            "published": published,
+            "source": r.get("source", "search")
+        })
+    return results
 
-    # normalize
-    data.setdefault("date", today)
-    if not isinstance(data.get("items"), list):
-        data["items"] = []
-    data["items"] = data["items"][:3]  # max 3 items
+# --------------------------------------------------
+# Scoring
+# --------------------------------------------------
 
-    # Add metadata about tool usage for debugging
-    data["_meta"] = {
-        "generated_at": datetime.datetime.now().isoformat(),
-        "model": MODEL,
-        "searches_performed": searches_performed,
-        "tool_uses": len(tool_uses)
+KEYWORDS_HIGH = [
+    "gene therapy", "cell therapy", "car-t", "aav",
+    "crispr", "base editing", "prime editing", "in vivo"
+]
+
+KEYWORDS_CLINICAL = [
+    "clinical trial", "phase i", "phase ii",
+    "first-in-human", "patients"
+]
+
+HIGH_VALUE_DOMAINS = [
+    "nature.com", "cell.com", "nejm.org",
+    "science.org", "ema.europa.eu", "fda.gov"
+]
+
+def score_item(item: Dict, text: str) -> int:
+    score = 0
+    title = item["title"].lower()
+    body = text.lower()
+
+    for kw in KEYWORDS_HIGH:
+        if kw in title or kw in body:
+            score += 3
+
+    for kw in KEYWORDS_CLINICAL:
+        if kw in title or kw in body:
+            score += 2
+
+    if any(dom in item["url"] for dom in HIGH_VALUE_DOMAINS):
+        score += 3
+
+    age_hours = (now_utc() - item["published"]).total_seconds() / 3600
+    if age_hours < 12:
+        score += 2
+    elif age_hours < 24:
+        score += 1
+
+    return score
+
+# --------------------------------------------------
+# LLM formatting
+# --------------------------------------------------
+
+def load_prompt() -> str:
+    with open(PROMPT_PATH, "r") as f:
+        return f.read()
+
+def format_with_openai(items: List[Dict], today: str) -> Dict:
+    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    prompt = load_prompt()
+
+    payload = {
+        "date": today,
+        "items": items
     }
 
-    BRIEFINGS_DIR.mkdir(parents=True, exist_ok=True)
-    ARCHIVE_DIR.mkdir(parents=True, exist_ok=True)
+    resp = client.chat.completions.create(
+        model=OPENAI_MODEL,
+        temperature=0.2,
+        messages=[
+            {"role": "system", "content": prompt},
+            {"role": "user", "content": json.dumps(payload)}
+        ]
+    )
 
-    LATEST_PATH.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    archive_path = ARCHIVE_DIR / f"{today}.json"
-    archive_path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    return json.loads(resp.choices[0].message.content)
 
-    print(f"✅ Wrote {LATEST_PATH} and {archive_path}")
-    print(f"   Items generated: {len(data['items'])}")
-    
-    # Warning if suspicious
-    if len(data['items']) > 0 and searches_performed == 0:
-        print("⚠️  WARNING: Items generated without web search - likely hallucinated!")
-    
-    if len(data['items']) > 0 and searches_performed < 5:
-        print(f"⚠️  WARNING: Only {searches_performed} searches for {len(data['items'])} items - may include unverified sources!")
+# --------------------------------------------------
+# Main
+# --------------------------------------------------
+
+def main():
+    today = now_utc().date().isoformat()
+
+    rss_feeds = load_rss_feeds()
+    rss_items = collect_rss_items(rss_feeds)
+
+    search_items = []
+    for q in TAVILY_QUERIES:
+        search_items.extend(tavily_search(q))
+
+    candidates = rss_items + search_items
+
+    # Deduplicate URLs
+    seen = set()
+    deduped = []
+    for c in candidates:
+        if c["url"] not in seen:
+            seen.add(c["url"])
+            deduped.append(c)
+
+    enriched = []
+    for c in deduped:
+        text = fetch_article_text(c["url"])
+        if not text:
+            continue
+        score = score_item(c, text)
+        enriched.append({
+            "id": None,
+            "headline": c["title"],
+            "text": text,
+            "score": score,
+            "source": {
+                "name": c["source"],
+                "url": c["url"],
+                "verified_date": c["published"].date().isoformat()
+            }
+        })
+
+    top = sorted(enriched, key=lambda x: x["score"], reverse=True)[:MAX_ITEMS]
+
+    llm_items = []
+    for i, t in enumerate(top, 1):
+        llm_items.append({
+            "id": str(i),
+            "headline": t["headline"],
+            "text": t["text"],
+            "source": t["source"]
+        })
+
+    if llm_items:
+        output = format_with_openai(llm_items, today)
+    else:
+        output = {"date": today, "items": []}
+
+    BRIEFINGS_DIR.mkdir(exist_ok=True)
+    archive_dir = BRIEFINGS_DIR / "archive"
+    archive_dir.mkdir(exist_ok=True)
+
+    with open(BRIEFINGS_DIR / "latest.json", "w") as f:
+        json.dump(output, f, indent=2)
+
+    with open(archive_dir / f"{today}.json", "w") as f:
+        json.dump(output, f, indent=2)
+
 
 if __name__ == "__main__":
     main()
