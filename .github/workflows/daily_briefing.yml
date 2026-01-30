@@ -12,8 +12,9 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -28,14 +29,15 @@ jobs:
 
       - name: Generate briefing JSON
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
         run: |
           python scripts/generate_briefing.py
 
-      - name: Commit & push
+      - name: Commit & push results
         run: |
-          git config user.name "fitgen-briefing-bot"
+          git config user.name "biotech-briefing-bot"
           git config user.email "actions@users.noreply.github.com"
           git add briefings/latest.json briefings/archive/*.json
-          git commit -m "🔬 Update daily briefing (Claude)" || echo "No changes to commit"
+          git commit -m "🔬 Update daily biotech briefing" || echo "No changes to commit"
           git push
