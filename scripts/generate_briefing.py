@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Biotech-Briefing-Agent – FINAL VERSION
-=====================================
+Biotech-Briefing-Agent – FINAL (v2: Debug JSON + Source Cap + Paper Guarantee)
+=============================================================================
 
 Pipeline:
 - Load RSS feeds from sources.yaml
@@ -10,9 +10,12 @@ Pipeline:
 - Fetch full article text locally (trafilatura)
 - Hard filters (date, dedupe, text length)
 - Rule-based scoring
-- Select Top 5
+- Select Top 5 with:
+    * source cap (max 2 items per source)
+    * optional paper guarantee (at least 1 paper/preprint if available)
 - OpenAI formats VERIFIED content into JSON
 - Write latest.json + archive/YYYY-MM-DD.json
+- Write debug JSON to briefings/debug/latest_debug.json (+ archive)
 
 NO LLM RESEARCH. NO HALLUCINATIONS.
 """
@@ -21,7 +24,7 @@ import os
 import json
 import datetime as dt
 from pathlib import Path
-from typing import List, Dict
+from typing import List, Dict, Tuple, Optional
 
 import feedparser
 import requests
@@ -36,22 +39,29 @@ from openai import OpenAI
 
 WINDOW_HOURS = 48
 MAX_ITEMS = 5
+MAX_PER_SOURCE = 2
+REQUIRE_AT_LEAST_ONE_PAPER = True
+
 MIN_ARTICLE_CHARS = 800
 MAX_ARTICLE_CHARS = 12000
 
 OPENAI_MODEL = "gpt-4o-mini"
 
+# Keep Tavily very small to stay under 1000 credits/month
 TAVILY_MAX_RESULTS = 5
 TAVILY_QUERIES = [
-    'site:wsj.com biotech OR "gene therapy" OR "cell therapy"',
-    'site:handelsblatt.com Biotechnologie OR Gentherapie',
-    'site:faz.net Biotechnologie OR Medizin',
+    'site:wsj.com (biotech OR "gene therapy" OR "cell therapy" OR CRISPR OR "clinical trial")',
+    'site:handelsblatt.com (Biotechnologie OR Gentherapie OR Zelltherapie OR klinische Studie)',
+    'site:faz.net (Biotechnologie OR Medizin OR Gentherapie OR Zelltherapie)',
 ]
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 BRIEFINGS_DIR = BASE_DIR / "briefings"
 PROMPT_PATH = BASE_DIR / "prompts" / "daily_prompt.md"
 SOURCES_PATH = BASE_DIR / "sources.yaml"
+
+DEBUG_DIR = BRIEFINGS_DIR / "debug"
+DEBUG_ARCHIVE_DIR = DEBUG_DIR / "archive"
 
 # --------------------------------------------------
 # Helpers
@@ -63,6 +73,9 @@ def now_utc():
 def within_window(published: dt.datetime) -> bool:
     return (now_utc() - published).total_seconds() <= WINDOW_HOURS * 3600
 
+def hours_old(published: dt.datetime) -> float:
+    return (now_utc() - published).total_seconds() / 3600
+
 def parse_date(entry):
     if hasattr(entry, "published_parsed") and entry.published_parsed:
         return dt.datetime(*entry.published_parsed[:6])
@@ -70,21 +83,45 @@ def parse_date(entry):
         return dt.datetime(*entry.updated_parsed[:6])
     return None
 
+def detect_kind(url: str, source_name: str) -> str:
+    """Return: paper | preprint | regulator | trial_registry | company | news"""
+    u = (url or "").lower()
+    s = (source_name or "").lower()
+
+    if "biorxiv.org" in u or "medrxiv" in u:
+        return "preprint"
+    if "cell.com" in u or "nature.com" in u or "science.org" in u or "nejm.org" in u or "rupress.org" in u or "plos.org" in u or "tctjournal.org" in u:
+        return "paper"
+    if "fda.gov" in u or "ema.europa.eu" in u:
+        return "regulator"
+    if "clinicaltrials.gov" in u:
+        return "trial_registry"
+    # heuristic: company/blog/news
+    if any(x in u for x in ["ir.", "/investors", "/press", "/newsroom"]):
+        return "company"
+    return "news"
+
+def is_paper_like(kind: str) -> bool:
+    return kind in {"paper", "preprint"}
+
 # --------------------------------------------------
 # Fetch article text
 # --------------------------------------------------
 
-def fetch_article_text(url: str) -> str | None:
+def fetch_article_text(url: str) -> Tuple[Optional[str], Optional[str]]:
+    """Returns (text, drop_reason)."""
     try:
         downloaded = trafilatura.fetch_url(url)
         if not downloaded:
-            return None
+            return None, "fetch_failed"
         text = trafilatura.extract(downloaded)
-        if not text or len(text) < MIN_ARTICLE_CHARS:
-            return None
-        return text[:MAX_ARTICLE_CHARS]
-    except Exception:
-        return None
+        if not text:
+            return None, "extract_failed"
+        if len(text) < MIN_ARTICLE_CHARS:
+            return None, "text_too_short_or_teaser"
+        return text[:MAX_ARTICLE_CHARS], None
+    except Exception as e:
+        return None, f"exception:{type(e).__name__}"
 
 # --------------------------------------------------
 # RSS ingestion
@@ -94,34 +131,50 @@ def load_rss_feeds() -> List[str]:
     if not SOURCES_PATH.exists():
         raise FileNotFoundError("sources.yaml not found in repo root")
     with open(SOURCES_PATH, "r") as f:
-        data = yaml.safe_load(f)
-    return [item["url"] for item in data.get("rss", [])]
+        data = yaml.safe_load(f) or {}
+    return [item.get("url") for item in (data.get("rss") or []) if item.get("url")]
 
-def collect_rss_items(feed_urls: List[str]) -> List[Dict]:
+def collect_rss_items(feed_urls: List[str], debug: Dict) -> List[Dict]:
     items = []
+    per_feed = []
     for feed_url in feed_urls:
         feed = feedparser.parse(feed_url)
         source_name = feed.feed.get("title", "RSS")
+        count_total = 0
+        count_in_window = 0
+
         for e in feed.entries:
+            count_total += 1
             published = parse_date(e)
             if not published or not within_window(published):
                 continue
+            count_in_window += 1
             items.append({
                 "title": e.title,
                 "url": e.link,
                 "published": published,
-                "source": source_name
+                "source": source_name,
+                "source_type": "rss"
             })
+        per_feed.append({
+            "feed_url": feed_url,
+            "feed_title": source_name,
+            "items_total": count_total,
+            "items_in_window": count_in_window
+        })
+
+    debug["rss_per_feed"] = per_feed
+    debug["rss_items_collected"] = len(items)
     return items
 
 # --------------------------------------------------
 # Tavily Search
 # --------------------------------------------------
 
-def tavily_search(query: str) -> List[Dict]:
+def tavily_search(query: str) -> Tuple[List[Dict], Optional[str]]:
     api_key = os.getenv("TAVILY_API_KEY")
     if not api_key:
-        return []
+        return [], "missing_TAVILY_API_KEY"
 
     resp = requests.post(
         "https://api.tavily.com/search",
@@ -138,8 +191,11 @@ def tavily_search(query: str) -> List[Dict]:
 
     results = []
     for r in data.get("results", []):
+        published_raw = r.get("published_date")
+        if not published_raw:
+            continue
         try:
-            published = dt.datetime.fromisoformat(r.get("published_date"))
+            published = dt.datetime.fromisoformat(published_raw)
         except Exception:
             continue
         if not within_window(published):
@@ -148,9 +204,10 @@ def tavily_search(query: str) -> List[Dict]:
             "title": r.get("title"),
             "url": r.get("url"),
             "published": published,
-            "source": r.get("source", "search")
+            "source": r.get("source", "search"),
+            "source_type": "search"
         })
-    return results
+    return results, None
 
 # --------------------------------------------------
 # Scoring
@@ -171,10 +228,15 @@ HIGH_VALUE_DOMAINS = [
     "science.org", "ema.europa.eu", "fda.gov"
 ]
 
+NEGATIVE_KEYWORDS = [
+    "price target", "earnings", "stock", "shares", "downgrade", "upgrade"
+]
+
 def score_item(item: Dict, text: str) -> int:
     score = 0
-    title = item["title"].lower()
-    body = text.lower()
+    title = (item.get("title") or "").lower()
+    body = (text or "").lower()
+    url = (item.get("url") or "").lower()
 
     for kw in KEYWORDS_HIGH:
         if kw in title or kw in body:
@@ -184,16 +246,72 @@ def score_item(item: Dict, text: str) -> int:
         if kw in title or kw in body:
             score += 2
 
-    if any(dom in item["url"] for dom in HIGH_VALUE_DOMAINS):
+    if any(dom in url for dom in HIGH_VALUE_DOMAINS):
         score += 3
 
-    age_hours = (now_utc() - item["published"]).total_seconds() / 3600
-    if age_hours < 12:
+    # Freshness
+    age = hours_old(item["published"])
+    if age < 12:
         score += 2
-    elif age_hours < 24:
+    elif age < 24:
         score += 1
 
+    # Small penalty for finance-y articles
+    if any(kw in title for kw in NEGATIVE_KEYWORDS):
+        score -= 3
+
     return score
+
+# --------------------------------------------------
+# Selection with source cap + paper guarantee
+# --------------------------------------------------
+
+def select_top_items(enriched: List[Dict], debug: Dict) -> List[Dict]:
+    enriched_sorted = sorted(enriched, key=lambda x: x["score"], reverse=True)
+
+    # Apply source cap first
+    selected = []
+    per_source = {}
+    for item in enriched_sorted:
+        src = item["source"]["name"]
+        if per_source.get(src, 0) >= MAX_PER_SOURCE:
+            continue
+        selected.append(item)
+        per_source[src] = per_source.get(src, 0) + 1
+        if len(selected) >= MAX_ITEMS:
+            break
+
+    # Optional: ensure at least one paper/preprint if available
+    if REQUIRE_AT_LEAST_ONE_PAPER:
+        has_paper = any(is_paper_like(it["kind"]) for it in selected)
+        if not has_paper:
+            best_paper = None
+            for it in enriched_sorted:
+                if is_paper_like(it["kind"]):
+                    # respect source cap if swapped in
+                    src = it["source"]["name"]
+                    if per_source.get(src, 0) >= MAX_PER_SOURCE:
+                        continue
+                    best_paper = it
+                    break
+            if best_paper:
+                # Replace the lowest-scoring non-paper (prefer news/company)
+                non_papers = [it for it in selected if not is_paper_like(it["kind"])]
+                if non_papers:
+                    to_remove = sorted(non_papers, key=lambda x: x["score"])[0]
+                    selected.remove(to_remove)
+                    per_source[to_remove["source"]["name"]] -= 1
+                    selected.append(best_paper)
+                    per_source[best_paper["source"]["name"]] = per_source.get(best_paper["source"]["name"], 0) + 1
+                    # keep deterministic order (score desc)
+                    selected = sorted(selected, key=lambda x: x["score"], reverse=True)
+                    debug["paper_guarantee_applied"] = True
+                    debug["paper_inserted_url"] = best_paper["source"]["url"]
+                    debug["paper_replaced_url"] = to_remove["source"]["url"]
+
+    debug["selection_source_counts"] = per_source
+    debug["selected_count"] = len(selected)
+    return selected
 
 # --------------------------------------------------
 # LLM formatting
@@ -204,7 +322,10 @@ def load_prompt() -> str:
         return f.read()
 
 def format_with_openai(items: List[Dict], today: str) -> Dict:
-    client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise RuntimeError("Missing OPENAI_API_KEY environment variable")
+    client = OpenAI(api_key=api_key)
     prompt = load_prompt()
 
     payload = {
@@ -230,66 +351,148 @@ def format_with_openai(items: List[Dict], today: str) -> Dict:
 def main():
     today = now_utc().date().isoformat()
 
-    rss_feeds = load_rss_feeds()
-    rss_items = collect_rss_items(rss_feeds)
+    debug: Dict = {
+        "date": today,
+        "window_hours": WINDOW_HOURS,
+        "max_items": MAX_ITEMS,
+        "max_per_source": MAX_PER_SOURCE,
+        "require_at_least_one_paper": REQUIRE_AT_LEAST_ONE_PAPER,
+        "rss_items_collected": 0,
+        "search_items_collected": 0,
+        "deduped_candidates": 0,
+        "fetched_ok": 0,
+        "fetched_dropped": 0,
+        "drop_reasons": {},
+        "paper_guarantee_applied": False
+    }
 
-    search_items = []
+    # 1) Collect RSS candidates
+    rss_feeds = load_rss_feeds()
+    debug["rss_feeds_count"] = len(rss_feeds)
+    rss_items = collect_rss_items(rss_feeds, debug)
+
+    # 2) Collect Search candidates (Tavily)
+    search_items: List[Dict] = []
+    search_errors: List[str] = []
     for q in TAVILY_QUERIES:
-        search_items.extend(tavily_search(q))
+        try:
+            items, err = tavily_search(q)
+            search_items.extend(items)
+            if err:
+                search_errors.append(err)
+        except Exception as e:
+            search_errors.append(f"exception:{type(e).__name__}")
+    debug["search_items_collected"] = len(search_items)
+    debug["search_errors"] = sorted(list(set(search_errors)))
 
     candidates = rss_items + search_items
 
-    # Deduplicate URLs
+    # 3) Deduplicate URLs
     seen = set()
     deduped = []
     for c in candidates:
-        if c["url"] not in seen:
-            seen.add(c["url"])
-            deduped.append(c)
-
-    enriched = []
-    for c in deduped:
-        text = fetch_article_text(c["url"])
-        if not text:
+        url = c.get("url")
+        if not url or url in seen:
             continue
+        seen.add(url)
+        deduped.append(c)
+    debug["deduped_candidates"] = len(deduped)
+
+    # 4) Fetch + score
+    enriched: List[Dict] = []
+    scored_preview: List[Dict] = []
+
+    for c in deduped:
+        text, drop_reason = fetch_article_text(c["url"])
+        if not text:
+            debug["fetched_dropped"] += 1
+            debug["drop_reasons"][drop_reason] = debug["drop_reasons"].get(drop_reason, 0) + 1
+            continue
+
+        debug["fetched_ok"] += 1
+        kind = detect_kind(c["url"], c["source"])
         score = score_item(c, text)
-        enriched.append({
-            "id": None,
+
+        item = {
             "headline": c["title"],
             "text": text,
             "score": score,
+            "kind": kind,
+            "age_hours": round(hours_old(c["published"]), 2),
             "source": {
                 "name": c["source"],
                 "url": c["url"],
                 "verified_date": c["published"].date().isoformat()
             }
+        }
+        enriched.append(item)
+
+        # keep small preview for debug (top 50 later)
+        scored_preview.append({
+            "headline": c["title"],
+            "url": c["url"],
+            "source": c["source"],
+            "kind": kind,
+            "age_hours": round(hours_old(c["published"]), 2),
+            "score": score
         })
 
-    top = sorted(enriched, key=lambda x: x["score"], reverse=True)[:MAX_ITEMS]
+    # 5) Select Top 5 with caps + paper guarantee
+    selected = select_top_items(enriched, debug)
 
+    # Build LLM input items
     llm_items = []
-    for i, t in enumerate(top, 1):
+    for i, t in enumerate(selected, 1):
         llm_items.append({
             "id": str(i),
             "headline": t["headline"],
             "text": t["text"],
-            "source": t["source"]
+            "source": t["source"],
+            "kind": t["kind"]
         })
 
+    # 6) Format JSON with OpenAI (or empty)
     if llm_items:
         output = format_with_openai(llm_items, today)
     else:
         output = {"date": today, "items": []}
 
+    # 7) Write outputs
     BRIEFINGS_DIR.mkdir(exist_ok=True)
-    archive_dir = BRIEFINGS_DIR / "archive"
-    archive_dir.mkdir(exist_ok=True)
+    (BRIEFINGS_DIR / "archive").mkdir(exist_ok=True)
 
     with open(BRIEFINGS_DIR / "latest.json", "w") as f:
         json.dump(output, f, indent=2)
 
-    with open(archive_dir / f"{today}.json", "w") as f:
+    with open(BRIEFINGS_DIR / "archive" / f"{today}.json", "w") as f:
         json.dump(output, f, indent=2)
+
+    # 8) Write debug outputs
+    DEBUG_DIR.mkdir(exist_ok=True)
+    DEBUG_ARCHIVE_DIR.mkdir(exist_ok=True)
+
+    # Store a ranked preview list (top 50 by score)
+    scored_preview_sorted = sorted(scored_preview, key=lambda x: x["score"], reverse=True)[:50]
+    debug["scored_preview_top50"] = scored_preview_sorted
+
+    # Store selected list (for transparency)
+    debug["selected_items"] = [
+        {
+            "headline": x["headline"],
+            "url": x["source"]["url"],
+            "source": x["source"]["name"],
+            "kind": x["kind"],
+            "age_hours": x["age_hours"],
+            "score": x["score"],
+        }
+        for x in selected
+    ]
+
+    with open(DEBUG_DIR / "latest_debug.json", "w") as f:
+        json.dump(debug, f, indent=2)
+
+    with open(DEBUG_ARCHIVE_DIR / f"{today}_debug.json", "w") as f:
+        json.dump(debug, f, indent=2)
 
 
 if __name__ == "__main__":

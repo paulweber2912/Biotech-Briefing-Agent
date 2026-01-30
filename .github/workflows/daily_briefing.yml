@@ -38,6 +38,6 @@ jobs:
         run: |
           git config user.name "biotech-briefing-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add briefings/latest.json briefings/archive/*.json
+          git add briefings/latest.json briefings/archive/*.json briefings/debug/*.json briefings/debug/archive/*.json
           git commit -m "🔬 Update daily biotech briefing" || echo "No changes to commit"
           git push
