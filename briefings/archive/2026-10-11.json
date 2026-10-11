@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-11",
+  "items": [
+    {
+      "id": "1",
+      "headline": "A Single Blood Lipid Could Tell Two Deadly Liver Cancers Apart",
+      "preview": "A new study identifies a lipid biomarker that distinguishes between two types of liver cancer.",
+      "article": "Liver cancer presents a significant diagnostic challenge, particularly in differentiating intrahepatic cholangiocarcinoma (ICC) from hepatocellular carcinoma (HCC). A recent study published in BMC Cancer indicates that a specific sphingomyelin species, SM (30:1; O2), is elevated in ICC and decreased in HCC, potentially offering a new diagnostic tool.\nWhy this matters: Accurate differentiation between these cancers is crucial for effective treatment planning, as they respond differently to therapies. The study's findings suggest that analyzing blood lipids could enhance preoperative diagnostics, leading to better patient outcomes.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/a-single-blood-lipid-could-tell-two-deadly-liver-cancers-apart/",
+          "type": "news",
+          "verified_date": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Blood Thinner Showdown: Rivaroxaban Edges Out Warfarin for Young Heart Patients",
+      "preview": "A trial shows rivaroxaban may be a safer alternative to warfarin for young patients post-surgery.",
+      "article": "A recent randomized controlled trial compared rivaroxaban with warfarin in young patients after pulmonary valve replacement. Conducted in Isfahan, Iran, the study found no thromboembolic events in either group, but patients on rivaroxaban reported significantly higher satisfaction due to the lack of routine monitoring.\nWhy this matters: This trial suggests that rivaroxaban could simplify anticoagulation management in pediatric patients, potentially improving adherence and outcomes in a population that often struggles with the complexities of warfarin therapy.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/blood-thinner-showdown-rivaroxaban-edges-out-warfarin-for-young-heart-patients/",
+          "type": "news",
+          "verified_date": "2026-10-11"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "FDA review docs spark Revolution sell-off; Zealand diabetes data underwhelm analysts",
+      "preview": "Recent FDA documents impact Revolution Medicines' stock, while Zealand Pharma's trial results disappoint.",
+      "article": "Revolution Medicines experienced a 6% drop in shares following FDA review documents indicating that their pancreatic cancer drug, Rasonque, may be less effective for certain patient mutations. Meanwhile, Zealand Pharma's petrelintide showed modest weight loss and blood sugar reduction in a Phase 2 trial, leading analysts to predict limited use.\nWhy this matters: The mixed results from these companies highlight the challenges in drug efficacy and market expectations, impacting investor confidence and future development strategies.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/rasonque-fda-zealand-tukysa-ultragenyx-tcgx-china/832492/",
+          "type": "news",
+          "verified_date": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "FuChi is a cell cycle biosensor for tracking cell cycle dynamics during avian development",
+      "preview": "A new biosensor enables real-time tracking of cell cycle phases in chicken embryos.",
+      "article": "The FuChi biosensor, developed for avian species, allows for the monitoring of cell cycle dynamics in live chicken embryos. This advancement builds on previous Fucci technology, enabling researchers to visualize and analyze cell proliferation across various developmental stages.\nWhy this matters: FuChi represents a significant step forward in developmental biology, providing a powerful tool for studying cell cycle kinetics and their implications in growth and disease processes.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004036",
+          "type": "paper",
+          "verified_date": "2026-10-09"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "After \u2018reset year,\u2019 CSL builds in nephrology via Alentis deal",
+      "preview": "CSL invests $355 million in Alentis to enhance its nephrology portfolio.",
+      "article": "CSL has announced a $355 million upfront payment to Alentis for rights to lixudebart, an antibody in Phase II development for treating ANCA-associated vasculitis. This move is part of CSL's strategy to strengthen its nephrology franchise following a challenging period.\nWhy this matters: The investment reflects CSL's commitment to expanding its product offerings in nephrology, potentially addressing unmet medical needs in this area.",
+      "sources": [
+        {
+          "name": "BioCentury",
+          "url": "https://www.biocentury.com/article/661073/after-reset-year-csl-builds-in-nephrology-via-alentis-deal?utm_source=bc_rss&utm_medium=rss",
+          "type": "news",
+          "verified_date": "2026-10-09"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,630 @@
+{
+  "date": "2026-10-11",
+  "window_hours": 48,
+  "max_items": 5,
+  "max_per_source": 2,
+  "require_at_least_one_paper": true,
+  "rss_items_collected": 55,
+  "search_items_collected": 0,
+  "deduped_candidates": 55,
+  "fetched_ok": 29,
+  "fetched_dropped": 26,
+  "drop_reasons": {
+    "fetch_failed": 11,
+    "text_too_short_or_teaser": 15
+  },
+  "paper_guarantee_applied": false,
+  "rss_feeds_count": 43,
+  "rss_per_feed": [
+    {
+      "feed_url": "https://www.nature.com/subjects/biotechnology.rss",
+      "feed_title": "Biotechnology : nature.com subject feeds",
+      "items_total": 30,
+      "items_in_window": 10
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/gene-therapy.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/cell-therapies.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/cancer-therapy.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.nature.com/nm.rss.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.science.org/rss/news_current.xml",
+      "feed_title": "Latest News from Science Magazine",
+      "items_total": 10,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/cell/current.rss?code=cell-site",
+      "feed_title": "Cell",
+      "items_total": 22,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/cell/inpress.rss?code=cell-site",
+      "feed_title": "Cell",
+      "items_total": 64,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/immunity/current.rss?code=cell-site",
+      "feed_title": "Immunity",
+      "items_total": 19,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/cancer-cell/current.rss?code=cell-site",
+      "feed_title": "Cancer Cell",
+      "items_total": 21,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/rssfeed/molecular-therapy-family",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://rupress.org/rss/site_1000001.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://journals.plos.org/plosbiology/feed/atom",
+      "feed_title": "PLOS Biology",
+      "items_total": 30,
+      "items_in_window": 3
+    },
+    {
+      "feed_url": "https://www.biorxiv.org/rss/latest.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://connect.biorxiv.org/medrxiv/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.tctjournal.org/current.rss?code=ybmt-site",
+      "feed_title": "Transplantation and Cellular Therapy, Official Publication of the American Society for Transplantation and Cellular Therapy",
+      "items_total": 240,
+      "items_in_window": 1
+    },
+    {
+      "feed_url": "https://www.stemcellsciencenews.com/feed/",
+      "feed_title": "Science News",
+      "items_total": 11,
+      "items_in_window": 11
+    },
+    {
+      "feed_url": "https://globalstemcelltherapy.com/blog/feed/",
+      "feed_title": "Blog \u2013 Global Stem Cell Therapy",
+      "items_total": 12,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.fiercebiotech.com/rss/biotech",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.biopharmadive.com/feeds/news/",
+      "feed_title": "BioPharma Dive - Latest News",
+      "items_total": 10,
+      "items_in_window": 2
+    },
+    {
+      "feed_url": "https://endpts.com/feed/",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.statnews.com/category/biotech/feed/",
+      "feed_title": "STAT Biotech news: Market-moving coverage of drug development",
+      "items_total": 20,
+      "items_in_window": 1
+    },
+    {
+      "feed_url": "https://feeds.feedburner.com/GenGengNews",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "http://rss.biospace.com/news.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://bio.news/feed",
+      "feed_title": "Bio.News",
+      "items_total": 10,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://labiotech.eu/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://european-biotechnology.com/feed",
+      "feed_title": "European Biotechnology Magazine",
+      "items_total": 10,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://bioengineer.org/feed",
+      "feed_title": "BIOENGINEER.ORG",
+      "items_total": 20,
+      "items_in_window": 20
+    },
+    {
+      "feed_url": "https://biotechexpressmag.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://biotecnika.org/category/biotech/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://lifescivc.com/feed",
+      "feed_title": "LifeSciVC",
+      "items_total": 20,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://decodingbio.substack.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://sarahconstantin.substack.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://biocentury.com/rss/BioCentury",
+      "feed_title": "BioCentury",
+      "items_total": 50,
+      "items_in_window": 4
+    },
+    {
+      "feed_url": "https://biotechniques.com/feed",
+      "feed_title": "BioTechniques",
+      "items_total": 10,
+      "items_in_window": 1
+    },
+    {
+      "feed_url": "https://www.ema.europa.eu/en/news-events/rss-feeds?feed=press-releases",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.fda.gov/about-fda/what-we-do/rss-feeds",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://clinicaltrials.gov/ct2/rss/news.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.vfa.de/vfa.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.bvmed.de/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.sciencedaily.com/rss/feeds/biotechnology_and_bioengineering.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://phys.org/rss-feed/biology-news/biotechnology/",
+      "feed_title": "Biotechnology News - Biology News",
+      "items_total": 30,
+      "items_in_window": 2
+    },
+    {
+      "feed_url": "https://www.biologynews.net/rss.php",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    }
+  ],
+  "search_errors": [],
+  "selection_source_counts": {
+    "BIOENGINEER.ORG": 2,
+    "BioPharma Dive - Latest News": 1,
+    "PLOS Biology": 1,
+    "BioCentury": 1
+  },
+  "selected_count": 5,
+  "scored_preview_top50": [
+    {
+      "headline": "A Single Blood Lipid Could Tell Two Deadly Liver Cancers Apart",
+      "url": "https://bioengineer.org/a-single-blood-lipid-could-tell-two-deadly-liver-cancers-apart/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.99,
+      "score": 12
+    },
+    {
+      "headline": "Blood Thinner Showdown: Rivaroxaban Edges Out Warfarin for Young Heart Patients",
+      "url": "https://bioengineer.org/blood-thinner-showdown-rivaroxaban-edges-out-warfarin-for-young-heart-patients/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.81,
+      "score": 11
+    },
+    {
+      "headline": "FDA review docs spark Revolution sell-off; Zealand diabetes data underwhelm analysts",
+      "url": "https://www.biopharmadive.com/news/rasonque-fda-zealand-tukysa-ultragenyx-tcgx-china/832492/",
+      "source": "BioPharma Dive - Latest News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 44.65,
+      "score": 10
+    },
+    {
+      "headline": "Springer Nature Honours Standout Editors of BMC Pharmacology and Toxicology for 2026",
+      "url": "https://bioengineer.org/springer-nature-honours-standout-editors-of-bmc-pharmacology-and-toxicology-for-2026-4/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.52,
+      "score": 10
+    },
+    {
+      "headline": "Fungi from Abandoned Phosphate Mines Unlock Soil Phosphorus and Boost Crop Yields",
+      "url": "https://bioengineer.org/fungi-from-abandoned-phosphate-mines-unlock-soil-phosphorus-and-boost-crop-yields/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.81,
+      "score": 10
+    },
+    {
+      "headline": "Parasitic Worm Infection Blunts T Cell Responses to SARS-CoV-2, Gabon Study Finds",
+      "url": "https://bioengineer.org/parasitic-worm-infection-blunts-t-cell-responses-to-sars-cov-2-gabon-study-finds/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.81,
+      "score": 10
+    },
+    {
+      "headline": "Sliding Robot Could Feed Induction Furnaces Faster and Keep Workers Safe",
+      "url": "https://bioengineer.org/sliding-robot-could-feed-induction-furnaces-faster-and-keep-workers-safe/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.84,
+      "score": 10
+    },
+    {
+      "headline": "Standard Genetic Tests Misread Hybridization Between Human and Livestock Schistosomes",
+      "url": "https://bioengineer.org/standard-genetic-tests-misread-hybridization-between-human-and-livestock-schistosomes/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.86,
+      "score": 9
+    },
+    {
+      "headline": "FuChi is a cell cycle biosensor for tracking cell cycle dynamics during avian development",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004036",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 45.94,
+      "score": 8
+    },
+    {
+      "headline": "Tiny Cellular Shuttles Drive Aging in Chronic Lung Disease, Review Finds",
+      "url": "https://bioengineer.org/tiny-cellular-shuttles-drive-aging-in-chronic-lung-disease-review-finds/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.35,
+      "score": 7
+    },
+    {
+      "headline": "Algorithm Matches Human Experts in Reading Key Fitness Threshold From Exercise Tests",
+      "url": "https://bioengineer.org/algorithm-matches-human-experts-in-reading-key-fitness-threshold-from-exercise-tests/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.52,
+      "score": 7
+    },
+    {
+      "headline": "Neural Networks Tame the Chaos of Multilevel Wind Power Converters",
+      "url": "https://bioengineer.org/neural-networks-tame-the-chaos-of-multilevel-wind-power-converters/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.81,
+      "score": 7
+    },
+    {
+      "headline": "Airway Proteins in First Week of Life Predict Severity of Preterm Lung Disease",
+      "url": "https://bioengineer.org/airway-proteins-in-first-week-of-life-predict-severity-of-preterm-lung-disease/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.9,
+      "score": 7
+    },
+    {
+      "headline": "AI Reads Patents to Map Which Firms Are Technological Rivals",
+      "url": "https://bioengineer.org/ai-reads-patents-to-map-which-firms-are-technological-rivals/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.98,
+      "score": 7
+    },
+    {
+      "headline": "Ancient Rice Landraces Outshine Modern Varieties in Grain Quality Trial",
+      "url": "https://bioengineer.org/ancient-rice-landraces-outshine-modern-varieties-in-grain-quality-trial/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 1.02,
+      "score": 7
+    },
+    {
+      "headline": "After \u2018reset year,\u2019 CSL\u00a0builds in nephrology via Alentis deal",
+      "url": "https://www.biocentury.com/article/661073/after-reset-year-csl-builds-in-nephrology-via-alentis-deal?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 38.12,
+      "score": 7
+    },
+    {
+      "headline": "Distillation Waste From Immortelle Plants Could Become Antioxidant-Rich Functional Teas",
+      "url": "https://bioengineer.org/distillation-waste-from-immortelle-plants-could-become-antioxidant-rich-functional-teas/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.99,
+      "score": 6
+    },
+    {
+      "headline": "Implicit sensorimotor adaptation comprises distinct mechanisms for action selection and execution",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004057",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 45.94,
+      "score": 5
+    },
+    {
+      "headline": "A histidine-mediated supramolecular mechanism links temperature and pH activation of the sperm channel CatSper",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003776",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 45.94,
+      "score": 5
+    },
+    {
+      "headline": "Researchers call for national consortium to battle agriculture cyber threats",
+      "url": "https://phys.org/news/2026-10-national-consortium-agriculture-cyber-threats.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 42.94,
+      "score": 5
+    },
+    {
+      "headline": "Malaria Model Reveals Only Combined Nets and Drugs Can Halt Transmission in Nigerian Children",
+      "url": "https://bioengineer.org/malaria-model-reveals-only-combined-nets-and-drugs-can-halt-transmission-in-nigerian-children/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.47,
+      "score": 4
+    },
+    {
+      "headline": "Brassinosteroid Treatment Rewires Kiwifruit Metabolism to Fight Gray Mold",
+      "url": "https://bioengineer.org/brassinosteroid-treatment-rewires-kiwifruit-metabolism-to-fight-gray-mold/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.58,
+      "score": 4
+    },
+    {
+      "headline": "Pakistani Nurses Know Infection Control Rules but Fail to Follow Them, Review Finds",
+      "url": "https://bioengineer.org/pakistani-nurses-know-infection-control-rules-but-fail-to-follow-them-review-finds/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.6,
+      "score": 4
+    },
+    {
+      "headline": "Exercise That Challenges the Brain Beats Simple Workouts for Early Memory Loss",
+      "url": "https://bioengineer.org/exercise-that-challenges-the-brain-beats-simple-workouts-for-early-memory-loss/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.73,
+      "score": 4
+    },
+    {
+      "headline": "Samarium Oxide Microspheres Dismantle Toxic Dye Even in Complete Darkness",
+      "url": "https://bioengineer.org/samarium-oxide-microspheres-dismantle-toxic-dye-even-in-complete-darkness/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.81,
+      "score": 4
+    },
+    {
+      "headline": "Giant Light Fluctuations Expose Hidden Correlations Inside Opaque Materials",
+      "url": "https://bioengineer.org/giant-light-fluctuations-expose-hidden-correlations-inside-opaque-materials/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.95,
+      "score": 4
+    },
+    {
+      "headline": "Digging up the thread of \u2018zombie\u2019 cell accumulation",
+      "url": "https://www.biotechniques.com/cell-and-tissue-biology/digging-up-the-thread-of-zombie-cell-accumulation/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 46.52,
+      "score": 3
+    },
+    {
+      "headline": "Fluorescent imaging tracks metabolism of cells in real time",
+      "url": "https://phys.org/news/2026-10-fluorescent-imaging-tracks-metabolism-cells.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 40.61,
+      "score": 3
+    },
+    {
+      "headline": "This week in charts: What\u2019s driving biotech\u2019s recent pullback?",
+      "url": "https://www.biopharmadive.com/news/biotech-charts-xbi-private-public-merger-acquisition-deals/832398/",
+      "source": "BioPharma Dive - Latest News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 45.48,
+      "score": 2
+    }
+  ],
+  "selected_items": [
+    {
+      "headline": "A Single Blood Lipid Could Tell Two Deadly Liver Cancers Apart",
+      "url": "https://bioengineer.org/a-single-blood-lipid-could-tell-two-deadly-liver-cancers-apart/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.99,
+      "score": 12
+    },
+    {
+      "headline": "Blood Thinner Showdown: Rivaroxaban Edges Out Warfarin for Young Heart Patients",
+      "url": "https://bioengineer.org/blood-thinner-showdown-rivaroxaban-edges-out-warfarin-for-young-heart-patients/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.81,
+      "score": 11
+    },
+    {
+      "headline": "FDA review docs spark Revolution sell-off; Zealand diabetes data underwhelm analysts",
+      "url": "https://www.biopharmadive.com/news/rasonque-fda-zealand-tukysa-ultragenyx-tcgx-china/832492/",
+      "source": "BioPharma Dive - Latest News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 44.65,
+      "score": 10
+    },
+    {
+      "headline": "FuChi is a cell cycle biosensor for tracking cell cycle dynamics during avian development",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004036",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 45.94,
+      "score": 8
+    },
+    {
+      "headline": "After \u2018reset year,\u2019 CSL\u00a0builds in nephrology via Alentis deal",
+      "url": "https://www.biocentury.com/article/661073/after-reset-year-csl-builds-in-nephrology-via-alentis-deal?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 38.12,
+      "score": 7
+    }
+  ]
+}
