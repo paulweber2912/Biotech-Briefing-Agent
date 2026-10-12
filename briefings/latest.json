@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-11",
+  "date": "2026-10-12",
   "items": [
     {
       "id": "1",
-      "headline": "A Single Blood Lipid Could Tell Two Deadly Liver Cancers Apart",
-      "preview": "A new study identifies a lipid biomarker that distinguishes between two types of liver cancer.",
-      "article": "Liver cancer presents a significant diagnostic challenge, particularly in differentiating intrahepatic cholangiocarcinoma (ICC) from hepatocellular carcinoma (HCC). A recent study published in BMC Cancer indicates that a specific sphingomyelin species, SM (30:1; O2), is elevated in ICC and decreased in HCC, potentially offering a new diagnostic tool.\nWhy this matters: Accurate differentiation between these cancers is crucial for effective treatment planning, as they respond differently to therapies. The study's findings suggest that analyzing blood lipids could enhance preoperative diagnostics, leading to better patient outcomes.",
+      "headline": "Large Randomized Trial Finds Proton Therapy Offers No Survival Advantage in Advanced Liver Cancer",
+      "preview": "A major trial reveals proton therapy does not improve survival for advanced liver cancer patients.",
+      "article": "A closely watched randomized clinical trial has concluded that proton beam radiation does not outperform conventional photon radiation in patients with advanced hepatocellular carcinoma. The Phase III NRG-GI003 study was halted after interim analysis indicated it was statistically implausible for proton therapy to demonstrate an overall survival advantage.\n\nWhy this matters: Hepatocellular carcinoma is a leading cause of cancer death, and the findings suggest that conventional photon radiation remains the standard treatment. The trial's results highlight the need for further research to identify specific patient subgroups that might benefit from proton therapy, despite the lack of overall survival benefit.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/a-single-blood-lipid-could-tell-two-deadly-liver-cancers-apart/",
+          "url": "https://bioengineer.org/large-randomized-trial-finds-proton-therapy-offers-no-survival-advantage-in-advanced-liver-cancer/",
           "type": "news",
-          "verified_date": "2026-10-11"
+          "verified_date": "2026-10-12"
         }
       ]
     },
     {
       "id": "2",
-      "headline": "Blood Thinner Showdown: Rivaroxaban Edges Out Warfarin for Young Heart Patients",
-      "preview": "A trial shows rivaroxaban may be a safer alternative to warfarin for young patients post-surgery.",
-      "article": "A recent randomized controlled trial compared rivaroxaban with warfarin in young patients after pulmonary valve replacement. Conducted in Isfahan, Iran, the study found no thromboembolic events in either group, but patients on rivaroxaban reported significantly higher satisfaction due to the lack of routine monitoring.\nWhy this matters: This trial suggests that rivaroxaban could simplify anticoagulation management in pediatric patients, potentially improving adherence and outcomes in a population that often struggles with the complexities of warfarin therapy.",
+      "headline": "Sound Waves That Shatter Tumors: New Review Maps the Safety Record of Histotripsy",
+      "preview": "A systematic review assesses the safety of histotripsy, a non-invasive tumor destruction technique.",
+      "article": "Histotripsy is a technique that uses focused ultrasound to destroy tumors without incisions or heat. A new systematic review highlights its acute safety record while also noting serious adverse events associated with the cavitation mechanism. The review analyzed 141 studies, primarily focusing on liver tumors, and found a 6% incidence of serious adverse events.\n\nWhy this matters: As histotripsy technology advances, understanding its safety profile is crucial for its adoption in clinical settings. The review emphasizes the need for rigorous reporting and long-term follow-up to ensure patient safety as the technique expands to treat various tumors.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/blood-thinner-showdown-rivaroxaban-edges-out-warfarin-for-young-heart-patients/",
+          "url": "https://bioengineer.org/sound-waves-that-shatter-tumors-new-review-maps-the-safety-record-of-histotripsy/",
           "type": "news",
-          "verified_date": "2026-10-11"
+          "verified_date": "2026-10-12"
         }
       ]
     },
     {
       "id": "3",
-      "headline": "FDA review docs spark Revolution sell-off; Zealand diabetes data underwhelm analysts",
-      "preview": "Recent FDA documents impact Revolution Medicines' stock, while Zealand Pharma's trial results disappoint.",
-      "article": "Revolution Medicines experienced a 6% drop in shares following FDA review documents indicating that their pancreatic cancer drug, Rasonque, may be less effective for certain patient mutations. Meanwhile, Zealand Pharma's petrelintide showed modest weight loss and blood sugar reduction in a Phase 2 trial, leading analysts to predict limited use.\nWhy this matters: The mixed results from these companies highlight the challenges in drug efficacy and market expectations, impacting investor confidence and future development strategies.",
+      "headline": "What\u2019s next for argenx, Europe\u2019s autoimmune breakthrough?",
+      "preview": "CEO Karen Massey discusses argenx's future in autoimmune disease treatments and innovations.",
+      "article": "Belgium's argenx has gained recognition for its autoimmune drug Vyvgart, and CEO Karen Massey outlines plans for future growth. The company aims to address unmet needs in autoimmune diseases through innovative therapies and partnerships. Massey emphasizes the importance of patient-focused approaches in drug development and the potential for new oral formulations.\n\nWhy this matters: With a strong pipeline and recent acquisitions, argenx is positioned to expand its impact in treating autoimmune conditions, potentially transforming patient care in this field.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/news/rasonque-fda-zealand-tukysa-ultragenyx-tcgx-china/832492/",
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/background/whats-next-for-argenx-europes-autoimmune-breakthrough/",
           "type": "news",
-          "verified_date": "2026-10-09"
+          "verified_date": "2026-10-12"
         }
       ]
     },
     {
       "id": "4",
-      "headline": "FuChi is a cell cycle biosensor for tracking cell cycle dynamics during avian development",
-      "preview": "A new biosensor enables real-time tracking of cell cycle phases in chicken embryos.",
-      "article": "The FuChi biosensor, developed for avian species, allows for the monitoring of cell cycle dynamics in live chicken embryos. This advancement builds on previous Fucci technology, enabling researchers to visualize and analyze cell proliferation across various developmental stages.\nWhy this matters: FuChi represents a significant step forward in developmental biology, providing a powerful tool for studying cell cycle kinetics and their implications in growth and disease processes.",
+      "headline": "Desentum secures \u20ac28M for faster allergy immunotherapy",
+      "preview": "Finnish biotech Desentum raises \u20ac28 million to advance allergy immunotherapy programs.",
+      "article": "Desentum has successfully raised \u20ac28 million to support its allergy immunotherapy programs, including its lead candidate DM-101PX for birch pollen allergies. The funding will help advance clinical trials aimed at reducing treatment duration and improving patient outcomes.\n\nWhy this matters: Desentum's innovative approach to allergy treatment could significantly enhance patient experiences by shortening the time required for immunotherapy, addressing a major barrier in allergy management.",
       "sources": [
         {
-          "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004036",
-          "type": "paper",
-          "verified_date": "2026-10-09"
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/desentum-secures-e28m-for-faster-allergy-immunotherapy/",
+          "type": "news",
+          "verified_date": "2026-10-12"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "After \u2018reset year,\u2019 CSL builds in nephrology via Alentis deal",
-      "preview": "CSL invests $355 million in Alentis to enhance its nephrology portfolio.",
-      "article": "CSL has announced a $355 million upfront payment to Alentis for rights to lixudebart, an antibody in Phase II development for treating ANCA-associated vasculitis. This move is part of CSL's strategy to strengthen its nephrology franchise following a challenging period.\nWhy this matters: The investment reflects CSL's commitment to expanding its product offerings in nephrology, potentially addressing unmet medical needs in this area.",
+      "headline": "Can we grow accurate biological versions of human embryos?",
+      "preview": "Researchers develop a framework to assess lab-grown embryo models against real human embryos.",
+      "article": "Researchers at the University of Sydney have created a computational framework to evaluate how closely lab-grown models resemble real human embryos. The study found that while some models capture aspects of early development well, none fully replicate the complexity of natural embryos.\n\nWhy this matters: This research provides a benchmark for improving embryo models, which could enhance our understanding of early human development and fertility, while also addressing ethical concerns surrounding embryo research.",
       "sources": [
         {
-          "name": "BioCentury",
-          "url": "https://www.biocentury.com/article/661073/after-reset-year-csl-builds-in-nephrology-via-alentis-deal?utm_source=bc_rss&utm_medium=rss",
+          "name": "BioTechniques",
+          "url": "https://www.biotechniques.com/computational-biology/can-we-grow-accurate-biological-versions-of-human-embryos/",
           "type": "news",
-          "verified_date": "2026-10-09"
+          "verified_date": "2026-10-12"
         }
       ]
     }
