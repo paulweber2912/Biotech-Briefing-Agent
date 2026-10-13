@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-13",
+  "items": [
+    {
+      "id": "1",
+      "headline": "From Dish to Living Brain: How Lab-Grown Human Microglia Are Rewriting Neuroimmune Research",
+      "preview": "A new review highlights advancements in studying human microglia using stem cell technology.",
+      "article": "Microglia, the immune cells of the brain, play crucial roles in neurodevelopment and disease. Traditional methods of studying these cells have been limited by the use of rodent models or isolated human cells that quickly lose their characteristics. A comprehensive review by researchers from Korea University discusses how human pluripotent stem cells are being used to create more accurate models of microglia, including organoids and chimeric mice.\n\nWhy this matters: These advancements could lead to better understanding and treatment of neurodegenerative diseases like Alzheimer's, as they allow for more relevant biological insights that were previously unattainable with conventional models.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/from-dish-to-living-brain-how-lab-grown-human-microglia-are-rewriting-neuroimmune-research/",
+          "type": "news",
+          "verified_date": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Sequencing Revolution Races to Rescue the World\u2019s Fruits and Vegetables",
+      "preview": "Next-generation sequencing is transforming horticultural crop breeding, but challenges remain.",
+      "article": "A new review emphasizes the potential of next-generation sequencing technologies to enhance the breeding of horticultural crops, which are often difficult to improve through traditional methods. The authors argue that while sequencing technology has advanced, the real challenge lies in bioinformatics and translating data into actionable breeding decisions.\n\nWhy this matters: Addressing these challenges could significantly improve the genetic and genomic characterization of horticultural crops, ultimately leading to better food security and crop resilience.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/sequencing-revolution-races-to-rescue-the-worlds-fruits-and-vegetables/",
+          "type": "news",
+          "verified_date": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Bacterial antiviral defense suggests ancient link to human chromosome protection",
+      "preview": "A newly discovered bacterial system may inform future gene editing and cancer therapies.",
+      "article": "Columbia scientists have identified a novel antiviral defense system in bacteria, named DRT10, which utilizes reverse transcriptase to protect against viruses. This system's mechanism bears similarities to telomerase, an enzyme crucial for maintaining chromosome integrity in higher organisms, suggesting a shared evolutionary origin.\n\nWhy this matters: Understanding DRT10 could lead to innovative gene editing tools and therapeutic strategies for age-related diseases and cancer, highlighting the potential of basic research to inform clinical applications.",
+      "sources": [
+        {
+          "name": "Biotechnology News - Biology News",
+          "url": "https://phys.org/news/2026-10-bacterial-antiviral-defense-ancient-link.html",
+          "type": "news",
+          "verified_date": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "The Cryptococcus neoformans titanide is a pathogenic cell type that arises from typical yeast cells in response to host conditions",
+      "preview": "New research characterizes a distinct cell type in Cryptococcus neoformans linked to virulence.",
+      "article": "Researchers have identified a new cell type in the fungal pathogen Cryptococcus neoformans, termed titanides, which arise from typical yeast cells under specific host conditions. These titanides exhibit unique morphological features and play a significant role in the pathogen's ability to evade the immune system and resist treatment.\n\nWhy this matters: Understanding the biology of titanides could provide insights into the pathogenicity of C. neoformans and inform strategies for treating infections caused by this opportunistic pathogen.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004031",
+          "type": "paper",
+          "verified_date": "2026-10-12"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "BIO supports retaining current vaccine recommendation categories",
+      "preview": "BIO advocates for maintaining existing vaccine recommendation structures by ACIP.",
+      "article": "The Biotechnology Innovation Organization (BIO) has submitted comments to the Department of Health and Human Services, urging the retention of current vaccine recommendation categories established by the Advisory Committee on Immunization Practices (ACIP). BIO emphasizes the importance of clear communication and access to vaccines, arguing that changes to these categories could impact patient access and insurance coverage.\n\nWhy this matters: Maintaining the current framework ensures that vaccines remain accessible to the populations that need them, supporting public health initiatives and vaccination efforts.",
+      "sources": [
+        {
+          "name": "Bio.News",
+          "url": "https://bio.news/federal-policy/bio-supports-retaining-current-vaccine-recommendation-categories/",
+          "type": "news",
+          "verified_date": "2026-10-13"
+        }
+      ]
+    }
+  ]
+}
