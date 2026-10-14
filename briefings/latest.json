@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-13",
+  "date": "2026-10-14",
   "items": [
     {
       "id": "1",
-      "headline": "From Dish to Living Brain: How Lab-Grown Human Microglia Are Rewriting Neuroimmune Research",
-      "preview": "A new review highlights advancements in studying human microglia using stem cell technology.",
-      "article": "Microglia, the immune cells of the brain, play crucial roles in neurodevelopment and disease. Traditional methods of studying these cells have been limited by the use of rodent models or isolated human cells that quickly lose their characteristics. A comprehensive review by researchers from Korea University discusses how human pluripotent stem cells are being used to create more accurate models of microglia, including organoids and chimeric mice.\n\nWhy this matters: These advancements could lead to better understanding and treatment of neurodegenerative diseases like Alzheimer's, as they allow for more relevant biological insights that were previously unattainable with conventional models.",
+      "headline": "Lundbeck starts Phase 2; Rewind secures funding; Beactica picks a degrader",
+      "preview": "Lundbeck begins Phase 2 trial for Parkinson's; Rewind secures funding for MS treatment.",
+      "article": "Lundbeck has initiated Phase 2 testing of Lu AF28996 for advanced Parkinson's disease, following promising Phase 1b results. The trial will enroll around 150 adults to confirm efficacy after initial findings showed improved motor control and reduced levodopa use.\n\nRewind Therapeutics has secured funding to advance its oral GPR17 antagonist aimed at myelin repair in multiple sclerosis. The funding will support necessary studies before clinical trials, addressing a gap in existing MS treatments that do not restore lost myelin.\n\nBeactica Therapeutics has selected BEA-28 for preclinical development, targeting TEAD proteins involved in tumor growth. The compound has shown tumor regression in mouse models and plans for biomarker-guided development and combination therapies are underway. Why this matters: These advancements highlight ongoing efforts in neurological and cancer therapies, with potential significant impacts on patient care.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/from-dish-to-living-brain-how-lab-grown-human-microglia-are-rewriting-neuroimmune-research/",
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/",
           "type": "news",
           "verified_date": "2026-10-13"
         }
@@ -17,23 +17,37 @@
     },
     {
       "id": "2",
-      "headline": "Sequencing Revolution Races to Rescue the World\u2019s Fruits and Vegetables",
-      "preview": "Next-generation sequencing is transforming horticultural crop breeding, but challenges remain.",
-      "article": "A new review emphasizes the potential of next-generation sequencing technologies to enhance the breeding of horticultural crops, which are often difficult to improve through traditional methods. The authors argue that while sequencing technology has advanced, the real challenge lies in bioinformatics and translating data into actionable breeding decisions.\n\nWhy this matters: Addressing these challenges could significantly improve the genetic and genomic characterization of horticultural crops, ultimately leading to better food security and crop resilience.",
+      "headline": "BioNTech\u2019s mRNA cancer vaccine misses Phase 2/3 endpoint",
+      "preview": "BioNTech's BNT113 fails to improve progression-free survival in head and neck cancer trial.",
+      "article": "BioNTech's BNT113, when combined with Keytruda, did not significantly enhance progression-free survival in a Phase 2/3 trial for head and neck cancer. The trial will continue to evaluate overall survival as a secondary endpoint.\n\nThis outcome raises concerns for BioNTech's mRNA cancer immunotherapy strategy, although the ongoing trial may still yield positive results through overall survival metrics. BNT113 targets HPV16 proteins to elicit a T-cell response against cancer cells, and the study's continuation could provide further insights into its efficacy. Why this matters: The results underscore the challenges faced by mRNA cancer therapies and the need for continued evaluation of their clinical benefits.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/sequencing-revolution-races-to-rescue-the-worlds-fruits-and-vegetables/",
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/biontechs-mrna-cancer-vaccine-misses-phase-2-3-endpoint/",
           "type": "news",
-          "verified_date": "2026-10-13"
+          "verified_date": "2026-10-14"
         }
       ]
     },
     {
       "id": "3",
+      "headline": "New gene editing system offers promising CRISPR alternative",
+      "preview": "A new gene editing system shows potential for improved applications in various organisms.",
+      "article": "Researchers have developed a new engineered gene editing system that addresses limitations of current tools like CRISPR. This system, tested in bacteria, could enhance applications in plants, animals, and humans by allowing for the integration of larger DNA sequences.\n\nThe new technique, described in Molecular Cell, enables precise modifications, reducing the risk of incorrect DNA insertions. This advancement could significantly impact genetic engineering, particularly for diseases involving larger DNA segments. Why this matters: The development of this system could lead to more effective gene editing strategies, expanding the possibilities for research and therapeutic applications.",
+      "sources": [
+        {
+          "name": "BioTechniques",
+          "url": "https://www.biotechniques.com/genetic-engineering/new-gene-editing-system-offers-promising-crispr-alternative/",
+          "type": "news",
+          "verified_date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "4",
       "headline": "Bacterial antiviral defense suggests ancient link to human chromosome protection",
-      "preview": "A newly discovered bacterial system may inform future gene editing and cancer therapies.",
-      "article": "Columbia scientists have identified a novel antiviral defense system in bacteria, named DRT10, which utilizes reverse transcriptase to protect against viruses. This system's mechanism bears similarities to telomerase, an enzyme crucial for maintaining chromosome integrity in higher organisms, suggesting a shared evolutionary origin.\n\nWhy this matters: Understanding DRT10 could lead to innovative gene editing tools and therapeutic strategies for age-related diseases and cancer, highlighting the potential of basic research to inform clinical applications.",
+      "preview": "Discovery of DRT10 may lead to new gene editing tools and insights into aging.",
+      "article": "Columbia scientists have discovered a new bacterial antiviral defense system called DRT10, which could inform future gene editing technologies aimed at improving cancer therapies and slowing aging. Unlike CRISPR, DRT10 uses reverse transcriptase to synthesize DNA, presenting a novel approach to genome engineering.\n\nThe study reveals a potential evolutionary link between DRT10 and telomerase, an enzyme crucial for maintaining chromosome integrity in higher organisms. This connection may open avenues for addressing diseases related to telomere maintenance. Why this matters: Understanding DRT10 could lead to innovative therapeutic strategies and deepen our knowledge of evolutionary biology.",
       "sources": [
         {
           "name": "Biotechnology News - Biology News",
@@ -44,29 +58,15 @@
       ]
     },
     {
-      "id": "4",
-      "headline": "The Cryptococcus neoformans titanide is a pathogenic cell type that arises from typical yeast cells in response to host conditions",
-      "preview": "New research characterizes a distinct cell type in Cryptococcus neoformans linked to virulence.",
-      "article": "Researchers have identified a new cell type in the fungal pathogen Cryptococcus neoformans, termed titanides, which arise from typical yeast cells under specific host conditions. These titanides exhibit unique morphological features and play a significant role in the pathogen's ability to evade the immune system and resist treatment.\n\nWhy this matters: Understanding the biology of titanides could provide insights into the pathogenicity of C. neoformans and inform strategies for treating infections caused by this opportunistic pathogen.",
+      "id": "5",
+      "headline": "PrimeStack editors enable efficient and site-specific integration of large multigene cargos in plants",
+      "preview": "New PrimeStack platform achieves high-efficiency gene integration in rice.",
+      "article": "The PrimeStack platform has been developed to facilitate the precise integration of large DNA sequences into plant genomes, addressing a significant challenge in crop biotechnology. This DSB-independent method combines prime editing with serine integrase Bxb1 to enable the targeted insertion of multigene cassettes in rice.\n\nThe technology has demonstrated up to 45% efficiency in integrating large genetic payloads at predefined genomic safe harbors, paving the way for enhanced crop traits and sustainable biomanufacturing. Why this matters: PrimeStack represents a significant advancement in plant genetic engineering, potentially transforming agricultural practices and improving food security.",
       "sources": [
         {
           "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004031",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003778",
           "type": "paper",
-          "verified_date": "2026-10-12"
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "headline": "BIO supports retaining current vaccine recommendation categories",
-      "preview": "BIO advocates for maintaining existing vaccine recommendation structures by ACIP.",
-      "article": "The Biotechnology Innovation Organization (BIO) has submitted comments to the Department of Health and Human Services, urging the retention of current vaccine recommendation categories established by the Advisory Committee on Immunization Practices (ACIP). BIO emphasizes the importance of clear communication and access to vaccines, arguing that changes to these categories could impact patient access and insurance coverage.\n\nWhy this matters: Maintaining the current framework ensures that vaccines remain accessible to the populations that need them, supporting public health initiatives and vaccination efforts.",
-      "sources": [
-        {
-          "name": "Bio.News",
-          "url": "https://bio.news/federal-policy/bio-supports-retaining-current-vaccine-recommendation-categories/",
-          "type": "news",
           "verified_date": "2026-10-13"
         }
       ]
