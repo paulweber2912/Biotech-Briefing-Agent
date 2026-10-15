@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-15",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Cellular diversity in neural organoids is critical for neurodegenerative disease modeling",
+      "preview": "A new study emphasizes the importance of cellular diversity in neural organoids for modeling neurodegenerative diseases.",
+      "article": "Human induced pluripotent stem cell (iPSC)-derived organoids have transformed our ability to model human brain development and neurodevelopmental disorders. However, when applied to neurodegenerative diseases, the reductionist approach of focusing solely on neurons may overlook critical noncell-autonomous contributions to disease pathology.\n\nWhy this matters: The study argues for the inclusion of diverse cell types, such as microglia and endothelial cells, in organoid models to better replicate the complex interactions that drive neurodegeneration. This shift could enhance therapeutic discovery by addressing the broader biological context of these diseases.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004074",
+          "type": "paper",
+          "verified_date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "A systematic fluorescently tagged protein toolkit for dissecting apical extracellular matrix patterning in C. elegans",
+      "preview": "Researchers developed a toolkit of fluorescently tagged proteins to study the apical extracellular matrix in C. elegans.",
+      "article": "Barrier epithelia are shielded from the external environment by their apical extracellular matrices (aECMs). This study presents a toolkit of 105 fluorescently tagged aECM components generated through gene editing in C. elegans, aimed at understanding the organization of these complex matrices in vivo.\n\nWhy this matters: The toolkit allows researchers to dissect the molecular architecture of aECMs, providing insights into their roles in development and disease, and facilitating the study of their spatiotemporal patterning.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004059",
+          "type": "paper",
+          "verified_date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Lundbeck starts Phase 2; Rewind secures funding; Beactica picks a degrader",
+      "preview": "European biotech companies are making strides with new trials and funding in neurological and cancer treatments.",
+      "article": "Lundbeck has initiated Phase 2 testing of Lu AF28996 for Parkinson's disease, showing promising results in earlier trials. Rewind Therapeutics has secured funding to advance its myelin-repair program for multiple sclerosis. Beactica Therapeutics has selected BEA-28 for preclinical development targeting cancer.\n\nWhy this matters: These advancements highlight the ongoing innovation in biotech, particularly in addressing neurological disorders and cancer, which could lead to significant therapeutic breakthroughs.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/",
+          "type": "news",
+          "verified_date": "2026-10-13"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Compass Pathways CEO: Psychedelics company will \u2018go slow before we go fast\u2019",
+      "preview": "Compass Pathways emphasizes a cautious approach to launching its psychedelic therapy for depression.",
+      "article": "The CEO of Compass Pathways highlighted the importance of a careful rollout for its synthetic psilocybin treatment, COMP360, which is nearing FDA submission. The company aims to ensure positive experiences for patients and providers to avoid damaging the broader psychedelics sector.\n\nWhy this matters: As the psychedelics field approaches potential FDA approval, the emphasis on rigorous research and responsible marketing is crucial for establishing credibility and ensuring patient safety.",
+      "sources": [
+        {
+          "name": "STAT Biotech news: Market-moving coverage of drug development",
+          "url": "https://www.statnews.com/2026/10/14/compass-pathways-psychedelics-stat-summit/?utm_campaign=rss",
+          "type": "news",
+          "verified_date": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "How microalgae and cyanobacteria rewrite their RNA to survive stress",
+      "preview": "A review discusses the role of RNA splicing in stress responses of microalgae and cyanobacteria.",
+      "article": "A new review highlights the significance of pre-mRNA splicing in microalgae and cyanobacteria, revealing it as a critical stress response mechanism rather than a mere housekeeping function. The study outlines various splicing events and their evolutionary implications across different species.\n\nWhy this matters: Understanding how these organisms adapt to stress through RNA splicing could enhance biofuel production and other valuable products, showcasing the potential for biotechnological applications.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/how-microalgae-and-cyanobacteria-rewrite-their-rna-to-survive-stress/",
+          "type": "news",
+          "verified_date": "2026-10-15"
+        }
+      ]
+    }
+  ]
+}
