@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-16",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Lakefront offloads CAR-T programs to Armed Cell as Mankind Pharma takes control of the Belgian startup",
+      "preview": "Lakefront Biotherapeutics has sold five preclinical CAR-T assets to Armed Cell for \u20ac8 million.",
+      "article": "Lakefront Biotherapeutics has sold five preclinical CAR-T assets to Belgian startup Armed Cell Therapeutics for \u20ac8 million upfront, while Mankind Pharma has agreed to acquire 70% of Armed Cell for \u20ac48 million. \nWhy this matters: This sale provides a new opportunity for cancer cell-therapy research that Lakefront was winding down, with fresh financing and leadership from former Galapagos CEO Paul Stoffels.\nLakefront could receive up to $230 million in milestones and a low-single-digit royalty in addition to the upfront payment. The deal allows Armed Cell to advance its lead programs into clinical trials and expand research teams in Europe and the U.S.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/lakefront-offloads-car-t-programs-to-armed-cell-as-mankind-pharma-takes-control-of-the-belgian-startup/",
+          "type": "news",
+          "verified_date": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Cellular diversity in neural organoids is critical for neurodegenerative disease modeling",
+      "preview": "Research highlights the importance of cellular diversity in organoids for modeling neurodegenerative diseases.",
+      "article": "This study emphasizes that human induced pluripotent stem cell-derived organoids must incorporate various cell types to effectively model neurodegenerative diseases. \nWhy this matters: Traditional models often overlook the role of non-neuronal cells, which are crucial for understanding disease mechanisms and developing effective therapies. \nThe authors argue for the inclusion of immune and vascular components in organoid models to better replicate the disease context and improve therapeutic discovery.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004074",
+          "type": "paper",
+          "verified_date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "A systematic fluorescently tagged protein toolkit for dissecting apical extracellular matrix patterning in C. elegans",
+      "preview": "A new toolkit of fluorescently tagged proteins aids in studying extracellular matrix in C. elegans.",
+      "article": "This research presents a toolkit of 105 fluorescently tagged apical extracellular matrix components in C. elegans, facilitating the study of their organization and function. \nWhy this matters: Understanding the molecular architecture of extracellular matrices is crucial for insights into development and disease pathology. \nThe toolkit allows researchers to dissect the mechanistic basis of extracellular matrix patterning in vivo, enhancing our understanding of these complex structures.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004059",
+          "type": "paper",
+          "verified_date": "2026-10-14"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "FDA \u2018reset\u2019 continues with new plan for reviewing rare disease drugs",
+      "preview": "The FDA announces a new initiative to improve the regulation of rare disease therapies.",
+      "article": "The FDA plans to 'reimagine' its approach to regulating therapies for rare diseases, focusing on individual conditions rather than a one-size-fits-all method. \nWhy this matters: This initiative aims to streamline the drug development process for rare diseases, which often face unique challenges due to limited patient populations and knowledge gaps. \nThe FDA is seeking input from stakeholders and will hold a meeting to discuss the new framework, potentially enhancing the approval process for rare disease treatments.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/fda-rare-disease-framework-initiative-drug-development/833080/",
+          "type": "news",
+          "verified_date": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Second-Trimester Blood Minerals May Signal Gestational Diabetes Risk, Study Finds",
+      "preview": "Study links second-trimester blood mineral levels to gestational diabetes risk.",
+      "article": "A study of 700 pregnant women found that serum levels of magnesium, phosphorus, and calcium in the second trimester are associated with the risk of gestational diabetes mellitus (GDM) and other adverse pregnancy outcomes. \nWhy this matters: Identifying mineral levels could provide an early-warning signal for GDM, allowing for timely interventions. \nThe findings suggest that monitoring these minerals may help clinicians tailor nutritional guidance and improve maternal and fetal health outcomes.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/second-trimester-blood-minerals-may-signal-gestational-diabetes-risk-study-finds/",
+          "type": "news",
+          "verified_date": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}

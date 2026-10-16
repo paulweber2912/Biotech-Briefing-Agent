@@ -1,11 +1,25 @@
 {
-  "date": "2026-10-15",
+  "date": "2026-10-16",
   "items": [
     {
       "id": "1",
+      "headline": "Lakefront offloads CAR-T programs to Armed Cell as Mankind Pharma takes control of the Belgian startup",
+      "preview": "Lakefront Biotherapeutics has sold five preclinical CAR-T assets to Armed Cell for \u20ac8 million.",
+      "article": "Lakefront Biotherapeutics has sold five preclinical CAR-T assets to Belgian startup Armed Cell Therapeutics for \u20ac8 million upfront, while Mankind Pharma has agreed to acquire 70% of Armed Cell for \u20ac48 million. \nWhy this matters: This sale provides a new opportunity for cancer cell-therapy research that Lakefront was winding down, with fresh financing and leadership from former Galapagos CEO Paul Stoffels.\nLakefront could receive up to $230 million in milestones and a low-single-digit royalty in addition to the upfront payment. The deal allows Armed Cell to advance its lead programs into clinical trials and expand research teams in Europe and the U.S.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/lakefront-offloads-car-t-programs-to-armed-cell-as-mankind-pharma-takes-control-of-the-belgian-startup/",
+          "type": "news",
+          "verified_date": "2026-10-16"
+        }
+      ]
+    },
+    {
+      "id": "2",
       "headline": "Cellular diversity in neural organoids is critical for neurodegenerative disease modeling",
-      "preview": "A new study emphasizes the importance of cellular diversity in neural organoids for modeling neurodegenerative diseases.",
-      "article": "Human induced pluripotent stem cell (iPSC)-derived organoids have transformed our ability to model human brain development and neurodevelopmental disorders. However, when applied to neurodegenerative diseases, the reductionist approach of focusing solely on neurons may overlook critical noncell-autonomous contributions to disease pathology.\n\nWhy this matters: The study argues for the inclusion of diverse cell types, such as microglia and endothelial cells, in organoid models to better replicate the complex interactions that drive neurodegeneration. This shift could enhance therapeutic discovery by addressing the broader biological context of these diseases.",
+      "preview": "Research highlights the importance of cellular diversity in organoids for modeling neurodegenerative diseases.",
+      "article": "This study emphasizes that human induced pluripotent stem cell-derived organoids must incorporate various cell types to effectively model neurodegenerative diseases. \nWhy this matters: Traditional models often overlook the role of non-neuronal cells, which are crucial for understanding disease mechanisms and developing effective therapies. \nThe authors argue for the inclusion of immune and vascular components in organoid models to better replicate the disease context and improve therapeutic discovery.",
       "sources": [
         {
           "name": "PLOS Biology",
@@ -16,10 +30,10 @@
       ]
     },
     {
-      "id": "2",
+      "id": "3",
       "headline": "A systematic fluorescently tagged protein toolkit for dissecting apical extracellular matrix patterning in C. elegans",
-      "preview": "Researchers developed a toolkit of fluorescently tagged proteins to study the apical extracellular matrix in C. elegans.",
-      "article": "Barrier epithelia are shielded from the external environment by their apical extracellular matrices (aECMs). This study presents a toolkit of 105 fluorescently tagged aECM components generated through gene editing in C. elegans, aimed at understanding the organization of these complex matrices in vivo.\n\nWhy this matters: The toolkit allows researchers to dissect the molecular architecture of aECMs, providing insights into their roles in development and disease, and facilitating the study of their spatiotemporal patterning.",
+      "preview": "A new toolkit of fluorescently tagged proteins aids in studying extracellular matrix in C. elegans.",
+      "article": "This research presents a toolkit of 105 fluorescently tagged apical extracellular matrix components in C. elegans, facilitating the study of their organization and function. \nWhy this matters: Understanding the molecular architecture of extracellular matrices is crucial for insights into development and disease pathology. \nThe toolkit allows researchers to dissect the mechanistic basis of extracellular matrix patterning in vivo, enhancing our understanding of these complex structures.",
       "sources": [
         {
           "name": "PLOS Biology",
@@ -30,28 +44,14 @@
       ]
     },
     {
-      "id": "3",
-      "headline": "Lundbeck starts Phase 2; Rewind secures funding; Beactica picks a degrader",
-      "preview": "European biotech companies are making strides with new trials and funding in neurological and cancer treatments.",
-      "article": "Lundbeck has initiated Phase 2 testing of Lu AF28996 for Parkinson's disease, showing promising results in earlier trials. Rewind Therapeutics has secured funding to advance its myelin-repair program for multiple sclerosis. Beactica Therapeutics has selected BEA-28 for preclinical development targeting cancer.\n\nWhy this matters: These advancements highlight the ongoing innovation in biotech, particularly in addressing neurological disorders and cancer, which could lead to significant therapeutic breakthroughs.",
-      "sources": [
-        {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/lundbeck-starts-phase-2-rewind-secures-funding-beactica-picks-a-degrader/",
-          "type": "news",
-          "verified_date": "2026-10-13"
-        }
-      ]
-    },
-    {
       "id": "4",
-      "headline": "Compass Pathways CEO: Psychedelics company will \u2018go slow before we go fast\u2019",
-      "preview": "Compass Pathways emphasizes a cautious approach to launching its psychedelic therapy for depression.",
-      "article": "The CEO of Compass Pathways highlighted the importance of a careful rollout for its synthetic psilocybin treatment, COMP360, which is nearing FDA submission. The company aims to ensure positive experiences for patients and providers to avoid damaging the broader psychedelics sector.\n\nWhy this matters: As the psychedelics field approaches potential FDA approval, the emphasis on rigorous research and responsible marketing is crucial for establishing credibility and ensuring patient safety.",
+      "headline": "FDA \u2018reset\u2019 continues with new plan for reviewing rare disease drugs",
+      "preview": "The FDA announces a new initiative to improve the regulation of rare disease therapies.",
+      "article": "The FDA plans to 'reimagine' its approach to regulating therapies for rare diseases, focusing on individual conditions rather than a one-size-fits-all method. \nWhy this matters: This initiative aims to streamline the drug development process for rare diseases, which often face unique challenges due to limited patient populations and knowledge gaps. \nThe FDA is seeking input from stakeholders and will hold a meeting to discuss the new framework, potentially enhancing the approval process for rare disease treatments.",
       "sources": [
         {
-          "name": "STAT Biotech news: Market-moving coverage of drug development",
-          "url": "https://www.statnews.com/2026/10/14/compass-pathways-psychedelics-stat-summit/?utm_campaign=rss",
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/fda-rare-disease-framework-initiative-drug-development/833080/",
           "type": "news",
           "verified_date": "2026-10-15"
         }
@@ -59,15 +59,15 @@
     },
     {
       "id": "5",
-      "headline": "How microalgae and cyanobacteria rewrite their RNA to survive stress",
-      "preview": "A review discusses the role of RNA splicing in stress responses of microalgae and cyanobacteria.",
-      "article": "A new review highlights the significance of pre-mRNA splicing in microalgae and cyanobacteria, revealing it as a critical stress response mechanism rather than a mere housekeeping function. The study outlines various splicing events and their evolutionary implications across different species.\n\nWhy this matters: Understanding how these organisms adapt to stress through RNA splicing could enhance biofuel production and other valuable products, showcasing the potential for biotechnological applications.",
+      "headline": "Second-Trimester Blood Minerals May Signal Gestational Diabetes Risk, Study Finds",
+      "preview": "Study links second-trimester blood mineral levels to gestational diabetes risk.",
+      "article": "A study of 700 pregnant women found that serum levels of magnesium, phosphorus, and calcium in the second trimester are associated with the risk of gestational diabetes mellitus (GDM) and other adverse pregnancy outcomes. \nWhy this matters: Identifying mineral levels could provide an early-warning signal for GDM, allowing for timely interventions. \nThe findings suggest that monitoring these minerals may help clinicians tailor nutritional guidance and improve maternal and fetal health outcomes.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/how-microalgae-and-cyanobacteria-rewrite-their-rna-to-survive-stress/",
+          "url": "https://bioengineer.org/second-trimester-blood-minerals-may-signal-gestational-diabetes-risk-study-finds/",
           "type": "news",
-          "verified_date": "2026-10-15"
+          "verified_date": "2026-10-16"
         }
       ]
     }
