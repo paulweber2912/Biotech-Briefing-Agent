@@ -1,11 +1,11 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "items": [
     {
       "id": "1",
-      "headline": "Lakefront offloads CAR-T programs to Armed Cell as Mankind Pharma takes control of the Belgian startup",
-      "preview": "Lakefront Biotherapeutics has sold five preclinical CAR-T assets to Armed Cell for \u20ac8 million.",
-      "article": "Lakefront Biotherapeutics has sold five preclinical CAR-T assets to Belgian startup Armed Cell Therapeutics for \u20ac8 million upfront, while Mankind Pharma has agreed to acquire 70% of Armed Cell for \u20ac48 million. \nWhy this matters: This sale provides a new opportunity for cancer cell-therapy research that Lakefront was winding down, with fresh financing and leadership from former Galapagos CEO Paul Stoffels.\nLakefront could receive up to $230 million in milestones and a low-single-digit royalty in addition to the upfront payment. The deal allows Armed Cell to advance its lead programs into clinical trials and expand research teams in Europe and the U.S.",
+      "headline": "Lakefront offloads CAR-T programs to Armed Cell as Mankind Pharma takes control",
+      "preview": "Lakefront Biotherapeutics has sold five preclinical CAR-T assets to Armed Cell for \u20ac8 million upfront.",
+      "article": "Lakefront Biotherapeutics has sold five preclinical CAR-T assets to Belgian startup Armed Cell Therapeutics for \u20ac8 million upfront, while India's Mankind Pharma has agreed to acquire 70% of Armed Cell for \u20ac48 million.\nWhy this matters: This sale allows the cancer cell-therapy research that Lakefront was shutting down to continue with new financing, while Lakefront focuses on a new pipeline in immunology and inflammation.\nUnder the deal, Lakefront could receive up to $230 million in milestones and a low-single-digit royalty in addition to the upfront payment. Armed Cell aims to advance its lead programs into clinical trials with the new funding.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
@@ -17,37 +17,37 @@
     },
     {
       "id": "2",
-      "headline": "Cellular diversity in neural organoids is critical for neurodegenerative disease modeling",
-      "preview": "Research highlights the importance of cellular diversity in organoids for modeling neurodegenerative diseases.",
-      "article": "This study emphasizes that human induced pluripotent stem cell-derived organoids must incorporate various cell types to effectively model neurodegenerative diseases. \nWhy this matters: Traditional models often overlook the role of non-neuronal cells, which are crucial for understanding disease mechanisms and developing effective therapies. \nThe authors argue for the inclusion of immune and vascular components in organoid models to better replicate the disease context and improve therapeutic discovery.",
+      "headline": "Printing Tissue in Orbit: How Space Is Becoming the Next Biomedical Lab",
+      "preview": "A new review highlights how microgravity can enhance tissue engineering and biomedical research.",
+      "article": "Researchers at Cedars-Sinai Medical Center argue that space could be a powerful tool for biomedicine, enabling tissue fabrication and disease modeling in microgravity.\nWhy this matters: The unique conditions of space can help create human tissues that are difficult to construct on Earth, providing insights into aging and degenerative diseases.\nThe review discusses advancements in tissue engineering, 3D bioprinting, and biosensors that could revolutionize biomedical research in space, potentially leading to faster drug development and better understanding of human health.",
       "sources": [
         {
-          "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004074",
-          "type": "paper",
-          "verified_date": "2026-10-14"
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/printing-tissue-in-orbit-how-space-is-becoming-the-next-biomedical-lab/",
+          "type": "news",
+          "verified_date": "2026-10-17"
         }
       ]
     },
     {
       "id": "3",
-      "headline": "A systematic fluorescently tagged protein toolkit for dissecting apical extracellular matrix patterning in C. elegans",
-      "preview": "A new toolkit of fluorescently tagged proteins aids in studying extracellular matrix in C. elegans.",
-      "article": "This research presents a toolkit of 105 fluorescently tagged apical extracellular matrix components in C. elegans, facilitating the study of their organization and function. \nWhy this matters: Understanding the molecular architecture of extracellular matrices is crucial for insights into development and disease pathology. \nThe toolkit allows researchers to dissect the mechanistic basis of extracellular matrix patterning in vivo, enhancing our understanding of these complex structures.",
+      "headline": "Biogen-backed Estuary nabs $93M for kidney disease gene therapy",
+      "preview": "Estuary Biotherapeutics has launched with $93 million in funding to develop gene therapies for kidney disease.",
+      "article": "Estuary Biotherapeutics, a California-based genetic medicines developer, has officially launched with significant funding and a team of former Biogen leaders.\nWhy this matters: The company aims to develop the first treatment that can halt or reverse autosomal dominant polycystic kidney disease (ADPKD), a condition affecting 1 in 400 to 1,000 people. Their lead programs target the main drivers of ADPKD and are expected to enter human testing in 2027 and 2028.",
       "sources": [
         {
-          "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004059",
-          "type": "paper",
-          "verified_date": "2026-10-14"
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/estuary-kidney-disease-gene-therapy-launch-emerged-biogen-biotech-startup/833114/",
+          "type": "news",
+          "verified_date": "2026-10-16"
         }
       ]
     },
     {
       "id": "4",
       "headline": "FDA \u2018reset\u2019 continues with new plan for reviewing rare disease drugs",
-      "preview": "The FDA announces a new initiative to improve the regulation of rare disease therapies.",
-      "article": "The FDA plans to 'reimagine' its approach to regulating therapies for rare diseases, focusing on individual conditions rather than a one-size-fits-all method. \nWhy this matters: This initiative aims to streamline the drug development process for rare diseases, which often face unique challenges due to limited patient populations and knowledge gaps. \nThe FDA is seeking input from stakeholders and will hold a meeting to discuss the new framework, potentially enhancing the approval process for rare disease treatments.",
+      "preview": "The FDA plans to overhaul its approach to regulating therapies for rare diseases.",
+      "article": "The FDA announced its intention to 'reimagine' the regulation of therapies for rare diseases, focusing on individual conditions rather than a one-size-fits-all approach.\nWhy this matters: This initiative aims to create a more tailored framework for drug development and regulation, potentially easing the path for new treatments for rare diseases, which affect approximately 30 million Americans. A meeting to gather feedback on this plan is scheduled for October 28.",
       "sources": [
         {
           "name": "BioPharma Dive - Latest News",
@@ -59,15 +59,15 @@
     },
     {
       "id": "5",
-      "headline": "Second-Trimester Blood Minerals May Signal Gestational Diabetes Risk, Study Finds",
-      "preview": "Study links second-trimester blood mineral levels to gestational diabetes risk.",
-      "article": "A study of 700 pregnant women found that serum levels of magnesium, phosphorus, and calcium in the second trimester are associated with the risk of gestational diabetes mellitus (GDM) and other adverse pregnancy outcomes. \nWhy this matters: Identifying mineral levels could provide an early-warning signal for GDM, allowing for timely interventions. \nThe findings suggest that monitoring these minerals may help clinicians tailor nutritional guidance and improve maternal and fetal health outcomes.",
+      "headline": "A broad-host-range Rhizobium rhizogenes strain enables transient expression across diverse crop species",
+      "preview": "A new engineered strain of Rhizobium rhizogenes facilitates transient expression in various dicot crops.",
+      "article": "An engineered Rhizobium rhizogenes strain, AS109, has been shown to mediate efficient transient expression across diverse dicot species, outperforming traditional agrobacterial strains.\nWhy this matters: This advancement provides a versatile platform for functional genomics in non-model crops, bridging the gap between hypothesis generation and experimental validation in plant research. The study demonstrates AS109's effectiveness in various economically important crops, enhancing research capabilities in plant biology.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/second-trimester-blood-minerals-may-signal-gestational-diabetes-risk-study-finds/",
-          "type": "news",
-          "verified_date": "2026-10-16"
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004010",
+          "type": "paper",
+          "verified_date": "2026-10-15"
         }
       ]
     }
