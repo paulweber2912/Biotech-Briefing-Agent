@@ -1,73 +1,73 @@
 {
-  "date": "2026-10-17",
+  "date": "2026-10-18",
   "items": [
     {
       "id": "1",
-      "headline": "Lakefront offloads CAR-T programs to Armed Cell as Mankind Pharma takes control",
-      "preview": "Lakefront Biotherapeutics has sold five preclinical CAR-T assets to Armed Cell for \u20ac8 million upfront.",
-      "article": "Lakefront Biotherapeutics has sold five preclinical CAR-T assets to Belgian startup Armed Cell Therapeutics for \u20ac8 million upfront, while India's Mankind Pharma has agreed to acquire 70% of Armed Cell for \u20ac48 million.\nWhy this matters: This sale allows the cancer cell-therapy research that Lakefront was shutting down to continue with new financing, while Lakefront focuses on a new pipeline in immunology and inflammation.\nUnder the deal, Lakefront could receive up to $230 million in milestones and a low-single-digit royalty in addition to the upfront payment. Armed Cell aims to advance its lead programs into clinical trials with the new funding.",
+      "headline": "Biogen-backed Estuary nabs $93M for kidney disease gene therapy",
+      "preview": "Estuary Biotherapeutics has launched with $93 million in funding to develop gene therapies for kidney disease.",
+      "article": "Estuary Biotherapeutics, a California-based genetic medicines developer, officially launched on Friday, backed by nine figures worth of funding and a management team stocked with former Biogen leaders.\nThe company aims to develop treatments for autosomal dominant polycystic kidney disease (ADPKD), leveraging research from Yale professors that suggests gene therapy can reverse kidney damage. Estuary's lead programs target key drivers of ADPKD and are expected to enter human testing in 2027 and 2028.\nWhy this matters: Estuary's innovative approach could provide the first effective treatment for a disease affecting 1 in 400 to 1,000 people, addressing a significant unmet medical need.",
       "sources": [
         {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/lakefront-offloads-car-t-programs-to-armed-cell-as-mankind-pharma-takes-control-of-the-belgian-startup/",
-          "type": "news",
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/estuary-kidney-disease-gene-therapy-launch-emerged-biogen-biotech-startup/833114/",
+          "type": "company",
           "verified_date": "2026-10-16"
         }
       ]
     },
     {
       "id": "2",
-      "headline": "Printing Tissue in Orbit: How Space Is Becoming the Next Biomedical Lab",
-      "preview": "A new review highlights how microgravity can enhance tissue engineering and biomedical research.",
-      "article": "Researchers at Cedars-Sinai Medical Center argue that space could be a powerful tool for biomedicine, enabling tissue fabrication and disease modeling in microgravity.\nWhy this matters: The unique conditions of space can help create human tissues that are difficult to construct on Earth, providing insights into aging and degenerative diseases.\nThe review discusses advancements in tissue engineering, 3D bioprinting, and biosensors that could revolutionize biomedical research in space, potentially leading to faster drug development and better understanding of human health.",
+      "headline": "Teach-Back Boosts Patient Confidence and Adherence, Review Finds",
+      "preview": "A systematic review shows that the teach-back method enhances patient confidence and adherence.",
+      "article": "A new systematic review published in the Journal of General Internal Medicine evaluates the teach-back method, where clinicians ask patients to explain instructions in their own words. The review found that while teach-back does not significantly improve knowledge acquisition, it substantially boosts patient confidence and short-term adherence to health behaviors.\nThe research analyzed 18 randomized controlled trials involving nearly 2,000 participants. The findings suggest that teach-back may create a feedback loop that enhances patient motivation and understanding, even if it does not directly increase knowledge.\nWhy this matters: This technique could reshape clinical communication strategies, emphasizing the importance of patient confidence in managing their health.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/printing-tissue-in-orbit-how-space-is-becoming-the-next-biomedical-lab/",
-          "type": "news",
-          "verified_date": "2026-10-17"
+          "url": "https://bioengineer.org/teach-back-boosts-patient-confidence-and-adherence-review-finds/",
+          "type": "paper",
+          "verified_date": "2026-10-18"
         }
       ]
     },
     {
       "id": "3",
-      "headline": "Biogen-backed Estuary nabs $93M for kidney disease gene therapy",
-      "preview": "Estuary Biotherapeutics has launched with $93 million in funding to develop gene therapies for kidney disease.",
-      "article": "Estuary Biotherapeutics, a California-based genetic medicines developer, has officially launched with significant funding and a team of former Biogen leaders.\nWhy this matters: The company aims to develop the first treatment that can halt or reverse autosomal dominant polycystic kidney disease (ADPKD), a condition affecting 1 in 400 to 1,000 people. Their lead programs target the main drivers of ADPKD and are expected to enter human testing in 2027 and 2028.",
+      "headline": "New Horsehair Worm Species Found Wriggling on Snow in Pakistan Mountains",
+      "preview": "Researchers have discovered a new species of horsehair worm, Gordius nixus, in snowy conditions in Pakistan.",
+      "article": "In northern Pakistan, researchers have identified a new species of horsehair worm, Gordius nixus, found wriggling on snow, far from any visible water sources. This discovery, published in Evolutionary Systematics, marks the first record of a horsehair worm in Pakistan and highlights an unusual habitat association for this phylum.\nThe worms were collected during winter expeditions and exhibited unique morphological features, including a dense covering of fine spines. The life cycle of this species remains unknown, raising questions about its emergence in snowy environments and potential host species.\nWhy this matters: The discovery expands our understanding of biodiversity in underexplored regions and the ecological adaptations of parasitic species.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/news/estuary-kidney-disease-gene-therapy-launch-emerged-biogen-biotech-startup/833114/",
-          "type": "news",
-          "verified_date": "2026-10-16"
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/new-horsehair-worm-species-found-wriggling-on-snow-in-pakistan-mountains/",
+          "type": "paper",
+          "verified_date": "2026-10-18"
         }
       ]
     },
     {
       "id": "4",
-      "headline": "FDA \u2018reset\u2019 continues with new plan for reviewing rare disease drugs",
-      "preview": "The FDA plans to overhaul its approach to regulating therapies for rare diseases.",
-      "article": "The FDA announced its intention to 'reimagine' the regulation of therapies for rare diseases, focusing on individual conditions rather than a one-size-fits-all approach.\nWhy this matters: This initiative aims to create a more tailored framework for drug development and regulation, potentially easing the path for new treatments for rare diseases, which affect approximately 30 million Americans. A meeting to gather feedback on this plan is scheduled for October 28.",
+      "headline": "Iambic CEO on taking an AI drug company public",
+      "preview": "Iambic Therapeutics discusses its IPO and the future of AI in drug development amidst market challenges.",
+      "article": "Iambic Therapeutics, an AI-focused drug developer, recently raised $150 million through its IPO, aiming to differentiate itself in a challenging market for AI drug companies. CEO Tom Miller emphasized the importance of demonstrating clinical data and tangible results from their AI platform to attract investors.\nDespite the struggles of other AI drug developers in the public market, Iambic's strong cash position and multiple clinical programs provide a foundation for future growth. The company is actively exploring partnerships and expanding its pipeline beyond oncology.\nWhy this matters: Iambic's approach could set a precedent for how AI technologies are integrated into drug development, potentially reshaping investor perceptions in the biotech sector.",
       "sources": [
         {
           "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/news/fda-rare-disease-framework-initiative-drug-development/833080/",
-          "type": "news",
-          "verified_date": "2026-10-15"
+          "url": "https://www.biopharmadive.com/news/Iambic-ipo-tom-miller-ai-drug-development-discovery/833238/",
+          "type": "company",
+          "verified_date": "2026-10-16"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "A broad-host-range Rhizobium rhizogenes strain enables transient expression across diverse crop species",
-      "preview": "A new engineered strain of Rhizobium rhizogenes facilitates transient expression in various dicot crops.",
-      "article": "An engineered Rhizobium rhizogenes strain, AS109, has been shown to mediate efficient transient expression across diverse dicot species, outperforming traditional agrobacterial strains.\nWhy this matters: This advancement provides a versatile platform for functional genomics in non-model crops, bridging the gap between hypothesis generation and experimental validation in plant research. The study demonstrates AS109's effectiveness in various economically important crops, enhancing research capabilities in plant biology.",
+      "headline": "The mechanosensitive channel TMEM63B contributes to noxious heat sensation in the dorsal root ganglia",
+      "preview": "Research identifies TMEM63B as a key player in heat sensation in dorsal root ganglia neurons.",
+      "article": "A recent study published in PLOS Biology investigates the role of the mechanosensitive channel TMEM63B in dorsal root ganglia (DRG) neurons, revealing its significant involvement in noxious heat sensation. The study found that knockout of TMEM63B resulted in reduced heat sensitivity and altered calcium responses in DRG neurons.\nThe findings suggest that TMEM63B may operate as a novel channel contributing to heat sensation, with its activity modulated by the lipid environment. This research expands the understanding of sensory mechanisms and potential targets for pain management.\nWhy this matters: Identifying new molecular components in pain pathways could lead to innovative treatments for heat-related pain conditions.",
       "sources": [
         {
           "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004010",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004060",
           "type": "paper",
-          "verified_date": "2026-10-15"
+          "verified_date": "2026-10-16"
         }
       ]
     }
