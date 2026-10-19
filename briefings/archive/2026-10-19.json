@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-19",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Surface Y RNAs Turn Monocytes into Inflammatory Amplifiers",
+      "preview": "A study reveals that surface Y RNAs on monocytes amplify inflammation, linking them to IBD.",
+      "article": "A family of small noncoding RNAs, known as Y RNAs, has been found on the surface of human monocytes, where they amplify innate immune activation. This discovery, published in Nature Cell Biology, connects these RNAs to inflammatory bowel disease, suggesting that depleting them can alleviate colitis in mice.\n\nWhy this matters: The findings provide a new understanding of how surface RNAs can influence immune responses and offer potential therapeutic targets for inflammatory conditions. The study highlights the role of Y RNAs in capturing extracellular histones, which are implicated in driving inflammation, and suggests that targeting these RNAs could be a strategy for treating inflammatory bowel disease.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/surface-y-rnas-turn-monocytes-into-inflammatory-amplifiers/",
+          "type": "news",
+          "verified_date": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "From strategy to scale: How Saudi Arabia is building a biotech ecosystem",
+      "preview": "Saudi Arabia's National Biotechnology Strategy aims to boost the biotech sector significantly.",
+      "article": "Saudi Arabia's National Biotechnology Strategy, launched in January 2024, aims for a $34.6 billion contribution to non-oil GDP by 2040 and 11,000 jobs by 2030. Recent agreements at the Riyadh Global Medical Biotechnology Summit indicate progress in research and clinical translation, including partnerships for drug discovery and clinical trial capabilities.\n\nWhy this matters: The strategy reflects a commitment to developing local biotech capabilities, including manufacturing and regulatory improvements, which could enhance the country's position in the global biotech landscape and attract foreign investment.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/spons/from-strategy-to-scale-how-saudi-arabia-is-building-a-biotech-ecosystem/832761/",
+          "type": "news",
+          "verified_date": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "How early should you engage a CDMO?",
+      "preview": "Engaging a CDMO early can be beneficial, but flexibility is key to avoid costly rework.",
+      "article": "Engaging a Contract Development and Manufacturing Organization (CDMO) early in drug development can streamline processes, but it is crucial to maintain flexibility in decision-making. Early commitments can lead to costly rework if they are based on incomplete evidence. A recent case study illustrates how premature formulation decisions can delay clinical trials and increase costs.\n\nWhy this matters: Understanding the balance between early engagement and the need for adaptable strategies can help biotech companies optimize their development timelines and reduce unnecessary expenditures.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/spons/how-early-should-you-engage-a-cdmo/832693/",
+          "type": "news",
+          "verified_date": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Manipulation or soft tissue? Finite element model reveals how manual therapy loads the sacroiliac joint",
+      "preview": "A new study uses finite element analysis to explore manual therapy effects on the sacroiliac joint.",
+      "article": "A computational study published in Frontiers in Bioengineering and Biotechnology investigates how manual therapy affects the sacroiliac joint. Using finite element analysis, the researchers compared different loading conditions to understand the mechanical responses of the joint and surrounding ligaments.\n\nWhy this matters: The findings challenge traditional views on manual therapy, suggesting that specific manipulation techniques may have distinct mechanical effects on the sacroiliac joint, which could inform clinical practices for treating low back pain.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/manipulation-or-soft-tissue-finite-element-model-reveals-how-manual-therapy-loads-the-sacroiliac-joint/",
+          "type": "news",
+          "verified_date": "2026-10-19"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "CHMP October decisions: AstraZeneca pulls prostate cancer filing; Orphelia gets a second chance",
+      "preview": "The CHMP's October meeting yielded significant decisions impacting several drug applications.",
+      "article": "The European Medicines Agency's human medicines committee (CHMP) made several key decisions in October, including AstraZeneca's withdrawal of its prostate cancer filing for Truqap and Orphelia Pharma's approval for Kizfizo, a liquid formulation for glioblastoma. Other notable decisions included Ascendis Pharma's positive opinion for Yuviwel for achondroplasia and Sobi's expansion of Tryngolza into severe hypertriglyceridemia.\n\nWhy this matters: These decisions highlight the dynamic nature of drug approvals in Europe and the ongoing challenges faced by pharmaceutical companies in navigating regulatory pathways.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/chmp-october-decisions-astrazeneca-pulls-prostate-cancer-filing-orphelia-gets-a-second-chance-ascendis-nears-eu-launch/",
+          "type": "news",
+          "verified_date": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}
