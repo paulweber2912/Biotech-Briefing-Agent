@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-21",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Hype vs. reality: What pharma\u2019s hottest R&D bets have actually proved",
+      "preview": "Bristol Myers Squibb's partnership with BioNTech on pumitamig highlights the tension in pharma R&D.",
+      "article": "Bristol Myers Squibb's significant investment in pumitamig, a bispecific antibody targeting PD-L1 and VEGF-A, exemplifies the high stakes in pharmaceutical R&D. The partnership could yield up to $11.1 billion, reflecting a broader trend where companies invest heavily before clinical evidence is fully established.\n\nWhy this matters: This situation underscores the ongoing challenge in drug development where substantial financial commitments are made based on promising biological targets rather than definitive clinical proof. The success of such investments hinges on whether these innovative strategies can consistently outperform existing therapies in rigorous trials.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/pharma-rd-bets-clinical-proof-gsk-summit/833332/",
+          "type": "news",
+          "verified_date": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "STAT+: A German biotech has big ambitions in cancer. Now it needs to get a medicine approved",
+      "preview": "A German biotech's early Phase 1 results in uveal melanoma show promise for broader cancer applications.",
+      "article": "At a major European oncology conference, a German biotech presented early Phase 1 results from a study involving 16 patients with uveal melanoma, where all patients experienced tumor shrinkage following an experimental cell therapy. This outcome suggests potential for the therapy to unlock immunotherapy's effectiveness in more common cancers.\n\nWhy this matters: The promising results could pave the way for advancements in cancer treatment, particularly for challenging types like pancreatic and ovarian cancers, highlighting the importance of early-stage research in shaping future therapeutic strategies.",
+      "sources": [
+        {
+          "name": "STAT Biotech news: Market-moving coverage of drug development",
+          "url": "https://www.statnews.com/2026/10/21/immatics-cancer-cell-therapy-targets-prame-protein/?utm_campaign=rss",
+          "type": "news",
+          "verified_date": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Merck to buy siRNA specialist Silence Therapeutics for $1.3 billion",
+      "preview": "Merck KGaA's acquisition of Silence Therapeutics highlights the growing importance of RNA interference.",
+      "article": "Merck KGaA is set to acquire Silence Therapeutics for $1.3 billion, primarily driven by the potential of the siRNA candidate divesiran for treating polycythemia vera. The acquisition underscores a shift in RNA interference technology from niche applications to mainstream pharmaceutical use.\n\nWhy this matters: This deal not only reflects Merck's strategic investment in RNA therapeutics but also signals a broader acceptance of siRNA technologies in addressing complex diseases, potentially enhancing treatment options for patients with chronic conditions.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/merck-to-buy-sirna-specialist-silence-therapeutics-for-1-3-billion/",
+          "type": "news",
+          "verified_date": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Workplace exposure linked to youth employment readiness in Zambia\u2019s health system",
+      "preview": "A study in Zambia reveals significant factors influencing youth employment readiness in healthcare.",
+      "article": "A cross-sectional study in Zambia found that only 42% of health trainees and early-career workers felt employment-ready, with readiness linked to age, education, and work-based roles. The findings highlight the importance of structured work experiences in enhancing employability among health professionals.\n\nWhy this matters: Understanding the factors that contribute to employment readiness can inform training programs and policies aimed at improving the health workforce, ultimately enhancing healthcare delivery in Zambia.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/workplace-exposure-linked-to-youth-employment-readiness-in-zambias-health-system/",
+          "type": "news",
+          "verified_date": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Oxidative signaling thresholds shape vulnerability in the central and peripheral nervous systems",
+      "preview": "A new essay explores how oxidative stress impacts neuronal vulnerability in neurodegeneration.",
+      "article": "This essay discusses the role of oxidative stress in neurodegeneration, proposing that neuronal vulnerability is influenced by complex signaling thresholds rather than just antioxidant capacity. It highlights the differences in responses between central and peripheral nervous systems, suggesting new therapeutic targets.\n\nWhy this matters: Understanding these mechanisms could lead to better strategies for treating neurodegenerative diseases by identifying critical intervention points that go beyond merely reducing oxidative stress.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004032",
+          "type": "paper",
+          "verified_date": "2026-10-19"
+        }
+      ]
+    }
+  ]
+}
