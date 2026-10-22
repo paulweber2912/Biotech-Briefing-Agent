@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-22",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Hype vs. reality: What pharma\u2019s hottest R&D bets have actually proved",
+      "preview": "Bristol Myers Squibb's partnership with BioNTech highlights the tension in drug R&D investments.",
+      "article": "Bristol Myers Squibb's collaboration with BioNTech involves a significant financial commitment to develop pumitamig, a bispecific antibody targeting PD-L1 and VEGF-A. This partnership exemplifies the tension in pharmaceutical R&D, where companies invest heavily before sufficient clinical evidence is available.\n\nWhy this matters: The ongoing investments in oncology strategies like PD-L1/VEGF bispecifics and B7-H3 antibody-drug conjugates reflect a broader trend in the industry, where the promise of new therapies often leads to substantial financial commitments despite the uncertainty of their clinical efficacy. The outcomes of ongoing trials will be crucial in determining the viability of these approaches.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/pharma-rd-bets-clinical-proof-gsk-summit/833332/",
+          "type": "news",
+          "verified_date": "2026-10-20"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "STAT+: A German biotech has big ambitions in cancer. Now it needs to get a medicine approved",
+      "preview": "A German biotech's early Phase 1 results show promise for treating uveal melanoma.",
+      "article": "At a major European oncology conference, a German biotech presented early Phase 1 results from a study involving 16 patients with uveal melanoma, revealing that all patients experienced tumor shrinkage after receiving an experimental cell therapy. This outcome suggests potential for broader applications in treating more common cancers resistant to immunotherapy.\n\nWhy this matters: The promising results from such a small cohort could pave the way for further research and development in oncology, particularly in leveraging immunotherapy for challenging cancer types. The biotech's next steps will be crucial in determining the therapy's future.",
+      "sources": [
+        {
+          "name": "STAT Biotech news: Market-moving coverage of drug development",
+          "url": "https://www.statnews.com/2026/10/21/immatics-cancer-cell-therapy-targets-prame-protein/?utm_campaign=rss",
+          "type": "news",
+          "verified_date": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Evidence review identifies nursing activity-care statements for advanced lung cancer",
+      "preview": "A review produces 24 best-evidence statements to guide nursing practice in lung cancer care.",
+      "article": "An evidence review has synthesized findings from 30 studies to produce 24 best-evidence statements aimed at guiding nursing practice for managing physical activity in patients with advanced lung cancer. The review highlights the need for individualized planning and safety considerations in nursing care.\n\nWhy this matters: This comprehensive synthesis provides a framework for nurses to enhance patient care through tailored physical activity management, addressing a critical gap in actionable guidance for clinical practice in oncology nursing.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/evidence-review-identifies-nursing-activity-care-statements-for-advanced-lung-cancer/",
+          "type": "news",
+          "verified_date": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "A macrophage-targeted TIMD4 Peptide-Nanoparticle attenuates colitis symptoms and monocyte recruitment in a mouse model",
+      "preview": "Research shows a TIMD4-derived peptide-nanoparticle system reduces colitis symptoms in mice.",
+      "article": "A study has demonstrated that a TIMD4-derived peptide-nanoparticle system can effectively reduce symptoms of colitis and monocyte recruitment in a mouse model. The findings suggest that targeting TIMD4 may provide a novel therapeutic approach for inflammatory bowel disease.\n\nWhy this matters: This research highlights the potential of macrophage-targeted therapies in managing chronic inflammatory conditions like IBD, paving the way for future preclinical evaluations and potential clinical applications.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004056",
+          "type": "paper",
+          "verified_date": "2026-10-21"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Most new drugs are still too costly at launch, ICER says",
+      "preview": "ICER's report reveals that many new drugs exceed cost-effectiveness thresholds.",
+      "article": "A recent report from ICER indicates that two-thirds of new prescription drugs launched between 2022 and 2025 have prices that far exceed the organization's cost-effectiveness thresholds. The median net price of new medicines has risen significantly, prompting calls for fair pricing and improved access to therapies.\n\nWhy this matters: The escalating costs of new drugs continue to raise concerns about affordability and access for patients, highlighting the need for ongoing discussions about drug pricing strategies and the role of value-based pricing in healthcare.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/icer-new-drug-launch-prices-report-2022-2025/833468/",
+          "type": "news",
+          "verified_date": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}
