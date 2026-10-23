@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-23",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Moderna\u2019s melanoma vaccine data bring adoption test into focus",
+      "preview": "Moderna's personalized cancer vaccine shows promise in melanoma treatment.",
+      "article": "Moderna\u2019s personalized cancer vaccine has demonstrated benefit beyond adjuvant Keytruda in melanoma. The commercial question is whether those gains are enough to justify the anticipated cost and manufacturing complexity of a bespoke therapy as other immunotherapy strategies expand patients\u2019 treatment options.\nAdding intismeran autogene to Keytruda pembrolizumab reduced the risk of recurrence or death by 42% in Phase III (HR=0.58; p<0.001), marking a milestone for personalized cancer vaccines. Why this matters: Its place in melanoma care could also depend on how the regimen compares with approaches that start immunotherapy before surgery, a question the trial did not address.",
+      "sources": [
+        {
+          "name": "BioCentury",
+          "url": "https://www.biocentury.com/article/661287/moderna-s-melanoma-vaccine-data-bring-adoption-test-into-focus?utm_source=bc_rss&utm_medium=rss",
+          "type": "news",
+          "verified_date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Roche scraps off-the-shelf CAR-T from Poseida deal worth up to $1.5B",
+      "preview": "Roche discontinues RG6540 CAR-T therapy, citing better alternatives.",
+      "article": "Switzerland's Roche has discontinued RG6540, an experimental off-the-shelf CAR-T therapy targeting the CD19 and CD20 proteins, less than two years after agreeing to acquire its developer, Poseida Therapeutics, for up to $1.5 billion. Roche has not explained the reasons for the decision, but CEO Thomas Schinecker indicated that the acquisition had yielded other CD19/CD20 candidates he considers superior.\nWhy it matters: RG6540 was designed to address limitations of existing CAR-T treatments, but it had not demonstrated advantages in clinical trials. The cut raises questions about the deal\u2019s remaining payments and Roche\u2019s future CAR-T candidates.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/roche-scraps-off-the-shelf-car-t-from-poseida-deal-worth-up-to-1-5b/",
+          "type": "news",
+          "verified_date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Detailed data confirm Moderna and Merck cancer vaccine met key endpoints in melanoma trial",
+      "preview": "Moderna and Merck's cancer vaccine shows significant efficacy in melanoma.",
+      "article": "A personalized mRNA cancer vaccine reduced the risk of disease recurrence in patients with melanoma by 42% compared to a standard treatment, according to a large clinical trial conducted by the drugmakers Moderna and Merck. The results are an important advance for the treatment of melanoma, as patients lived significantly longer without their cancer returning.\nWhy this matters: The success of the Moderna-Merck vaccine may usher in a new wave of treatments for other types of cancer, although experts debate its broad applicability.",
+      "sources": [
+        {
+          "name": "STAT Biotech news: Market-moving coverage of drug development",
+          "url": "https://www.statnews.com/2026/10/22/esmo-moderna-merck-cancer-vaccine-intismeran-data-released/?utm_campaign=rss",
+          "type": "news",
+          "verified_date": "2026-10-22"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Sensorion names CMO; Orano Med adds CSO; CRISPR Therapeutics changes CFO",
+      "preview": "Leadership changes across several biotech firms signal strategic shifts.",
+      "article": "Sensorion has appointed Peter Weber as CMO as it prepares for clinical development of its gene therapy for hearing loss. Orano Med has named Matthew Fyfe as CSO to lead research on cancer therapies, while CRISPR Therapeutics has appointed A.J. Silver as CFO following Raju Prasad's departure.\nWhy this matters: These leadership changes reflect strategic priorities in advancing clinical programs and expanding pipelines in their respective companies.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/sensorion-names-cmo-orano-med-adds-cso-crispr-therapeutics-changes-cfo/",
+          "type": "news",
+          "verified_date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "A macrophage-targeted TIMD4 Peptide-Nanoparticle attenuates colitis symptoms",
+      "preview": "New peptide-nanoparticle system shows promise in treating colitis in mice.",
+      "article": "Macrophages play a pivotal role in inflammatory bowel disease (IBD). A study found that a TIMD4-derived peptide-nanoparticle system reduced colitis symptoms and monocyte recruitment in a mouse model. Treatment with T4(365\u2013378)-NPs attenuated DSS-induced colitis, showing potential as a therapeutic approach for intestinal inflammation.\nWhy this matters: These findings support further preclinical evaluation of TIMD4-derived peptide delivery as a potential treatment for IBD.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004056",
+          "type": "paper",
+          "verified_date": "2026-10-21"
+        }
+      ]
+    }
+  ]
+}
