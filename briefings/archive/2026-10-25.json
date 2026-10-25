@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-25",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Brazil\u2019s medicinal plant list is far ahead of clinical evidence",
+      "preview": "A systematic review reveals significant gaps in clinical evidence for Brazil's medicinal plants.",
+      "article": "A systematic review of Brazil\u2019s national list of medicinal plants finds that scientific validation is concentrated in a small minority of species. Out of 71 plants in the National List of Medicinal Plants of Interest to SUS, only 34 reported human clinical trials, highlighting major gaps in dosing, product standardization, and safety research.\n\nWhy this matters: The findings indicate that while the list serves as a substantial public-health resource, the uneven scientific support raises concerns about the safety and efficacy of many plants, necessitating further research and regulatory scrutiny. The review emphasizes the need for standardized preparation and larger clinical trials to bridge the gap between traditional uses and clinical validation.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/brazils-medicinal-plant-list-is-far-ahead-of-clinical-evidence/",
+          "type": "news",
+          "verified_date": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "GPS-Collared Golden Jackal Crosses Alps to Settle and Breed in Austria",
+      "preview": "A golden jackal named Maj makes history by settling in Austria after crossing the Alps.",
+      "article": "A young male golden jackal, equipped with a GPS collar, made a historic journey across the Alps, marking the first documented case of the species settling in a subalpine environment. Maj traveled approximately 170 kilometers, crossing major highways and reaching elevations of up to 1950 meters before establishing a family group in Austria.\n\nWhy this matters: This study highlights the adaptability of golden jackals in response to climate change and their ability to thrive in previously unsuitable habitats, emphasizing the need for international collaboration in wildlife monitoring and conservation efforts.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/gps-collared-golden-jackal-crosses-alps-to-settle-and-breed-in-austria/",
+          "type": "news",
+          "verified_date": "2026-10-25"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "High-resolution paleobiome reconstructions highlight ecological and historical dynamics underpinning global terrestrial vertebrate diversity",
+      "preview": "New research reconstructs global biome histories, linking them to vertebrate diversity patterns.",
+      "article": "This study reconstructs global biome histories for the Cenozoic era, revealing that present-day biome area and energy are better predictors of vertebrate diversity than historical measures. The findings suggest that biodiversity is closely tied to ecological limits set by shifting biomes, rather than solely influenced by historical dynamics.\n\nWhy this matters: Understanding the relationship between historical biome changes and current biodiversity patterns is crucial for predicting how species may respond to future climate changes and for informing conservation strategies.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004077",
+          "type": "paper",
+          "verified_date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Dynamism under the hood: Coevolutionary maintenance of variation in hosts and parasites",
+      "preview": "Research explores how coevolution maintains genetic diversity in host-parasite interactions.",
+      "article": "This study investigates the coevolutionary dynamics between hosts and parasites, revealing that genetic variation is maintained through context-dependent fitness outcomes. By examining fruit flies and sigma viruses, the research demonstrates that no single genotype dominates, allowing for persistent genetic diversity.\n\nWhy this matters: Understanding the mechanisms behind genetic diversity in host-parasite systems can inform evolutionary biology and clinical medicine, particularly in developing strategies to combat infectious diseases.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004045",
+          "type": "paper",
+          "verified_date": "2026-10-23"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Open-source workflow makes spatial proteomics easier to use",
+      "preview": "A new open-source workflow streamlines spatial proteomics, enhancing research capabilities.",
+      "article": "Researchers have developed an open-source workflow named openDVP, which simplifies the process of spatial proteomics, allowing scientists to map proteins within tissues more effectively. This modular framework integrates imaging, analysis, and mass spectrometry, making it accessible for broader research applications.\n\nWhy this matters: By facilitating the study of proteins in their native environments, openDVP has the potential to advance our understanding of diseases and improve therapeutic strategies, particularly in cancer research.",
+      "sources": [
+        {
+          "name": "Biotechnology News - Biology News",
+          "url": "https://phys.org/news/2026-10-source-workflow-spatial-proteomics-easier.html",
+          "type": "news",
+          "verified_date": "2026-10-23"
+        }
+      ]
+    }
+  ]
+}
