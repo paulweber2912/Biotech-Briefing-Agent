@@ -1,29 +1,29 @@
 {
-  "date": "2026-10-26",
+  "date": "2026-10-27",
   "items": [
     {
       "id": "1",
-      "headline": "Marine-Derived Compound PE/2 Reshapes Liver-to-Fat Cell Communication in Cell Study",
-      "preview": "A marine-derived compound PE/2 alters liver-to-fat cell communication, promoting healthier metabolism.",
-      "article": "A semisynthetic derivative of a marine natural product has been shown to alter the chemical messages that liver cells send to fat cells, favoring a healthier metabolic profile. In a study published in Frontiers in Pharmacology, researchers reported that conditioned media from HepG2 liver cells treated with PE/2 increased adiponectin expression and improved glucose consumption in fat cells.\nWhy this matters: The findings provide insights into how a single marine-derived molecule might modulate the endocrine dialogue between the liver and adipose tissue, potentially offering new avenues for treating metabolic disorders.\nThe study highlights the importance of liver-adipose communication in maintaining energy homeostasis and suggests that enhancing insulin sensitivity could be a crucial goal in preventing metabolic diseases.",
+      "headline": "Hong Kong Team Makes CAR-T Therapy for Children With Leukaemia in Just 14 Days",
+      "preview": "Researchers in Hong Kong have developed a rapid CAR-T cell therapy for children with leukaemia.",
+      "article": "Researchers in Hong Kong have shown that a fully automated, locally based manufacturing system can produce CAR-T cell therapy for children with relapsed B-cell acute lymphoblastic leukaemia in just 14 days, with every one of six treated patients achieving complete remission.\nWhy this matters: This advancement could significantly reduce the wait time for patients needing CAR-T therapy, which traditionally takes weeks, potentially saving lives by providing quicker access to treatment.\nThe manufacturing process utilized the CliniMACS Prodigy system, ensuring compliance with good manufacturing practices. All six patients treated achieved complete remission, demonstrating the efficacy of this rapid production method.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/marine-derived-compound-pe-2-reshapes-liver-to-fat-cell-communication-in-cell-study/",
+          "url": "https://bioengineer.org/hong-kong-team-makes-car-t-therapy-for-children-with-leukaemia-in-just-14-days/",
           "type": "news",
-          "verified_date": "2026-10-26"
+          "verified_date": "2026-10-27"
         }
       ]
     },
     {
       "id": "2",
-      "headline": "Blocking the NAD+-Consuming Enzyme CD38 Protects Neurons and Eases Motor Deficits in a Rat Parkinson\u2019s Model",
-      "preview": "Inhibiting CD38 raises NAD+ levels and protects neurons in a Parkinson's disease model.",
-      "article": "Researchers at Cerevance reported that blocking the NAD+-consuming enzyme CD38 raised NAD+ concentrations in the rodent brain, protecting dopaminergic neurons from alpha-synuclein toxicity and reducing motor deficits in a rat model of Parkinson's disease. The study highlights CD38 as a potential therapeutic target for neurodegenerative diseases.\nWhy this matters: By increasing NAD+ levels, the inhibition of CD38 could provide a new strategy to protect neurons and improve motor function in Parkinson's disease, addressing a critical need in neurodegeneration research.\nThe findings suggest that CD38 inhibition may not only buffer cellular metabolism but also play a role in the clearance of pathological proteins, warranting further investigation.",
+      "headline": "Europe takes cancer science into immunology",
+      "preview": "European researchers are leveraging cancer immunotherapy insights to tackle autoimmune diseases.",
+      "article": "Inspired by technology and insights gleaned from cancer research, Europe is leading the quest for a new generation of therapies in immunology and inflammation. Immunotherapy has revolutionised cancer therapy and is now being adapted for inflammatory and autoimmune diseases.\nWhy this matters: The transfer of knowledge from cancer treatments to autoimmune diseases could lead to significant advancements in therapies for conditions like lupus, where CAR-T therapy has shown promise in early trials.\nThe research highlights the potential of CAR-T cells to reset the immune system in lupus patients, showcasing the growing synergy between oncology and immunology.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/blocking-the-nad-consuming-enzyme-cd38-protects-neurons-and-eases-motor-deficits-in-a-rat-parkinsons-model/",
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/background/europe-takes-cancer-science-into-immunology/",
           "type": "news",
           "verified_date": "2026-10-26"
         }
@@ -31,43 +31,43 @@
     },
     {
       "id": "3",
-      "headline": "The molecule was fine. The moment wasn\u2019t.",
-      "preview": "The pharmaceutical industry must recognize changing market dynamics to unlock value in established medicines.",
-      "article": "The pharmaceutical industry excels at discovering new drugs but often overlooks the potential of established medicines in changing markets. The case of naltrexone HCl/bupropion HCl illustrates how market dynamics can redefine a drug's value. As the obesity treatment landscape evolves, previously overlooked medications may find new opportunities for success.\nWhy this matters: Understanding the context around a medicine can reveal unrealized value and guide strategic decisions in drug development and commercialization. Companies should analyze why an asset underperformed and whether the surrounding conditions have changed.\nRecognizing these inflection points is crucial for growth and innovation in the pharmaceutical industry.",
+      "headline": "Therapeutic delivery systems need to focus on cellular precision to target neurodegeneration",
+      "preview": "A new perspective on CNS drug delivery emphasizes the need for cellular precision.",
+      "article": "The blood-brain barrier (BBB) poses significant challenges for CNS drug delivery, but recent insights suggest that achieving therapeutic efficacy requires a focus on cellular precision rather than just BBB penetration.\nWhy this matters: This shift in focus could lead to more effective treatments for neurodegenerative diseases by ensuring that therapeutics not only cross the BBB but also reach their intended cellular targets.\nThe authors argue for a multi-step approach to CNS drug delivery, emphasizing the importance of targeting specific cell types and optimizing delivery mechanisms to enhance therapeutic outcomes.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/spons/the-molecule-was-fine-the-moment-wasnt/833616/",
-          "type": "news",
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004049",
+          "type": "paper",
           "verified_date": "2026-10-26"
         }
       ]
     },
     {
       "id": "4",
-      "headline": "Moderna CEO on what\u2019s next after success in cancer vaccine",
-      "preview": "Moderna's CEO discusses the future of intismeran following its successful Phase 3 study.",
-      "article": "Moderna CEO St\u00e9phane Bancel expressed excitement over the success of intismeran, a customized mRNA-based therapy for melanoma, during the European Society for Medical Oncology annual meeting. The therapy's Phase 3 study results mark a significant milestone for the company, which has invested a decade in its development.\nWhy this matters: The success of intismeran not only validates years of research but also shapes Moderna's future R&D and business strategies, potentially influencing the landscape of cancer treatment.\nBancel's insights highlight the importance of perseverance in drug development and the evolving role of mRNA technology in oncology.",
+      "headline": "Novartis drops Alzheimer\u2019s program; Windward files for IPO; GSK wins hepatitis B approval",
+      "preview": "Novartis discontinues its Alzheimer\u2019s program while GSK receives FDA approval for a hepatitis B drug.",
+      "article": "Novartis has discontinued its Phase 2 Alzheimer\u2019s program for lifonebart following a review of biomarker data. Meanwhile, Windward Bio has filed for a US IPO to fund antibody trials, and GSK has received FDA approval for bepirovirsen, a new hepatitis B treatment.\nWhy this matters: These developments highlight the dynamic nature of the biotech industry, with companies pivoting strategies based on clinical data and market opportunities. GSK's approval could provide new treatment options for chronic hepatitis B patients.",
       "sources": [
         {
-          "name": "STAT Biotech news: Market-moving coverage of drug development",
-          "url": "https://www.statnews.com/2026/10/26/moderna-ceo-stephane-bancel-interview-cancer-vaccine-intismeran/?utm_campaign=rss",
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/novartis-drops-alzheimers-program-windward-files-for-ipo-gsk-wins-hepatitis-b-approval/",
           "type": "news",
-          "verified_date": "2026-10-26"
+          "verified_date": "2026-10-27"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "Novel protein and peptide therapeutics",
-      "preview": "Innovations in protein-based therapeutics are driving the development of new treatment options.",
-      "article": "The design and manufacturing of novel protein and peptide therapeutics, including antibody-drug conjugates (ADCs) and multispecific antibodies, are on the rise. These next-generation molecules offer improved efficacy and selectivity compared to traditional treatments, although they pose unique manufacturing challenges.\nWhy this matters: The growth of ADCs and other innovative therapeutics reflects the ongoing evolution in oncology and the need for advanced manufacturing solutions to ensure safety and efficacy. As the landscape of protein-based therapies expands, addressing these challenges will be crucial for their successful development and commercialization.\nThe article emphasizes the importance of adapting manufacturing processes to meet the demands of these complex therapeutic agents.",
+      "headline": "CAR-T Cytokine Release Syndrome Shows Distinct Symptom Profiles by Timing, Severity and Duration",
+      "preview": "A study reveals varying symptom profiles of cytokine release syndrome in CAR-T therapy patients.",
+      "article": "Patients with relapsed or refractory multiple myeloma receiving CAR-T-cell therapy often develop cytokine release syndrome (CRS), which varies in clinical presentation based on timing, severity, and duration. A recent study analyzed data from 128 patients to identify these differences.\nWhy this matters: Understanding the distinct symptom profiles associated with CRS can help clinicians tailor monitoring and interventions, potentially improving patient outcomes and management strategies.\nThe study found that specific symptoms could serve as markers for CRS subtypes, emphasizing the need for individualized care in managing this complication.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/spons/novel-protein-and-peptide-therapeutics/833429/",
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/car-t-cytokine-release-syndrome-shows-distinct-symptom-profiles-by-timing-severity-and-duration/",
           "type": "news",
-          "verified_date": "2026-10-26"
+          "verified_date": "2026-10-27"
         }
       ]
     }
