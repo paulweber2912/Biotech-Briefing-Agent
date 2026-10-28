@@ -1,15 +1,15 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "items": [
     {
       "id": "1",
-      "headline": "Hong Kong Team Makes CAR-T Therapy for Children With Leukaemia in Just 14 Days",
-      "preview": "Researchers in Hong Kong have developed a rapid CAR-T cell therapy for children with leukaemia.",
-      "article": "Researchers in Hong Kong have shown that a fully automated, locally based manufacturing system can produce CAR-T cell therapy for children with relapsed B-cell acute lymphoblastic leukaemia in just 14 days, with every one of six treated patients achieving complete remission.\nWhy this matters: This advancement could significantly reduce the wait time for patients needing CAR-T therapy, which traditionally takes weeks, potentially saving lives by providing quicker access to treatment.\nThe manufacturing process utilized the CliniMACS Prodigy system, ensuring compliance with good manufacturing practices. All six patients treated achieved complete remission, demonstrating the efficacy of this rapid production method.",
+      "headline": "Artiva to quit autoimmune cell therapy work, cut staff after patient deaths",
+      "preview": "Artiva Biotherapeutics will cease its autoimmune cell therapy development following patient deaths.",
+      "article": "Artiva Biotherapeutics will lay off most of its staff and stop developing an experimental \u201cnatural killer\u201d cell therapy for autoimmune conditions after reporting the deaths of two participants in a clinical trial.\n\nArtiva made clear in a Tuesday statement that both of the deaths appear unrelated to its therapy, which is known as AlloNK and was being tested in inflammatory diseases like rheumatoid arthritis. The company plans to lay off 94% of its staff and has hired a financial adviser to begin a strategic review.\n\nWhy this matters: This decision highlights the challenges faced by companies in the cell therapy space, particularly in the context of safety and efficacy concerns, as well as the need for robust clinical outcomes to support continued development.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/hong-kong-team-makes-car-t-therapy-for-children-with-leukaemia-in-just-14-days/",
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/artiva-discontinue-nk-cell-therapy-autoimmune-patient-death/872873/",
           "type": "news",
           "verified_date": "2026-10-27"
         }
@@ -19,7 +19,7 @@
       "id": "2",
       "headline": "Europe takes cancer science into immunology",
       "preview": "European researchers are leveraging cancer immunotherapy insights to tackle autoimmune diseases.",
-      "article": "Inspired by technology and insights gleaned from cancer research, Europe is leading the quest for a new generation of therapies in immunology and inflammation. Immunotherapy has revolutionised cancer therapy and is now being adapted for inflammatory and autoimmune diseases.\nWhy this matters: The transfer of knowledge from cancer treatments to autoimmune diseases could lead to significant advancements in therapies for conditions like lupus, where CAR-T therapy has shown promise in early trials.\nThe research highlights the potential of CAR-T cells to reset the immune system in lupus patients, showcasing the growing synergy between oncology and immunology.",
+      "article": "Inspired by technology and insights gleaned from cancer research, Europe is leading the quest for a new generation of therapies in immunology and inflammation. Landmark research has shown that CAR-T therapy can induce remission in some patients with severe lupus.\n\nThe idea hinges around the way that CAR-T cells can be reprogrammed to attack the B-cells that are the root cause of lupus. However, the therapy is expensive and takes a long time to make as it is tailored to each individual patient.\n\nWhy this matters: This shift in focus from oncology to immunology represents a significant opportunity to address unmet needs in autoimmune diseases, potentially leading to more effective treatments for conditions like lupus and rheumatoid arthritis.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
@@ -31,9 +31,23 @@
     },
     {
       "id": "3",
+      "headline": "CD36 Gene Variant Linked to Higher Death Risk in Childhood Cerebral Malaria",
+      "preview": "A specific CD36 gene variant increases mortality risk in children with cerebral malaria.",
+      "article": "Children admitted to a Sudanese hospital with cerebral malaria who carried a specific variant in the CD36 gene faced roughly eight times the risk of dying from the disease compared with children homozygous for the common allele. The study highlights the importance of genetic factors in determining outcomes in cerebral malaria.\n\nThe findings suggest that the CD36 +188 T/G variant may influence the severity of malaria complications, potentially guiding clinical decisions in high-risk populations.\n\nWhy this matters: Identifying genetic markers associated with increased mortality risk can improve triage and follow-up for vulnerable patients, ultimately enhancing care for children suffering from cerebral malaria.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/cd36-gene-variant-linked-to-higher-death-risk-in-childhood-cerebral-malaria/",
+          "type": "news",
+          "verified_date": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "4",
       "headline": "Therapeutic delivery systems need to focus on cellular precision to target neurodegeneration",
-      "preview": "A new perspective on CNS drug delivery emphasizes the need for cellular precision.",
-      "article": "The blood-brain barrier (BBB) poses significant challenges for CNS drug delivery, but recent insights suggest that achieving therapeutic efficacy requires a focus on cellular precision rather than just BBB penetration.\nWhy this matters: This shift in focus could lead to more effective treatments for neurodegenerative diseases by ensuring that therapeutics not only cross the BBB but also reach their intended cellular targets.\nThe authors argue for a multi-step approach to CNS drug delivery, emphasizing the importance of targeting specific cell types and optimizing delivery mechanisms to enhance therapeutic outcomes.",
+      "preview": "A new perspective on CNS drug delivery emphasizes cellular precision over mere BBB penetration.",
+      "article": "The blood-brain barrier (BBB) is a significant challenge for CNS drug delivery, but achieving therapeutic efficacy requires more than just crossing this barrier. The focus should shift towards ensuring that therapeutics can effectively target specific cells within the brain.\n\nThis approach is crucial for treating neurodegenerative diseases, which often affect discrete cell populations. Optimizing delivery systems to enhance cellular targeting and minimize off-target effects is essential for improving therapeutic outcomes.\n\nWhy this matters: Rethinking CNS drug delivery strategies could lead to more effective treatments for neurodegenerative diseases by ensuring that therapies reach the right cells at the right time.",
       "sources": [
         {
           "name": "PLOS Biology",
@@ -44,30 +58,16 @@
       ]
     },
     {
-      "id": "4",
-      "headline": "Novartis drops Alzheimer\u2019s program; Windward files for IPO; GSK wins hepatitis B approval",
-      "preview": "Novartis discontinues its Alzheimer\u2019s program while GSK receives FDA approval for a hepatitis B drug.",
-      "article": "Novartis has discontinued its Phase 2 Alzheimer\u2019s program for lifonebart following a review of biomarker data. Meanwhile, Windward Bio has filed for a US IPO to fund antibody trials, and GSK has received FDA approval for bepirovirsen, a new hepatitis B treatment.\nWhy this matters: These developments highlight the dynamic nature of the biotech industry, with companies pivoting strategies based on clinical data and market opportunities. GSK's approval could provide new treatment options for chronic hepatitis B patients.",
-      "sources": [
-        {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/novartis-drops-alzheimers-program-windward-files-for-ipo-gsk-wins-hepatitis-b-approval/",
-          "type": "news",
-          "verified_date": "2026-10-27"
-        }
-      ]
-    },
-    {
       "id": "5",
-      "headline": "CAR-T Cytokine Release Syndrome Shows Distinct Symptom Profiles by Timing, Severity and Duration",
-      "preview": "A study reveals varying symptom profiles of cytokine release syndrome in CAR-T therapy patients.",
-      "article": "Patients with relapsed or refractory multiple myeloma receiving CAR-T-cell therapy often develop cytokine release syndrome (CRS), which varies in clinical presentation based on timing, severity, and duration. A recent study analyzed data from 128 patients to identify these differences.\nWhy this matters: Understanding the distinct symptom profiles associated with CRS can help clinicians tailor monitoring and interventions, potentially improving patient outcomes and management strategies.\nThe study found that specific symptoms could serve as markers for CRS subtypes, emphasizing the need for individualized care in managing this complication.",
+      "headline": "Cancer cells on the move shed giant vesicles packed with whole genomes",
+      "preview": "New research reveals that migrating cancer cells release large vesicles containing genomic DNA.",
+      "article": "A study describes a previously unrecognized class of large extracellular vesicles, dubbed motile vesicles or MoVes, shed by actively migrating cancer cells. These vesicles carry the complete genomic DNA of the parent tumor cell, suggesting a novel mechanism of molecular release during cell migration.\n\nThe findings indicate that MoVes may play a role in cancer biology by facilitating communication and potentially influencing the behavior of neighboring cells.\n\nWhy this matters: Understanding the role of MoVes in cancer cell migration could provide insights into tumor progression and metastasis, opening new avenues for therapeutic intervention.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/car-t-cytokine-release-syndrome-shows-distinct-symptom-profiles-by-timing-severity-and-duration/",
+          "url": "https://bioengineer.org/cancer-cells-on-the-move-shed-giant-vesicles-packed-with-whole-genomes/",
           "type": "news",
-          "verified_date": "2026-10-27"
+          "verified_date": "2026-10-28"
         }
       ]
     }

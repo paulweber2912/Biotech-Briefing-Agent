@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-28",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Artiva to quit autoimmune cell therapy work, cut staff after patient deaths",
+      "preview": "Artiva Biotherapeutics will cease its autoimmune cell therapy development following patient deaths.",
+      "article": "Artiva Biotherapeutics will lay off most of its staff and stop developing an experimental \u201cnatural killer\u201d cell therapy for autoimmune conditions after reporting the deaths of two participants in a clinical trial.\n\nArtiva made clear in a Tuesday statement that both of the deaths appear unrelated to its therapy, which is known as AlloNK and was being tested in inflammatory diseases like rheumatoid arthritis. The company plans to lay off 94% of its staff and has hired a financial adviser to begin a strategic review.\n\nWhy this matters: This decision highlights the challenges faced by companies in the cell therapy space, particularly in the context of safety and efficacy concerns, as well as the need for robust clinical outcomes to support continued development.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/artiva-discontinue-nk-cell-therapy-autoimmune-patient-death/872873/",
+          "type": "news",
+          "verified_date": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Europe takes cancer science into immunology",
+      "preview": "European researchers are leveraging cancer immunotherapy insights to tackle autoimmune diseases.",
+      "article": "Inspired by technology and insights gleaned from cancer research, Europe is leading the quest for a new generation of therapies in immunology and inflammation. Landmark research has shown that CAR-T therapy can induce remission in some patients with severe lupus.\n\nThe idea hinges around the way that CAR-T cells can be reprogrammed to attack the B-cells that are the root cause of lupus. However, the therapy is expensive and takes a long time to make as it is tailored to each individual patient.\n\nWhy this matters: This shift in focus from oncology to immunology represents a significant opportunity to address unmet needs in autoimmune diseases, potentially leading to more effective treatments for conditions like lupus and rheumatoid arthritis.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/background/europe-takes-cancer-science-into-immunology/",
+          "type": "news",
+          "verified_date": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "CD36 Gene Variant Linked to Higher Death Risk in Childhood Cerebral Malaria",
+      "preview": "A specific CD36 gene variant increases mortality risk in children with cerebral malaria.",
+      "article": "Children admitted to a Sudanese hospital with cerebral malaria who carried a specific variant in the CD36 gene faced roughly eight times the risk of dying from the disease compared with children homozygous for the common allele. The study highlights the importance of genetic factors in determining outcomes in cerebral malaria.\n\nThe findings suggest that the CD36 +188 T/G variant may influence the severity of malaria complications, potentially guiding clinical decisions in high-risk populations.\n\nWhy this matters: Identifying genetic markers associated with increased mortality risk can improve triage and follow-up for vulnerable patients, ultimately enhancing care for children suffering from cerebral malaria.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/cd36-gene-variant-linked-to-higher-death-risk-in-childhood-cerebral-malaria/",
+          "type": "news",
+          "verified_date": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Therapeutic delivery systems need to focus on cellular precision to target neurodegeneration",
+      "preview": "A new perspective on CNS drug delivery emphasizes cellular precision over mere BBB penetration.",
+      "article": "The blood-brain barrier (BBB) is a significant challenge for CNS drug delivery, but achieving therapeutic efficacy requires more than just crossing this barrier. The focus should shift towards ensuring that therapeutics can effectively target specific cells within the brain.\n\nThis approach is crucial for treating neurodegenerative diseases, which often affect discrete cell populations. Optimizing delivery systems to enhance cellular targeting and minimize off-target effects is essential for improving therapeutic outcomes.\n\nWhy this matters: Rethinking CNS drug delivery strategies could lead to more effective treatments for neurodegenerative diseases by ensuring that therapies reach the right cells at the right time.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004049",
+          "type": "paper",
+          "verified_date": "2026-10-26"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Cancer cells on the move shed giant vesicles packed with whole genomes",
+      "preview": "New research reveals that migrating cancer cells release large vesicles containing genomic DNA.",
+      "article": "A study describes a previously unrecognized class of large extracellular vesicles, dubbed motile vesicles or MoVes, shed by actively migrating cancer cells. These vesicles carry the complete genomic DNA of the parent tumor cell, suggesting a novel mechanism of molecular release during cell migration.\n\nThe findings indicate that MoVes may play a role in cancer biology by facilitating communication and potentially influencing the behavior of neighboring cells.\n\nWhy this matters: Understanding the role of MoVes in cancer cell migration could provide insights into tumor progression and metastasis, opening new avenues for therapeutic intervention.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/cancer-cells-on-the-move-shed-giant-vesicles-packed-with-whole-genomes/",
+          "type": "news",
+          "verified_date": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}
