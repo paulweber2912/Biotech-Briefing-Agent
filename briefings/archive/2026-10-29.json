@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-29",
+  "items": [
+    {
+      "id": "1",
+      "headline": "FDA unveils guidance for \u2018plug and play\u2019 gene therapies",
+      "preview": "The FDA proposes new guidance to facilitate personalized gene therapies for rare diseases.",
+      "article": "The Food and Drug Administration on Tuesday took another step toward expanding access to treatments for rare diseases, announcing a new proposal for personalized gene therapies. In the latest draft guidance, regulators focused on treatments designed to correct different mutations in the same disease-causing gene.\nWhy this matters: This approach could allow drugmakers to gain approval for various mutations without conducting entirely new clinical studies, potentially accelerating the development of treatments for rare diseases. The FDA's initiative aims to change the economic landscape for developing these therapies, making it more feasible for companies to pursue them.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/fda-personalized-gene-therapy-rare-disease-guidance/873004/",
+          "type": "news",
+          "verified_date": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Artiva to quit autoimmune cell therapy work, cut staff after patient deaths",
+      "preview": "Artiva Biotherapeutics halts its NK cell therapy development following two patient deaths.",
+      "article": "Artiva Biotherapeutics will lay off most of its staff and stop developing an experimental \u2018natural killer\u2019 cell therapy for autoimmune conditions after reporting the deaths of two participants in a clinical trial. Both deaths appear unrelated to its therapy, known as AlloNK, which was being tested in inflammatory diseases like rheumatoid arthritis.\nWhy this matters: The decision to halt development and lay off 94% of its workforce underscores the challenges faced by companies in the cell therapy space, especially following safety concerns. Artiva's situation reflects broader issues in the industry regarding the viability and safety of innovative therapies.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/artiva-discontinue-nk-cell-therapy-autoimmune-patient-death/872873/",
+          "type": "news",
+          "verified_date": "2026-10-27"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Alzheimer\u2019s disease research must connect vascular molecular phenotypes with physiology",
+      "preview": "A new paper emphasizes the need to link vascular dysfunction to Alzheimer's disease pathology.",
+      "article": "Alzheimer\u2019s disease (AD) research has long focused on amyloid-\u03b2 plaques and tau tangles, but growing evidence indicates that vascular dysfunction is a significant contributor to neuronal damage. The authors argue that understanding the molecular changes that produce functional deficits is essential for developing early diagnostic biomarkers and prioritizing vascular changes as therapeutic targets.\nWhy this matters: By establishing how vascular pathology contributes to AD, researchers can identify earlier disease biomarkers and therapeutic targets, potentially leading to improved interventions for patients. This approach could transform how AD is understood and treated.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004051",
+          "type": "paper",
+          "verified_date": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Emerging Neuroscientists Map Body, Brain and Behaviour Across the Lifespan",
+      "preview": "A new research collection showcases early-career scientists in psychophysiology and cognitive neuroscience.",
+      "article": "A new collection of research highlights studies led by early-career scientists in psychophysiology and cognitive neuroscience. The studies cover diverse topics, including bodily self-representation, neural markers of cognitive vulnerability, and innovative approaches for modulating brain function.\nWhy this matters: This collection illustrates the originality and scientific rigor of the next generation of scientists, providing insights into contemporary issues in neuroscience and suggesting future directions for research and clinical applications.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/emerging-neuroscientists-map-body-brain-and-behaviour-across-the-lifespan/",
+          "type": "news",
+          "verified_date": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Rare Mazabraud\u2019s Syndrome Uncovered Incidentally on FDG PET/CT During Cancer Staging",
+      "preview": "A rare genetic disorder was diagnosed incidentally during cancer staging using PET/CT.",
+      "article": "A 46-year-old man undergoing FDG PET/CT for cancer staging was incidentally diagnosed with Mazabraud\u2019s syndrome, a rare genetic disorder characterized by intramuscular myxomas and fibrous dysplasia. The imaging revealed features consistent with both conditions, leading to the diagnosis.\nWhy this matters: This case highlights the potential of PET/CT to uncover rare conditions during routine oncologic evaluations, emphasizing the importance of recognizing patterns that may indicate benign genetic disorders, which could otherwise be overlooked.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/rare-mazabrauds-syndrome-uncovered-incidentally-on-fdg-pet-ct-during-cancer-staging/",
+          "type": "news",
+          "verified_date": "2026-10-29"
+        }
+      ]
+    }
+  ]
+}
