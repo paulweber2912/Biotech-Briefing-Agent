@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-31",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Widespread atropine use fails to sway FDA advisors on Sydnexis data",
+      "preview": "FDA advisors remain concerned about the evidence for Sydnexis' low-dose atropine.",
+      "article": "FDA advisors largely shared the agency\u2019s concerns about the evidence supporting Sydnexis\u2019 low-dose atropine for pediatric myopia, despite clinicians\u2019 calls for an approved alternative to compounded formulations.\n\nAt Friday\u2019s meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee, the central question was whether data from the Phase III STAR trial of low-dose atropine demonstrated clinically meaningful benefit. The discussion came a year after FDA issued a complete response letter (CRL) to Sydnexis Inc. for SYD-101, citing insufficient evidence of effectiveness despite the lower dose meeting the trial\u2019s prespecified endpoints.\n\nWhy this matters: The outcome of this meeting could significantly impact the future of pediatric myopia treatment options.",
+      "sources": [
+        {
+          "name": "BioCentury",
+          "url": "https://www.biocentury.com/article/661385/widespread-atropine-use-fails-to-sway-fda-advisors-on-sydnexis-data?utm_source=bc_rss&utm_medium=rss",
+          "type": "regulator",
+          "verified_date": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "The Fruits of AI Drug Abundance: Indigestion In The Near Term",
+      "preview": "AI is expected to create a wave of drug abundance, complicating R&D productivity.",
+      "article": "AI is transforming industries, and biopharma is no exception. AI will help make better drugs, hopefully more efficiently, and will aid in bringing those medicines to patients with expedience.\n\nHowever, predictions suggest that AI will drive a wave of drug abundance and exacerbate the industry\u2019s aggregate R&D productivity challenges over the next 3-5 years, rather than improve those metrics. The democratization of molecular design through AI is expected to lead to intense competition around known targets, potentially resulting in a plethora of similar drug candidates entering the market.\n\nWhy this matters: While AI has the potential to enhance drug discovery, it may also lead to increased competition and lower returns on investment for the industry.",
+      "sources": [
+        {
+          "name": "LifeSciVC",
+          "url": "https://lifescivc.com/2026/10/the-fruits-of-ai-drug-abundance-indigestion-in-the-near-term/?utm_source=rss&utm_medium=rss&utm_campaign=the-fruits-of-ai-drug-abundance-indigestion-in-the-near-term",
+          "type": "news",
+          "verified_date": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Viral disease outcomes are indistinguishable between experimentally infected bats and rodents",
+      "preview": "Study reveals bats experience disease outcomes similar to rodents when infected.",
+      "article": "A common explanation for bats being a source of zoonotic viruses is their ability to coexist with viruses without suffering overt disease. However, a new study synthesizing 86 years of experimental infections shows that disease outcomes in bats following viral inoculation are indistinguishable from those in rodents.\n\nThe findings suggest that the immune systems of bats may not be uniquely equipped to handle viral infections as previously thought. Instead, the severity of disease outcomes is influenced by experimental design and viral host range.\n\nWhy this matters: Understanding the immune response of bats could inform the development of broad-spectrum antivirals, but these results challenge the notion of bats as exceptional hosts for zoonotic viruses.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004053",
+          "type": "paper",
+          "verified_date": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "IP: American as apple pie and essential for biotech",
+      "preview": "The U.S. strong IP system is crucial for biotech innovation and patient care.",
+      "article": "The United States leads the world in biotech innovation, driven by a robust intellectual property (IP) system. IP rights incentivize innovation, prevent counterfeiting, and attract investment, which is vital for the research-intensive biotech industry.\n\nSmall and medium-sized biotech firms are responsible for the majority of new drugs, highlighting the importance of IP protections in fostering competition and innovation. The cycle of innovation continues as revenue from product sales funds further research, reinforcing the industry's growth.\n\nWhy this matters: A strong IP environment is essential for maintaining the U.S.'s competitive edge in biotech and ensuring continued advancements in patient care.",
+      "sources": [
+        {
+          "name": "Bio.News",
+          "url": "https://bio.news/federal-policy/ip-american-as-apple-pie-and-essential-for-biotech/",
+          "type": "news",
+          "verified_date": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "TME Pharma returns to its roots, looks to Japan to rescue NOX-A12",
+      "preview": "TME Pharma seeks partnership with TMS Co. to advance glioblastoma treatment.",
+      "article": "TME Pharma is negotiating with Japan's TMS Co. Ltd. to develop its lead drug candidate NOX-A12 for glioblastoma. This partnership marks a return to TME's core business of drug development after a period of financial restructuring.\n\nThe agreement could provide TME Pharma with necessary funding and support for clinical development, with potential milestone payments exceeding \u20ac100 million. However, the deal is still in the negotiation phase, and funding for the planned Phase 2 study remains uncertain.\n\nWhy this matters: Successful collaboration could revitalize TME Pharma's drug development efforts and bring a promising treatment option for glioblastoma patients closer to reality.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/tme-pharma-returns-to-its-roots-looks-to-japan-to-rescue-nox-a12/",
+          "type": "news",
+          "verified_date": "2026-10-30"
+        }
+      ]
+    }
+  ]
+}
