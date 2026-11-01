@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-01",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Widespread atropine use fails to sway FDA advisors on Sydnexis data",
+      "preview": "FDA advisors remain skeptical about Sydnexis' low-dose atropine for pediatric myopia.",
+      "article": "FDA advisors largely shared the agency\u2019s concerns about the evidence supporting Sydnexis\u2019 low-dose atropine for pediatric myopia, despite clinicians\u2019 calls for an approved alternative to compounded formulations.\nAt Friday\u2019s meeting of the Dermatologic and Ophthalmic Drugs Advisory Committee, the central question was whether data from the Phase III STAR trial of low-dose atropine demonstrated clinically meaningful benefit. The discussion came a year after FDA issued a complete response letter (CRL) to Sydnexis Inc. for SYD-101, citing insufficient evidence of effectiveness despite the lower dose meeting the trial\u2019s prespecified endpoints.\nWhy this matters: The outcome of this meeting underscores the ongoing challenges in demonstrating the efficacy of new treatments for pediatric conditions, which could impact future drug development in this area.",
+      "sources": [
+        {
+          "name": "BioCentury",
+          "url": "https://www.biocentury.com/article/661385/widespread-atropine-use-fails-to-sway-fda-advisors-on-sydnexis-data?utm_source=bc_rss&utm_medium=rss",
+          "type": "news",
+          "verified_date": "2026-10-31"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "TME Pharma returns to its roots, looks to Japan to rescue NOX-A12",
+      "preview": "TME Pharma seeks a partnership in Japan to advance its glioblastoma treatment NOX-A12.",
+      "article": "TME Pharma has signed an exclusive negotiation agreement with Japan\u2019s TMS Co. Ltd. to potentially develop its lead drug candidate NOX-A12 for glioblastoma. This partnership aims to finance and organize further clinical development, marking a significant return to TME Pharma's core business.\nThe agreement includes an initial payment of approximately \u20ac10 million and potential milestone payments exceeding \u20ac100 million, contingent on regulatory and commercial success. However, the deal is still in its early stages, with TMS needing to secure financing for the new subsidiary before clinical development can resume.\nWhy this matters: This partnership could revitalize TME Pharma's drug development efforts and provide a pathway for advancing treatments for aggressive brain tumors, which have limited therapeutic options.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/tme-pharma-returns-to-its-roots-looks-to-japan-to-rescue-nox-a12/",
+          "type": "news",
+          "verified_date": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Molecular Partners halves its workforce \u2014 is money running short?",
+      "preview": "Molecular Partners plans significant layoffs as it shifts focus to radiopharmaceuticals.",
+      "article": "Molecular Partners is cutting up to 55 jobs, about 44% of its workforce, as it pivots to focus on its Radio-DARPin pipeline. The company cites a strategic shift, but financial constraints are also a significant factor, with cash reserves expected to last until the end of 2027.\nThe layoffs coincide with a new focus on targeted radiotherapy, particularly with its lead candidate MP0712, which is in early clinical trials. The company aims to streamline operations to preserve funds for its most promising programs while seeking additional financing.\nWhy this matters: This restructuring reflects the challenges faced by biotech firms in securing funding and highlights the need for strategic prioritization in drug development.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/molecular-partners-halves-its-workforce-is-money-running-short/",
+          "type": "news",
+          "verified_date": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Auchincloss bill seeks to improve \u2018operating system for science\u2019",
+      "preview": "New legislation aims to modernize U.S. clinical trials and enhance research infrastructure.",
+      "article": "The Auchincloss bill proposes to create infrastructure that embeds clinical trials into routine care and establishes a notification scheme for Phase I trials similar to Australia\u2019s. This initiative responds to the slow and costly nature of U.S. clinical trials, which have been losing ground to international competitors.\nThe bill aims to modernize the clinical trials infrastructure, driven by a nonpartisan push to improve the efficiency and accessibility of trials for patients. It also coincides with the need to reauthorize FDA user fees by October 2027, providing a legislative vehicle for these changes.\nWhy this matters: Improving the clinical trial process is crucial for accelerating the development of new therapies and ensuring that patients have timely access to innovative treatments.",
+      "sources": [
+        {
+          "name": "BioCentury",
+          "url": "https://www.biocentury.com/article/661390/auchincloss-bill-seeks-to-improve-operating-system-for-science?utm_source=bc_rss&utm_medium=rss",
+          "type": "news",
+          "verified_date": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "How early microbial encounters shape adult behavior",
+      "preview": "Study reveals how early exposure to microbes influences adult behavior in Drosophila.",
+      "article": "A new study in PLOS Biology demonstrates that early-life exposure to specific microbes can shape adult behavior in Drosophila. The research identifies uracil, a bacterial metabolite, as a key signal that primes adult feeding decisions by activating specific sensory neurons during the larval stage.\nThe findings suggest that microbial signals encountered early in life can have lasting effects on behavior, mediated through host signaling pathways. This research sheds light on the complex interactions between microbes and host behavior, highlighting the importance of early environmental exposures.\nWhy this matters: Understanding how early microbial encounters influence behavior could have implications for developmental biology and the role of the microbiome in health and disease.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004101",
+          "type": "paper",
+          "verified_date": "2026-10-30"
+        }
+      ]
+    }
+  ]
+}
