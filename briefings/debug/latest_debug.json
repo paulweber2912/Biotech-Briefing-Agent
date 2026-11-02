@@ -1,26 +1,25 @@
 {
-  "date": "2026-11-01",
+  "date": "2026-11-02",
   "window_hours": 48,
   "max_items": 5,
   "max_per_source": 2,
   "require_at_least_one_paper": true,
-  "rss_items_collected": 36,
+  "rss_items_collected": 20,
   "search_items_collected": 0,
-  "deduped_candidates": 36,
-  "fetched_ok": 9,
-  "fetched_dropped": 27,
+  "deduped_candidates": 20,
+  "fetched_ok": 6,
+  "fetched_dropped": 14,
   "drop_reasons": {
-    "fetch_failed": 12,
-    "text_too_short_or_teaser": 15
+    "fetch_failed": 14
   },
-  "paper_guarantee_applied": true,
+  "paper_guarantee_applied": false,
   "rss_feeds_count": 43,
   "rss_per_feed": [
     {
       "feed_url": "https://www.nature.com/subjects/biotechnology.rss",
       "feed_title": "Biotechnology : nature.com subject feeds",
       "items_total": 30,
-      "items_in_window": 11
+      "items_in_window": 13
     },
     {
       "feed_url": "https://www.nature.com/subjects/gene-therapy.rss",
@@ -50,7 +49,7 @@
       "feed_url": "https://www.science.org/rss/news_current.xml",
       "feed_title": "Latest News from Science Magazine",
       "items_total": 10,
-      "items_in_window": 0
+      "items_in_window": 1
     },
     {
       "feed_url": "https://www.cell.com/cell/current.rss?code=cell-site",
@@ -92,7 +91,7 @@
       "feed_url": "https://journals.plos.org/plosbiology/feed/atom",
       "feed_title": "PLOS Biology",
       "items_total": 30,
-      "items_in_window": 2
+      "items_in_window": 0
     },
     {
       "feed_url": "https://www.biorxiv.org/rss/latest.xml",
@@ -110,13 +109,13 @@
       "feed_url": "https://www.tctjournal.org/current.rss?code=ybmt-site",
       "feed_title": "Transplantation and Cellular Therapy, Official Publication of the American Society for Transplantation and Cellular Therapy",
       "items_total": 276,
-      "items_in_window": 1
+      "items_in_window": 0
     },
     {
       "feed_url": "https://www.stemcellsciencenews.com/feed/",
       "feed_title": "Science News",
       "items_total": 11,
-      "items_in_window": 11
+      "items_in_window": 0
     },
     {
       "feed_url": "https://globalstemcelltherapy.com/blog/feed/",
@@ -146,7 +145,7 @@
       "feed_url": "https://www.statnews.com/category/biotech/feed/",
       "feed_title": "STAT Biotech news: Market-moving coverage of drug development",
       "items_total": 20,
-      "items_in_window": 0
+      "items_in_window": 1
     },
     {
       "feed_url": "https://feeds.feedburner.com/GenGengNews",
@@ -218,13 +217,13 @@
       "feed_url": "https://biocentury.com/rss/BioCentury",
       "feed_title": "BioCentury",
       "items_total": 50,
-      "items_in_window": 6
+      "items_in_window": 0
     },
     {
       "feed_url": "https://biotechniques.com/feed",
       "feed_title": "BioTechniques",
       "items_total": 10,
-      "items_in_window": 0
+      "items_in_window": 1
     },
     {
       "feed_url": "https://www.ema.europa.eu/en/news-events/rss-feeds?feed=press-releases",
@@ -266,7 +265,7 @@
       "feed_url": "https://phys.org/rss-feed/biology-news/biotechnology/",
       "feed_title": "Biotechnology News - Biology News",
       "items_total": 30,
-      "items_in_window": 1
+      "items_in_window": 0
     },
     {
       "feed_url": "https://www.biologynews.net/rss.php",
@@ -276,157 +275,125 @@
     }
   ],
   "search_errors": [],
-  "paper_inserted_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004101",
-  "paper_replaced_url": "https://www.biopharmadive.com/news/biotech-charts-esmo-2026-winners-losers/873281/",
   "selection_source_counts": {
-    "BioCentury": 2,
     "European Biotechnology Magazine": 2,
-    "BioPharma Dive - Latest News": 0,
-    "PLOS Biology": 1
+    "BioPharma Dive - Latest News": 1,
+    "STAT Biotech news: Market-moving coverage of drug development": 1,
+    "BioTechniques": 1
   },
   "selected_count": 5,
   "scored_preview_top50": [
     {
-      "headline": "Widespread atropine use fails to sway FDA advisors on Sydnexis data",
-      "url": "https://www.biocentury.com/article/661385/widespread-atropine-use-fails-to-sway-fda-advisors-on-sydnexis-data?utm_source=bc_rss&utm_medium=rss",
-      "source": "BioCentury",
-      "kind": "news",
-      "topical": true,
-      "low_value_notice": false,
-      "age_hours": 36.27,
-      "score": 11
-    },
-    {
-      "headline": "TME Pharma returns to its roots, looks to Japan to rescue NOX-A12",
-      "url": "https://european-biotechnology.com/latest-news/tme-pharma-returns-to-its-roots-looks-to-japan-to-rescue-nox-a12/",
+      "headline": "Europe \u00adrethinks the CRO-CDMO model",
+      "url": "https://european-biotechnology.com/background/europe-rethinks-the-cro-cdmo-model/",
       "source": "European Biotechnology Magazine",
       "kind": "news",
       "topical": true,
       "low_value_notice": false,
-      "age_hours": 47.17,
-      "score": 10
+      "age_hours": 5.0,
+      "score": 21
     },
     {
-      "headline": "This week in charts: ESMO\u2019s winners and losers",
-      "url": "https://www.biopharmadive.com/news/biotech-charts-esmo-2026-winners-losers/873281/",
+      "headline": "Breaking the silos: What effective scenario modeling looks like in 2026 and beyond",
+      "url": "https://www.biopharmadive.com/spons/breaking-the-silos-what-effective-scenario-modeling-looks-like-in-2026-and/872840/",
       "source": "BioPharma Dive - Latest News",
       "kind": "news",
       "topical": true,
       "low_value_notice": false,
-      "age_hours": 44.48,
-      "score": 8
+      "age_hours": 4.44,
+      "score": 11
     },
     {
-      "headline": "Molecular Partners halves its workforce \u2014 is money running short?",
-      "url": "https://european-biotechnology.com/latest-news/molecular-partners-halves-its-workforce-is-money-running-short/",
+      "headline": "Where Life Science Scales in Basel",
+      "url": "https://european-biotechnology.com/sponsored-publications/where-life-science-scales-in-basel-2/",
       "source": "European Biotechnology Magazine",
       "kind": "news",
       "topical": true,
       "low_value_notice": false,
-      "age_hours": 47.42,
-      "score": 8
+      "age_hours": 1.86,
+      "score": 10
     },
     {
-      "headline": "Auchincloss bill seeks to improve \u2018operating system for science\u2019",
-      "url": "https://www.biocentury.com/article/661390/auchincloss-bill-seeks-to-improve-operating-system-for-science?utm_source=bc_rss&utm_medium=rss",
-      "source": "BioCentury",
+      "headline": "STAT+: Coming readout of Kymera eczema trial is a high-stakes moment in a bid to rival Dupixent",
+      "url": "https://www.statnews.com/2026/11/02/kymera-therapeutics-trial-results-eczema-dupixent-rival/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
       "kind": "news",
       "topical": true,
       "low_value_notice": false,
-      "age_hours": 39.34,
+      "age_hours": 4.94,
       "score": 8
     },
     {
-      "headline": "Genmab\u2019s $8B Merus bet passes Phase 3 test in head and neck cancer",
-      "url": "https://european-biotechnology.com/latest-news/genmabs-8b-merus-bet-passes-phase-3-test-in-head-and-neck-cancer/",
+      "headline": "A mesmerizing collection of molecular snapshots reveal more about ribosome assembly",
+      "url": "https://www.biotechniques.com/imaging/a-mesmerizing-collection-of-molecular-snapshots-reveal-more-about-ribosome-assembly/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 6.44,
+      "score": 7
+    },
+    {
+      "headline": "Alligator sells cancer antibody for $750,000 upfront after abandoning development",
+      "url": "https://european-biotechnology.com/latest-news/alligator-sells-cancer-antibody-for-750000-upfront-after-abandoning-development/",
       "source": "European Biotechnology Magazine",
       "kind": "news",
       "topical": true,
       "low_value_notice": false,
-      "age_hours": 46.06,
-      "score": 6
-    },
-    {
-      "headline": "How early microbial encounters shape adult behavior",
-      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004101",
-      "source": "PLOS Biology",
-      "kind": "paper",
-      "topical": true,
-      "low_value_notice": false,
-      "age_hours": 46.48,
-      "score": 5
-    },
-    {
-      "headline": "Rethinking neurodegeneration: Placing disease in its physiological context",
-      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004087",
-      "source": "PLOS Biology",
-      "kind": "paper",
-      "topical": true,
-      "low_value_notice": false,
-      "age_hours": 46.48,
-      "score": 5
-    },
-    {
-      "headline": "Drone-based AI system tracks cattle growth without stressful trips to scales",
-      "url": "https://phys.org/news/2026-10-drone-based-ai-tracks-cattle.html",
-      "source": "Biotechnology News - Biology News",
-      "kind": "news",
-      "topical": true,
-      "low_value_notice": false,
-      "age_hours": 42.15,
-      "score": 5
+      "age_hours": 4.26,
+      "score": 4
     }
   ],
   "selected_items": [
     {
-      "headline": "Widespread atropine use fails to sway FDA advisors on Sydnexis data",
-      "url": "https://www.biocentury.com/article/661385/widespread-atropine-use-fails-to-sway-fda-advisors-on-sydnexis-data?utm_source=bc_rss&utm_medium=rss",
-      "source": "BioCentury",
+      "headline": "Europe \u00adrethinks the CRO-CDMO model",
+      "url": "https://european-biotechnology.com/background/europe-rethinks-the-cro-cdmo-model/",
+      "source": "European Biotechnology Magazine",
       "kind": "news",
       "topical": true,
       "low_value_notice": false,
-      "age_hours": 36.27,
+      "age_hours": 5.0,
+      "score": 21
+    },
+    {
+      "headline": "Breaking the silos: What effective scenario modeling looks like in 2026 and beyond",
+      "url": "https://www.biopharmadive.com/spons/breaking-the-silos-what-effective-scenario-modeling-looks-like-in-2026-and/872840/",
+      "source": "BioPharma Dive - Latest News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 4.44,
       "score": 11
     },
     {
-      "headline": "TME Pharma returns to its roots, looks to Japan to rescue NOX-A12",
-      "url": "https://european-biotechnology.com/latest-news/tme-pharma-returns-to-its-roots-looks-to-japan-to-rescue-nox-a12/",
+      "headline": "Where Life Science Scales in Basel",
+      "url": "https://european-biotechnology.com/sponsored-publications/where-life-science-scales-in-basel-2/",
       "source": "European Biotechnology Magazine",
       "kind": "news",
       "topical": true,
       "low_value_notice": false,
-      "age_hours": 47.17,
+      "age_hours": 1.86,
       "score": 10
     },
     {
-      "headline": "Molecular Partners halves its workforce \u2014 is money running short?",
-      "url": "https://european-biotechnology.com/latest-news/molecular-partners-halves-its-workforce-is-money-running-short/",
-      "source": "European Biotechnology Magazine",
+      "headline": "STAT+: Coming readout of Kymera eczema trial is a high-stakes moment in a bid to rival Dupixent",
+      "url": "https://www.statnews.com/2026/11/02/kymera-therapeutics-trial-results-eczema-dupixent-rival/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
       "kind": "news",
       "topical": true,
       "low_value_notice": false,
-      "age_hours": 47.42,
+      "age_hours": 4.94,
       "score": 8
     },
     {
-      "headline": "Auchincloss bill seeks to improve \u2018operating system for science\u2019",
-      "url": "https://www.biocentury.com/article/661390/auchincloss-bill-seeks-to-improve-operating-system-for-science?utm_source=bc_rss&utm_medium=rss",
-      "source": "BioCentury",
+      "headline": "A mesmerizing collection of molecular snapshots reveal more about ribosome assembly",
+      "url": "https://www.biotechniques.com/imaging/a-mesmerizing-collection-of-molecular-snapshots-reveal-more-about-ribosome-assembly/",
+      "source": "BioTechniques",
       "kind": "news",
       "topical": true,
       "low_value_notice": false,
-      "age_hours": 39.34,
-      "score": 8
-    },
-    {
-      "headline": "How early microbial encounters shape adult behavior",
-      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004101",
-      "source": "PLOS Biology",
-      "kind": "paper",
-      "topical": true,
-      "low_value_notice": false,
-      "age_hours": 46.48,
-      "score": 5
+      "age_hours": 6.44,
+      "score": 7
     }
   ]
 }
