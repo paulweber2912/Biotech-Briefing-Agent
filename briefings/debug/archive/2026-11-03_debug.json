@@ -1,0 +1,623 @@
+{
+  "date": "2026-11-03",
+  "window_hours": 48,
+  "max_items": 5,
+  "max_per_source": 2,
+  "require_at_least_one_paper": true,
+  "rss_items_collected": 75,
+  "search_items_collected": 0,
+  "deduped_candidates": 75,
+  "fetched_ok": 28,
+  "fetched_dropped": 47,
+  "drop_reasons": {
+    "fetch_failed": 32,
+    "text_too_short_or_teaser": 15
+  },
+  "paper_guarantee_applied": true,
+  "rss_feeds_count": 43,
+  "rss_per_feed": [
+    {
+      "feed_url": "https://www.nature.com/subjects/biotechnology.rss",
+      "feed_title": "Biotechnology : nature.com subject feeds",
+      "items_total": 30,
+      "items_in_window": 21
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/gene-therapy.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/cell-therapies.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/cancer-therapy.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.nature.com/nm.rss.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.science.org/rss/news_current.xml",
+      "feed_title": "Latest News from Science Magazine",
+      "items_total": 10,
+      "items_in_window": 5
+    },
+    {
+      "feed_url": "https://www.cell.com/cell/current.rss?code=cell-site",
+      "feed_title": "Cell",
+      "items_total": 25,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/cell/inpress.rss?code=cell-site",
+      "feed_title": "Cell",
+      "items_total": 68,
+      "items_in_window": 5
+    },
+    {
+      "feed_url": "https://www.cell.com/immunity/current.rss?code=cell-site",
+      "feed_title": "Immunity",
+      "items_total": 23,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/cancer-cell/current.rss?code=cell-site",
+      "feed_title": "Cancer Cell",
+      "items_total": 21,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/rssfeed/molecular-therapy-family",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://rupress.org/rss/site_1000001.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://journals.plos.org/plosbiology/feed/atom",
+      "feed_title": "PLOS Biology",
+      "items_total": 30,
+      "items_in_window": 5
+    },
+    {
+      "feed_url": "https://www.biorxiv.org/rss/latest.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://connect.biorxiv.org/medrxiv/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.tctjournal.org/current.rss?code=ybmt-site",
+      "feed_title": "Transplantation and Cellular Therapy, Official Publication of the American Society for Transplantation and Cellular Therapy",
+      "items_total": 277,
+      "items_in_window": 1
+    },
+    {
+      "feed_url": "https://www.stemcellsciencenews.com/feed/",
+      "feed_title": "Science News",
+      "items_total": 11,
+      "items_in_window": 11
+    },
+    {
+      "feed_url": "https://globalstemcelltherapy.com/blog/feed/",
+      "feed_title": "Blog \u2013 Global Stem Cell Therapy",
+      "items_total": 12,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.fiercebiotech.com/rss/biotech",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.biopharmadive.com/feeds/news/",
+      "feed_title": "BioPharma Dive - Latest News",
+      "items_total": 10,
+      "items_in_window": 4
+    },
+    {
+      "feed_url": "https://endpts.com/feed/",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.statnews.com/category/biotech/feed/",
+      "feed_title": "STAT Biotech news: Market-moving coverage of drug development",
+      "items_total": 20,
+      "items_in_window": 2
+    },
+    {
+      "feed_url": "https://feeds.feedburner.com/GenGengNews",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "http://rss.biospace.com/news.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://bio.news/feed",
+      "feed_title": "Bio.News",
+      "items_total": 10,
+      "items_in_window": 1
+    },
+    {
+      "feed_url": "https://labiotech.eu/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://european-biotechnology.com/feed",
+      "feed_title": "European Biotechnology Magazine",
+      "items_total": 10,
+      "items_in_window": 7
+    },
+    {
+      "feed_url": "https://bioengineer.org/feed",
+      "feed_title": "BIOENGINEER.ORG",
+      "items_total": 20,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://biotechexpressmag.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://biotecnika.org/category/biotech/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://lifescivc.com/feed",
+      "feed_title": "LifeSciVC",
+      "items_total": 20,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://decodingbio.substack.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://sarahconstantin.substack.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://biocentury.com/rss/BioCentury",
+      "feed_title": "BioCentury",
+      "items_total": 50,
+      "items_in_window": 7
+    },
+    {
+      "feed_url": "https://biotechniques.com/feed",
+      "feed_title": "BioTechniques",
+      "items_total": 10,
+      "items_in_window": 2
+    },
+    {
+      "feed_url": "https://www.ema.europa.eu/en/news-events/rss-feeds?feed=press-releases",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.fda.gov/about-fda/what-we-do/rss-feeds",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://clinicaltrials.gov/ct2/rss/news.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.vfa.de/vfa.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.bvmed.de/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.sciencedaily.com/rss/feeds/biotechnology_and_bioengineering.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://phys.org/rss-feed/biology-news/biotechnology/",
+      "feed_title": "Biotechnology News - Biology News",
+      "items_total": 30,
+      "items_in_window": 4
+    },
+    {
+      "feed_url": "https://www.biologynews.net/rss.php",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    }
+  ],
+  "search_errors": [],
+  "paper_inserted_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004094",
+  "paper_replaced_url": "https://www.biopharmadive.com/news/karyopharm-bankruptcy-chapter-11-auction-ayrmid-gamida-cell/873415/",
+  "selection_source_counts": {
+    "BioTechniques": 1,
+    "European Biotechnology Magazine": 2,
+    "BioCentury": 1,
+    "BioPharma Dive - Latest News": 0,
+    "PLOS Biology": 1
+  },
+  "selected_count": 5,
+  "scored_preview_top50": [
+    {
+      "headline": "Immunology updates you need to know about: from vaccine breakthroughs to allergy advances",
+      "url": "https://www.biotechniques.com/immunology/immunology-updates-you-need-to-know-about-from-vaccine-breakthroughs-to-allergy-advances/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 3.92,
+      "score": 27
+    },
+    {
+      "headline": "AstraZeneca targets $1.5B in savings; Ayrmid bids for Karyopharm; Sanofi pays $125M to Novavax",
+      "url": "https://european-biotechnology.com/latest-news/astrazeneca-targets-1-5b-in-savings-ayrmid-bids-for-karyopharm-sanofi-pays-125m-to-novavax/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 3.69,
+      "score": 19
+    },
+    {
+      "headline": "Europe \u00adrethinks the CRO-CDMO model",
+      "url": "https://european-biotechnology.com/background/europe-rethinks-the-cro-cdmo-model/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 27.99,
+      "score": 19
+    },
+    {
+      "headline": "ESMO\u2019s first-in-human signals, Auchincloss\u2019 proposal & COINS reaction \u2014 a BioCentury podcast",
+      "url": "https://www.biocentury.com/article/661405/esmo-s-first-in-human-signals-auchincloss-proposal-coins-reaction-a-biocentury-podcast?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 13.08,
+      "score": 14
+    },
+    {
+      "headline": "Karyopharm, deep in debt, to sell itself in bankruptcy",
+      "url": "https://www.biopharmadive.com/news/karyopharm-bankruptcy-chapter-11-auction-ayrmid-gamida-cell/873415/",
+      "source": "BioPharma Dive - Latest News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 20.31,
+      "score": 13
+    },
+    {
+      "headline": "STAT+: Psilocybin\u2019s lasting benefits prove elusive in mice",
+      "url": "https://www.statnews.com/2026/11/02/biotech-news-psilocybin-lasting-benefits-prove-elusive-in-mice/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 20.63,
+      "score": 12
+    },
+    {
+      "headline": "Resistance mutation supply modulates the benefit of CRISPR immunity against virulent phages in <i>Pseudomonas aeruginosa</i>",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004094",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 23.42,
+      "score": 10
+    },
+    {
+      "headline": "A CRISPR gene boost reduces seizures and strengthens muscles in mice",
+      "url": "https://phys.org/news/2026-11-crispr-gene-boost-seizures-muscles.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 19.09,
+      "score": 10
+    },
+    {
+      "headline": "LEM-3/ANKLE1 nuclease prevents the formation of abnormal syncytium to safeguard neuronal differentiation",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004099",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 23.42,
+      "score": 9
+    },
+    {
+      "headline": "CFL1-dependency of discrete cell behaviours driving mouse spinal zippering",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004092",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 23.42,
+      "score": 9
+    },
+    {
+      "headline": "Breaking the silos: What effective scenario modeling looks like in 2026 and beyond",
+      "url": "https://www.biopharmadive.com/spons/breaking-the-silos-what-effective-scenario-modeling-looks-like-in-2026-and/872840/",
+      "source": "BioPharma Dive - Latest News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 27.43,
+      "score": 9
+    },
+    {
+      "headline": "Fungal suppression by bacterial metabolite-activated human intestinal \u03b3\u03b4T-cells is disrupted in Crohn\u2019s disease",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004080",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 23.42,
+      "score": 8
+    },
+    {
+      "headline": "Where Life Science Scales in Basel",
+      "url": "https://european-biotechnology.com/sponsored-publications/where-life-science-scales-in-basel-2/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 24.85,
+      "score": 8
+    },
+    {
+      "headline": "FDA commissioner: CEO or policy wonk?",
+      "url": "https://www.biocentury.com/article/661403/fda-commissioner-ceo-or-policy-wonk?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 15.07,
+      "score": 8
+    },
+    {
+      "headline": "Keytruda biosimilars are coming \u2014 but they face an uphill battle",
+      "url": "https://www.biopharmadive.com/news/keytruda-biosimilars-fda-pbm-market-share-drug/873424/",
+      "source": "BioPharma Dive - Latest News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 22.86,
+      "score": 7
+    },
+    {
+      "headline": "PACE panel lays out patient input possibilities in PDUFA VIII",
+      "url": "https://bio.news/federal-policy/pace-panel-lays-out-patient-input-possibilities-in-pdufa-viii/",
+      "source": "Bio.News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 18.22,
+      "score": 7
+    },
+    {
+      "headline": "RNA-protein interactions could lead to new coronavirus drug targets",
+      "url": "https://phys.org/news/2026-11-rna-protein-interactions-coronavirus-drug.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 17.09,
+      "score": 7
+    },
+    {
+      "headline": "Emotion knowledge is structured in a grid-like coordinate system in the human ventromedial prefrontal cortex",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003795",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 23.42,
+      "score": 6
+    },
+    {
+      "headline": "STAT+: Coming readout of Kymera eczema trial is a high-stakes moment in a bid to rival Dupixent",
+      "url": "https://www.statnews.com/2026/11/02/kymera-therapeutics-trial-results-eczema-dupixent-rival/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 27.93,
+      "score": 6
+    },
+    {
+      "headline": "Fresenius turns to WuXi to add up to 37 biosimilars to its pipeline",
+      "url": "https://european-biotechnology.com/latest-news/fresenius-turns-to-wuxi-to-add-up-to-37-biosimilars-to-its-pipeline/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 20.23,
+      "score": 6
+    },
+    {
+      "headline": "Stem cells in deep sleep may point to a secret reserve for lifelong blood renewal",
+      "url": "https://phys.org/news/2026-11-stem-cells-deep-secret-reserve.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 13.76,
+      "score": 6
+    },
+    {
+      "headline": "Automated platform optimizes enzyme production using cell-free protein synthesis and AI-driven design",
+      "url": "https://phys.org/news/2026-11-automated-platform-optimizes-enzyme-production.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 20.09,
+      "score": 6
+    },
+    {
+      "headline": "Earnings roundup: AstraZeneca\u2019s cost cuts, Alnylam\u2019s slump and Regeneron\u2019s resilience",
+      "url": "https://www.biopharmadive.com/news/astrazeneca-alnylam-regeneron-3q26-earnings-analysis/873410/",
+      "source": "BioPharma Dive - Latest News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 23.43,
+      "score": 5
+    },
+    {
+      "headline": "Danish BioInnovation Institute builds a bridge to Germany",
+      "url": "https://european-biotechnology.com/latest-news/danish-bioinnovation-institute-builds-a-bridge-to-germany/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 3.37,
+      "score": 5
+    },
+    {
+      "headline": "A mesmerizing collection of molecular snapshots reveal more about ribosome assembly",
+      "url": "https://www.biotechniques.com/imaging/a-mesmerizing-collection-of-molecular-snapshots-reveal-more-about-ribosome-assembly/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 29.43,
+      "score": 5
+    },
+    {
+      "headline": "Novartis ends BioArctic brain-delivery deal worth up to $802M",
+      "url": "https://european-biotechnology.com/latest-news/novartis-ends-bioarctic-brain-delivery-deal-worth-up-to-802m/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.86,
+      "score": 4
+    },
+    {
+      "headline": "Former CDER Director Tidmarsh says Prasad orchestrated ouster",
+      "url": "https://www.biocentury.com/article/661415/former-cder-director-tidmarsh-says-prasad-orchestrated-ouster?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 15.81,
+      "score": 3
+    },
+    {
+      "headline": "Alligator sells cancer antibody for $750,000 upfront after abandoning development",
+      "url": "https://european-biotechnology.com/latest-news/alligator-sells-cancer-antibody-for-750000-upfront-after-abandoning-development/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 27.25,
+      "score": 2
+    }
+  ],
+  "selected_items": [
+    {
+      "headline": "Immunology updates you need to know about: from vaccine breakthroughs to allergy advances",
+      "url": "https://www.biotechniques.com/immunology/immunology-updates-you-need-to-know-about-from-vaccine-breakthroughs-to-allergy-advances/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 3.92,
+      "score": 27
+    },
+    {
+      "headline": "AstraZeneca targets $1.5B in savings; Ayrmid bids for Karyopharm; Sanofi pays $125M to Novavax",
+      "url": "https://european-biotechnology.com/latest-news/astrazeneca-targets-1-5b-in-savings-ayrmid-bids-for-karyopharm-sanofi-pays-125m-to-novavax/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 3.69,
+      "score": 19
+    },
+    {
+      "headline": "Europe \u00adrethinks the CRO-CDMO model",
+      "url": "https://european-biotechnology.com/background/europe-rethinks-the-cro-cdmo-model/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 27.99,
+      "score": 19
+    },
+    {
+      "headline": "ESMO\u2019s first-in-human signals, Auchincloss\u2019 proposal & COINS reaction \u2014 a BioCentury podcast",
+      "url": "https://www.biocentury.com/article/661405/esmo-s-first-in-human-signals-auchincloss-proposal-coins-reaction-a-biocentury-podcast?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 13.08,
+      "score": 14
+    },
+    {
+      "headline": "Resistance mutation supply modulates the benefit of CRISPR immunity against virulent phages in <i>Pseudomonas aeruginosa</i>",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004094",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 23.42,
+      "score": 10
+    }
+  ]
+}
