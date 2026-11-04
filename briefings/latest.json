@@ -1,11 +1,25 @@
 {
-  "date": "2026-11-03",
+  "date": "2026-11-04",
   "items": [
     {
       "id": "1",
+      "headline": "The CDMO partner for next-gen medicine",
+      "preview": "Wacker Biotech emerges as a leading CDMO for advanced therapies and vaccines.",
+      "article": "Wacker Biotech is positioning itself as a preferred contract development and manufacturing organization (CDMO) for advanced therapies and vaccines. With extensive experience in nucleic acids and lipid nanoparticle (LNP) technologies, the company provides comprehensive support from development to commercialization.\n\nWhy this matters: As the demand for cell and gene therapies and RNA-based medicines grows, Wacker Biotech's integrated capabilities help streamline the manufacturing process, reducing delays and risks associated with coordinating multiple vendors. Their investments in RNA technologies and GMP production ensure they are well-prepared to meet the evolving needs of the biotech industry.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/sponsored-publications/the-cdmo-partner-for-next-gen-medicine/",
+          "type": "company",
+          "verified_date": "2026-11-04"
+        }
+      ]
+    },
+    {
+      "id": "2",
       "headline": "Immunology updates you need to know about: from vaccine breakthroughs to allergy advances",
-      "preview": "Recent studies highlight significant advancements in immunology, including vaccine development and allergy research.",
-      "article": "Self-amplifying RNA (saRNA) vaccines show promise for enhanced efficacy, with a new approach from Queen Mary University of London addressing key hurdles. This method preserves immunostimulatory properties while boosting transgene expression potential.\n\nResearch on microplastics reveals that PET can aggravate airway inflammation and alter immune responses in mice, emphasizing the health relevance of environmental burdens. Additionally, cold plasma treatments are being explored to reduce peanut protein immunoreactivity, potentially aiding allergy sufferers.\n\nWhy this matters: These findings could lead to improved vaccine designs and therapeutic strategies for allergies, highlighting the importance of ongoing research in immunology.",
+      "preview": "Recent studies highlight breakthroughs in vaccine development and allergy research.",
+      "article": "Recent immunology research has unveiled significant advancements in vaccine technology and allergy understanding. Notably, a new self-amplifying RNA vaccine strategy shows promise in enhancing efficacy while preserving immune response, potentially transforming vaccine design.\n\nWhy this matters: These breakthroughs could lead to more effective vaccines with lower doses, addressing key challenges in immunization. Additionally, findings on the impact of microplastics on immune responses underscore the need for further investigation into environmental health risks.",
       "sources": [
         {
           "name": "BioTechniques",
@@ -16,10 +30,10 @@
       ]
     },
     {
-      "id": "2",
+      "id": "3",
       "headline": "AstraZeneca targets $1.5B in savings; Ayrmid bids for Karyopharm; Sanofi pays $125M to Novavax",
-      "preview": "AstraZeneca announces cost-cutting measures while Ayrmid pursues Karyopharm amid various industry updates.",
-      "article": "AstraZeneca aims to save $1.5 billion annually by restructuring and cutting early cancer programs, with plans to reinvest in drug development. The company reported third-quarter revenue of $16.2 billion, exceeding forecasts.\n\nAyrmid has emerged as the lead bidder for Karyopharm, which is undergoing Chapter 11 bankruptcy, while Sanofi has initiated a Phase 3 trial combining Novavax's COVID-19 vaccine with its flu vaccine, triggering a $125 million milestone payment.\n\nWhy this matters: These developments reflect significant shifts in the pharmaceutical landscape, with companies adapting strategies to enhance growth and address financial challenges.",
+      "preview": "AstraZeneca announces cost-cutting measures while Ayrmid pursues Karyopharm.",
+      "article": "AstraZeneca is implementing a strategy to achieve $1.5 billion in annual savings, focusing on drug development and restructuring. Meanwhile, Ayrmid has emerged as the lead bidder for Karyopharm, which recently filed for Chapter 11 bankruptcy.\n\nWhy this matters: AstraZeneca's cost-cutting could streamline operations and enhance focus on key therapeutic areas, while Ayrmid's bid for Karyopharm highlights ongoing consolidation in the pharmaceutical industry, potentially impacting drug availability and innovation.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
@@ -30,44 +44,30 @@
       ]
     },
     {
-      "id": "3",
-      "headline": "Europe rethinks the CRO-CDMO model",
-      "preview": "The pharmaceutical industry in Europe is reevaluating its approach to outsourcing and integration in drug development.",
-      "article": "Biotech companies are faced with the decision to either partner with integrated providers or build networks of specialists. The experiences of companies like Xspray Pharma highlight the risks associated with outsourcing manufacturing, as regulatory issues can delay product launches.\n\nThe trend is shifting towards strategic outsourcing, where companies seek specialized capabilities rather than just cost savings. This evolution reflects the complexity of modern drug development and the need for careful management of external partnerships.\n\nWhy this matters: Understanding the dynamics of outsourcing and integration is crucial for biotechs to navigate regulatory landscapes and ensure successful product development.",
-      "sources": [
-        {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/background/europe-rethinks-the-cro-cdmo-model/",
-          "type": "news",
-          "verified_date": "2026-11-02"
-        }
-      ]
-    },
-    {
       "id": "4",
-      "headline": "ESMO\u2019s first-in-human signals, Auchincloss\u2019 proposal & COINS reaction \u2014 a BioCentury podcast",
-      "preview": "A discussion on recent developments in cancer therapies and regulatory proposals affecting clinical trials.",
-      "article": "The latest podcast episode covers insights from ESMO regarding first-in-human trials, highlighting the dominance of antibody-drug conjugates (ADCs) and the need for innovation in payload mechanisms. Additionally, Representative Jake Auchincloss proposes changes to streamline early-stage clinical trials in the U.S.\n\nThe episode also addresses the implications of the COINS Act on cross-border deal-making and regulatory frameworks for rare disease therapies, emphasizing the evolving landscape of biopharma.\n\nWhy this matters: These discussions provide valuable perspectives on the future of cancer treatment and the regulatory environment, which are critical for stakeholders in the biopharmaceutical industry.",
+      "headline": "First real-world look at acoramidis in Germany finds mostly first-line use in older patients",
+      "preview": "Acoramidis shows promising first-line use among older patients in Germany.",
+      "article": "A recent analysis of acoramidis usage in Germany reveals that the drug is predominantly prescribed as a first-line treatment for transthyretin amyloid cardiomyopathy, particularly among older patients. The study highlights that 86% of new users were treatment-na\u00efve, indicating a shift towards acoramidis as a primary therapy.\n\nWhy this matters: Understanding the real-world application of acoramidis provides insights into its adoption and effectiveness in clinical practice, which is crucial for optimizing treatment strategies in this patient population.",
       "sources": [
         {
-          "name": "BioCentury",
-          "url": "https://www.biocentury.com/article/661405/esmo-s-first-in-human-signals-auchincloss-proposal-coins-reaction-a-biocentury-podcast?utm_source=bc_rss&utm_medium=rss",
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/first-real-world-look-at-acoramidis-in-germany-finds-mostly-first-line-use-in-older-patients/",
           "type": "news",
-          "verified_date": "2026-11-03"
+          "verified_date": "2026-11-04"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "Resistance mutation supply modulates the benefit of CRISPR immunity against virulent phages in Pseudomonas aeruginosa",
-      "preview": "New research explores how CRISPR immunity interacts with virulent phages in bacteria.",
-      "article": "A study investigates the selective advantages of CRISPR-Cas systems in Pseudomonas aeruginosa against various virulent phages. The findings reveal that the effectiveness of CRISPR immunity varies significantly depending on the phage, with implications for understanding bacterial resistance mechanisms.\n\nThe research suggests that CRISPR immunity is more beneficial against phages that are less likely to evolve resistance through mutations, highlighting the complex dynamics of bacterial-phage interactions.\n\nWhy this matters: This study enhances our understanding of bacterial immunity and could inform therapeutic strategies using phages to combat antibiotic-resistant infections.",
+      "headline": "The human hippocampus supports auditory coding and multisensory integration",
+      "preview": "Study reveals the hippocampus's role in auditory processing and multisensory integration.",
+      "article": "Research published in PLOS Biology demonstrates that the human hippocampus is involved in auditory coding and multisensory integration. Using high-resolution fMRI, the study found that the hippocampus processes auditory and visual stimuli, enhancing understanding of how sensory information is integrated in the brain.\n\nWhy this matters: These findings could inform future research on memory and perception, highlighting the hippocampus's broader role beyond traditional visual processing.",
       "sources": [
         {
           "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004094",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004012",
           "type": "paper",
-          "verified_date": "2026-11-02"
+          "verified_date": "2026-11-03"
         }
       ]
     }
