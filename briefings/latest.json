@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-04",
+  "date": "2026-11-05",
   "items": [
     {
       "id": "1",
       "headline": "The CDMO partner for next-gen medicine",
-      "preview": "Wacker Biotech emerges as a leading CDMO for advanced therapies and vaccines.",
-      "article": "Wacker Biotech is positioning itself as a preferred contract development and manufacturing organization (CDMO) for advanced therapies and vaccines. With extensive experience in nucleic acids and lipid nanoparticle (LNP) technologies, the company provides comprehensive support from development to commercialization.\n\nWhy this matters: As the demand for cell and gene therapies and RNA-based medicines grows, Wacker Biotech's integrated capabilities help streamline the manufacturing process, reducing delays and risks associated with coordinating multiple vendors. Their investments in RNA technologies and GMP production ensure they are well-prepared to meet the evolving needs of the biotech industry.",
+      "preview": "Wacker Biotech is emerging as a leading CDMO for advanced therapies and vaccines.",
+      "article": "Wacker Biotech is positioning itself as a preferred contract development and manufacturing organization (CDMO) for advanced therapies and vaccines. With extensive expertise in nucleic acids, formulation technologies, and GMP production, the company provides comprehensive support for cell and gene therapies, RNA-based medicines, and next-generation vaccines.\n\nWhy this matters: As the demand for integrated CDMO services grows, Wacker Biotech's end-to-end manufacturing capabilities allow clients to streamline their development processes, reducing delays and risks associated with managing multiple vendors. The company\u2019s commitment to innovation and investment in RNA technologies positions it well for future advancements in medicine.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
@@ -17,57 +17,57 @@
     },
     {
       "id": "2",
-      "headline": "Immunology updates you need to know about: from vaccine breakthroughs to allergy advances",
-      "preview": "Recent studies highlight breakthroughs in vaccine development and allergy research.",
-      "article": "Recent immunology research has unveiled significant advancements in vaccine technology and allergy understanding. Notably, a new self-amplifying RNA vaccine strategy shows promise in enhancing efficacy while preserving immune response, potentially transforming vaccine design.\n\nWhy this matters: These breakthroughs could lead to more effective vaccines with lower doses, addressing key challenges in immunization. Additionally, findings on the impact of microplastics on immune responses underscore the need for further investigation into environmental health risks.",
+      "headline": "Bayer closes the gap with Boehringer in China\u2019s lung cancer race",
+      "preview": "Bayer's sevabertinib gains first-line approval for HER2-mutated lung cancer in China.",
+      "article": "Bayer has received approval for sevabertinib as a first-line treatment for HER2-mutated lung cancer in China, expanding its market access. This approval follows Boehringer Ingelheim's earlier launch of zongertinib in the same indication, highlighting the competitive landscape in lung cancer therapies.\n\nWhy this matters: The approval is based on promising data from the Phase 1/2 SOHO-01 trial, showing a 75% objective response rate among previously untreated patients. However, the ongoing Phase 3 SOHO-02 trial will be crucial in confirming the clinical benefits of sevabertinib compared to standard therapies.",
       "sources": [
         {
-          "name": "BioTechniques",
-          "url": "https://www.biotechniques.com/immunology/immunology-updates-you-need-to-know-about-from-vaccine-breakthroughs-to-allergy-advances/",
-          "type": "news",
-          "verified_date": "2026-11-03"
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/bayer-closes-the-gap-with-boehringer-in-chinas-lung-cancer-race/",
+          "type": "company",
+          "verified_date": "2026-11-05"
         }
       ]
     },
     {
       "id": "3",
-      "headline": "AstraZeneca targets $1.5B in savings; Ayrmid bids for Karyopharm; Sanofi pays $125M to Novavax",
-      "preview": "AstraZeneca announces cost-cutting measures while Ayrmid pursues Karyopharm.",
-      "article": "AstraZeneca is implementing a strategy to achieve $1.5 billion in annual savings, focusing on drug development and restructuring. Meanwhile, Ayrmid has emerged as the lead bidder for Karyopharm, which recently filed for Chapter 11 bankruptcy.\n\nWhy this matters: AstraZeneca's cost-cutting could streamline operations and enhance focus on key therapeutic areas, while Ayrmid's bid for Karyopharm highlights ongoing consolidation in the pharmaceutical industry, potentially impacting drug availability and innovation.",
+      "headline": "Most nurses at Ugandan hospital miss at least one of the Five Rights of antimicrobial administration, survey finds",
+      "preview": "A survey reveals significant non-adherence to antimicrobial administration protocols among nurses.",
+      "article": "A recent survey at Mbale Regional Referral Hospital in Uganda found that nearly 40% of nurses failed to verify all Five Rights of antimicrobial administration. This shortfall poses a threat to patient safety and antimicrobial stewardship efforts.\n\nWhy this matters: The study highlights the need for improved adherence to medication administration protocols, as lapses can lead to increased antimicrobial resistance and compromised patient care. Addressing institutional barriers and enhancing training could help close the compliance gap.",
       "sources": [
         {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/astrazeneca-targets-1-5b-in-savings-ayrmid-bids-for-karyopharm-sanofi-pays-125m-to-novavax/",
-          "type": "news",
-          "verified_date": "2026-11-03"
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/most-nurses-at-ugandan-hospital-miss-at-least-one-of-the-five-rights-of-antimicrobial-administration-survey-finds/",
+          "type": "paper",
+          "verified_date": "2026-11-04"
         }
       ]
     },
     {
       "id": "4",
-      "headline": "First real-world look at acoramidis in Germany finds mostly first-line use in older patients",
-      "preview": "Acoramidis shows promising first-line use among older patients in Germany.",
-      "article": "A recent analysis of acoramidis usage in Germany reveals that the drug is predominantly prescribed as a first-line treatment for transthyretin amyloid cardiomyopathy, particularly among older patients. The study highlights that 86% of new users were treatment-na\u00efve, indicating a shift towards acoramidis as a primary therapy.\n\nWhy this matters: Understanding the real-world application of acoramidis provides insights into its adoption and effectiveness in clinical practice, which is crucial for optimizing treatment strategies in this patient population.",
+      "headline": "Surgeons combine nerve combing and targeted glycerol in rare case of refractory MS-related facial pain",
+      "preview": "A novel surgical approach provides lasting relief for a patient with MS-related trigeminal neuralgia.",
+      "article": "In a unique case, a 50-year-old woman with multiple sclerosis experienced significant relief from trigeminal neuralgia after undergoing a combined surgical technique of nerve combing and glycerol injection. This approach is noted as the first of its kind for this condition.\n\nWhy this matters: The case underscores the potential for innovative surgical strategies in managing refractory pain associated with multiple sclerosis, although further studies are needed to validate the efficacy of this combined technique.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/first-real-world-look-at-acoramidis-in-germany-finds-mostly-first-line-use-in-older-patients/",
-          "type": "news",
+          "url": "https://bioengineer.org/surgeons-combine-nerve-combing-and-targeted-glycerol-in-rare-case-of-refractory-ms-related-facial-pain/",
+          "type": "paper",
           "verified_date": "2026-11-04"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "The human hippocampus supports auditory coding and multisensory integration",
-      "preview": "Study reveals the hippocampus's role in auditory processing and multisensory integration.",
-      "article": "Research published in PLOS Biology demonstrates that the human hippocampus is involved in auditory coding and multisensory integration. Using high-resolution fMRI, the study found that the hippocampus processes auditory and visual stimuli, enhancing understanding of how sensory information is integrated in the brain.\n\nWhy this matters: These findings could inform future research on memory and perception, highlighting the hippocampus's broader role beyond traditional visual processing.",
+      "headline": "Looking deeper into the algal sisters of land plants",
+      "preview": "New research reveals the complex evolutionary history of zygnematophytes, the closest algal relatives of land plants.",
+      "article": "A study published in PLOS Biology expands the understanding of zygnematophytes, revealing a deeper genetic structure within this group, which is closely related to land plants. The research highlights the importance of taxonomic sampling in reconstructing the evolutionary history of these algae.\n\nWhy this matters: Understanding the genetic diversity and evolutionary relationships of zygnematophytes can provide insights into the traits that evolved before the transition to land, enhancing knowledge of plant evolution and development.",
       "sources": [
         {
           "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004012",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004050",
           "type": "paper",
-          "verified_date": "2026-11-03"
+          "verified_date": "2026-11-04"
         }
       ]
     }
