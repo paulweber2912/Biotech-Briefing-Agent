@@ -1,73 +1,73 @@
 {
-  "date": "2026-11-05",
+  "date": "2026-11-06",
   "items": [
     {
       "id": "1",
-      "headline": "The CDMO partner for next-gen medicine",
-      "preview": "Wacker Biotech is emerging as a leading CDMO for advanced therapies and vaccines.",
-      "article": "Wacker Biotech is positioning itself as a preferred contract development and manufacturing organization (CDMO) for advanced therapies and vaccines. With extensive expertise in nucleic acids, formulation technologies, and GMP production, the company provides comprehensive support for cell and gene therapies, RNA-based medicines, and next-generation vaccines.\n\nWhy this matters: As the demand for integrated CDMO services grows, Wacker Biotech's end-to-end manufacturing capabilities allow clients to streamline their development processes, reducing delays and risks associated with managing multiple vendors. The company\u2019s commitment to innovation and investment in RNA technologies positions it well for future advancements in medicine.",
+      "headline": "Spinal muscular atrophy: Tumors reported following Novartis gene therapy",
+      "preview": "Nine tumor cases in children treated with Novartis' Zolgensma raise safety concerns.",
+      "article": "Novartis' gene therapy Zolgensma is under scrutiny after reports of nine tumors in children treated with the therapy. Two cases suggest that viral vector DNA integrated into patients' genomes, raising questions about the long-term safety of gene therapies.\nWhy this matters: The findings highlight the ongoing challenges in assessing the safety of gene and cell therapies, particularly in young patients who may face long-term consequences from a single treatment.\nThe relevant regulatory authorities are currently investigating the reports, and patient organizations are calling for transparent communication with affected families. The cases underscore the need for continuous safety assessments as more patients receive such therapies.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/sponsored-publications/the-cdmo-partner-for-next-gen-medicine/",
-          "type": "company",
-          "verified_date": "2026-11-04"
+          "url": "https://european-biotechnology.com/latest-news/spinal-muscular-atrophy-tumors-reported-following-novartis-gene-therapy/",
+          "type": "news",
+          "verified_date": "2026-11-06"
         }
       ]
     },
     {
       "id": "2",
-      "headline": "Bayer closes the gap with Boehringer in China\u2019s lung cancer race",
-      "preview": "Bayer's sevabertinib gains first-line approval for HER2-mutated lung cancer in China.",
-      "article": "Bayer has received approval for sevabertinib as a first-line treatment for HER2-mutated lung cancer in China, expanding its market access. This approval follows Boehringer Ingelheim's earlier launch of zongertinib in the same indication, highlighting the competitive landscape in lung cancer therapies.\n\nWhy this matters: The approval is based on promising data from the Phase 1/2 SOHO-01 trial, showing a 75% objective response rate among previously untreated patients. However, the ongoing Phase 3 SOHO-02 trial will be crucial in confirming the clinical benefits of sevabertinib compared to standard therapies.",
+      "headline": "Chemical Conjugates Expand the Therapeutic Reach of Targeted Genetic Medicines",
+      "preview": "Chemical conjugation strategies are enhancing the delivery of oligonucleotide therapeutics.",
+      "article": "A recent perspective in AAPS Open discusses how chemical conjugation is transforming oligonucleotide therapeutics by overcoming delivery challenges. Researchers highlight that while nucleic acid medicines can modulate previously undruggable genes, their clinical application has been limited by issues like poor pharmacokinetics and toxicity.\nWhy this matters: The development of targeted delivery systems, particularly those using GalNAc for hepatocyte-specific delivery, has shown promising results in clinical trials, indicating a significant advancement in the field of genetic medicine.\nThe authors emphasize the need for continued innovation in delivery mechanisms to expand the therapeutic applications of these genetic medicines beyond the liver and into other tissues.",
       "sources": [
         {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/bayer-closes-the-gap-with-boehringer-in-chinas-lung-cancer-race/",
-          "type": "company",
-          "verified_date": "2026-11-05"
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/chemical-conjugates-expand-the-therapeutic-reach-of-targeted-genetic-medicines/",
+          "type": "news",
+          "verified_date": "2026-11-06"
         }
       ]
     },
     {
       "id": "3",
-      "headline": "Most nurses at Ugandan hospital miss at least one of the Five Rights of antimicrobial administration, survey finds",
-      "preview": "A survey reveals significant non-adherence to antimicrobial administration protocols among nurses.",
-      "article": "A recent survey at Mbale Regional Referral Hospital in Uganda found that nearly 40% of nurses failed to verify all Five Rights of antimicrobial administration. This shortfall poses a threat to patient safety and antimicrobial stewardship efforts.\n\nWhy this matters: The study highlights the need for improved adherence to medication administration protocols, as lapses can lead to increased antimicrobial resistance and compromised patient care. Addressing institutional barriers and enhancing training could help close the compliance gap.",
+      "headline": "Two parallel lateral hypothalamic GABAergic projections differentially modulate pain and anxiety in mice",
+      "preview": "Study reveals distinct roles of GABAergic projections in pain and anxiety modulation.",
+      "article": "Research published in PLOS Biology investigates the functional segregation of GABAergic projections from the lateral hypothalamus (LH) in mice, revealing their differential roles in modulating pain and anxiety. The study found that activation of the LH-PVT projection increased anxiety without affecting pain sensitivity, while inhibition of this pathway provided analgesic and anxiolytic effects in neuropathic pain models.\nWhy this matters: Understanding these distinct pathways offers potential new targets for treating chronic pain and its emotional comorbidities, highlighting the complex interplay between pain perception and emotional regulation.\nThe findings suggest that specific LH GABAergic pathways could be leveraged for therapeutic interventions in pain management.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/most-nurses-at-ugandan-hospital-miss-at-least-one-of-the-five-rights-of-antimicrobial-administration-survey-finds/",
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004096",
           "type": "paper",
-          "verified_date": "2026-11-04"
+          "verified_date": "2026-11-05"
         }
       ]
     },
     {
       "id": "4",
-      "headline": "Surgeons combine nerve combing and targeted glycerol in rare case of refractory MS-related facial pain",
-      "preview": "A novel surgical approach provides lasting relief for a patient with MS-related trigeminal neuralgia.",
-      "article": "In a unique case, a 50-year-old woman with multiple sclerosis experienced significant relief from trigeminal neuralgia after undergoing a combined surgical technique of nerve combing and glycerol injection. This approach is noted as the first of its kind for this condition.\n\nWhy this matters: The case underscores the potential for innovative surgical strategies in managing refractory pain associated with multiple sclerosis, although further studies are needed to validate the efficacy of this combined technique.",
+      "headline": "Oculis taps Roche veteran after setback; ARTHEx brings in Azafaros\u2019 CMO; CRISPR recruits Orna\u2019s former CTO",
+      "preview": "Biotech companies make key leadership changes amid ongoing developments.",
+      "article": "This week, several biotech companies announced significant leadership changes. Oculis appointed Bj\u00f6rn Tackenberg as chief scientific officer following a Phase 3 setback. ARTHEx Biotech welcomed Christian Freitag as chief medical officer to strengthen its team, while CRISPR Therapeutics recruited Siva Sakhamuri as chief technical officer to enhance its manufacturing capabilities.\nWhy this matters: These appointments reflect strategic shifts within these companies as they navigate challenges and aim to advance their therapeutic programs, particularly in neurology and genetic therapies.\nThe leadership changes indicate a focus on leveraging experienced professionals to drive innovation and clinical success in their respective fields.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/surgeons-combine-nerve-combing-and-targeted-glycerol-in-rare-case-of-refractory-ms-related-facial-pain/",
-          "type": "paper",
-          "verified_date": "2026-11-04"
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/oculis-taps-roche-veteran-after-setback-arthex-brings-in-azafaros-cmo-crispr-recruits-ornas-former-cto/",
+          "type": "news",
+          "verified_date": "2026-11-06"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "Looking deeper into the algal sisters of land plants",
-      "preview": "New research reveals the complex evolutionary history of zygnematophytes, the closest algal relatives of land plants.",
-      "article": "A study published in PLOS Biology expands the understanding of zygnematophytes, revealing a deeper genetic structure within this group, which is closely related to land plants. The research highlights the importance of taxonomic sampling in reconstructing the evolutionary history of these algae.\n\nWhy this matters: Understanding the genetic diversity and evolutionary relationships of zygnematophytes can provide insights into the traits that evolved before the transition to land, enhancing knowledge of plant evolution and development.",
+      "headline": "Genetic clues to lower limb dystonia emerge from Chinese cohort study",
+      "preview": "Study identifies genetic factors in lower limb dystonia among Chinese patients.",
+      "article": "A retrospective study published in Frontiers in Neurology reports the largest clinical and genetic characterization of lower limb dystonia in China, involving 68 patients. The study found that a significant portion of patients carried identifiable disease-causing genes, with variations based on whether the dystonia was confined to the legs or generalized.\nWhy this matters: The findings underscore the importance of genetic testing in diagnosing lower limb dystonia, particularly for early-onset cases, and suggest potential therapeutic avenues such as levodopa trials for specific genetic variants.\nThis research highlights the need for further exploration of genetic factors influencing dystonia and the potential for personalized treatment strategies.",
       "sources": [
         {
-          "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004050",
-          "type": "paper",
-          "verified_date": "2026-11-04"
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/genetic-clues-to-lower-limb-dystonia-emerge-from-chinese-cohort-study/",
+          "type": "news",
+          "verified_date": "2026-11-06"
         }
       ]
     }
