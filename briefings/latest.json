@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-06",
+  "date": "2026-11-07",
   "items": [
     {
       "id": "1",
       "headline": "Spinal muscular atrophy: Tumors reported following Novartis gene therapy",
-      "preview": "Nine tumor cases in children treated with Novartis' Zolgensma raise safety concerns.",
-      "article": "Novartis' gene therapy Zolgensma is under scrutiny after reports of nine tumors in children treated with the therapy. Two cases suggest that viral vector DNA integrated into patients' genomes, raising questions about the long-term safety of gene therapies.\nWhy this matters: The findings highlight the ongoing challenges in assessing the safety of gene and cell therapies, particularly in young patients who may face long-term consequences from a single treatment.\nThe relevant regulatory authorities are currently investigating the reports, and patient organizations are calling for transparent communication with affected families. The cases underscore the need for continuous safety assessments as more patients receive such therapies.",
+      "preview": "Nine reports of tumors in children treated with Novartis' Zolgensma raise safety concerns.",
+      "article": "Novartis' gene therapy Zolgensma is under scrutiny after nine cases of tumors were reported in children treated with the therapy. Two of these cases showed evidence of viral vector DNA integration into the patients' genomes, raising significant safety concerns regarding long-term effects.\nWhy this matters: These findings highlight the ongoing challenges in assessing the safety of gene and cell therapies, particularly as more patients receive such treatments. The regulatory authorities are currently investigating the reports, and patient organizations are calling for transparent communication from Novartis regarding the implications for affected families.\nThe therapy, which delivers a functional copy of the SMN1 gene to treat spinal muscular atrophy, has been administered to over 6,000 patients since its approval. However, the recent tumor cases underscore the need for continuous safety evaluations as the patient population grows and longer follow-up periods are established.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
@@ -17,23 +17,9 @@
     },
     {
       "id": "2",
-      "headline": "Chemical Conjugates Expand the Therapeutic Reach of Targeted Genetic Medicines",
-      "preview": "Chemical conjugation strategies are enhancing the delivery of oligonucleotide therapeutics.",
-      "article": "A recent perspective in AAPS Open discusses how chemical conjugation is transforming oligonucleotide therapeutics by overcoming delivery challenges. Researchers highlight that while nucleic acid medicines can modulate previously undruggable genes, their clinical application has been limited by issues like poor pharmacokinetics and toxicity.\nWhy this matters: The development of targeted delivery systems, particularly those using GalNAc for hepatocyte-specific delivery, has shown promising results in clinical trials, indicating a significant advancement in the field of genetic medicine.\nThe authors emphasize the need for continued innovation in delivery mechanisms to expand the therapeutic applications of these genetic medicines beyond the liver and into other tissues.",
-      "sources": [
-        {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/chemical-conjugates-expand-the-therapeutic-reach-of-targeted-genetic-medicines/",
-          "type": "news",
-          "verified_date": "2026-11-06"
-        }
-      ]
-    },
-    {
-      "id": "3",
       "headline": "Two parallel lateral hypothalamic GABAergic projections differentially modulate pain and anxiety in mice",
-      "preview": "Study reveals distinct roles of GABAergic projections in pain and anxiety modulation.",
-      "article": "Research published in PLOS Biology investigates the functional segregation of GABAergic projections from the lateral hypothalamus (LH) in mice, revealing their differential roles in modulating pain and anxiety. The study found that activation of the LH-PVT projection increased anxiety without affecting pain sensitivity, while inhibition of this pathway provided analgesic and anxiolytic effects in neuropathic pain models.\nWhy this matters: Understanding these distinct pathways offers potential new targets for treating chronic pain and its emotional comorbidities, highlighting the complex interplay between pain perception and emotional regulation.\nThe findings suggest that specific LH GABAergic pathways could be leveraged for therapeutic interventions in pain management.",
+      "preview": "Research identifies distinct GABAergic pathways in the lateral hypothalamus affecting pain and anxiety.",
+      "article": "A study has revealed that GABAergic neurons in the lateral hypothalamus (LH) send parallel projections to two key pain processing centers, the lateral parabrachial nucleus (LPB) and the paraventricular nucleus of the thalamus (PVT). These pathways exhibit functional segregation, with the LH-PVT projection linked to anxiety modulation and the LH-LPB projection associated with pain sensitivity.\nWhy this matters: Understanding these distinct pathways offers potential targets for treating chronic pain and its emotional comorbidities. The findings suggest that interventions could be tailored to address specific aspects of pain and anxiety, enhancing therapeutic strategies for patients suffering from these conditions.",
       "sources": [
         {
           "name": "PLOS Biology",
@@ -44,28 +30,42 @@
       ]
     },
     {
-      "id": "4",
-      "headline": "Oculis taps Roche veteran after setback; ARTHEx brings in Azafaros\u2019 CMO; CRISPR recruits Orna\u2019s former CTO",
-      "preview": "Biotech companies make key leadership changes amid ongoing developments.",
-      "article": "This week, several biotech companies announced significant leadership changes. Oculis appointed Bj\u00f6rn Tackenberg as chief scientific officer following a Phase 3 setback. ARTHEx Biotech welcomed Christian Freitag as chief medical officer to strengthen its team, while CRISPR Therapeutics recruited Siva Sakhamuri as chief technical officer to enhance its manufacturing capabilities.\nWhy this matters: These appointments reflect strategic shifts within these companies as they navigate challenges and aim to advance their therapeutic programs, particularly in neurology and genetic therapies.\nThe leadership changes indicate a focus on leveraging experienced professionals to drive innovation and clinical success in their respective fields.",
+      "id": "3",
+      "headline": "Sperm phospholipase C signaling via PLC\u03b31 and PLC\u03b34 is essential for Ca2+ oscillations and fertility in mice",
+      "preview": "Study reveals the cooperative roles of PLC\u03b31 and PLC\u03b34 in sperm signaling and fertility.",
+      "article": "Research has shown that both sperm-specific phospholipase C isoforms, PLC\u03b31 and PLC\u03b34, are crucial for triggering calcium oscillations necessary for egg activation during fertilization. Mice lacking these enzymes exhibited reduced fertility and impaired Ca2+ signaling, indicating their essential roles in reproductive success.\nWhy this matters: These findings enhance our understanding of the molecular mechanisms underlying fertility and may inform future strategies for addressing male infertility, as well as improving assisted reproductive technologies.",
       "sources": [
         {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/oculis-taps-roche-veteran-after-setback-arthex-brings-in-azafaros-cmo-crispr-recruits-ornas-former-cto/",
-          "type": "news",
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004098",
+          "type": "paper",
           "verified_date": "2026-11-06"
         }
       ]
     },
     {
-      "id": "5",
-      "headline": "Genetic clues to lower limb dystonia emerge from Chinese cohort study",
-      "preview": "Study identifies genetic factors in lower limb dystonia among Chinese patients.",
-      "article": "A retrospective study published in Frontiers in Neurology reports the largest clinical and genetic characterization of lower limb dystonia in China, involving 68 patients. The study found that a significant portion of patients carried identifiable disease-causing genes, with variations based on whether the dystonia was confined to the legs or generalized.\nWhy this matters: The findings underscore the importance of genetic testing in diagnosing lower limb dystonia, particularly for early-onset cases, and suggest potential therapeutic avenues such as levodopa trials for specific genetic variants.\nThis research highlights the need for further exploration of genetic factors influencing dystonia and the potential for personalized treatment strategies.",
+      "id": "4",
+      "headline": "Clinical Trials Show Manageable Long-Term Cardiac Safety for Duchenne Gene Therapy",
+      "preview": "Pooled analysis of trials shows delandistrogene moxeparvovec has a manageable cardiac safety profile.",
+      "article": "A pooled analysis of four clinical trials involving delandistrogene moxeparvovec for Duchenne muscular dystrophy has demonstrated a manageable cardiac safety profile, with no persistent treatment-related cardiac injuries observed over follow-up periods of one to five years. The analysis included data from 218 patients, revealing that cardiac complications were generally infrequent and transient.\nWhy this matters: Given the high risk of cardiac issues in Duchenne muscular dystrophy patients, these findings provide reassurance regarding the long-term safety of this gene therapy, supporting its continued use and further investigation in broader patient populations.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/genetic-clues-to-lower-limb-dystonia-emerge-from-chinese-cohort-study/",
+          "url": "https://bioengineer.org/clinical-trials-show-manageable-long-term-cardiac-safety-for-duchenne-gene-therapy/",
+          "type": "news",
+          "verified_date": "2026-11-07"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Novartis reveals cancer cases possibly linked to gene therapy Zolgensma",
+      "preview": "Nine cases of tumors reported in Zolgensma recipients raise safety concerns for gene therapy.",
+      "article": "Novartis has reported nine cases of tumors in children treated with its gene therapy Zolgensma, with two cases indicating potential integration of the viral vector DNA into the patients' genomes. This disclosure has prompted calls for clearer communication from the company regarding the implications for families affected by these cases.\nWhy this matters: The potential link between Zolgensma and cancer raises significant safety concerns for gene therapies, highlighting the need for ongoing monitoring and transparent information sharing with patients and healthcare providers as the understanding of long-term effects evolves.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/zolgensma-tumor-report-novartis-sma-spinal-muscular-atrophy/873990/",
           "type": "news",
           "verified_date": "2026-11-06"
         }
