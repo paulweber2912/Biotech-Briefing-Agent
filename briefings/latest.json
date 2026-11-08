@@ -1,39 +1,11 @@
 {
-  "date": "2026-11-07",
+  "date": "2026-11-08",
   "items": [
     {
       "id": "1",
-      "headline": "Spinal muscular atrophy: Tumors reported following Novartis gene therapy",
-      "preview": "Nine reports of tumors in children treated with Novartis' Zolgensma raise safety concerns.",
-      "article": "Novartis' gene therapy Zolgensma is under scrutiny after nine cases of tumors were reported in children treated with the therapy. Two of these cases showed evidence of viral vector DNA integration into the patients' genomes, raising significant safety concerns regarding long-term effects.\nWhy this matters: These findings highlight the ongoing challenges in assessing the safety of gene and cell therapies, particularly as more patients receive such treatments. The regulatory authorities are currently investigating the reports, and patient organizations are calling for transparent communication from Novartis regarding the implications for affected families.\nThe therapy, which delivers a functional copy of the SMN1 gene to treat spinal muscular atrophy, has been administered to over 6,000 patients since its approval. However, the recent tumor cases underscore the need for continuous safety evaluations as the patient population grows and longer follow-up periods are established.",
-      "sources": [
-        {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/spinal-muscular-atrophy-tumors-reported-following-novartis-gene-therapy/",
-          "type": "news",
-          "verified_date": "2026-11-06"
-        }
-      ]
-    },
-    {
-      "id": "2",
-      "headline": "Two parallel lateral hypothalamic GABAergic projections differentially modulate pain and anxiety in mice",
-      "preview": "Research identifies distinct GABAergic pathways in the lateral hypothalamus affecting pain and anxiety.",
-      "article": "A study has revealed that GABAergic neurons in the lateral hypothalamus (LH) send parallel projections to two key pain processing centers, the lateral parabrachial nucleus (LPB) and the paraventricular nucleus of the thalamus (PVT). These pathways exhibit functional segregation, with the LH-PVT projection linked to anxiety modulation and the LH-LPB projection associated with pain sensitivity.\nWhy this matters: Understanding these distinct pathways offers potential targets for treating chronic pain and its emotional comorbidities. The findings suggest that interventions could be tailored to address specific aspects of pain and anxiety, enhancing therapeutic strategies for patients suffering from these conditions.",
-      "sources": [
-        {
-          "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004096",
-          "type": "paper",
-          "verified_date": "2026-11-05"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "headline": "Sperm phospholipase C signaling via PLC\u03b31 and PLC\u03b34 is essential for Ca2+ oscillations and fertility in mice",
-      "preview": "Study reveals the cooperative roles of PLC\u03b31 and PLC\u03b34 in sperm signaling and fertility.",
-      "article": "Research has shown that both sperm-specific phospholipase C isoforms, PLC\u03b31 and PLC\u03b34, are crucial for triggering calcium oscillations necessary for egg activation during fertilization. Mice lacking these enzymes exhibited reduced fertility and impaired Ca2+ signaling, indicating their essential roles in reproductive success.\nWhy this matters: These findings enhance our understanding of the molecular mechanisms underlying fertility and may inform future strategies for addressing male infertility, as well as improving assisted reproductive technologies.",
+      "headline": "Sperm phospholipase C signaling via PLC\u2081 and PLC\u2084 is essential for Ca\u00b2\u207a oscillations and fertility in mice",
+      "preview": "This study reveals the critical roles of PLC\u2081 and PLC\u2084 in sperm signaling for fertility.",
+      "article": "Fertilization-induced calcium (Ca\u00b2\u207a) oscillations are essential for egg activation and embryonic development in mammals. The sperm-specific phospholipase C isoform, PLC\u2081, is the primary trigger of these oscillations. Male mice lacking Plc\u2081 exhibit subfertility and reduced litter sizes; their sperm induce delayed, low-frequency Ca\u00b2\u207a oscillations, indicating a compensatory mechanism. \nWhy this matters: This work reveals molecular specialization among mammals in initiating fertilization Ca\u00b2\u207a signals, with implications for understanding male infertility and improving assisted reproductive technologies.",
       "sources": [
         {
           "name": "PLOS Biology",
@@ -44,30 +16,58 @@
       ]
     },
     {
-      "id": "4",
-      "headline": "Clinical Trials Show Manageable Long-Term Cardiac Safety for Duchenne Gene Therapy",
-      "preview": "Pooled analysis of trials shows delandistrogene moxeparvovec has a manageable cardiac safety profile.",
-      "article": "A pooled analysis of four clinical trials involving delandistrogene moxeparvovec for Duchenne muscular dystrophy has demonstrated a manageable cardiac safety profile, with no persistent treatment-related cardiac injuries observed over follow-up periods of one to five years. The analysis included data from 218 patients, revealing that cardiac complications were generally infrequent and transient.\nWhy this matters: Given the high risk of cardiac issues in Duchenne muscular dystrophy patients, these findings provide reassurance regarding the long-term safety of this gene therapy, supporting its continued use and further investigation in broader patient populations.",
-      "sources": [
-        {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/clinical-trials-show-manageable-long-term-cardiac-safety-for-duchenne-gene-therapy/",
-          "type": "news",
-          "verified_date": "2026-11-07"
-        }
-      ]
-    },
-    {
-      "id": "5",
+      "id": "2",
       "headline": "Novartis reveals cancer cases possibly linked to gene therapy Zolgensma",
-      "preview": "Nine cases of tumors reported in Zolgensma recipients raise safety concerns for gene therapy.",
-      "article": "Novartis has reported nine cases of tumors in children treated with its gene therapy Zolgensma, with two cases indicating potential integration of the viral vector DNA into the patients' genomes. This disclosure has prompted calls for clearer communication from the company regarding the implications for families affected by these cases.\nWhy this matters: The potential link between Zolgensma and cancer raises significant safety concerns for gene therapies, highlighting the need for ongoing monitoring and transparent information sharing with patients and healthcare providers as the understanding of long-term effects evolves.",
+      "preview": "Nine patients developed tumors after receiving Zolgensma, raising safety concerns.",
+      "article": "Nine people with spinal muscular atrophy who received Novartis\u2019 gene therapy Zolgensma later developed tumors, with two cases showing evidence of the treatment's virus integrating into patient DNA. Novartis has notified health authorities and is working on next steps. \nWhy this matters: The potential cancer risk associated with Zolgensma has raised concerns among patient groups, emphasizing the need for clear communication and information regarding treatment safety.",
       "sources": [
         {
           "name": "BioPharma Dive - Latest News",
           "url": "https://www.biopharmadive.com/news/zolgensma-tumor-report-novartis-sma-spinal-muscular-atrophy/873990/",
           "type": "news",
           "verified_date": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Global Cesarean Recovery Protocols Require Cultural and Resource Adaptation for Universal Care",
+      "preview": "A review highlights the need for adaptable cesarean recovery protocols across diverse settings.",
+      "article": "A comprehensive narrative review reveals that global Enhanced Recovery After Cesarean protocols face significant implementation barriers due to their focus on high-resource settings. The authors argue for the adaptation of these protocols to integrate local cultural practices and resource availability. \nWhy this matters: This study emphasizes the importance of culturally sensitive and resource-appropriate care in improving maternal recovery and outcomes after cesarean deliveries worldwide.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/global-cesarean-recovery-protocols-require-cultural-and-resource-adaptation-for-universal-care/",
+          "type": "news",
+          "verified_date": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Hybrid Nanoparticles Restore Brain Tumor Macrophage Phagocytosis in Cell Culture Models",
+      "preview": "Engineered nanoparticles enhance macrophage activity against brain tumors in vitro.",
+      "article": "Researchers have developed hybrid nanoparticles that combine synthetic liposomes with mesenchymal stem cell exosomes to target tumor-associated macrophages. These nanoparticles significantly enhanced macrophage phagocytosis of cancer cells in various tumor models. \nWhy this matters: This study demonstrates a novel approach to reprogramming immune cells in the tumor microenvironment, potentially improving therapeutic strategies for treating brain tumors.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/hybrid-nanoparticles-restore-brain-tumor-macrophage-phagocytosis-in-cell-culture-models/",
+          "type": "news",
+          "verified_date": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Despite Novo drug\u2019s failure, cardiologists say they will still pursue anti-inflammatories",
+      "preview": "Cardiologists remain committed to anti-inflammatory therapies despite recent trial failures.",
+      "article": "Recent trial results for Novo Nordisk's ziltivekimab showed it reduced inflammatory markers but did not decrease serious heart events. Despite this, cardiologists continue to explore anti-inflammatory strategies in cardiovascular disease. \nWhy this matters: The ongoing interest in anti-inflammatory treatments highlights the complexity of cardiovascular disease and the need for innovative approaches to improve patient outcomes.",
+      "sources": [
+        {
+          "name": "STAT Biotech news: Market-moving coverage of drug development",
+          "url": "https://www.statnews.com/2026/11/07/aha-2026-conference-novo-nordisk-zeus-trial-ziltivekimab-results/?utm_campaign=rss",
+          "type": "news",
+          "verified_date": "2026-11-07"
         }
       ]
     }

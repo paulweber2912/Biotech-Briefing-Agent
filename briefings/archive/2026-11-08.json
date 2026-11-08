@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-08",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Sperm phospholipase C signaling via PLC\u2081 and PLC\u2084 is essential for Ca\u00b2\u207a oscillations and fertility in mice",
+      "preview": "This study reveals the critical roles of PLC\u2081 and PLC\u2084 in sperm signaling for fertility.",
+      "article": "Fertilization-induced calcium (Ca\u00b2\u207a) oscillations are essential for egg activation and embryonic development in mammals. The sperm-specific phospholipase C isoform, PLC\u2081, is the primary trigger of these oscillations. Male mice lacking Plc\u2081 exhibit subfertility and reduced litter sizes; their sperm induce delayed, low-frequency Ca\u00b2\u207a oscillations, indicating a compensatory mechanism. \nWhy this matters: This work reveals molecular specialization among mammals in initiating fertilization Ca\u00b2\u207a signals, with implications for understanding male infertility and improving assisted reproductive technologies.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004098",
+          "type": "paper",
+          "verified_date": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Novartis reveals cancer cases possibly linked to gene therapy Zolgensma",
+      "preview": "Nine patients developed tumors after receiving Zolgensma, raising safety concerns.",
+      "article": "Nine people with spinal muscular atrophy who received Novartis\u2019 gene therapy Zolgensma later developed tumors, with two cases showing evidence of the treatment's virus integrating into patient DNA. Novartis has notified health authorities and is working on next steps. \nWhy this matters: The potential cancer risk associated with Zolgensma has raised concerns among patient groups, emphasizing the need for clear communication and information regarding treatment safety.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/zolgensma-tumor-report-novartis-sma-spinal-muscular-atrophy/873990/",
+          "type": "news",
+          "verified_date": "2026-11-06"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Global Cesarean Recovery Protocols Require Cultural and Resource Adaptation for Universal Care",
+      "preview": "A review highlights the need for adaptable cesarean recovery protocols across diverse settings.",
+      "article": "A comprehensive narrative review reveals that global Enhanced Recovery After Cesarean protocols face significant implementation barriers due to their focus on high-resource settings. The authors argue for the adaptation of these protocols to integrate local cultural practices and resource availability. \nWhy this matters: This study emphasizes the importance of culturally sensitive and resource-appropriate care in improving maternal recovery and outcomes after cesarean deliveries worldwide.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/global-cesarean-recovery-protocols-require-cultural-and-resource-adaptation-for-universal-care/",
+          "type": "news",
+          "verified_date": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Hybrid Nanoparticles Restore Brain Tumor Macrophage Phagocytosis in Cell Culture Models",
+      "preview": "Engineered nanoparticles enhance macrophage activity against brain tumors in vitro.",
+      "article": "Researchers have developed hybrid nanoparticles that combine synthetic liposomes with mesenchymal stem cell exosomes to target tumor-associated macrophages. These nanoparticles significantly enhanced macrophage phagocytosis of cancer cells in various tumor models. \nWhy this matters: This study demonstrates a novel approach to reprogramming immune cells in the tumor microenvironment, potentially improving therapeutic strategies for treating brain tumors.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/hybrid-nanoparticles-restore-brain-tumor-macrophage-phagocytosis-in-cell-culture-models/",
+          "type": "news",
+          "verified_date": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Despite Novo drug\u2019s failure, cardiologists say they will still pursue anti-inflammatories",
+      "preview": "Cardiologists remain committed to anti-inflammatory therapies despite recent trial failures.",
+      "article": "Recent trial results for Novo Nordisk's ziltivekimab showed it reduced inflammatory markers but did not decrease serious heart events. Despite this, cardiologists continue to explore anti-inflammatory strategies in cardiovascular disease. \nWhy this matters: The ongoing interest in anti-inflammatory treatments highlights the complexity of cardiovascular disease and the need for innovative approaches to improve patient outcomes.",
+      "sources": [
+        {
+          "name": "STAT Biotech news: Market-moving coverage of drug development",
+          "url": "https://www.statnews.com/2026/11/07/aha-2026-conference-novo-nordisk-zeus-trial-ziltivekimab-results/?utm_campaign=rss",
+          "type": "news",
+          "verified_date": "2026-11-07"
+        }
+      ]
+    }
+  ]
+}
