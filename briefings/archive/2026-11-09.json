@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-09",
+  "items": [
+    {
+      "id": "1",
+      "headline": "When genetic medicine enters the inner ear",
+      "preview": "Gene therapies are making strides in treating genetic deafness, with new therapies targeting the inner ear.",
+      "article": "Gene therapies began as proof-of-concept treatments for a handful of rare genetic disorders and now, with emerging tools, may expand into broader territories with new targeted organs. This year, one gene therapy achieved what once seemed improbable: enabling children born profoundly deaf to hear. With the first therapy for genetic deafness now approved, the inner ear is emerging as a promising target for the next generation of genetic medicines.\nWhy this matters: The approval of Regeneron\u2019s Otarmeni marks a significant milestone in treating genetic deafness, potentially paving the way for more therapies targeting various genetic causes of hearing loss. Other companies are also developing gene therapies for OTOF mutations, indicating a growing interest in this area of research.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/background/when-genetic-medicine-enters-the-inner-ear/",
+          "type": "news",
+          "verified_date": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Combatting blood\u2013brain barrier breakdown in age-related neurological diseases",
+      "preview": "A study reveals the role of endothelial glycocalyx degradation in age-related neurological diseases.",
+      "article": "AMSBIO has highlighted the use of heparan sulfate monoclonal antibodies in revealing the degradation of the endothelial glycocalyx as a key factor in blood-brain barrier dysfunction associated with aging and neurodegenerative diseases. The study suggests that restoring this glycocalyx could be a promising therapeutic approach.\nWhy this matters: Understanding the mechanisms behind blood-brain barrier breakdown can lead to new strategies for treating age-related neurological conditions, potentially improving patient outcomes.",
+      "sources": [
+        {
+          "name": "BioTechniques",
+          "url": "https://www.biotechniques.com/company-news/amsbio-combatting-blood-brain-barrier-breakdown-in-age-related-neurological-diseases/",
+          "type": "news",
+          "verified_date": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Translating Phase II success into Phase III readiness takes more than scale",
+      "preview": "Transitioning from Phase II to Phase III clinical trials involves complex interdependencies.",
+      "article": "Positive Phase II results clear the way for Phase III development, but a successful transition involves far more than scaling up the clinical program. Factors such as country selection, standard of care, and regulatory requirements become increasingly interconnected as the study expands.\nWhy this matters: Understanding the complexities of transitioning to Phase III can help ensure that clinical trials are executed successfully, ultimately leading to more effective therapies reaching the market.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/spons/translating-phase-ii-success-into-phase-iii-readiness-takes-more-than-scale/833059/",
+          "type": "news",
+          "verified_date": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Mitochondrial DNA Sensing Amplifies Senescence-Associated Inflammation",
+      "preview": "A review discusses how mitochondrial dysfunction drives inflammation in cellular senescence.",
+      "article": "Recent investigations indicate that mitochondrial dysfunction amplifies the senescence-associated secretory phenotype, rather than merely initiating it. The review explores the mechanisms linking mitochondrial injury to innate immune signaling, emphasizing the complexity of the senescent state across different cell types.\nWhy this matters: Understanding the role of mitochondrial dysfunction in inflammation could lead to new therapeutic strategies targeting senescence-associated diseases, potentially improving treatment outcomes.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/mitochondrial-dna-sensing-amplifies-senescence-associated-inflammation-through-context-dependent-innate-immune-signaling/",
+          "type": "news",
+          "verified_date": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Nationwide Snapshot Audit Reveals Sri Lanka\u2019s Underestimated Liver Cancer Burden",
+      "preview": "A nationwide audit in Sri Lanka provides new insights into the incidence of hepatocellular carcinoma.",
+      "article": "A nationwide cross-sectional clinical audit in Sri Lanka has revealed an age-standardised incidence rate of hepatocellular carcinoma that is more than double previous estimates. The study highlights significant gaps in the country's epidemiological monitoring and calls for improved cancer surveillance and registry systems.\nWhy this matters: Accurate incidence data is crucial for public health planning and resource allocation, and this audit underscores the need for better monitoring of liver cancer in Sri Lanka.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/nationwide-snapshot-audit-reveals-sri-lankas-underestimated-liver-cancer-burden/",
+          "type": "news",
+          "verified_date": "2026-11-09"
+        }
+      ]
+    }
+  ]
+}
