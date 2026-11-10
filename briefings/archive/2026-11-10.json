@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-10",
+  "items": [
+    {
+      "id": "1",
+      "headline": "When genetic medicine enters the inner ear",
+      "preview": "Gene therapies are expanding into the inner ear, with promising treatments for genetic deafness.",
+      "article": "Gene therapies began as proof-of-concept treatments for a handful of rare genetic disorders and now, with emerging tools, may expand into broader territories with new targeted organs. This year, one gene therapy achieved what once seemed improbable: enabling children born profoundly deaf to hear. With the first therapy for genetic deafness now approved, the inner ear is emerging as a promising target for the next generation of genetic medicines.\nWhy this matters: The approval of Regeneron\u2019s Otarmeni marks a significant milestone in treating genetic deafness, paving the way for further advancements in inner-ear genetic therapies. Other companies are also developing therapies targeting OTOF mutations, indicating a growing interest in this area of genetic medicine.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/background/when-genetic-medicine-enters-the-inner-ear/",
+          "type": "news",
+          "verified_date": "2026-11-08"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "BIO unveils plan for US to remain biotech\u2019s \u2018global leader\u2019",
+      "preview": "The Biotechnology Innovation Organization proposes a plan to enhance U.S. biotech competitiveness.",
+      "article": "Two months after China unveiled a five-year plan to accelerate its biotechnology sector, the Biotechnology Innovation Organization (BIO) has proposed an action plan to ensure the U.S. remains the global leader in biotech. The plan outlines seven priorities for Congress and the administration to enhance drug development, improve clinical trial infrastructure, and attract investment.\nWhy this matters: As China advances in biotech, the U.S. must adapt and strengthen its position in the industry. BIO's proposal aims to streamline processes and increase funding for research, which could significantly impact the future of biotech innovation in America.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/bio-bioadvance-proposal-us-trial-competition-china/874162/",
+          "type": "news",
+          "verified_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Low miR-1290 Levels Predict Sepsis Severity and Mortality",
+      "preview": "A study identifies miR-1290 as a potential biomarker for sepsis diagnosis and prognosis.",
+      "article": "Researchers at Renmin Hospital of Wuhan University have identified miR-1290 as a potential diagnostic and prognostic biomarker for sepsis. The study shows that lower serum levels of miR-1290 correlate with increased disease severity and higher mortality rates in sepsis patients.\nWhy this matters: The findings suggest that miR-1290 could be a valuable tool for early risk stratification in sepsis, potentially improving patient outcomes through timely intervention.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/low-mir-1290-levels-predict-sepsis-severity-and-mortality/",
+          "type": "news",
+          "verified_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Ramaswamy\u2019s biotech baggage haunted his political run",
+      "preview": "Vivek Ramaswamy faced backlash from biotech leaders during his political campaign.",
+      "article": "Vivek Ramaswamy lost Ohio\u2019s governor\u2019s race amid criticism from biotech leaders regarding his campaign tactics. His political journey raises questions about his biotech credentials and the distinction between fundraising success and clinical evidence.\nWhy this matters: Ramaswamy's experience in biotech and its intersection with politics highlights the complexities of public perception and accountability in the industry, especially when clinical outcomes do not align with financial success.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/vivek-ramaswamy-biotech-axovant-roivant-ohio/874093/",
+          "type": "news",
+          "verified_date": "2026-11-09"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Plant Compound Bakuchiol Inhibits Streptococcus agalactiae and Alleviates Mastitis in Mice",
+      "preview": "Bakuchiol shows promise as an antibacterial agent against a major pathogen in dairy cattle.",
+      "article": "A multidisciplinary team has identified bakuchiol as a potent antibacterial agent against Streptococcus agalactiae, a major cause of mastitis in dairy cows. The compound effectively suppresses bacterial growth and virulence factors, offering a potential alternative to traditional antibiotics.\nWhy this matters: With the rise of antimicrobial resistance, bakuchiol's ability to disrupt bacterial pathogenicity through non-traditional mechanisms could provide a valuable tool in veterinary medicine and animal health.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/plant-compound-bakuchiol-inhibits-streptococcus-agalactiae-and-alleviates-mastitis-in-mice/",
+          "type": "news",
+          "verified_date": "2026-11-10"
+        }
+      ]
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-09",
+  "date": "2026-11-10",
   "items": [
     {
       "id": "1",
       "headline": "When genetic medicine enters the inner ear",
-      "preview": "Gene therapies are making strides in treating genetic deafness, with new therapies targeting the inner ear.",
-      "article": "Gene therapies began as proof-of-concept treatments for a handful of rare genetic disorders and now, with emerging tools, may expand into broader territories with new targeted organs. This year, one gene therapy achieved what once seemed improbable: enabling children born profoundly deaf to hear. With the first therapy for genetic deafness now approved, the inner ear is emerging as a promising target for the next generation of genetic medicines.\nWhy this matters: The approval of Regeneron\u2019s Otarmeni marks a significant milestone in treating genetic deafness, potentially paving the way for more therapies targeting various genetic causes of hearing loss. Other companies are also developing gene therapies for OTOF mutations, indicating a growing interest in this area of research.",
+      "preview": "Gene therapies are expanding into the inner ear, with promising treatments for genetic deafness.",
+      "article": "Gene therapies began as proof-of-concept treatments for a handful of rare genetic disorders and now, with emerging tools, may expand into broader territories with new targeted organs. This year, one gene therapy achieved what once seemed improbable: enabling children born profoundly deaf to hear. With the first therapy for genetic deafness now approved, the inner ear is emerging as a promising target for the next generation of genetic medicines.\nWhy this matters: The approval of Regeneron\u2019s Otarmeni marks a significant milestone in treating genetic deafness, paving the way for further advancements in inner-ear genetic therapies. Other companies are also developing therapies targeting OTOF mutations, indicating a growing interest in this area of genetic medicine.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
@@ -17,41 +17,41 @@
     },
     {
       "id": "2",
-      "headline": "Combatting blood\u2013brain barrier breakdown in age-related neurological diseases",
-      "preview": "A study reveals the role of endothelial glycocalyx degradation in age-related neurological diseases.",
-      "article": "AMSBIO has highlighted the use of heparan sulfate monoclonal antibodies in revealing the degradation of the endothelial glycocalyx as a key factor in blood-brain barrier dysfunction associated with aging and neurodegenerative diseases. The study suggests that restoring this glycocalyx could be a promising therapeutic approach.\nWhy this matters: Understanding the mechanisms behind blood-brain barrier breakdown can lead to new strategies for treating age-related neurological conditions, potentially improving patient outcomes.",
+      "headline": "BIO unveils plan for US to remain biotech\u2019s \u2018global leader\u2019",
+      "preview": "The Biotechnology Innovation Organization proposes a plan to enhance U.S. biotech competitiveness.",
+      "article": "Two months after China unveiled a five-year plan to accelerate its biotechnology sector, the Biotechnology Innovation Organization (BIO) has proposed an action plan to ensure the U.S. remains the global leader in biotech. The plan outlines seven priorities for Congress and the administration to enhance drug development, improve clinical trial infrastructure, and attract investment.\nWhy this matters: As China advances in biotech, the U.S. must adapt and strengthen its position in the industry. BIO's proposal aims to streamline processes and increase funding for research, which could significantly impact the future of biotech innovation in America.",
       "sources": [
         {
-          "name": "BioTechniques",
-          "url": "https://www.biotechniques.com/company-news/amsbio-combatting-blood-brain-barrier-breakdown-in-age-related-neurological-diseases/",
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/bio-bioadvance-proposal-us-trial-competition-china/874162/",
           "type": "news",
-          "verified_date": "2026-11-09"
+          "verified_date": "2026-11-10"
         }
       ]
     },
     {
       "id": "3",
-      "headline": "Translating Phase II success into Phase III readiness takes more than scale",
-      "preview": "Transitioning from Phase II to Phase III clinical trials involves complex interdependencies.",
-      "article": "Positive Phase II results clear the way for Phase III development, but a successful transition involves far more than scaling up the clinical program. Factors such as country selection, standard of care, and regulatory requirements become increasingly interconnected as the study expands.\nWhy this matters: Understanding the complexities of transitioning to Phase III can help ensure that clinical trials are executed successfully, ultimately leading to more effective therapies reaching the market.",
+      "headline": "Low miR-1290 Levels Predict Sepsis Severity and Mortality",
+      "preview": "A study identifies miR-1290 as a potential biomarker for sepsis diagnosis and prognosis.",
+      "article": "Researchers at Renmin Hospital of Wuhan University have identified miR-1290 as a potential diagnostic and prognostic biomarker for sepsis. The study shows that lower serum levels of miR-1290 correlate with increased disease severity and higher mortality rates in sepsis patients.\nWhy this matters: The findings suggest that miR-1290 could be a valuable tool for early risk stratification in sepsis, potentially improving patient outcomes through timely intervention.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/spons/translating-phase-ii-success-into-phase-iii-readiness-takes-more-than-scale/833059/",
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/low-mir-1290-levels-predict-sepsis-severity-and-mortality/",
           "type": "news",
-          "verified_date": "2026-11-09"
+          "verified_date": "2026-11-10"
         }
       ]
     },
     {
       "id": "4",
-      "headline": "Mitochondrial DNA Sensing Amplifies Senescence-Associated Inflammation",
-      "preview": "A review discusses how mitochondrial dysfunction drives inflammation in cellular senescence.",
-      "article": "Recent investigations indicate that mitochondrial dysfunction amplifies the senescence-associated secretory phenotype, rather than merely initiating it. The review explores the mechanisms linking mitochondrial injury to innate immune signaling, emphasizing the complexity of the senescent state across different cell types.\nWhy this matters: Understanding the role of mitochondrial dysfunction in inflammation could lead to new therapeutic strategies targeting senescence-associated diseases, potentially improving treatment outcomes.",
+      "headline": "Ramaswamy\u2019s biotech baggage haunted his political run",
+      "preview": "Vivek Ramaswamy faced backlash from biotech leaders during his political campaign.",
+      "article": "Vivek Ramaswamy lost Ohio\u2019s governor\u2019s race amid criticism from biotech leaders regarding his campaign tactics. His political journey raises questions about his biotech credentials and the distinction between fundraising success and clinical evidence.\nWhy this matters: Ramaswamy's experience in biotech and its intersection with politics highlights the complexities of public perception and accountability in the industry, especially when clinical outcomes do not align with financial success.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/mitochondrial-dna-sensing-amplifies-senescence-associated-inflammation-through-context-dependent-innate-immune-signaling/",
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/vivek-ramaswamy-biotech-axovant-roivant-ohio/874093/",
           "type": "news",
           "verified_date": "2026-11-09"
         }
@@ -59,15 +59,15 @@
     },
     {
       "id": "5",
-      "headline": "Nationwide Snapshot Audit Reveals Sri Lanka\u2019s Underestimated Liver Cancer Burden",
-      "preview": "A nationwide audit in Sri Lanka provides new insights into the incidence of hepatocellular carcinoma.",
-      "article": "A nationwide cross-sectional clinical audit in Sri Lanka has revealed an age-standardised incidence rate of hepatocellular carcinoma that is more than double previous estimates. The study highlights significant gaps in the country's epidemiological monitoring and calls for improved cancer surveillance and registry systems.\nWhy this matters: Accurate incidence data is crucial for public health planning and resource allocation, and this audit underscores the need for better monitoring of liver cancer in Sri Lanka.",
+      "headline": "Plant Compound Bakuchiol Inhibits Streptococcus agalactiae and Alleviates Mastitis in Mice",
+      "preview": "Bakuchiol shows promise as an antibacterial agent against a major pathogen in dairy cattle.",
+      "article": "A multidisciplinary team has identified bakuchiol as a potent antibacterial agent against Streptococcus agalactiae, a major cause of mastitis in dairy cows. The compound effectively suppresses bacterial growth and virulence factors, offering a potential alternative to traditional antibiotics.\nWhy this matters: With the rise of antimicrobial resistance, bakuchiol's ability to disrupt bacterial pathogenicity through non-traditional mechanisms could provide a valuable tool in veterinary medicine and animal health.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/nationwide-snapshot-audit-reveals-sri-lankas-underestimated-liver-cancer-burden/",
+          "url": "https://bioengineer.org/plant-compound-bakuchiol-inhibits-streptococcus-agalactiae-and-alleviates-mastitis-in-mice/",
           "type": "news",
-          "verified_date": "2026-11-09"
+          "verified_date": "2026-11-10"
         }
       ]
     }
