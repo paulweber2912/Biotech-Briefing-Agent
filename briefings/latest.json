@@ -1,25 +1,11 @@
 {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "items": [
     {
       "id": "1",
-      "headline": "When genetic medicine enters the inner ear",
-      "preview": "Gene therapies are expanding into the inner ear, with promising treatments for genetic deafness.",
-      "article": "Gene therapies began as proof-of-concept treatments for a handful of rare genetic disorders and now, with emerging tools, may expand into broader territories with new targeted organs. This year, one gene therapy achieved what once seemed improbable: enabling children born profoundly deaf to hear. With the first therapy for genetic deafness now approved, the inner ear is emerging as a promising target for the next generation of genetic medicines.\nWhy this matters: The approval of Regeneron\u2019s Otarmeni marks a significant milestone in treating genetic deafness, paving the way for further advancements in inner-ear genetic therapies. Other companies are also developing therapies targeting OTOF mutations, indicating a growing interest in this area of genetic medicine.",
-      "sources": [
-        {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/background/when-genetic-medicine-enters-the-inner-ear/",
-          "type": "news",
-          "verified_date": "2026-11-08"
-        }
-      ]
-    },
-    {
-      "id": "2",
       "headline": "BIO unveils plan for US to remain biotech\u2019s \u2018global leader\u2019",
-      "preview": "The Biotechnology Innovation Organization proposes a plan to enhance U.S. biotech competitiveness.",
-      "article": "Two months after China unveiled a five-year plan to accelerate its biotechnology sector, the Biotechnology Innovation Organization (BIO) has proposed an action plan to ensure the U.S. remains the global leader in biotech. The plan outlines seven priorities for Congress and the administration to enhance drug development, improve clinical trial infrastructure, and attract investment.\nWhy this matters: As China advances in biotech, the U.S. must adapt and strengthen its position in the industry. BIO's proposal aims to streamline processes and increase funding for research, which could significantly impact the future of biotech innovation in America.",
+      "preview": "The Biotechnology Innovation Organization has proposed a plan to maintain U.S. leadership in biotech.",
+      "article": "Two months after China unveiled a five-year plan to accelerate its biotechnology sector, the Biotechnology Innovation Organization (BIO) has pitched a policy proposal to help the U.S. maintain its edge. The 'BioAdvance' plan outlines seven priorities for Congress and the administration to ensure the U.S. remains the global leader in biotech.\n\nWhy this matters: The U.S. has historically been a leader in drug development, but China's rapid advancements pose a significant challenge. BIO's proposal aims to enhance drug development efficiency, improve clinical trial infrastructure, and attract investment, while also calling for the establishment of a White House Office of Biotechnology to coordinate these efforts.",
       "sources": [
         {
           "name": "BioPharma Dive - Latest News",
@@ -30,14 +16,28 @@
       ]
     },
     {
-      "id": "3",
-      "headline": "Low miR-1290 Levels Predict Sepsis Severity and Mortality",
-      "preview": "A study identifies miR-1290 as a potential biomarker for sepsis diagnosis and prognosis.",
-      "article": "Researchers at Renmin Hospital of Wuhan University have identified miR-1290 as a potential diagnostic and prognostic biomarker for sepsis. The study shows that lower serum levels of miR-1290 correlate with increased disease severity and higher mortality rates in sepsis patients.\nWhy this matters: The findings suggest that miR-1290 could be a valuable tool for early risk stratification in sepsis, potentially improving patient outcomes through timely intervention.",
+      "id": "2",
+      "headline": "Beam\u2019s base editing therapy for sickle cell hits goal in pivotal trial",
+      "preview": "Beam Therapeutics reports success in a pivotal trial for its gene editing treatment for sickle cell disease.",
+      "article": "Beam Therapeutics announced that its precision gene editing treatment, ristoglogene autogetemcel (risto-cel), has succeeded in a pivotal trial, helping patients with sickle cell disease avoid severe pain crises. This marks the first positive late-stage results for a base editing approach, with plans to submit an FDA approval application by year-end.\n\nWhy this matters: Risto-cel represents a new treatment option in a competitive landscape that includes existing therapies. Its success could pave the way for broader acceptance of base editing technologies in treating genetic disorders.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/low-mir-1290-levels-predict-sepsis-severity-and-mortality/",
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/beam-sickle-cell-base-editing-risto-cel-results/874242/",
+          "type": "news",
+          "verified_date": "2026-11-10"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "SRTD raises \u20ac31.5M seed round to develop cell-selective RNA therapies",
+      "preview": "SRTD Biotech secures \u20ac31.5 million to advance its RNA technology targeting specific cells.",
+      "article": "SRTD Biotech has successfully closed a \u20ac31.5 million seed funding round aimed at developing its selectively expressed RNA (seRNA) technology. This innovative approach seeks to activate therapeutic RNA only in target cells, minimizing harm to healthy tissues. The funding will support preclinical development in cancer, autoimmune diseases, and fibrosis.\n\nWhy this matters: The ability to selectively activate RNA therapies could revolutionize treatment options, particularly in oncology, by reducing side effects and improving efficacy.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/srtd-raises-e31-5m-seed-round-to-develop-cell-selective-rna-therapies/",
           "type": "news",
           "verified_date": "2026-11-10"
         }
@@ -45,28 +45,28 @@
     },
     {
       "id": "4",
-      "headline": "Ramaswamy\u2019s biotech baggage haunted his political run",
-      "preview": "Vivek Ramaswamy faced backlash from biotech leaders during his political campaign.",
-      "article": "Vivek Ramaswamy lost Ohio\u2019s governor\u2019s race amid criticism from biotech leaders regarding his campaign tactics. His political journey raises questions about his biotech credentials and the distinction between fundraising success and clinical evidence.\nWhy this matters: Ramaswamy's experience in biotech and its intersection with politics highlights the complexities of public perception and accountability in the industry, especially when clinical outcomes do not align with financial success.",
+      "headline": "Dual-Energy CT Visualizes High-Grade Glioma Without Contrast",
+      "preview": "A study shows dual-energy CT can visualize high-grade gliomas without contrast agents.",
+      "article": "Researchers at the University of Fukui have demonstrated that dual-energy computed tomography (DECT) can visualize high-grade gliomas similarly to gadolinium-enhanced MRI, without the need for contrast media. This method could benefit patients unable to undergo MRI due to various contraindications.\n\nWhy this matters: The ability to visualize tumors without contrast could expand diagnostic options for patients and enhance preoperative planning, particularly for those with conditions that limit MRI accessibility.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/news/vivek-ramaswamy-biotech-axovant-roivant-ohio/874093/",
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/dual-energy-ct-visualizes-high-grade-glioma-without-contrast/",
           "type": "news",
-          "verified_date": "2026-11-09"
+          "verified_date": "2026-11-11"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "Plant Compound Bakuchiol Inhibits Streptococcus agalactiae and Alleviates Mastitis in Mice",
-      "preview": "Bakuchiol shows promise as an antibacterial agent against a major pathogen in dairy cattle.",
-      "article": "A multidisciplinary team has identified bakuchiol as a potent antibacterial agent against Streptococcus agalactiae, a major cause of mastitis in dairy cows. The compound effectively suppresses bacterial growth and virulence factors, offering a potential alternative to traditional antibiotics.\nWhy this matters: With the rise of antimicrobial resistance, bakuchiol's ability to disrupt bacterial pathogenicity through non-traditional mechanisms could provide a valuable tool in veterinary medicine and animal health.",
+      "headline": "PhagoCyt enables isolation of Salmonella-containing phagosomes",
+      "preview": "A new method allows for the isolation of Salmonella-containing phagosomes for proteomic analysis.",
+      "article": "Researchers have developed a flow cytometry-based method called PhagoCyt to isolate Salmonella-containing phagosomes from macrophages. This technique enhances the analysis of host-pathogen interactions and provides insights into how Salmonella manipulates phagosome maturation.\n\nWhy this matters: The ability to isolate and analyze pathogen-containing phagosomes can significantly advance our understanding of bacterial survival strategies within host cells, potentially leading to new therapeutic approaches.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/plant-compound-bakuchiol-inhibits-streptococcus-agalactiae-and-alleviates-mastitis-in-mice/",
-          "type": "news",
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004073",
+          "type": "paper",
           "verified_date": "2026-11-10"
         }
       ]
