@@ -1,72 +1,72 @@
 {
-  "date": "2026-11-11",
+  "date": "2026-11-12",
   "items": [
     {
       "id": "1",
-      "headline": "BIO unveils plan for US to remain biotech\u2019s \u2018global leader\u2019",
-      "preview": "The Biotechnology Innovation Organization has proposed a plan to maintain U.S. leadership in biotech.",
-      "article": "Two months after China unveiled a five-year plan to accelerate its biotechnology sector, the Biotechnology Innovation Organization (BIO) has pitched a policy proposal to help the U.S. maintain its edge. The 'BioAdvance' plan outlines seven priorities for Congress and the administration to ensure the U.S. remains the global leader in biotech.\n\nWhy this matters: The U.S. has historically been a leader in drug development, but China's rapid advancements pose a significant challenge. BIO's proposal aims to enhance drug development efficiency, improve clinical trial infrastructure, and attract investment, while also calling for the establishment of a White House Office of Biotechnology to coordinate these efforts.",
+      "headline": "Review Evaluates Translating Advanced Biomaterials Across Cleft Lip and Palate Care",
+      "preview": "A narrative review highlights the uneven clinical translation of biomaterials in cleft care.",
+      "article": "A comprehensive narrative review evaluating clinical and preclinical literature published between 2001 and 2026 reports that while adjunctive biomaterials offer substantial therapeutic potential in cleft lip and palate management, their clinical translation remains highly uneven and predominantly preclinical. The authors determined that the primary translational barrier is not a scarcity of biomaterial functions, but an incomplete match between material design and specific surgical failure mechanisms across pediatric developmental stages.\nWhy this matters: Although biomaterials show measurable promise for various applications in cleft care, clinical adoption demands rigorous validation specific to the unique challenges of pediatric surgical settings. This review underscores the need for tailored approaches to enhance the effectiveness of biomaterials in clinical practice.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/news/bio-bioadvance-proposal-us-trial-competition-china/874162/",
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/review-evaluates-translating-advanced-biomaterials-across-cleft-lip-and-palate-care/",
           "type": "news",
-          "verified_date": "2026-11-10"
+          "verified_date": "2026-11-12"
         }
       ]
     },
     {
       "id": "2",
-      "headline": "Beam\u2019s base editing therapy for sickle cell hits goal in pivotal trial",
-      "preview": "Beam Therapeutics reports success in a pivotal trial for its gene editing treatment for sickle cell disease.",
-      "article": "Beam Therapeutics announced that its precision gene editing treatment, ristoglogene autogetemcel (risto-cel), has succeeded in a pivotal trial, helping patients with sickle cell disease avoid severe pain crises. This marks the first positive late-stage results for a base editing approach, with plans to submit an FDA approval application by year-end.\n\nWhy this matters: Risto-cel represents a new treatment option in a competitive landscape that includes existing therapies. Its success could pave the way for broader acceptance of base editing technologies in treating genetic disorders.",
+      "headline": "Virus-like particles enable highly efficient gene editing across porcine and avian models",
+      "preview": "Virus-like particles enhance gene editing efficiency in pigs and chickens for research applications.",
+      "article": "Recent advances in genome editing technologies, particularly CRISPR/Cas9, have expanded the potential of pigs and chickens as model organisms. This study evaluates virus-like particles (VLPs) as delivery vehicles for genome engineering tools in porcine and avian cultures. VLP-mediated delivery enabled efficient gene editing rates in porcine cells and robust editing in chickens, establishing VLPs as a time-saving strategy for gene editing in livestock.\nWhy this matters: The use of VLPs could significantly improve the efficiency of gene editing in livestock, facilitating advancements in animal health and agricultural productivity, and contributing to One Health research initiatives.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/news/beam-sickle-cell-base-editing-risto-cel-results/874242/",
-          "type": "news",
-          "verified_date": "2026-11-10"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "headline": "SRTD raises \u20ac31.5M seed round to develop cell-selective RNA therapies",
-      "preview": "SRTD Biotech secures \u20ac31.5 million to advance its RNA technology targeting specific cells.",
-      "article": "SRTD Biotech has successfully closed a \u20ac31.5 million seed funding round aimed at developing its selectively expressed RNA (seRNA) technology. This innovative approach seeks to activate therapeutic RNA only in target cells, minimizing harm to healthy tissues. The funding will support preclinical development in cancer, autoimmune diseases, and fibrosis.\n\nWhy this matters: The ability to selectively activate RNA therapies could revolutionize treatment options, particularly in oncology, by reducing side effects and improving efficacy.",
-      "sources": [
-        {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/srtd-raises-e31-5m-seed-round-to-develop-cell-selective-rna-therapies/",
-          "type": "news",
-          "verified_date": "2026-11-10"
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "headline": "Dual-Energy CT Visualizes High-Grade Glioma Without Contrast",
-      "preview": "A study shows dual-energy CT can visualize high-grade gliomas without contrast agents.",
-      "article": "Researchers at the University of Fukui have demonstrated that dual-energy computed tomography (DECT) can visualize high-grade gliomas similarly to gadolinium-enhanced MRI, without the need for contrast media. This method could benefit patients unable to undergo MRI due to various contraindications.\n\nWhy this matters: The ability to visualize tumors without contrast could expand diagnostic options for patients and enhance preoperative planning, particularly for those with conditions that limit MRI accessibility.",
-      "sources": [
-        {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/dual-energy-ct-visualizes-high-grade-glioma-without-contrast/",
-          "type": "news",
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004105",
+          "type": "paper",
           "verified_date": "2026-11-11"
         }
       ]
     },
     {
-      "id": "5",
-      "headline": "PhagoCyt enables isolation of Salmonella-containing phagosomes",
-      "preview": "A new method allows for the isolation of Salmonella-containing phagosomes for proteomic analysis.",
-      "article": "Researchers have developed a flow cytometry-based method called PhagoCyt to isolate Salmonella-containing phagosomes from macrophages. This technique enhances the analysis of host-pathogen interactions and provides insights into how Salmonella manipulates phagosome maturation.\n\nWhy this matters: The ability to isolate and analyze pathogen-containing phagosomes can significantly advance our understanding of bacterial survival strategies within host cells, potentially leading to new therapeutic approaches.",
+      "id": "3",
+      "headline": "The single Cryptosporidium rhoptry drives invasion and host-parasite interface formation",
+      "preview": "New insights reveal how Cryptosporidium invades host cells and forms a unique interface.",
+      "article": "The apicomplexan parasite Cryptosporidium is a leading cause of diarrheal disease in young children. This study reveals that the single Cryptosporidium rhoptry plays a crucial role in the invasion process, acting as a conduit for effector protein secretion and ultimately forming the host-parasite interface. The findings propose a mechanistic model of Cryptosporidium invasion and intracellular parasitism.\nWhy this matters: Understanding the invasion mechanisms of Cryptosporidium could lead to novel therapeutic strategies to combat this significant public health threat, particularly in vulnerable populations.",
       "sources": [
         {
           "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004073",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003933",
           "type": "paper",
+          "verified_date": "2026-11-11"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Paracetamol Fails Non-Inferiority Trial Against Meloxicam for Postoperative Canine Pain",
+      "preview": "A trial shows paracetamol is less effective than meloxicam for pain management in dogs.",
+      "article": "A prospective randomized clinical trial conducted at the University of Helsinki has revealed that intravenous paracetamol does not achieve non-inferior postoperative analgesia compared to meloxicam in female dogs undergoing elective reproductive surgery. The trial established that only 40% of dogs receiving paracetamol achieved successful pain management compared to 60% in the meloxicam group.\nWhy this matters: The findings highlight the need for effective pain management strategies in veterinary practice, emphasizing that paracetamol cannot serve as a standalone alternative to meloxicam in postoperative care.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/paracetamol-fails-non-inferiority-trial-against-meloxicam-for-postoperative-canine-pain/",
+          "type": "news",
+          "verified_date": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "A Conversation with Michael Ehlers: Funding the Future of Drug Discovery at Formation Bio",
+      "preview": "Formation Bio discusses its new $600M fund aimed at accelerating drug development.",
+      "article": "Formation Bio has announced a new fund with $600M in capital commitments for in-licensing medicines and funding clinical development. The company aims to leverage AI to streamline drug discovery and development processes. Michael Ehlers, CSO and Head of R&D, emphasizes the importance of integrating data sciences with drug development to enhance efficiency and reduce costs.\nWhy this matters: This funding initiative represents a significant step towards accelerating the development of new therapies, potentially transforming the landscape of drug discovery and making it more efficient and accessible.",
+      "sources": [
+        {
+          "name": "Decoding Bio",
+          "url": "https://decodingbio.substack.com/p/a-conversation-with-mike-ehlers-funding",
+          "type": "news",
           "verified_date": "2026-11-10"
         }
       ]
