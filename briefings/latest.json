@@ -1,15 +1,15 @@
 {
-  "date": "2026-11-12",
+  "date": "2026-11-13",
   "items": [
     {
       "id": "1",
-      "headline": "Review Evaluates Translating Advanced Biomaterials Across Cleft Lip and Palate Care",
-      "preview": "A narrative review highlights the uneven clinical translation of biomaterials in cleft care.",
-      "article": "A comprehensive narrative review evaluating clinical and preclinical literature published between 2001 and 2026 reports that while adjunctive biomaterials offer substantial therapeutic potential in cleft lip and palate management, their clinical translation remains highly uneven and predominantly preclinical. The authors determined that the primary translational barrier is not a scarcity of biomaterial functions, but an incomplete match between material design and specific surgical failure mechanisms across pediatric developmental stages.\nWhy this matters: Although biomaterials show measurable promise for various applications in cleft care, clinical adoption demands rigorous validation specific to the unique challenges of pediatric surgical settings. This review underscores the need for tailored approaches to enhance the effectiveness of biomaterials in clinical practice.",
+      "headline": "Lakefront abandons Galapagos-developed TYK2 inhibitor after unsuccessful partnering efforts",
+      "preview": "Lakefront Biotherapeutics has discontinued its TYK2 inhibitor GLPG3667 after failed partnership talks.",
+      "article": "Belgian biotech Lakefront Biotherapeutics has decided to discontinue its oral TYK2 inhibitor GLPG3667 following an analysis of the competitive landscape and discussions with potential partners. Although the drug met its primary endpoint in a Phase 2 trial for dermatomyositis, it failed to do so in lupus.\nWhy this matters: GLPG3667 was the last clinical-stage drug candidate from Galapagos\u2019 original small-molecule research, marking a significant shift in Lakefront's pipeline focus. The company is now concentrating on T-cell engagers and other preclinical programs.\nLakefront announced this decision on November 11, stating it was based on a thorough review of strategic alternatives. The company does not expect the discontinuation costs to be significant, and its shares rose by about 4% following the announcement.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/review-evaluates-translating-advanced-biomaterials-across-cleft-lip-and-palate-care/",
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/lakefront-abandons-galapagos-developed-tyk2-inhibitor-after-unsuccessful-partnering-efforts/",
           "type": "news",
           "verified_date": "2026-11-12"
         }
@@ -17,9 +17,23 @@
     },
     {
       "id": "2",
+      "headline": "Gubra\u2019s board replaces CEO; Commit staffs its first drug program; TECregen names CMO",
+      "preview": "Gubra has replaced its CEO as it implements a new strategic plan, while Commit and TECregen make key hires.",
+      "article": "Gubra's board has replaced its CEO to align with its 2030 strategic plan, appointing co-CEOs from within the company. Commit Biologics has strengthened its leadership team as it prepares to enter clinical trials with its first drug candidate, COM002. TECregen has appointed a new CMO to advance its thymus-regeneration candidate, TEC001.\nWhy this matters: These leadership changes and new hires reflect the companies' efforts to enhance their operational capabilities and advance their respective drug development programs. Gubra aims to expand its clinical-stage assets significantly by 2030, while Commit and TECregen are positioning themselves for upcoming clinical milestones.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/gubras-board-replaces-ceo-commit-staffs-its-first-drug-program-tecregen-names-cmo/",
+          "type": "news",
+          "verified_date": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "3",
       "headline": "Virus-like particles enable highly efficient gene editing across porcine and avian models",
-      "preview": "Virus-like particles enhance gene editing efficiency in pigs and chickens for research applications.",
-      "article": "Recent advances in genome editing technologies, particularly CRISPR/Cas9, have expanded the potential of pigs and chickens as model organisms. This study evaluates virus-like particles (VLPs) as delivery vehicles for genome engineering tools in porcine and avian cultures. VLP-mediated delivery enabled efficient gene editing rates in porcine cells and robust editing in chickens, establishing VLPs as a time-saving strategy for gene editing in livestock.\nWhy this matters: The use of VLPs could significantly improve the efficiency of gene editing in livestock, facilitating advancements in animal health and agricultural productivity, and contributing to One Health research initiatives.",
+      "preview": "Virus-like particles have been shown to enhance gene editing efficiency in pigs and chickens.",
+      "article": "Recent research demonstrates that virus-like particles (VLPs) can effectively deliver genome editing tools in porcine and avian models, overcoming previous delivery challenges. The study found that VLPs enabled high editing rates in porcine cells and robust gene editing in chicken organ cultures and embryos.\nWhy this matters: This advancement in gene editing technology could significantly improve the efficiency of creating genetically modified livestock, which has implications for agricultural productivity and animal health. The findings suggest that VLPs could streamline the development of genetically modified animals, contributing to research in One Health initiatives.",
       "sources": [
         {
           "name": "PLOS Biology",
@@ -30,10 +44,10 @@
       ]
     },
     {
-      "id": "3",
+      "id": "4",
       "headline": "The single Cryptosporidium rhoptry drives invasion and host-parasite interface formation",
       "preview": "New insights reveal how Cryptosporidium invades host cells and forms a unique interface.",
-      "article": "The apicomplexan parasite Cryptosporidium is a leading cause of diarrheal disease in young children. This study reveals that the single Cryptosporidium rhoptry plays a crucial role in the invasion process, acting as a conduit for effector protein secretion and ultimately forming the host-parasite interface. The findings propose a mechanistic model of Cryptosporidium invasion and intracellular parasitism.\nWhy this matters: Understanding the invasion mechanisms of Cryptosporidium could lead to novel therapeutic strategies to combat this significant public health threat, particularly in vulnerable populations.",
+      "article": "A study has uncovered the mechanisms by which the parasite Cryptosporidium invades host cells, highlighting the role of a single rhoptry organelle in establishing a holdfast and facilitating protein secretion. This research provides a detailed understanding of the invasion process and the formation of the host-parasite interface.\nWhy this matters: Understanding the invasion mechanisms of Cryptosporidium is crucial for developing effective treatments against this leading cause of diarrheal disease, particularly in vulnerable populations. The findings could inform future therapeutic strategies aimed at disrupting the parasite's lifecycle.",
       "sources": [
         {
           "name": "PLOS Biology",
@@ -44,30 +58,16 @@
       ]
     },
     {
-      "id": "4",
-      "headline": "Paracetamol Fails Non-Inferiority Trial Against Meloxicam for Postoperative Canine Pain",
-      "preview": "A trial shows paracetamol is less effective than meloxicam for pain management in dogs.",
-      "article": "A prospective randomized clinical trial conducted at the University of Helsinki has revealed that intravenous paracetamol does not achieve non-inferior postoperative analgesia compared to meloxicam in female dogs undergoing elective reproductive surgery. The trial established that only 40% of dogs receiving paracetamol achieved successful pain management compared to 60% in the meloxicam group.\nWhy this matters: The findings highlight the need for effective pain management strategies in veterinary practice, emphasizing that paracetamol cannot serve as a standalone alternative to meloxicam in postoperative care.",
+      "id": "5",
+      "headline": "Thyroid Nodule Composition and Blood Flow Influence Microwave Ablation Success",
+      "preview": "Study finds that nodule composition and vascularity are key to microwave ablation outcomes.",
+      "article": "A retrospective study has shown that the intrinsic composition and vascular architecture of thyroid nodules significantly influence the success of microwave ablation, rather than their initial size. The research evaluated 80 patients and found that predominantly cystic nodules had higher success rates compared to solid nodules.\nWhy this matters: These findings suggest that pre-procedural assessments of nodule composition and blood flow can provide valuable predictive insights for treatment outcomes, potentially guiding clinical decisions in the management of benign thyroid nodules.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/paracetamol-fails-non-inferiority-trial-against-meloxicam-for-postoperative-canine-pain/",
+          "url": "https://bioengineer.org/thyroid-nodule-composition-and-blood-flow-influence-microwave-ablation-success/",
           "type": "news",
-          "verified_date": "2026-11-12"
-        }
-      ]
-    },
-    {
-      "id": "5",
-      "headline": "A Conversation with Michael Ehlers: Funding the Future of Drug Discovery at Formation Bio",
-      "preview": "Formation Bio discusses its new $600M fund aimed at accelerating drug development.",
-      "article": "Formation Bio has announced a new fund with $600M in capital commitments for in-licensing medicines and funding clinical development. The company aims to leverage AI to streamline drug discovery and development processes. Michael Ehlers, CSO and Head of R&D, emphasizes the importance of integrating data sciences with drug development to enhance efficiency and reduce costs.\nWhy this matters: This funding initiative represents a significant step towards accelerating the development of new therapies, potentially transforming the landscape of drug discovery and making it more efficient and accessible.",
-      "sources": [
-        {
-          "name": "Decoding Bio",
-          "url": "https://decodingbio.substack.com/p/a-conversation-with-mike-ehlers-funding",
-          "type": "news",
-          "verified_date": "2026-11-10"
+          "verified_date": "2026-11-13"
         }
       ]
     }
