@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-14",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Lakefront abandons Galapagos-developed TYK2 inhibitor after unsuccessful partnering efforts",
+      "preview": "Lakefront Biotherapeutics has discontinued its TYK2 inhibitor GLPG3667 after failed partnership talks.",
+      "article": "Belgian biotech Lakefront Biotherapeutics has decided to discontinue its oral TYK2 inhibitor GLPG3667 after evaluating the competitive landscape and engaging in discussions with potential partners. The drug had previously met its primary endpoint in a Phase 2 trial for dermatomyositis but failed to do so in lupus.\nWhy this matters: GLPG3667 was the last remaining clinical-stage drug candidate from Galapagos\u2019 original small-molecule research, marking a significant shift in Lakefront's pipeline focus. The company now emphasizes T-cell engagers and other preclinical programs, following a strategic review of its portfolio.\nLakefront announced the termination decision on November 11 during its third-quarter business update, stating it does not expect significant costs from this discontinuation. The company\u2019s shares saw a slight increase following the announcement, reflecting market response to its strategic pivot.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/lakefront-abandons-galapagos-developed-tyk2-inhibitor-after-unsuccessful-partnering-efforts/",
+          "type": "news",
+          "verified_date": "2026-11-12"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Gubra\u2019s board replaces CEO; Commit staffs its first drug program; TECregen names CMO",
+      "preview": "Leadership changes at Gubra and new hires at Commit and TECregen signal strategic shifts.",
+      "article": "Gubra has replaced its CEO as part of a strategic plan to expand its clinical-stage assets by 2030. The board appointed co-CEOs, CFO Kristian Borbos and Zo\u00eb Johnson, to lead the company forward.\nWhy this matters: This leadership change reflects Gubra's ambition to grow its pipeline and enhance its clinical capabilities. Commit Biologics has also made significant hires as it prepares to enter clinical trials with its first drug candidate, while TECregen has appointed a new CMO to advance its thymus-regeneration candidate.\nThese developments indicate a broader trend of leadership and structural changes within European biotech firms as they adapt to evolving market demands and focus on innovation.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/gubras-board-replaces-ceo-commit-staffs-its-first-drug-program-tecregen-names-cmo/",
+          "type": "news",
+          "verified_date": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Liver Glycoprotein FETUB Suppresses Cholangiocarcinoma and Enhances Cisplatin Sensitivity",
+      "preview": "FETUB, a liver-derived glycoprotein, shows promise in treating cholangiocarcinoma by enhancing drug sensitivity.",
+      "article": "Research published in Biology Direct reveals that the liver-derived glycoprotein FETUB acts as a tumor suppressor in cholangiocarcinoma, enhancing sensitivity to cisplatin by promoting the degradation of the YAP1 protein. This study highlights FETUB's potential role in overcoming chemotherapy resistance in this aggressive cancer.\nWhy this matters: Cholangiocarcinoma is a highly lethal malignancy with limited treatment options. The findings suggest that FETUB could serve as a biomarker for patient stratification and a target for novel therapeutic strategies aimed at improving treatment outcomes in cholangiocarcinoma patients.\nThe study's results indicate that FETUB expression is inversely related to YAP1 levels, with lower FETUB correlating with poorer patient survival, emphasizing the clinical relevance of this glycoprotein in cancer therapy.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/liver-glycoprotein-fetub-suppresses-cholangiocarcinoma-and-enhances-cisplatin-sensitivity/",
+          "type": "news",
+          "verified_date": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Health Policy Review Urges Systemic Reforms for Prolonged Grief Disorder Care",
+      "preview": "A new health policy review calls for systemic reforms to improve care for prolonged grief disorder.",
+      "article": "A narrative health policy review published in eClinicalMedicine emphasizes the need for systemic reforms to address prolonged grief disorder, a condition affecting many bereaved individuals. The review highlights the significant mental and physical health risks associated with this disorder and the necessity for clinician training and administrative changes.\nWhy this matters: Prolonged grief disorder has been recognized as a distinct clinical entity, yet many healthcare providers lack the knowledge to identify and treat it effectively. The review advocates for a three-tiered support model and the integration of grief-focused psychotherapies into clinical practice to enhance patient outcomes.\nThe authors propose targeted recommendations to bridge the gap between research and practice, aiming to improve the quality of care for individuals experiencing prolonged grief.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/health-policy-review-urges-systemic-reforms-for-prolonged-grief-disorder-care/",
+          "type": "news",
+          "verified_date": "2026-11-14"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "The importance of genes does not predict their mutation rate",
+      "preview": "A new study challenges the notion that gene importance correlates with mutation rates.",
+      "article": "A study published in PLOS Biology investigates the relationship between gene importance and mutation rates, concluding that essential genes do not necessarily have lower mutation rates as previously suggested. The research analyzed mutation accumulation data from E. coli and yeast, revealing no consistent patterns that support the idea of selection influencing mutation rates based on gene importance.\nWhy this matters: This study challenges long-held assumptions about the randomness of mutation processes and suggests that the relationship between gene function and mutation rates is more complex than previously thought. The findings could have implications for understanding evolutionary processes and genetic stability in organisms.\nThe authors emphasize that their results do not support the notion that more important genes are protected from mutation, calling for a reevaluation of existing models regarding mutation rates in relation to gene function.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004089",
+          "type": "paper",
+          "verified_date": "2026-11-12"
+        }
+      ]
+    }
+  ]
+}

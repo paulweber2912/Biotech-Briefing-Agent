@@ -1,11 +1,11 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "items": [
     {
       "id": "1",
       "headline": "Lakefront abandons Galapagos-developed TYK2 inhibitor after unsuccessful partnering efforts",
       "preview": "Lakefront Biotherapeutics has discontinued its TYK2 inhibitor GLPG3667 after failed partnership talks.",
-      "article": "Belgian biotech Lakefront Biotherapeutics has decided to discontinue its oral TYK2 inhibitor GLPG3667 following an analysis of the competitive landscape and discussions with potential partners. Although the drug met its primary endpoint in a Phase 2 trial for dermatomyositis, it failed to do so in lupus.\nWhy this matters: GLPG3667 was the last clinical-stage drug candidate from Galapagos\u2019 original small-molecule research, marking a significant shift in Lakefront's pipeline focus. The company is now concentrating on T-cell engagers and other preclinical programs.\nLakefront announced this decision on November 11, stating it was based on a thorough review of strategic alternatives. The company does not expect the discontinuation costs to be significant, and its shares rose by about 4% following the announcement.",
+      "article": "Belgian biotech Lakefront Biotherapeutics has decided to discontinue its oral TYK2 inhibitor GLPG3667 after evaluating the competitive landscape and engaging in discussions with potential partners. The drug had previously met its primary endpoint in a Phase 2 trial for dermatomyositis but failed to do so in lupus.\nWhy this matters: GLPG3667 was the last remaining clinical-stage drug candidate from Galapagos\u2019 original small-molecule research, marking a significant shift in Lakefront's pipeline focus. The company now emphasizes T-cell engagers and other preclinical programs, following a strategic review of its portfolio.\nLakefront announced the termination decision on November 11 during its third-quarter business update, stating it does not expect significant costs from this discontinuation. The company\u2019s shares saw a slight increase following the announcement, reflecting market response to its strategic pivot.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
@@ -18,8 +18,8 @@
     {
       "id": "2",
       "headline": "Gubra\u2019s board replaces CEO; Commit staffs its first drug program; TECregen names CMO",
-      "preview": "Gubra has replaced its CEO as it implements a new strategic plan, while Commit and TECregen make key hires.",
-      "article": "Gubra's board has replaced its CEO to align with its 2030 strategic plan, appointing co-CEOs from within the company. Commit Biologics has strengthened its leadership team as it prepares to enter clinical trials with its first drug candidate, COM002. TECregen has appointed a new CMO to advance its thymus-regeneration candidate, TEC001.\nWhy this matters: These leadership changes and new hires reflect the companies' efforts to enhance their operational capabilities and advance their respective drug development programs. Gubra aims to expand its clinical-stage assets significantly by 2030, while Commit and TECregen are positioning themselves for upcoming clinical milestones.",
+      "preview": "Leadership changes at Gubra and new hires at Commit and TECregen signal strategic shifts.",
+      "article": "Gubra has replaced its CEO as part of a strategic plan to expand its clinical-stage assets by 2030. The board appointed co-CEOs, CFO Kristian Borbos and Zo\u00eb Johnson, to lead the company forward.\nWhy this matters: This leadership change reflects Gubra's ambition to grow its pipeline and enhance its clinical capabilities. Commit Biologics has also made significant hires as it prepares to enter clinical trials with its first drug candidate, while TECregen has appointed a new CMO to advance its thymus-regeneration candidate.\nThese developments indicate a broader trend of leadership and structural changes within European biotech firms as they adapt to evolving market demands and focus on innovation.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
@@ -31,43 +31,43 @@
     },
     {
       "id": "3",
-      "headline": "Virus-like particles enable highly efficient gene editing across porcine and avian models",
-      "preview": "Virus-like particles have been shown to enhance gene editing efficiency in pigs and chickens.",
-      "article": "Recent research demonstrates that virus-like particles (VLPs) can effectively deliver genome editing tools in porcine and avian models, overcoming previous delivery challenges. The study found that VLPs enabled high editing rates in porcine cells and robust gene editing in chicken organ cultures and embryos.\nWhy this matters: This advancement in gene editing technology could significantly improve the efficiency of creating genetically modified livestock, which has implications for agricultural productivity and animal health. The findings suggest that VLPs could streamline the development of genetically modified animals, contributing to research in One Health initiatives.",
+      "headline": "Liver Glycoprotein FETUB Suppresses Cholangiocarcinoma and Enhances Cisplatin Sensitivity",
+      "preview": "FETUB, a liver-derived glycoprotein, shows promise in treating cholangiocarcinoma by enhancing drug sensitivity.",
+      "article": "Research published in Biology Direct reveals that the liver-derived glycoprotein FETUB acts as a tumor suppressor in cholangiocarcinoma, enhancing sensitivity to cisplatin by promoting the degradation of the YAP1 protein. This study highlights FETUB's potential role in overcoming chemotherapy resistance in this aggressive cancer.\nWhy this matters: Cholangiocarcinoma is a highly lethal malignancy with limited treatment options. The findings suggest that FETUB could serve as a biomarker for patient stratification and a target for novel therapeutic strategies aimed at improving treatment outcomes in cholangiocarcinoma patients.\nThe study's results indicate that FETUB expression is inversely related to YAP1 levels, with lower FETUB correlating with poorer patient survival, emphasizing the clinical relevance of this glycoprotein in cancer therapy.",
       "sources": [
         {
-          "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004105",
-          "type": "paper",
-          "verified_date": "2026-11-11"
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/liver-glycoprotein-fetub-suppresses-cholangiocarcinoma-and-enhances-cisplatin-sensitivity/",
+          "type": "news",
+          "verified_date": "2026-11-14"
         }
       ]
     },
     {
       "id": "4",
-      "headline": "The single Cryptosporidium rhoptry drives invasion and host-parasite interface formation",
-      "preview": "New insights reveal how Cryptosporidium invades host cells and forms a unique interface.",
-      "article": "A study has uncovered the mechanisms by which the parasite Cryptosporidium invades host cells, highlighting the role of a single rhoptry organelle in establishing a holdfast and facilitating protein secretion. This research provides a detailed understanding of the invasion process and the formation of the host-parasite interface.\nWhy this matters: Understanding the invasion mechanisms of Cryptosporidium is crucial for developing effective treatments against this leading cause of diarrheal disease, particularly in vulnerable populations. The findings could inform future therapeutic strategies aimed at disrupting the parasite's lifecycle.",
+      "headline": "Health Policy Review Urges Systemic Reforms for Prolonged Grief Disorder Care",
+      "preview": "A new health policy review calls for systemic reforms to improve care for prolonged grief disorder.",
+      "article": "A narrative health policy review published in eClinicalMedicine emphasizes the need for systemic reforms to address prolonged grief disorder, a condition affecting many bereaved individuals. The review highlights the significant mental and physical health risks associated with this disorder and the necessity for clinician training and administrative changes.\nWhy this matters: Prolonged grief disorder has been recognized as a distinct clinical entity, yet many healthcare providers lack the knowledge to identify and treat it effectively. The review advocates for a three-tiered support model and the integration of grief-focused psychotherapies into clinical practice to enhance patient outcomes.\nThe authors propose targeted recommendations to bridge the gap between research and practice, aiming to improve the quality of care for individuals experiencing prolonged grief.",
       "sources": [
         {
-          "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003933",
-          "type": "paper",
-          "verified_date": "2026-11-11"
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/health-policy-review-urges-systemic-reforms-for-prolonged-grief-disorder-care/",
+          "type": "news",
+          "verified_date": "2026-11-14"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "Thyroid Nodule Composition and Blood Flow Influence Microwave Ablation Success",
-      "preview": "Study finds that nodule composition and vascularity are key to microwave ablation outcomes.",
-      "article": "A retrospective study has shown that the intrinsic composition and vascular architecture of thyroid nodules significantly influence the success of microwave ablation, rather than their initial size. The research evaluated 80 patients and found that predominantly cystic nodules had higher success rates compared to solid nodules.\nWhy this matters: These findings suggest that pre-procedural assessments of nodule composition and blood flow can provide valuable predictive insights for treatment outcomes, potentially guiding clinical decisions in the management of benign thyroid nodules.",
+      "headline": "The importance of genes does not predict their mutation rate",
+      "preview": "A new study challenges the notion that gene importance correlates with mutation rates.",
+      "article": "A study published in PLOS Biology investigates the relationship between gene importance and mutation rates, concluding that essential genes do not necessarily have lower mutation rates as previously suggested. The research analyzed mutation accumulation data from E. coli and yeast, revealing no consistent patterns that support the idea of selection influencing mutation rates based on gene importance.\nWhy this matters: This study challenges long-held assumptions about the randomness of mutation processes and suggests that the relationship between gene function and mutation rates is more complex than previously thought. The findings could have implications for understanding evolutionary processes and genetic stability in organisms.\nThe authors emphasize that their results do not support the notion that more important genes are protected from mutation, calling for a reevaluation of existing models regarding mutation rates in relation to gene function.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/thyroid-nodule-composition-and-blood-flow-influence-microwave-ablation-success/",
-          "type": "news",
-          "verified_date": "2026-11-13"
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004089",
+          "type": "paper",
+          "verified_date": "2026-11-12"
         }
       ]
     }
