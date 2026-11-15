@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-15",
+  "items": [
+    {
+      "id": "1",
+      "headline": "African Biomedical Symposium Advances Next-Generation Research",
+      "preview": "The Helix Biogen Institute's symposium showcased innovative research in biomedical fields.",
+      "article": "Organized by the Helix Biogen Institute, the event brought together scientists, innovators, policymakers, industry leaders, and students under the theme of empowering the next generation to drive global impact in biomedical innovation. The symposium served as a platform for emerging and established researchers to present over 118 selected abstracts, fostering dialogue on translating scientific discoveries into practical applications across the African continent.\nWhy this matters: The symposium highlighted significant advancements in vaccine development, antifungal research, and reproductive healthcare, showcasing the potential of African scientists to address pressing health challenges.\nOne of the key technical presentations focused on the development of a broad-spectrum vaccine candidate against SARS-CoV-2. Researchers from the Nigerian Institute of Medical Research and Lagos State University detailed the expression and validation of an immunomodulatory PanDR and SARS-CoV-2 receptor-binding domain antigen. The study utilized a peptide subunit antigen approach, linking the RBD sequence to the PanDR epitope using a specific linker and codon-optimizing the construct for bacterial expression. The integrity of the purified protein in this vaccine study was confirmed through SDS-PAGE and Western blot analyses, indicating its potential for further immunological evaluation as a vaccine candidate.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/african-biomedical-symposium-advances-next-generation-research/",
+          "type": "news",
+          "verified_date": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "This week in charts: Brain drugs are back on venture capitalists\u2019 minds",
+      "preview": "Venture capital interest in neuroscience is resurging, with significant funding rounds reported.",
+      "article": "Despite its reputation as one of the most challenging and risky areas of drug research, neuroscience had, over the last several years, started to gain momentum among venture capitalists. Between 2023 and 2025, startups focused on the central nervous system took in $1.09 billion, $1.58 billion and $1.9 billion from 26 prolific venture firms.\nWhy this matters: The renewed interest in brain drugs indicates a potential shift in investor confidence, which could lead to breakthroughs in treating neurological disorders.\nJust this week, London-based Oyster Therapeutics said it had raised $60 million from a Series A round that was led by 4BIO Capital and saw participation from eight other parties, including pharmaceutical giant Eli Lilly. Oyster\u2019s aim is to degrade a notorious protein with ties to Alzheimer\u2019s disease. Four other neuroscience biotechs disclosed fundraising hauls since the end of October, collectively bringing in around $400 million.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/charts-venture-neuroscience-oyster-vectory-acr-cell-therapy/874570/",
+          "type": "news",
+          "verified_date": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Adjusted Letrozole Starting Doses Show No Average Pregnancy Difference in PCOS Study",
+      "preview": "A study finds no significant difference in pregnancy rates based on letrozole starting doses in PCOS.",
+      "article": "A retrospective cohort analysis evaluating letrozole starting doses in women with polycystic ovary syndrome undergoing sequential ovulation induction found no statistically significant average difference in cumulative clinical pregnancy rates after statistical adjustment. The research examined whether an initial daily dose of 2.5 milligrams or 5.0 milligrams produced divergent pregnancy outcomes across patient subsets.\nWhy this matters: This study challenges the assumption that higher doses of letrozole may lead to better pregnancy outcomes, suggesting a need for further research into individualized treatment strategies.\nConducted as a single-center retrospective study, the investigation included 1,917 women diagnosed with polycystic ovary syndrome. The primary study endpoint tracked across treatment was cumulative clinical pregnancy. The authors concluded that the observed body mass index interaction and the machine-learning policy tree represent exploratory patterns rather than an established clinical treatment algorithm.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/adjusted-letrozole-starting-doses-show-no-average-pregnancy-difference-in-pcos-study/",
+          "type": "news",
+          "verified_date": "2026-11-15"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Novo submits sickle cell drug; Flagship, Gates Foundation deepen ties",
+      "preview": "Novo has filed for approval of a new sickle cell treatment, etavopivat, in the U.S. and Europe.",
+      "article": "Novo on Friday filed approval applications in the U.S. and Europe for a sickle cell disease treatment the Danish drugmaker acquired in a $1 billion deal. Etavopivat has shown an ability in testing to reduce the bouts of pain associated with the condition by 27% over the course of a year.\nWhy this matters: If approved, etavopivat could become a new standard of care for sickle cell disease, addressing a significant unmet medical need.\nAdditionally, Flagship Pioneering and the Gates Foundation will work together to develop health and agricultural solutions for underserved groups in low- and middle-income countries, committing $25 million to the initiative over five years.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/novo-etavopivat-flagship-gates-ascidian-immuneering-neurosterix/874120/",
+          "type": "news",
+          "verified_date": "2026-11-13"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Children with developmental language disorder show selective impairments in low-frequency neural tracking of speech",
+      "preview": "A study reveals that children with DLD have reduced neural tracking of speech's low-frequency components.",
+      "article": "Neural tracking of slow temporal modulations in speech supports extraction of the prosodic and syllabic structure critical for language acquisition. Children with developmental language disorder (DLD) showed significantly reduced coherence in the 0.9\u20132.5 Hz range associated with prosodic information.\nWhy this matters: Understanding these neural impairments could lead to better interventions for children with DLD, improving their language acquisition.\nThe study recorded MEG while children listened to a story, quantifying source-level lagged speech-brain coherence. Findings indicated that stronger low-frequency speech-brain coherence was associated with better language performance, highlighting the functional relevance of these neural tracking mechanisms.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003782",
+          "type": "paper",
+          "verified_date": "2026-11-13"
+        }
+      ]
+    }
+  ]
+}
