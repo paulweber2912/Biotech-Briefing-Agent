@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-16",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Big-name investors pour $100M into DNA therapeutics developer Seawolf",
+      "preview": "Seawolf Therapeutics has raised $100 million to advance its DNA-based therapies.",
+      "article": "Seawolf Therapeutics, a San Diego company, has emerged from stealth with $100 million in funding to support its research into DNA-based therapies. The funding was led by Versant Ventures and included contributions from other prominent investors such as Eli Lilly and CRISPR Therapeutics.\n\nWhy this matters: Seawolf's technology utilizes lipid nanoparticles to deliver engineered DNA into cells, potentially offering a new approach to treat various diseases, including metabolic disorders. The company has also partnered with Sanofi to develop therapies for bleeding disorders, with the potential for significant milestone payments.\n\nThe company claims its TRIDENT platform allows for redosing and longer-lasting expression of therapeutic proteins, which could be beneficial across a range of diseases. Seawolf aims to advance its lead program for metabolic diseases amidst a challenging investment landscape in this sector.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/seawolf-therapeutics-dna-versant-startup-financing/874465/",
+          "type": "news",
+          "verified_date": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Your AI pilots aren\u2019t stalling because of the AI \u2013 they\u2019re stalling because of your environment",
+      "preview": "AI adoption in clinical development faces challenges in scaling and trust.",
+      "article": "AI is increasingly being used in clinical development for tasks such as drafting regulatory documents and informing trial design. However, many organizations struggle to scale these AI pilots into validated processes due to environmental challenges.\n\nWhy this matters: The gap in scaling AI is often not due to the algorithms themselves but rather the environments that lack the necessary trust and traceability. Organizations with strong AI practices report significantly higher ROI, highlighting the importance of building governance and traceability into clinical workflows.\n\nModernizing clinical environments to support AI requires a leadership decision and foundational work to ensure that data, code, and documentation are integrated and governed effectively. This modernization is essential for delivering reliable results that meet regulatory standards and ultimately benefit patients.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/spons/your-ai-pilots-arent-stalling-because-of-the-ai-theyre-stalling-because/874345/",
+          "type": "news",
+          "verified_date": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Sofinnova closes \u20ac725M fund to back Europe\u2019s late-stage biotechs",
+      "preview": "Sofinnova Partners has raised \u20ac725 million to support late-stage biopharma companies.",
+      "article": "Sofinnova Partners has closed its second crossover fund at \u20ac725 million, aimed at supporting around 15 biopharma and medtech companies primarily in Europe. This fund is significantly larger than its predecessor and seeks to bridge the financing gap for companies moving into expensive clinical trials.\n\nWhy it matters: As companies progress through clinical development, they often face challenges in securing necessary funding. Sofinnova's new fund aims to provide larger investments and sustained support to help these companies reach commercialization.\n\nThe fund has attracted a diverse range of investors, including sovereign funds and public institutions, reflecting a growing recognition of the need for specialized capital in the European life sciences sector.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/sofinnova-closes-e725m-fund-to-back-europes-late-stage-biotechs/",
+          "type": "news",
+          "verified_date": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Spatial Multiomics Reveals Distinct Regional Features of Chronic Kidney Allograft Fibrosis",
+      "preview": "A multiomics study uncovers unique features of kidney fibrosis in transplant patients.",
+      "article": "A recent study published in Cyborg and Bionic Systems reveals that kidney fibrosis in chronic kidney allograft dysfunction exhibits distinct cellular and metabolic features across different kidney regions. This research highlights the complexity of fibrosis, which is driven by interactions among various cell types.\n\nWhy this matters: Understanding the regional differences in kidney fibrosis can inform therapeutic strategies for chronic allograft injury, a major challenge in kidney transplantation. The study utilized a cross-species spatial multiomics atlas to map cellular profiles and metabolic pathways, providing insights into the mechanisms underlying fibrosis.\n\nThe findings indicate that fibrotic progression varies between the renal cortex and medulla, suggesting targeted approaches may be necessary for effective treatment of chronic kidney allograft dysfunction.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/spatial-multiomics-reveals-distinct-regional-features-of-chronic-kidney-allograft-fibrosis/",
+          "type": "news",
+          "verified_date": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "New tool tracks unintended CRISPR edits and their effects in individual cells",
+      "preview": "Salk scientists develop Superb-seq to monitor CRISPR edits at single-cell resolution.",
+      "article": "Researchers at the Salk Institute have developed a new tool called Superb-seq, which tracks both on-target and off-target edits made by CRISPR at single-cell resolution. This advancement addresses a significant limitation of CRISPR technology, allowing for better understanding of unintended edits and their impact on gene activity.\n\nWhy this matters: The ability to identify off-target edits and their effects is crucial for improving the safety and precision of gene-editing therapies. Superb-seq integrates Cas9 editing with single-cell RNA sequencing to provide detailed insights into how CRISPR edits influence cellular behavior.\n\nThis tool has the potential to enhance basic research, drug development, and personalized medicine by revealing the extent of off-target effects and informing safer treatment options for patients.",
+      "sources": [
+        {
+          "name": "Biotechnology News - Biology News",
+          "url": "https://phys.org/news/2026-11-tool-tracks-unintended-crispr-effects.html",
+          "type": "news",
+          "verified_date": "2026-11-16"
+        }
+      ]
+    }
+  ]
+}
