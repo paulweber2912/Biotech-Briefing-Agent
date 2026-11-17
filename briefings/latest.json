@@ -1,57 +1,57 @@
 {
-  "date": "2026-11-16",
+  "date": "2026-11-17",
   "items": [
     {
       "id": "1",
-      "headline": "Big-name investors pour $100M into DNA therapeutics developer Seawolf",
-      "preview": "Seawolf Therapeutics has raised $100 million to advance its DNA-based therapies.",
-      "article": "Seawolf Therapeutics, a San Diego company, has emerged from stealth with $100 million in funding to support its research into DNA-based therapies. The funding was led by Versant Ventures and included contributions from other prominent investors such as Eli Lilly and CRISPR Therapeutics.\n\nWhy this matters: Seawolf's technology utilizes lipid nanoparticles to deliver engineered DNA into cells, potentially offering a new approach to treat various diseases, including metabolic disorders. The company has also partnered with Sanofi to develop therapies for bleeding disorders, with the potential for significant milestone payments.\n\nThe company claims its TRIDENT platform allows for redosing and longer-lasting expression of therapeutic proteins, which could be beneficial across a range of diseases. Seawolf aims to advance its lead program for metabolic diseases amidst a challenging investment landscape in this sector.",
+      "headline": "Cellectis plans 70% workforce cuts; Sanofi signs $1.2B DNA medicines deal; AstraZeneca buys Omniose",
+      "preview": "Cellectis announces significant workforce reductions while Sanofi and AstraZeneca expand their portfolios.",
+      "article": "Cellectis plans to cut up to 70% of its workforce as it shifts focus to in vivo gene editing, following the discontinuation of two CAR-T programs. The restructuring aims to extend its cash runway into late 2028, with preclinical programs targeting severe hypertriglyceridemia and hypercholesterolemia.\n\nSanofi has signed a $1.2 billion deal with Seawolf for DNA-based medicines, which includes potential milestones and royalties. This collaboration focuses on bleeding disorders and utilizes lipid nanoparticles for DNA delivery.\n\nAstraZeneca has acquired Omniose to enhance its bacterial vaccine technology, following a collaboration earlier this year. This acquisition supports AstraZeneca's efforts against serious bacterial infections, particularly in the context of antimicrobial resistance.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/news/seawolf-therapeutics-dna-versant-startup-financing/874465/",
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/cellectis-plans-70-workforce-cuts-sanofi-signs-1-2b-dna-medicines-deal-astrazeneca-buys-omniose/",
           "type": "news",
-          "verified_date": "2026-11-16"
+          "verified_date": "2026-11-17"
         }
       ]
     },
     {
       "id": "2",
-      "headline": "Your AI pilots aren\u2019t stalling because of the AI \u2013 they\u2019re stalling because of your environment",
-      "preview": "AI adoption in clinical development faces challenges in scaling and trust.",
-      "article": "AI is increasingly being used in clinical development for tasks such as drafting regulatory documents and informing trial design. However, many organizations struggle to scale these AI pilots into validated processes due to environmental challenges.\n\nWhy this matters: The gap in scaling AI is often not due to the algorithms themselves but rather the environments that lack the necessary trust and traceability. Organizations with strong AI practices report significantly higher ROI, highlighting the importance of building governance and traceability into clinical workflows.\n\nModernizing clinical environments to support AI requires a leadership decision and foundational work to ensure that data, code, and documentation are integrated and governed effectively. This modernization is essential for delivering reliable results that meet regulatory standards and ultimately benefit patients.",
+      "headline": "Empagliflozin Reduces Functional Tricuspid Regurgitation Without Inducing Ventricular Remodeling",
+      "preview": "The PROVE trial indicates empagliflozin can reduce tricuspid regurgitation without affecting ventricular size.",
+      "article": "The PROVE trial published in the Journal of Cardiovascular Imaging shows that empagliflozin reduces functional tricuspid regurgitation in patients without causing ventricular remodeling. The study involved 56 patients and found significant reductions in echocardiographic markers of regurgitation with empagliflozin treatment.\n\nWhy this matters: This finding suggests that empagliflozin may offer a new therapeutic approach for managing tricuspid regurgitation, a condition often overlooked in clinical practice. The trial highlights the need for further research into the mechanisms behind these results and the potential for pharmacologic therapy in this area.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/spons/your-ai-pilots-arent-stalling-because-of-the-ai-theyre-stalling-because/874345/",
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/empagliflozin-reduces-functional-tricuspid-regurgitation-without-inducing-ventricular-remodeling/",
           "type": "news",
-          "verified_date": "2026-11-16"
+          "verified_date": "2026-11-17"
         }
       ]
     },
     {
       "id": "3",
-      "headline": "Sofinnova closes \u20ac725M fund to back Europe\u2019s late-stage biotechs",
-      "preview": "Sofinnova Partners has raised \u20ac725 million to support late-stage biopharma companies.",
-      "article": "Sofinnova Partners has closed its second crossover fund at \u20ac725 million, aimed at supporting around 15 biopharma and medtech companies primarily in Europe. This fund is significantly larger than its predecessor and seeks to bridge the financing gap for companies moving into expensive clinical trials.\n\nWhy it matters: As companies progress through clinical development, they often face challenges in securing necessary funding. Sofinnova's new fund aims to provide larger investments and sustained support to help these companies reach commercialization.\n\nThe fund has attracted a diverse range of investors, including sovereign funds and public institutions, reflecting a growing recognition of the need for specialized capital in the European life sciences sector.",
+      "headline": "Direct and Indirect Epiglottis Lifting Show Similar Complication Rates in Trial",
+      "preview": "A trial finds no significant difference in complications between direct and indirect epiglottis lifting techniques.",
+      "article": "A multicenter trial comparing direct and indirect epiglottis lifting techniques during intubation found no significant difference in complication rates. Both methods yielded similar outcomes in terms of hoarseness, sore throat, and other adverse events.\n\nThe study involved 938 patients and highlighted that while the overall complication rates were comparable, the direct lifting technique required less external manipulation. This suggests that both techniques are safe, but further investigation into operator experience may be warranted.",
       "sources": [
         {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/sofinnova-closes-e725m-fund-to-back-europes-late-stage-biotechs/",
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/direct-and-indirect-epiglottis-lifting-show-similar-complication-rates-in-trial/",
           "type": "news",
-          "verified_date": "2026-11-16"
+          "verified_date": "2026-11-17"
         }
       ]
     },
     {
       "id": "4",
-      "headline": "Spatial Multiomics Reveals Distinct Regional Features of Chronic Kidney Allograft Fibrosis",
-      "preview": "A multiomics study uncovers unique features of kidney fibrosis in transplant patients.",
-      "article": "A recent study published in Cyborg and Bionic Systems reveals that kidney fibrosis in chronic kidney allograft dysfunction exhibits distinct cellular and metabolic features across different kidney regions. This research highlights the complexity of fibrosis, which is driven by interactions among various cell types.\n\nWhy this matters: Understanding the regional differences in kidney fibrosis can inform therapeutic strategies for chronic allograft injury, a major challenge in kidney transplantation. The study utilized a cross-species spatial multiomics atlas to map cellular profiles and metabolic pathways, providing insights into the mechanisms underlying fibrosis.\n\nThe findings indicate that fibrotic progression varies between the renal cortex and medulla, suggesting targeted approaches may be necessary for effective treatment of chronic kidney allograft dysfunction.",
+      "headline": "J&J bets $2.2B on Ollin\u2019s vision loss drug",
+      "preview": "Johnson & Johnson acquires Ollin Biosciences to enhance its ophthalmology portfolio with a new drug.",
+      "article": "Johnson & Johnson has announced the acquisition of Ollin Biosciences for $2.2 billion, with an additional $1.1 billion tied to milestones for the development of OLN324, a drug targeting vision loss. This acquisition aims to strengthen J&J's presence in the ophthalmology market, which has been primarily focused on devices and contact lenses.\n\nThe drug OLN324 is designed to compete with existing therapies like Roche's Vabysmo, targeting key proteins involved in retinal diseases. The deal reflects J&J's strategic move into prescription medicines for eye care, bolstered by significant financial backing for ongoing clinical trials.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/spatial-multiomics-reveals-distinct-regional-features-of-chronic-kidney-allograft-fibrosis/",
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/Johnson-johnson-ollin-acquire-ophthalmology-vegf-ang2-drugs/874728/",
           "type": "news",
           "verified_date": "2026-11-16"
         }
@@ -59,14 +59,14 @@
     },
     {
       "id": "5",
-      "headline": "New tool tracks unintended CRISPR edits and their effects in individual cells",
-      "preview": "Salk scientists develop Superb-seq to monitor CRISPR edits at single-cell resolution.",
-      "article": "Researchers at the Salk Institute have developed a new tool called Superb-seq, which tracks both on-target and off-target edits made by CRISPR at single-cell resolution. This advancement addresses a significant limitation of CRISPR technology, allowing for better understanding of unintended edits and their impact on gene activity.\n\nWhy this matters: The ability to identify off-target edits and their effects is crucial for improving the safety and precision of gene-editing therapies. Superb-seq integrates Cas9 editing with single-cell RNA sequencing to provide detailed insights into how CRISPR edits influence cellular behavior.\n\nThis tool has the potential to enhance basic research, drug development, and personalized medicine by revealing the extent of off-target effects and informing safer treatment options for patients.",
+      "headline": "Allosteric inhibition rescues hydrocephalus caused by catalytically inactive Shp2 in mice",
+      "preview": "Research shows that allosteric inhibition can alleviate hydrocephalus linked to inactive Shp2 mutations in mice.",
+      "article": "A study published in PLOS Biology demonstrates that allosteric inhibition of the SHP2 protein can rescue hydrocephalus caused by the catalytically inactive Shp2C459S mutation in mice. This research highlights the role of SHP2 in ciliary development and its implications for congenital diseases.\n\nThe findings suggest that targeting the conformational state of SHP2, rather than its catalytic activity, may offer new therapeutic strategies for conditions associated with SHP2 mutations. This approach could lead to significant advancements in treating hydrocephalus and related disorders.",
       "sources": [
         {
-          "name": "Biotechnology News - Biology News",
-          "url": "https://phys.org/news/2026-11-tool-tracks-unintended-crispr-effects.html",
-          "type": "news",
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004113",
+          "type": "paper",
           "verified_date": "2026-11-16"
         }
       ]

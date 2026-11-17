@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-17",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Cellectis plans 70% workforce cuts; Sanofi signs $1.2B DNA medicines deal; AstraZeneca buys Omniose",
+      "preview": "Cellectis announces significant workforce reductions while Sanofi and AstraZeneca expand their portfolios.",
+      "article": "Cellectis plans to cut up to 70% of its workforce as it shifts focus to in vivo gene editing, following the discontinuation of two CAR-T programs. The restructuring aims to extend its cash runway into late 2028, with preclinical programs targeting severe hypertriglyceridemia and hypercholesterolemia.\n\nSanofi has signed a $1.2 billion deal with Seawolf for DNA-based medicines, which includes potential milestones and royalties. This collaboration focuses on bleeding disorders and utilizes lipid nanoparticles for DNA delivery.\n\nAstraZeneca has acquired Omniose to enhance its bacterial vaccine technology, following a collaboration earlier this year. This acquisition supports AstraZeneca's efforts against serious bacterial infections, particularly in the context of antimicrobial resistance.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/cellectis-plans-70-workforce-cuts-sanofi-signs-1-2b-dna-medicines-deal-astrazeneca-buys-omniose/",
+          "type": "news",
+          "verified_date": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Empagliflozin Reduces Functional Tricuspid Regurgitation Without Inducing Ventricular Remodeling",
+      "preview": "The PROVE trial indicates empagliflozin can reduce tricuspid regurgitation without affecting ventricular size.",
+      "article": "The PROVE trial published in the Journal of Cardiovascular Imaging shows that empagliflozin reduces functional tricuspid regurgitation in patients without causing ventricular remodeling. The study involved 56 patients and found significant reductions in echocardiographic markers of regurgitation with empagliflozin treatment.\n\nWhy this matters: This finding suggests that empagliflozin may offer a new therapeutic approach for managing tricuspid regurgitation, a condition often overlooked in clinical practice. The trial highlights the need for further research into the mechanisms behind these results and the potential for pharmacologic therapy in this area.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/empagliflozin-reduces-functional-tricuspid-regurgitation-without-inducing-ventricular-remodeling/",
+          "type": "news",
+          "verified_date": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Direct and Indirect Epiglottis Lifting Show Similar Complication Rates in Trial",
+      "preview": "A trial finds no significant difference in complications between direct and indirect epiglottis lifting techniques.",
+      "article": "A multicenter trial comparing direct and indirect epiglottis lifting techniques during intubation found no significant difference in complication rates. Both methods yielded similar outcomes in terms of hoarseness, sore throat, and other adverse events.\n\nThe study involved 938 patients and highlighted that while the overall complication rates were comparable, the direct lifting technique required less external manipulation. This suggests that both techniques are safe, but further investigation into operator experience may be warranted.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/direct-and-indirect-epiglottis-lifting-show-similar-complication-rates-in-trial/",
+          "type": "news",
+          "verified_date": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "J&J bets $2.2B on Ollin\u2019s vision loss drug",
+      "preview": "Johnson & Johnson acquires Ollin Biosciences to enhance its ophthalmology portfolio with a new drug.",
+      "article": "Johnson & Johnson has announced the acquisition of Ollin Biosciences for $2.2 billion, with an additional $1.1 billion tied to milestones for the development of OLN324, a drug targeting vision loss. This acquisition aims to strengthen J&J's presence in the ophthalmology market, which has been primarily focused on devices and contact lenses.\n\nThe drug OLN324 is designed to compete with existing therapies like Roche's Vabysmo, targeting key proteins involved in retinal diseases. The deal reflects J&J's strategic move into prescription medicines for eye care, bolstered by significant financial backing for ongoing clinical trials.",
+      "sources": [
+        {
+          "name": "BioPharma Dive - Latest News",
+          "url": "https://www.biopharmadive.com/news/Johnson-johnson-ollin-acquire-ophthalmology-vegf-ang2-drugs/874728/",
+          "type": "news",
+          "verified_date": "2026-11-16"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Allosteric inhibition rescues hydrocephalus caused by catalytically inactive Shp2 in mice",
+      "preview": "Research shows that allosteric inhibition can alleviate hydrocephalus linked to inactive Shp2 mutations in mice.",
+      "article": "A study published in PLOS Biology demonstrates that allosteric inhibition of the SHP2 protein can rescue hydrocephalus caused by the catalytically inactive Shp2C459S mutation in mice. This research highlights the role of SHP2 in ciliary development and its implications for congenital diseases.\n\nThe findings suggest that targeting the conformational state of SHP2, rather than its catalytic activity, may offer new therapeutic strategies for conditions associated with SHP2 mutations. This approach could lead to significant advancements in treating hydrocephalus and related disorders.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004113",
+          "type": "paper",
+          "verified_date": "2026-11-16"
+        }
+      ]
+    }
+  ]
+}
