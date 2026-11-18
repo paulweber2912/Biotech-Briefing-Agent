@@ -1,0 +1,832 @@
+{
+  "date": "2026-11-18",
+  "window_hours": 48,
+  "max_items": 5,
+  "max_per_source": 2,
+  "require_at_least_one_paper": true,
+  "rss_items_collected": 116,
+  "search_items_collected": 0,
+  "deduped_candidates": 115,
+  "fetched_ok": 49,
+  "fetched_dropped": 66,
+  "drop_reasons": {
+    "fetch_failed": 49,
+    "text_too_short_or_teaser": 17
+  },
+  "paper_guarantee_applied": true,
+  "rss_feeds_count": 43,
+  "rss_per_feed": [
+    {
+      "feed_url": "https://www.nature.com/subjects/biotechnology.rss",
+      "feed_title": "Biotechnology : nature.com subject feeds",
+      "items_total": 30,
+      "items_in_window": 30
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/gene-therapy.rss",
+      "feed_title": "Gene therapy : nature.com subject feeds",
+      "items_total": 30,
+      "items_in_window": 1
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/cell-therapies.rss",
+      "feed_title": "Cell therapies : nature.com subject feeds",
+      "items_total": 30,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/cancer-therapy.rss",
+      "feed_title": "Cancer therapy : nature.com subject feeds",
+      "items_total": 30,
+      "items_in_window": 5
+    },
+    {
+      "feed_url": "https://www.nature.com/nm.rss.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.science.org/rss/news_current.xml",
+      "feed_title": "Latest News from Science Magazine",
+      "items_total": 10,
+      "items_in_window": 4
+    },
+    {
+      "feed_url": "https://www.cell.com/cell/current.rss?code=cell-site",
+      "feed_title": "Cell",
+      "items_total": 24,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/cell/inpress.rss?code=cell-site",
+      "feed_title": "Cell",
+      "items_total": 75,
+      "items_in_window": 2
+    },
+    {
+      "feed_url": "https://www.cell.com/immunity/current.rss?code=cell-site",
+      "feed_title": "Immunity",
+      "items_total": 21,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/cancer-cell/current.rss?code=cell-site",
+      "feed_title": "Cancer Cell",
+      "items_total": 18,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/rssfeed/molecular-therapy-family",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://rupress.org/rss/site_1000001.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://journals.plos.org/plosbiology/feed/atom",
+      "feed_title": "PLOS Biology",
+      "items_total": 30,
+      "items_in_window": 1
+    },
+    {
+      "feed_url": "https://www.biorxiv.org/rss/latest.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://connect.biorxiv.org/medrxiv/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.tctjournal.org/current.rss?code=ybmt-site",
+      "feed_title": "Transplantation and Cellular Therapy, Official Publication of the American Society for Transplantation and Cellular Therapy",
+      "items_total": 266,
+      "items_in_window": 1
+    },
+    {
+      "feed_url": "https://www.stemcellsciencenews.com/feed/",
+      "feed_title": "Science News",
+      "items_total": 11,
+      "items_in_window": 11
+    },
+    {
+      "feed_url": "https://globalstemcelltherapy.com/blog/feed/",
+      "feed_title": "Blog \u2013 Global Stem Cell Therapy",
+      "items_total": 12,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.fiercebiotech.com/rss/biotech",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.biopharmadive.com/feeds/news/",
+      "feed_title": "BioPharma Dive - Latest News",
+      "items_total": 10,
+      "items_in_window": 7
+    },
+    {
+      "feed_url": "https://endpts.com/feed/",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.statnews.com/category/biotech/feed/",
+      "feed_title": "STAT Biotech news: Market-moving coverage of drug development",
+      "items_total": 20,
+      "items_in_window": 7
+    },
+    {
+      "feed_url": "https://feeds.feedburner.com/GenGengNews",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "http://rss.biospace.com/news.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://bio.news/feed",
+      "feed_title": "Bio.News",
+      "items_total": 10,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://labiotech.eu/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://european-biotechnology.com/feed",
+      "feed_title": "European Biotechnology Magazine",
+      "items_total": 10,
+      "items_in_window": 6
+    },
+    {
+      "feed_url": "https://bioengineer.org/feed",
+      "feed_title": "BIOENGINEER.ORG",
+      "items_total": 20,
+      "items_in_window": 20
+    },
+    {
+      "feed_url": "https://biotechexpressmag.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://biotecnika.org/category/biotech/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://lifescivc.com/feed",
+      "feed_title": "LifeSciVC",
+      "items_total": 20,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://decodingbio.substack.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://sarahconstantin.substack.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://biocentury.com/rss/BioCentury",
+      "feed_title": "BioCentury",
+      "items_total": 50,
+      "items_in_window": 11
+    },
+    {
+      "feed_url": "https://biotechniques.com/feed",
+      "feed_title": "BioTechniques",
+      "items_total": 10,
+      "items_in_window": 5
+    },
+    {
+      "feed_url": "https://www.ema.europa.eu/en/news-events/rss-feeds?feed=press-releases",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.fda.gov/about-fda/what-we-do/rss-feeds",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://clinicaltrials.gov/ct2/rss/news.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.vfa.de/vfa.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.bvmed.de/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.sciencedaily.com/rss/feeds/biotechnology_and_bioengineering.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://phys.org/rss-feed/biology-news/biotechnology/",
+      "feed_title": "Biotechnology News - Biology News",
+      "items_total": 30,
+      "items_in_window": 5
+    },
+    {
+      "feed_url": "https://www.biologynews.net/rss.php",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    }
+  ],
+  "search_errors": [],
+  "paper_inserted_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004108",
+  "paper_replaced_url": "https://www.biocentury.com/article/661638/j-j-s-2b-newco-buy-neoantigen-vaccines-overton-odds-a-biocentury-podcast?utm_source=bc_rss&utm_medium=rss",
+  "selection_source_counts": {
+    "BIOENGINEER.ORG": 2,
+    "European Biotechnology Magazine": 1,
+    "BioCentury": 1,
+    "PLOS Biology": 1
+  },
+  "selected_count": 5,
+  "scored_preview_top50": [
+    {
+      "headline": "Review Details Anthocyanin Cellular Pathways Across Cancer, Diabetes, and Cardiovascular Health",
+      "url": "https://bioengineer.org/review-details-anthocyanin-cellular-pathways-across-cancer-diabetes-and-cardiovascular-health/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.19,
+      "score": 18
+    },
+    {
+      "headline": "Cellectis plans 70% workforce cuts; Sanofi signs $1.2B DNA medicines deal; AstraZeneca buys Omniose",
+      "url": "https://european-biotechnology.com/latest-news/cellectis-plans-70-workforce-cuts-sanofi-signs-1-2b-dna-medicines-deal-astrazeneca-buys-omniose/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 28.98,
+      "score": 15
+    },
+    {
+      "headline": "Review Finds Rutin Protects Heart Tissue in Preclinical Chemotherapy Toxicity Models",
+      "url": "https://bioengineer.org/review-finds-rutin-protects-heart-tissue-in-preclinical-chemotherapy-toxicity-models/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.19,
+      "score": 14
+    },
+    {
+      "headline": "Sellas\u2019 AML win strengthens case for cancer vaccines in recurrence prevention",
+      "url": "https://www.biocentury.com/article/661645/sellas-aml-win-strengthens-case-for-cancer-vaccines-in-recurrence-prevention?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 13.97,
+      "score": 12
+    },
+    {
+      "headline": "J&J\u2019s $2B NewCo buy, neoantigen vaccines, Overton odds \u2014 a BioCentury podcast",
+      "url": "https://www.biocentury.com/article/661638/j-j-s-2b-newco-buy-neoantigen-vaccines-overton-odds-a-biocentury-podcast?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 37.19,
+      "score": 11
+    },
+    {
+      "headline": "Lexeo plans pivotal gene therapy trial aimed at accelerated approval",
+      "url": "https://www.biocentury.com/article/661623/lexeo-plans-pivotal-gene-therapy-trial-aimed-at-accelerated-approval?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 40.06,
+      "score": 11
+    },
+    {
+      "headline": "A quick squeeze gives CRISPR cell reprogramming a boost",
+      "url": "https://www.biotechniques.com/genetic-engineering/a-quick-squeeze-gives-crispr-cell-reprogramming-a-boost/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 3.71,
+      "score": 10
+    },
+    {
+      "headline": "Commit Biologics secures $60M to advance complement-based immunotherapies",
+      "url": "https://european-biotechnology.com/latest-news/commit-biologics-secures-60m-to-advance-complement-based-immunotherapies/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 29.8,
+      "score": 9
+    },
+    {
+      "headline": "Beta-Glucans Show Emerging Cervical Cancer Potential Despite Major Translational Gaps",
+      "url": "https://bioengineer.org/beta-glucans-show-emerging-cervical-cancer-potential-despite-major-translational-gaps/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.13,
+      "score": 9
+    },
+    {
+      "headline": "Undiagnosed Sleeping Sickness Case in Nigeria Reveals Critical Diagnostic and Surveillance Gaps",
+      "url": "https://bioengineer.org/undiagnosed-sleeping-sickness-case-in-nigeria-reveals-critical-diagnostic-and-surveillance-gaps/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.15,
+      "score": 9
+    },
+    {
+      "headline": "Study Maps Inflammatory Signaling Circuit Driving Mucus Accumulation in Cronkhite-Canada Syndrome",
+      "url": "https://bioengineer.org/study-maps-inflammatory-signaling-circuit-driving-mucus-accumulation-in-cronkhite-canada-syndrome/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.15,
+      "score": 9
+    },
+    {
+      "headline": "Childhood Cardiometabolic Trajectories Persist into Old Age and Predict Adult Disease",
+      "url": "https://bioengineer.org/childhood-cardiometabolic-trajectories-persist-into-old-age-and-predict-adult-disease/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.17,
+      "score": 9
+    },
+    {
+      "headline": "After gene therapy setbacks, J&J\u00a0 pays $2.2B for Ollin, adds retinal disease candidate",
+      "url": "https://www.biocentury.com/article/661621/after-gene-therapy-setbacks-j-j-pays-2-2b-for-ollin-adds-retinal-disease-candidate?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 39.74,
+      "score": 9
+    },
+    {
+      "headline": "Isomorphic Labs raises $5B six months after $2.1B round",
+      "url": "https://european-biotechnology.com/latest-news/isomorphic-labs-raises-5b-six-months-after-2-1b-round/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 22.57,
+      "score": 8
+    },
+    {
+      "headline": "Combined Malnutrition and Poor Quality of Life Elevate Digestive Cancer Mortality",
+      "url": "https://bioengineer.org/combined-malnutrition-and-poor-quality-of-life-elevate-digestive-cancer-mortality/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.1,
+      "score": 8
+    },
+    {
+      "headline": "STAT+: Flagship opens biotech-creation outpost in the U.K.",
+      "url": "https://www.statnews.com/2026/11/17/biotech-news-flagship-opens-biotech-creation-uk-outpost/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 21.87,
+      "score": 7
+    },
+    {
+      "headline": "Geopolitical shifts in trial outsourcing",
+      "url": "https://european-biotechnology.com/sponsored-publications/geopolitical-shifts-in-trial-outsourcing/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 47.65,
+      "score": 7
+    },
+    {
+      "headline": "Reinforcement-Tuned Transformer Classifies Urban Energy Sectors With 99.2 Percent Accuracy",
+      "url": "https://bioengineer.org/reinforcement-tuned-transformer-classifies-urban-energy-sectors-with-99-2-percent-accuracy/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.05,
+      "score": 7
+    },
+    {
+      "headline": "Copper Nanoparticles Enhance Corrosion Resistance in Direct-to-Metal Coatings",
+      "url": "https://bioengineer.org/copper-nanoparticles-enhance-corrosion-resistance-in-direct-to-metal-coatings/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.06,
+      "score": 7
+    },
+    {
+      "headline": "Electroacupuncture Modulates Hippocampal RNA Fusion Transcripts in Traumatic Brain Injury Rats",
+      "url": "https://bioengineer.org/electroacupuncture-modulates-hippocampal-rna-fusion-transcripts-in-traumatic-brain-injury-rats/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.06,
+      "score": 7
+    },
+    {
+      "headline": "Olfactory Bulb Alpha-Synuclein Contributes to Amygdala Accumulation and Behavioral Changes in Mice",
+      "url": "https://bioengineer.org/olfactory-bulb-alpha-synuclein-contributes-to-amygdala-accumulation-and-behavioral-changes-in-mice/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.14,
+      "score": 7
+    },
+    {
+      "headline": "Study Reveals Significant Geographic Disparities in Iranian Hospital Workforce Distribution",
+      "url": "https://bioengineer.org/study-reveals-significant-geographic-disparities-in-iranian-hospital-workforce-distribution/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.17,
+      "score": 7
+    },
+    {
+      "headline": "Rethinking Inertial Terms in Halpern-Type Iterations for Strong Convergence",
+      "url": "https://bioengineer.org/rethinking-inertial-terms-in-halpern-type-iterations-for-strong-convergence/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.18,
+      "score": 7
+    },
+    {
+      "headline": "Parkinson\u2019s biomarker discovery boosted by new proteomic dataset in the PPMI",
+      "url": "https://www.biotechniques.com/neuroscience/parkinsons-biomarker-discovery-boosted-by-new-proteomic-dataset-in-the-ppmi/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 27.09,
+      "score": 7
+    },
+    {
+      "headline": "Team develops 3D biomimetic aging muscle model that can replace animal experiments",
+      "url": "https://phys.org/news/2026-11-team-3d-biomimetic-aging-muscle.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 46.62,
+      "score": 7
+    },
+    {
+      "headline": "STAT+: Sellas\u2019 experimental blood cancer immunotherapy reduced risk of death in clinical trial",
+      "url": "https://www.statnews.com/2026/11/17/sellas-blood-cancer-immunotherapy-succeeds-clinical-trial/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 26.96,
+      "score": 6
+    },
+    {
+      "headline": "Fasting Glucose Variability Mediates Retinopathy Mortality Risk in Type 2 Diabetes",
+      "url": "https://bioengineer.org/fasting-glucose-variability-mediates-retinopathy-mortality-risk-in-type-2-diabetes/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.05,
+      "score": 6
+    },
+    {
+      "headline": "Spinal Stenosis Patients in China Balance Treatment Fears Against Cultural Trust",
+      "url": "https://bioengineer.org/spinal-stenosis-patients-in-china-balance-treatment-fears-against-cultural-trust/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.17,
+      "score": 6
+    },
+    {
+      "headline": "Rare Disease Spotlight: Attacking the same bleeding problem from four directions",
+      "url": "https://www.biocentury.com/article/661498/rare-disease-spotlight-attacking-the-same-bleeding-problem-from-four-directions?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 39.82,
+      "score": 6
+    },
+    {
+      "headline": "Scientists grew tumor organoids in space, and it could yield new brain cancer treatments",
+      "url": "https://www.biotechniques.com/cancer-research/scientists-grew-tumor-organoids-in-space-and-it-could-yield-new-brain-cancer-treatments/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 21.35,
+      "score": 6
+    },
+    {
+      "headline": "From 400 miles above Earth, AI tracks invasive leafy spurge",
+      "url": "https://phys.org/news/2026-11-miles-earth-ai-tracks-invasive.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 44.62,
+      "score": 6
+    },
+    {
+      "headline": "Dynamic functional connectivity reveals evolving neural activity states of alcohol-seeking in rats",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004108",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 24.95,
+      "score": 5
+    },
+    {
+      "headline": "AmyriAD picks up Alzheimer\u2019s drug that began as a trial control",
+      "url": "https://european-biotechnology.com/latest-news/amyriad-picks-up-alzheimers-drug-that-began-as-a-trial-control/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 22.8,
+      "score": 5
+    },
+    {
+      "headline": "AI tool counts mosquito eggs in smartphone photos to aid surveillance",
+      "url": "https://phys.org/news/2026-11-ai-tool-mosquito-eggs-smartphone.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 39.96,
+      "score": 5
+    },
+    {
+      "headline": "STAT+: FDA discloses reasons for rejecting Summit drug",
+      "url": "https://www.statnews.com/2026/11/18/biotech-news-fda-discloses-reasons-for-rejecting-summit-drug/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.34,
+      "score": 4
+    },
+    {
+      "headline": "Citrus Rootstock Gene Module Regulates Phosphate Uptake Under Drought Stress",
+      "url": "https://bioengineer.org/citrus-rootstock-gene-module-regulates-phosphate-uptake-under-drought-stress/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.16,
+      "score": 4
+    },
+    {
+      "headline": "Performance Pay Under Capitation Increases Primary Care Service Provision in Rural China",
+      "url": "https://bioengineer.org/performance-pay-under-capitation-increases-primary-care-service-provision-in-rural-china/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.17,
+      "score": 4
+    },
+    {
+      "headline": "Improving In-Community Response Systems for Intimate Partner Violence Survivors in Arizona",
+      "url": "https://bioengineer.org/improving-in-community-response-systems-for-intimate-partner-violence-survivors-in-arizona/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.18,
+      "score": 4
+    },
+    {
+      "headline": "Hybrid \u2018planimal\u2019 cells provide first-ever look at genomic hitchhiking in eukaryotes",
+      "url": "https://www.biotechniques.com/bioengineering-biophysics/hybrid-planimal-cells-provide-first-ever-look-at-genomic-hitchhiking-in-eukaryotes/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 3.47,
+      "score": 4
+    },
+    {
+      "headline": "STAT+: After death in gene therapy trial for a brain disease, progress is reported",
+      "url": "https://www.statnews.com/2026/11/17/capsida-gene-therapy-trial-death-follow-up-investigation/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 29.46,
+      "score": 3
+    },
+    {
+      "headline": "Selective memory: how the brain forgets",
+      "url": "https://www.biotechniques.com/neuroscience/selective-memory-how-the-brain-forgets/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 22.14,
+      "score": 3
+    },
+    {
+      "headline": "STAT+: In a win for MAHA, FDA creates new regulatory category for the supplement NAC",
+      "url": "https://www.statnews.com/2026/11/16/fda-proposes-new-category-supplement-nac/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 44.05,
+      "score": 2
+    },
+    {
+      "headline": "TRIMTECH lands $411M Biogen deal for neurodegeneration protein degraders",
+      "url": "https://european-biotechnology.com/latest-news/trimtech-lands-411m-biogen-deal-for-neurodegeneration-protein-degraders/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 46.48,
+      "score": 2
+    },
+    {
+      "headline": "Meta-Learning Accelerates Microwave Hyperthermia Antenna Optimization in Proof-of-Concept Study",
+      "url": "https://bioengineer.org/meta-learning-accelerates-microwave-hyperthermia-antenna-optimization-in-proof-of-concept-study/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": false,
+      "low_value_notice": false,
+      "age_hours": 0.12,
+      "score": 2
+    },
+    {
+      "headline": "Loss of Peroxisomal Acyl-CoA Oxidase Alters Mitochondrial and Lipid Dynamics in Yeast",
+      "url": "https://bioengineer.org/loss-of-peroxisomal-acyl-coa-oxidase-alters-mitochondrial-and-lipid-dynamics-in-yeast/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": false,
+      "low_value_notice": false,
+      "age_hours": 0.13,
+      "score": 2
+    },
+    {
+      "headline": "Isomorphic\u00a0raises record $5B round before naming a development candidate",
+      "url": "https://www.biocentury.com/article/661647/isomorphic-raises-record-5b-round-before-naming-a-development-candidate?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": false,
+      "low_value_notice": false,
+      "age_hours": 13.76,
+      "score": 1
+    },
+    {
+      "headline": "Biopharmas should invest in tools to close biological AI\u2019s data gaps \u2014 a Perspective",
+      "url": "https://www.biocentury.com/article/661437/biopharmas-should-invest-in-tools-to-close-biological-ai-s-data-gaps-a-perspective?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": false,
+      "low_value_notice": false,
+      "age_hours": 15.36,
+      "score": 1
+    },
+    {
+      "headline": "Researchers are testing whether agrivoltaics can help farmers adapt to hotter, drier conditions",
+      "url": "https://phys.org/news/2026-11-agrivoltaics-farmers-hotter-drier-conditions.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": false,
+      "low_value_notice": false,
+      "age_hours": 38.96,
+      "score": 0
+    },
+    {
+      "headline": "Turning biomass into renewable fuels and chemicals using microorganisms",
+      "url": "https://phys.org/news/2026-11-biomass-renewable-fuels-chemicals-microorganisms.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": false,
+      "low_value_notice": false,
+      "age_hours": 39.63,
+      "score": 0
+    }
+  ],
+  "selected_items": [
+    {
+      "headline": "Review Details Anthocyanin Cellular Pathways Across Cancer, Diabetes, and Cardiovascular Health",
+      "url": "https://bioengineer.org/review-details-anthocyanin-cellular-pathways-across-cancer-diabetes-and-cardiovascular-health/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.19,
+      "score": 18
+    },
+    {
+      "headline": "Cellectis plans 70% workforce cuts; Sanofi signs $1.2B DNA medicines deal; AstraZeneca buys Omniose",
+      "url": "https://european-biotechnology.com/latest-news/cellectis-plans-70-workforce-cuts-sanofi-signs-1-2b-dna-medicines-deal-astrazeneca-buys-omniose/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 28.98,
+      "score": 15
+    },
+    {
+      "headline": "Review Finds Rutin Protects Heart Tissue in Preclinical Chemotherapy Toxicity Models",
+      "url": "https://bioengineer.org/review-finds-rutin-protects-heart-tissue-in-preclinical-chemotherapy-toxicity-models/",
+      "source": "BIOENGINEER.ORG",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 0.19,
+      "score": 14
+    },
+    {
+      "headline": "Sellas\u2019 AML win strengthens case for cancer vaccines in recurrence prevention",
+      "url": "https://www.biocentury.com/article/661645/sellas-aml-win-strengthens-case-for-cancer-vaccines-in-recurrence-prevention?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 13.97,
+      "score": 12
+    },
+    {
+      "headline": "Dynamic functional connectivity reveals evolving neural activity states of alcohol-seeking in rats",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004108",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 24.95,
+      "score": 5
+    }
+  ]
+}

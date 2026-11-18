@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-18",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Review Details Anthocyanin Cellular Pathways Across Cancer, Diabetes, and Cardiovascular Health",
+      "preview": "Anthocyanins, found in various fruits and vegetables, show potential in treating chronic diseases.",
+      "article": "Anthocyanins are a prominent class of water-soluble flavonoid phenolic pigments that impart vibrant red, purple, and blue hues to diverse fruits, vegetables, and floral structures. As prevalent secondary plant metabolites, phenolic compounds have attracted sustained research interest due to their antioxidant capacities and protective roles against oxidative stress-related disorders.\nWhy this matters: The review highlights the multifaceted roles of anthocyanins in combating cancer, diabetes, and cardiovascular diseases, suggesting their potential as therapeutic agents.\nCommon dietary sources rich in anthocyanins include blueberries, blackberries, raspberries, cherries, and red cabbage. These compounds have demonstrated broad biological actions, including neutralizing free radicals and modulating inflammatory pathways, which are crucial for safeguarding against chronic non-communicable illnesses.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/review-details-anthocyanin-cellular-pathways-across-cancer-diabetes-and-cardiovascular-health/",
+          "type": "news",
+          "verified_date": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Cellectis plans 70% workforce cuts; Sanofi signs $1.2B DNA medicines deal; AstraZeneca buys Omniose",
+      "preview": "Cellectis announces significant workforce reductions while Sanofi and AstraZeneca expand through acquisitions.",
+      "article": "Cellectis plans to cut up to 70% of its workforce as it shifts focus to in vivo gene editing. This decision follows the discontinuation of two clinical-stage CAR-T programs and aims to extend its cash runway into 2028.\nWhy this matters: These workforce cuts reflect a strategic pivot in the biotech industry towards more direct gene editing technologies, potentially impacting future treatment options for genetic disorders.\nSanofi has signed a $1.2 billion deal with Seawolf for DNA-based medicines, while AstraZeneca has acquired Omniose to enhance its bacterial vaccine technology, indicating a trend of consolidation and investment in innovative therapeutic approaches.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/cellectis-plans-70-workforce-cuts-sanofi-signs-1-2b-dna-medicines-deal-astrazeneca-buys-omniose/",
+          "type": "news",
+          "verified_date": "2026-11-17"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Review Finds Rutin Protects Heart Tissue in Preclinical Chemotherapy Toxicity Models",
+      "preview": "Rutin shows promise in protecting heart function during chemotherapy, according to a systematic review.",
+      "article": "Co-treatment with the phyto-antioxidant rutin significantly reverses detrimental cardiac changes and maintains heart function in preclinical models of chemotherapy-induced toxicity. This review highlights the potential of rutin to mitigate heart toxicity associated with chemotherapy.\nWhy this matters: As chemotherapy can cause significant heart damage, finding protective agents like rutin could enhance patient outcomes during cancer treatment.\nThe review synthesized data from 14 studies, confirming that rutin effectively reduces oxidative stress and inflammation, suggesting its role as a cardioprotective supplement during cancer therapy.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/review-finds-rutin-protects-heart-tissue-in-preclinical-chemotherapy-toxicity-models/",
+          "type": "news",
+          "verified_date": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Sellas\u2019 AML win strengthens case for cancer vaccines in recurrence prevention",
+      "preview": "Sellas Life Sciences reports success with its cancer vaccine, suggesting a new direction for treatment.",
+      "article": "Sellas Life Sciences Group announced that its WT1-targeted vaccine galinpepimut-S (GPS) reduced the risk of death by 41% in patients with relapsed acute myelogenous leukemia. This Phase III success adds to the growing evidence that cancer vaccines may play a crucial role in preventing recurrence.\nWhy this matters: The positive results from Sellas and other recent vaccine trials indicate a potential shift in cancer treatment strategies, focusing on maintenance therapies when tumor burden is low.\nThe median overall survival was significantly improved with GPS compared to the best available treatment, suggesting that off-the-shelf vaccines could be effective in adjuvant settings.",
+      "sources": [
+        {
+          "name": "BioCentury",
+          "url": "https://www.biocentury.com/article/661645/sellas-aml-win-strengthens-case-for-cancer-vaccines-in-recurrence-prevention?utm_source=bc_rss&utm_medium=rss",
+          "type": "news",
+          "verified_date": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Dynamic functional connectivity reveals evolving neural activity states of alcohol-seeking in rats",
+      "preview": "Study explores neural mechanisms of alcohol-seeking behavior in rats using dynamic connectivity analysis.",
+      "article": "This study investigates the brain mechanisms underlying persistent alcohol-seeking in Alcohol Use Disorder (AUD) by characterizing neural activity states in the anterior cingulate cortex of rats. The research reveals how these states evolve during alcohol-seeking tasks.\nWhy this matters: Understanding the neural dynamics associated with alcohol-seeking behavior could provide insights into the cognitive vulnerabilities that sustain AUD, potentially informing future therapeutic strategies.\nThe findings indicate that alcohol-preferring rats exhibit impaired formation of stable neural states after alcohol devaluation, suggesting a breakdown in neural organization that may contribute to compulsive drinking behaviors.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004108",
+          "type": "paper",
+          "verified_date": "2026-11-17"
+        }
+      ]
+    }
+  ]
+}

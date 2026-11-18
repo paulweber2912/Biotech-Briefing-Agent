@@ -1,11 +1,25 @@
 {
-  "date": "2026-11-17",
+  "date": "2026-11-18",
   "items": [
     {
       "id": "1",
+      "headline": "Review Details Anthocyanin Cellular Pathways Across Cancer, Diabetes, and Cardiovascular Health",
+      "preview": "Anthocyanins, found in various fruits and vegetables, show potential in treating chronic diseases.",
+      "article": "Anthocyanins are a prominent class of water-soluble flavonoid phenolic pigments that impart vibrant red, purple, and blue hues to diverse fruits, vegetables, and floral structures. As prevalent secondary plant metabolites, phenolic compounds have attracted sustained research interest due to their antioxidant capacities and protective roles against oxidative stress-related disorders.\nWhy this matters: The review highlights the multifaceted roles of anthocyanins in combating cancer, diabetes, and cardiovascular diseases, suggesting their potential as therapeutic agents.\nCommon dietary sources rich in anthocyanins include blueberries, blackberries, raspberries, cherries, and red cabbage. These compounds have demonstrated broad biological actions, including neutralizing free radicals and modulating inflammatory pathways, which are crucial for safeguarding against chronic non-communicable illnesses.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/review-details-anthocyanin-cellular-pathways-across-cancer-diabetes-and-cardiovascular-health/",
+          "type": "news",
+          "verified_date": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "2",
       "headline": "Cellectis plans 70% workforce cuts; Sanofi signs $1.2B DNA medicines deal; AstraZeneca buys Omniose",
-      "preview": "Cellectis announces significant workforce reductions while Sanofi and AstraZeneca expand their portfolios.",
-      "article": "Cellectis plans to cut up to 70% of its workforce as it shifts focus to in vivo gene editing, following the discontinuation of two CAR-T programs. The restructuring aims to extend its cash runway into late 2028, with preclinical programs targeting severe hypertriglyceridemia and hypercholesterolemia.\n\nSanofi has signed a $1.2 billion deal with Seawolf for DNA-based medicines, which includes potential milestones and royalties. This collaboration focuses on bleeding disorders and utilizes lipid nanoparticles for DNA delivery.\n\nAstraZeneca has acquired Omniose to enhance its bacterial vaccine technology, following a collaboration earlier this year. This acquisition supports AstraZeneca's efforts against serious bacterial infections, particularly in the context of antimicrobial resistance.",
+      "preview": "Cellectis announces significant workforce reductions while Sanofi and AstraZeneca expand through acquisitions.",
+      "article": "Cellectis plans to cut up to 70% of its workforce as it shifts focus to in vivo gene editing. This decision follows the discontinuation of two clinical-stage CAR-T programs and aims to extend its cash runway into 2028.\nWhy this matters: These workforce cuts reflect a strategic pivot in the biotech industry towards more direct gene editing technologies, potentially impacting future treatment options for genetic disorders.\nSanofi has signed a $1.2 billion deal with Seawolf for DNA-based medicines, while AstraZeneca has acquired Omniose to enhance its bacterial vaccine technology, indicating a trend of consolidation and investment in innovative therapeutic approaches.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
@@ -16,58 +30,44 @@
       ]
     },
     {
-      "id": "2",
-      "headline": "Empagliflozin Reduces Functional Tricuspid Regurgitation Without Inducing Ventricular Remodeling",
-      "preview": "The PROVE trial indicates empagliflozin can reduce tricuspid regurgitation without affecting ventricular size.",
-      "article": "The PROVE trial published in the Journal of Cardiovascular Imaging shows that empagliflozin reduces functional tricuspid regurgitation in patients without causing ventricular remodeling. The study involved 56 patients and found significant reductions in echocardiographic markers of regurgitation with empagliflozin treatment.\n\nWhy this matters: This finding suggests that empagliflozin may offer a new therapeutic approach for managing tricuspid regurgitation, a condition often overlooked in clinical practice. The trial highlights the need for further research into the mechanisms behind these results and the potential for pharmacologic therapy in this area.",
-      "sources": [
-        {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/empagliflozin-reduces-functional-tricuspid-regurgitation-without-inducing-ventricular-remodeling/",
-          "type": "news",
-          "verified_date": "2026-11-17"
-        }
-      ]
-    },
-    {
       "id": "3",
-      "headline": "Direct and Indirect Epiglottis Lifting Show Similar Complication Rates in Trial",
-      "preview": "A trial finds no significant difference in complications between direct and indirect epiglottis lifting techniques.",
-      "article": "A multicenter trial comparing direct and indirect epiglottis lifting techniques during intubation found no significant difference in complication rates. Both methods yielded similar outcomes in terms of hoarseness, sore throat, and other adverse events.\n\nThe study involved 938 patients and highlighted that while the overall complication rates were comparable, the direct lifting technique required less external manipulation. This suggests that both techniques are safe, but further investigation into operator experience may be warranted.",
+      "headline": "Review Finds Rutin Protects Heart Tissue in Preclinical Chemotherapy Toxicity Models",
+      "preview": "Rutin shows promise in protecting heart function during chemotherapy, according to a systematic review.",
+      "article": "Co-treatment with the phyto-antioxidant rutin significantly reverses detrimental cardiac changes and maintains heart function in preclinical models of chemotherapy-induced toxicity. This review highlights the potential of rutin to mitigate heart toxicity associated with chemotherapy.\nWhy this matters: As chemotherapy can cause significant heart damage, finding protective agents like rutin could enhance patient outcomes during cancer treatment.\nThe review synthesized data from 14 studies, confirming that rutin effectively reduces oxidative stress and inflammation, suggesting its role as a cardioprotective supplement during cancer therapy.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/direct-and-indirect-epiglottis-lifting-show-similar-complication-rates-in-trial/",
+          "url": "https://bioengineer.org/review-finds-rutin-protects-heart-tissue-in-preclinical-chemotherapy-toxicity-models/",
           "type": "news",
-          "verified_date": "2026-11-17"
+          "verified_date": "2026-11-18"
         }
       ]
     },
     {
       "id": "4",
-      "headline": "J&J bets $2.2B on Ollin\u2019s vision loss drug",
-      "preview": "Johnson & Johnson acquires Ollin Biosciences to enhance its ophthalmology portfolio with a new drug.",
-      "article": "Johnson & Johnson has announced the acquisition of Ollin Biosciences for $2.2 billion, with an additional $1.1 billion tied to milestones for the development of OLN324, a drug targeting vision loss. This acquisition aims to strengthen J&J's presence in the ophthalmology market, which has been primarily focused on devices and contact lenses.\n\nThe drug OLN324 is designed to compete with existing therapies like Roche's Vabysmo, targeting key proteins involved in retinal diseases. The deal reflects J&J's strategic move into prescription medicines for eye care, bolstered by significant financial backing for ongoing clinical trials.",
+      "headline": "Sellas\u2019 AML win strengthens case for cancer vaccines in recurrence prevention",
+      "preview": "Sellas Life Sciences reports success with its cancer vaccine, suggesting a new direction for treatment.",
+      "article": "Sellas Life Sciences Group announced that its WT1-targeted vaccine galinpepimut-S (GPS) reduced the risk of death by 41% in patients with relapsed acute myelogenous leukemia. This Phase III success adds to the growing evidence that cancer vaccines may play a crucial role in preventing recurrence.\nWhy this matters: The positive results from Sellas and other recent vaccine trials indicate a potential shift in cancer treatment strategies, focusing on maintenance therapies when tumor burden is low.\nThe median overall survival was significantly improved with GPS compared to the best available treatment, suggesting that off-the-shelf vaccines could be effective in adjuvant settings.",
       "sources": [
         {
-          "name": "BioPharma Dive - Latest News",
-          "url": "https://www.biopharmadive.com/news/Johnson-johnson-ollin-acquire-ophthalmology-vegf-ang2-drugs/874728/",
+          "name": "BioCentury",
+          "url": "https://www.biocentury.com/article/661645/sellas-aml-win-strengthens-case-for-cancer-vaccines-in-recurrence-prevention?utm_source=bc_rss&utm_medium=rss",
           "type": "news",
-          "verified_date": "2026-11-16"
+          "verified_date": "2026-11-18"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "Allosteric inhibition rescues hydrocephalus caused by catalytically inactive Shp2 in mice",
-      "preview": "Research shows that allosteric inhibition can alleviate hydrocephalus linked to inactive Shp2 mutations in mice.",
-      "article": "A study published in PLOS Biology demonstrates that allosteric inhibition of the SHP2 protein can rescue hydrocephalus caused by the catalytically inactive Shp2C459S mutation in mice. This research highlights the role of SHP2 in ciliary development and its implications for congenital diseases.\n\nThe findings suggest that targeting the conformational state of SHP2, rather than its catalytic activity, may offer new therapeutic strategies for conditions associated with SHP2 mutations. This approach could lead to significant advancements in treating hydrocephalus and related disorders.",
+      "headline": "Dynamic functional connectivity reveals evolving neural activity states of alcohol-seeking in rats",
+      "preview": "Study explores neural mechanisms of alcohol-seeking behavior in rats using dynamic connectivity analysis.",
+      "article": "This study investigates the brain mechanisms underlying persistent alcohol-seeking in Alcohol Use Disorder (AUD) by characterizing neural activity states in the anterior cingulate cortex of rats. The research reveals how these states evolve during alcohol-seeking tasks.\nWhy this matters: Understanding the neural dynamics associated with alcohol-seeking behavior could provide insights into the cognitive vulnerabilities that sustain AUD, potentially informing future therapeutic strategies.\nThe findings indicate that alcohol-preferring rats exhibit impaired formation of stable neural states after alcohol devaluation, suggesting a breakdown in neural organization that may contribute to compulsive drinking behaviors.",
       "sources": [
         {
           "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004113",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004108",
           "type": "paper",
-          "verified_date": "2026-11-16"
+          "verified_date": "2026-11-17"
         }
       ]
     }
