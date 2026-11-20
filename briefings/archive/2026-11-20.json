@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-20",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Laverock names CEO ahead of Series A; GH Research hires J&J depression-drug trial lead; TreeFrog taps former bluebird bio CFO",
+      "preview": "Laverock Therapeutics appoints new leadership as it prepares for Series A funding.",
+      "article": "Laverock Therapeutics has appointed Parker Moss as CEO and Paul J. Sekhri as executive chair as it gears up for its Series A funding. Moss, who previously led corporate development at Exscientia, will take over from founder CEO David Venables, who is stepping down at the end of the year.\n\nGH Research has hired Vanina Popova as chief development officer, bringing her experience from Johnson & Johnson's pivotal depression drug trial. She will oversee the development of GH001, an inhaled treatment for depression. Meanwhile, TreeFrog Therapeutics has appointed James Sterling as CFO to manage finances ahead of a clinical filing for its Parkinson's disease therapy.\n\nWhy this matters: These leadership changes reflect strategic moves by biotech firms to enhance their capabilities and prepare for upcoming clinical trials and funding rounds.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/laverock-names-ceo-ahead-of-series-a-gh-research-hires-j-treefrog-taps-former-bluebird-bio-cfo/",
+          "type": "news",
+          "verified_date": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Mount Sinai Launches Clinical Trial Platform to Accelerate Inflammatory Disease Therapies",
+      "preview": "Mount Sinai's new initiative aims to expedite clinical trials for inflammatory diseases.",
+      "article": "Mount Sinai has launched the Precision Immunology and Experimental Medicine Trial Organization (PrIME Trials) to accelerate the development of therapies for inflammatory and autoimmune diseases. This initiative seeks to streamline clinical trial processes and enhance collaboration between researchers and industry partners.\n\nThe program aims to reduce bureaucratic delays and optimize workflows, enabling faster delivery of investigational therapies. A key feature is the FASTrack mechanism, designed to initiate complex clinical trials within 60 days. The first major study under this initiative, a Sanofi-sponsored trial of an in vivo CAR-T therapy, was activated in less than 60 days.\n\nWhy this matters: PrIME Trials represents a significant advancement in how clinical trials for inflammatory diseases are conducted, potentially leading to quicker access to new treatments for patients.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/mount-sinai-launches-clinical-trial-platform-to-accelerate-inflammatory-disease-therapies/",
+          "type": "news",
+          "verified_date": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "High-dose clonidine safe for ventilated ICU patients",
+      "preview": "Study finds high doses of clonidine are safe for critically ill patients on ventilation.",
+      "article": "A recent study published in the Journal of Anesthesia, Analgesia and Critical Care found that clonidine, used as an adjunct sedative in mechanically ventilated ICU patients, was well tolerated at doses up to 1800 micrograms per day. The research indicated no dose-limiting toxicity and a lack of significant adverse cardiovascular effects.\n\nThe study involved 32 critically ill adults and monitored various adverse events over a nine-day period. Results showed that serious adverse events were not dose-dependent, and no significant rebound effects were observed after discontinuation of the drug.\n\nWhy this matters: These findings support the safety of high-dose clonidine in ICU settings, paving the way for future efficacy trials to explore its potential benefits in improving patient outcomes.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/high-dose-clonidine-safe-for-ventilated-icu-patients/",
+          "type": "news",
+          "verified_date": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "ai3Bio: Resetting the immune system with in vivo T cell depletion",
+      "preview": "ai3Bio emerges with a focus on T cell depletion for autoimmune diseases backed by $48M funding.",
+      "article": "Ai3Bio has launched with a mission to reset the immune system through in vivo T cell depletion, specifically targeting Th17 cells for autoimmune diseases. The company has secured $48 million in Series A funding to support its innovative approach, which combines lipid nanoparticle (LNP)-mRNA and monoclonal antibody technologies.\n\nFounded from a merger of Corner Therapeutics and Novasenta, ai3Bio aims to differentiate itself in the crowded field of autoimmune therapies by focusing on T cell-driven mechanisms. The funding will enable the development of their therapeutic strategies aimed at improving patient outcomes in autoimmune conditions.\n\nWhy this matters: Ai3Bio's approach could represent a significant advancement in the treatment of autoimmune diseases, potentially offering new therapeutic options for patients.",
+      "sources": [
+        {
+          "name": "BioCentury",
+          "url": "https://www.biocentury.com/article/661491/ai3bio-resetting-the-immune-system-with-in-vivo-t-cell-depletion?utm_source=bc_rss&utm_medium=rss",
+          "type": "news",
+          "verified_date": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Local feedback governs cell fate transition to drive self-organized phenotypic equilibrium in hierarchical tumors",
+      "preview": "Study reveals how local feedback influences cancer stem cell dynamics in tumors.",
+      "article": "A new study published in PLOS Biology explores the mechanisms regulating cancer stem cell (CSC) transitions within hierarchical tumors using a Drosophila model. The research demonstrates that the differentiation of CSCs into transit amplifying progenitors (TAPs) is influenced by the local density of TAPs, establishing a feedback mechanism that stabilizes CSC populations.\n\nThe findings indicate that local cell interactions and signaling pathways, particularly involving EGFR, play crucial roles in maintaining the balance between CSCs and their differentiated progeny. This self-organizing principle could provide insights into tumor dynamics and potential therapeutic targets.\n\nWhy this matters: Understanding the local feedback mechanisms in tumor hierarchies may lead to novel strategies for targeting CSCs and improving cancer treatment outcomes.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004086",
+          "type": "paper",
+          "verified_date": "2026-11-19"
+        }
+      ]
+    }
+  ]
+}

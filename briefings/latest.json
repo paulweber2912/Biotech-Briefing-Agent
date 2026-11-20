@@ -1,11 +1,53 @@
 {
-  "date": "2026-11-19",
+  "date": "2026-11-20",
   "items": [
     {
       "id": "1",
+      "headline": "Laverock names CEO ahead of Series A; GH Research hires J&J depression-drug trial lead; TreeFrog taps former bluebird bio CFO",
+      "preview": "Laverock Therapeutics appoints new leadership as it prepares for Series A funding.",
+      "article": "Laverock Therapeutics has appointed Parker Moss as CEO and Paul J. Sekhri as executive chair as it gears up for its Series A funding. Moss, who previously led corporate development at Exscientia, will take over from founder CEO David Venables, who is stepping down at the end of the year.\n\nGH Research has hired Vanina Popova as chief development officer, bringing her experience from Johnson & Johnson's pivotal depression drug trial. She will oversee the development of GH001, an inhaled treatment for depression. Meanwhile, TreeFrog Therapeutics has appointed James Sterling as CFO to manage finances ahead of a clinical filing for its Parkinson's disease therapy.\n\nWhy this matters: These leadership changes reflect strategic moves by biotech firms to enhance their capabilities and prepare for upcoming clinical trials and funding rounds.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/laverock-names-ceo-ahead-of-series-a-gh-research-hires-j-treefrog-taps-former-bluebird-bio-cfo/",
+          "type": "news",
+          "verified_date": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Mount Sinai Launches Clinical Trial Platform to Accelerate Inflammatory Disease Therapies",
+      "preview": "Mount Sinai's new initiative aims to expedite clinical trials for inflammatory diseases.",
+      "article": "Mount Sinai has launched the Precision Immunology and Experimental Medicine Trial Organization (PrIME Trials) to accelerate the development of therapies for inflammatory and autoimmune diseases. This initiative seeks to streamline clinical trial processes and enhance collaboration between researchers and industry partners.\n\nThe program aims to reduce bureaucratic delays and optimize workflows, enabling faster delivery of investigational therapies. A key feature is the FASTrack mechanism, designed to initiate complex clinical trials within 60 days. The first major study under this initiative, a Sanofi-sponsored trial of an in vivo CAR-T therapy, was activated in less than 60 days.\n\nWhy this matters: PrIME Trials represents a significant advancement in how clinical trials for inflammatory diseases are conducted, potentially leading to quicker access to new treatments for patients.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/mount-sinai-launches-clinical-trial-platform-to-accelerate-inflammatory-disease-therapies/",
+          "type": "news",
+          "verified_date": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "High-dose clonidine safe for ventilated ICU patients",
+      "preview": "Study finds high doses of clonidine are safe for critically ill patients on ventilation.",
+      "article": "A recent study published in the Journal of Anesthesia, Analgesia and Critical Care found that clonidine, used as an adjunct sedative in mechanically ventilated ICU patients, was well tolerated at doses up to 1800 micrograms per day. The research indicated no dose-limiting toxicity and a lack of significant adverse cardiovascular effects.\n\nThe study involved 32 critically ill adults and monitored various adverse events over a nine-day period. Results showed that serious adverse events were not dose-dependent, and no significant rebound effects were observed after discontinuation of the drug.\n\nWhy this matters: These findings support the safety of high-dose clonidine in ICU settings, paving the way for future efficacy trials to explore its potential benefits in improving patient outcomes.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/high-dose-clonidine-safe-for-ventilated-icu-patients/",
+          "type": "news",
+          "verified_date": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "4",
       "headline": "ai3Bio: Resetting the immune system with in vivo T cell depletion",
-      "preview": "Ai3Bio is developing a novel approach to treat autoimmune diseases by depleting Th17 cells.",
-      "article": "Ai3Bio is merging mRNA and antibody-based strategies to target Th17 cells in vivo, aiming to reset the immune system for T cell-driven autoimmune diseases. The company recently secured $48 million in a series A funding round led by UPMC Enterprises and Ziff Capital Partners.\nFounded in June, ai3Bio emerged from the merger of Corner Therapeutics' LNP-mRNA technology and Novasenta's antibody against CD161. This innovative approach seeks to address challenges in the crowded field of B cell depletion therapies, potentially offering new hope for patients with autoimmune conditions.\nWhy this matters: The unique strategy of targeting Th17 cells may provide a more effective treatment option for autoimmune diseases, which are often difficult to manage with existing therapies.",
+      "preview": "ai3Bio emerges with a focus on T cell depletion for autoimmune diseases backed by $48M funding.",
+      "article": "Ai3Bio has launched with a mission to reset the immune system through in vivo T cell depletion, specifically targeting Th17 cells for autoimmune diseases. The company has secured $48 million in Series A funding to support its innovative approach, which combines lipid nanoparticle (LNP)-mRNA and monoclonal antibody technologies.\n\nFounded from a merger of Corner Therapeutics and Novasenta, ai3Bio aims to differentiate itself in the crowded field of autoimmune therapies by focusing on T cell-driven mechanisms. The funding will enable the development of their therapeutic strategies aimed at improving patient outcomes in autoimmune conditions.\n\nWhy this matters: Ai3Bio's approach could represent a significant advancement in the treatment of autoimmune diseases, potentially offering new therapeutic options for patients.",
       "sources": [
         {
           "name": "BioCentury",
@@ -16,58 +58,16 @@
       ]
     },
     {
-      "id": "2",
-      "headline": "Virtual Surgical Planning Guides Complex Secondary Reconstructions of Malunited Mandibular Condyles",
-      "preview": "A study shows that virtual surgical planning can effectively restore jaw function in malunited fractures.",
-      "article": "Surgeons at the University Hospital of LMU Munich have successfully used virtual surgical planning and custom implants to restore the anatomical position of mandibular condyles in patients with malunited jaw fractures. The study demonstrated an average deviation of only 2.27 millimeters between planned and actual postoperative outcomes, highlighting the effectiveness of this approach.\nThe retrospective study involved eight patients who underwent secondary reconstructions, with significant improvements in oral function and patient satisfaction reported. The use of digital design workflows allowed for precise modeling and execution of patient-specific corrections, overcoming traditional surgical challenges.\nWhy this matters: This innovative method could revolutionize the treatment of complex jaw fractures, providing a more predictable and effective solution for patients suffering from malunions.",
-      "sources": [
-        {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/virtual-surgical-planning-guides-complex-secondary-reconstructions-of-malunited-mandibular-condyles/",
-          "type": "news",
-          "verified_date": "2026-11-19"
-        }
-      ]
-    },
-    {
-      "id": "3",
-      "headline": "Immune Biomarkers Improve Kidney Injury Prediction in Older Sepsis Patients",
-      "preview": "Incorporating immune biomarkers enhances kidney injury prediction in elderly sepsis patients.",
-      "article": "A multicenter study in Beijing found that adding immunoinflammatory biomarkers to traditional risk models significantly improves the prediction of acute kidney injury in older sepsis patients. The study involved 627 patients, revealing that those who developed kidney injury had distinct immune profiles compared to those who did not.\nThe findings emphasize the importance of immune dysregulation in sepsis-related kidney damage, suggesting that targeted biomarkers could enhance early detection and intervention strategies. The study's predictive model achieved a notable improvement in diagnostic accuracy, underscoring the potential for integrating immune assessments into clinical practice.\nWhy this matters: This research could lead to better management of sepsis in older patients, potentially reducing the incidence of acute kidney injury and improving overall outcomes.",
-      "sources": [
-        {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/immune-biomarkers-improve-kidney-injury-prediction-in-older-sepsis-patients/",
-          "type": "news",
-          "verified_date": "2026-11-19"
-        }
-      ]
-    },
-    {
-      "id": "4",
-      "headline": "Sellas\u2019 AML win strengthens case for cancer vaccines in recurrence prevention",
-      "preview": "Sellas' vaccine shows promise in improving overall survival for AML patients post-remission.",
-      "article": "Sellas Life Sciences Group has reported that its WT1-targeted vaccine, galinpepimut-S, significantly improves overall survival in patients with acute myelogenous leukemia (AML) who have relapsed but returned to remission. The Phase III trial demonstrated a 41% reduction in the risk of death compared to standard treatments, with median overall survival of 24 months for the vaccine group.\nThis success adds to the growing evidence supporting the use of cancer vaccines in maintenance therapy, particularly in scenarios where tumor burden is low. The results align with recent successes from other companies in the field, suggesting a potential shift towards off-the-shelf vaccine strategies in oncology.\nWhy this matters: The findings could pave the way for broader applications of cancer vaccines, enhancing treatment options for patients at risk of recurrence.",
-      "sources": [
-        {
-          "name": "BioCentury",
-          "url": "https://www.biocentury.com/article/661645/sellas-aml-win-strengthens-case-for-cancer-vaccines-in-recurrence-prevention?utm_source=bc_rss&utm_medium=rss",
-          "type": "news",
-          "verified_date": "2026-11-18"
-        }
-      ]
-    },
-    {
       "id": "5",
-      "headline": "Migration as a key influence on ungulate eco-evolutionary history",
-      "preview": "A study explores how migration affects the extinction and speciation rates of ungulates.",
-      "article": "A recent study published in PLOS Biology investigates the impact of migratory behavior on the eco-evolutionary dynamics of ungulates. The research indicates that migratory species exhibit higher extinction rates compared to non-migratory counterparts, while also experiencing increased speciation rates due to population isolation.\nThe findings highlight the dual nature of migration, which can provide short-term benefits but may lead to long-term vulnerabilities, especially in the face of environmental changes. The study emphasizes the need for conservation efforts focused on migratory species to mitigate the risks associated with habitat disruption.\nWhy this matters: Understanding the evolutionary consequences of migration can inform conservation strategies and help protect vulnerable ungulate populations in changing ecosystems.",
+      "headline": "Local feedback governs cell fate transition to drive self-organized phenotypic equilibrium in hierarchical tumors",
+      "preview": "Study reveals how local feedback influences cancer stem cell dynamics in tumors.",
+      "article": "A new study published in PLOS Biology explores the mechanisms regulating cancer stem cell (CSC) transitions within hierarchical tumors using a Drosophila model. The research demonstrates that the differentiation of CSCs into transit amplifying progenitors (TAPs) is influenced by the local density of TAPs, establishing a feedback mechanism that stabilizes CSC populations.\n\nThe findings indicate that local cell interactions and signaling pathways, particularly involving EGFR, play crucial roles in maintaining the balance between CSCs and their differentiated progeny. This self-organizing principle could provide insights into tumor dynamics and potential therapeutic targets.\n\nWhy this matters: Understanding the local feedback mechanisms in tumor hierarchies may lead to novel strategies for targeting CSCs and improving cancer treatment outcomes.",
       "sources": [
         {
           "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004115",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004086",
           "type": "paper",
-          "verified_date": "2026-11-18"
+          "verified_date": "2026-11-19"
         }
       ]
     }
