@@ -1,11 +1,25 @@
 {
-  "date": "2026-11-20",
+  "date": "2026-11-21",
   "items": [
     {
       "id": "1",
+      "headline": "Ubiquitin-Like Protein Imbalances Shape Tau Aggregation and Pathology in Alzheimer\u2019s Disease",
+      "preview": "A review highlights the role of ubiquitin-like proteins in Alzheimer's disease pathology.",
+      "article": "A comprehensive review published in Molecular Neurodegeneration Advances describes how an interconnected regulatory network of ubiquitin-like proteins coordinates cellular clearance, inflammatory responses, and protein accumulation in Alzheimer\u2019s disease. Researchers analyze the expanding roles of post-translational modifiers, including small ubiquitin-like modifier and others, framing the disorder as a systems-level collapse of proteostasis.\nWhy this matters: Understanding the roles of these proteins could lead to new therapeutic strategies for Alzheimer's disease by targeting the dysregulation of these pathways.\nThe review details how various modifiers influence amyloid precursor protein processing and tau aggregation, highlighting the complex interactions that contribute to neurodegeneration. The authors conclude that clinical progress depends on defining precise therapeutic windows and creating targeted strategies to rebalance disrupted pathways.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/ubiquitin-like-protein-imbalances-shape-tau-aggregation-and-pathology-in-alzheimers-disease/",
+          "type": "news",
+          "verified_date": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "2",
       "headline": "Laverock names CEO ahead of Series A; GH Research hires J&J depression-drug trial lead; TreeFrog taps former bluebird bio CFO",
-      "preview": "Laverock Therapeutics appoints new leadership as it prepares for Series A funding.",
-      "article": "Laverock Therapeutics has appointed Parker Moss as CEO and Paul J. Sekhri as executive chair as it gears up for its Series A funding. Moss, who previously led corporate development at Exscientia, will take over from founder CEO David Venables, who is stepping down at the end of the year.\n\nGH Research has hired Vanina Popova as chief development officer, bringing her experience from Johnson & Johnson's pivotal depression drug trial. She will oversee the development of GH001, an inhaled treatment for depression. Meanwhile, TreeFrog Therapeutics has appointed James Sterling as CFO to manage finances ahead of a clinical filing for its Parkinson's disease therapy.\n\nWhy this matters: These leadership changes reflect strategic moves by biotech firms to enhance their capabilities and prepare for upcoming clinical trials and funding rounds.",
+      "preview": "Leadership changes in biotech firms signal strategic shifts and upcoming clinical trials.",
+      "article": "Laverock Therapeutics has appointed Parker Moss as CEO and Paul J. Sekhri as executive chair as it prepares for a Series A funding round. GH Research has hired Vanina Popova, previously of J&J, to lead development for its inhaled depression treatment. TreeFrog Therapeutics has brought on James Sterling as CFO to oversee its financial strategies.\nWhy this matters: These leadership changes reflect the companies' strategic directions as they advance toward clinical trials and funding rounds, which are crucial for their growth and development in the competitive biotech landscape.",
       "sources": [
         {
           "name": "European Biotechnology Magazine",
@@ -16,52 +30,38 @@
       ]
     },
     {
-      "id": "2",
-      "headline": "Mount Sinai Launches Clinical Trial Platform to Accelerate Inflammatory Disease Therapies",
-      "preview": "Mount Sinai's new initiative aims to expedite clinical trials for inflammatory diseases.",
-      "article": "Mount Sinai has launched the Precision Immunology and Experimental Medicine Trial Organization (PrIME Trials) to accelerate the development of therapies for inflammatory and autoimmune diseases. This initiative seeks to streamline clinical trial processes and enhance collaboration between researchers and industry partners.\n\nThe program aims to reduce bureaucratic delays and optimize workflows, enabling faster delivery of investigational therapies. A key feature is the FASTrack mechanism, designed to initiate complex clinical trials within 60 days. The first major study under this initiative, a Sanofi-sponsored trial of an in vivo CAR-T therapy, was activated in less than 60 days.\n\nWhy this matters: PrIME Trials represents a significant advancement in how clinical trials for inflammatory diseases are conducted, potentially leading to quicker access to new treatments for patients.",
-      "sources": [
-        {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/mount-sinai-launches-clinical-trial-platform-to-accelerate-inflammatory-disease-therapies/",
-          "type": "news",
-          "verified_date": "2026-11-20"
-        }
-      ]
-    },
-    {
       "id": "3",
-      "headline": "High-dose clonidine safe for ventilated ICU patients",
-      "preview": "Study finds high doses of clonidine are safe for critically ill patients on ventilation.",
-      "article": "A recent study published in the Journal of Anesthesia, Analgesia and Critical Care found that clonidine, used as an adjunct sedative in mechanically ventilated ICU patients, was well tolerated at doses up to 1800 micrograms per day. The research indicated no dose-limiting toxicity and a lack of significant adverse cardiovascular effects.\n\nThe study involved 32 critically ill adults and monitored various adverse events over a nine-day period. Results showed that serious adverse events were not dose-dependent, and no significant rebound effects were observed after discontinuation of the drug.\n\nWhy this matters: These findings support the safety of high-dose clonidine in ICU settings, paving the way for future efficacy trials to explore its potential benefits in improving patient outcomes.",
+      "headline": "Herbal Formula Yigong San Triggers Ferroptosis to Suppress Gastric Cancer",
+      "preview": "Yigong San, a traditional herbal formula, shows promise in treating gastric cancer via ferroptosis.",
+      "article": "A comprehensive preclinical investigation has demonstrated that the traditional herbal preparation Yigong San suppresses gastric cancer progression by initiating ferroptosis. The study found that Yigong San inhibits tumor proliferation and invasion while triggering iron-dependent cell death.\nWhy this matters: This research highlights the potential of traditional Chinese medicine as a source of multi-target anticancer agents with favorable safety profiles, offering an alternative to conventional chemotherapy that often has severe side effects.",
       "sources": [
         {
           "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/high-dose-clonidine-safe-for-ventilated-icu-patients/",
+          "url": "https://bioengineer.org/herbal-formula-yigong-san-triggers-ferroptosis-to-suppress-gastric-cancer/",
           "type": "news",
-          "verified_date": "2026-11-20"
+          "verified_date": "2026-11-21"
         }
       ]
     },
     {
       "id": "4",
-      "headline": "ai3Bio: Resetting the immune system with in vivo T cell depletion",
-      "preview": "ai3Bio emerges with a focus on T cell depletion for autoimmune diseases backed by $48M funding.",
-      "article": "Ai3Bio has launched with a mission to reset the immune system through in vivo T cell depletion, specifically targeting Th17 cells for autoimmune diseases. The company has secured $48 million in Series A funding to support its innovative approach, which combines lipid nanoparticle (LNP)-mRNA and monoclonal antibody technologies.\n\nFounded from a merger of Corner Therapeutics and Novasenta, ai3Bio aims to differentiate itself in the crowded field of autoimmune therapies by focusing on T cell-driven mechanisms. The funding will enable the development of their therapeutic strategies aimed at improving patient outcomes in autoimmune conditions.\n\nWhy this matters: Ai3Bio's approach could represent a significant advancement in the treatment of autoimmune diseases, potentially offering new therapeutic options for patients.",
+      "headline": "AriBio\u2019s split Phase III result reflects a mixed CTAD",
+      "preview": "AriBio reports mixed results from a Phase III trial at the CTAD conference.",
+      "article": "AriBio delivered a rare Phase III win in Alzheimer\u2019s disease, showing a statistically significant benefit only among patients who entered the trial off symptomatic medication. This mixed result highlights the complexities of interpreting clinical data in the context of ongoing research.\nWhy this matters: The findings raise questions about the need for further trials and the interpretation of tau biomarkers, which are critical in understanding Alzheimer\u2019s disease progression and treatment efficacy.",
       "sources": [
         {
           "name": "BioCentury",
-          "url": "https://www.biocentury.com/article/661491/ai3bio-resetting-the-immune-system-with-in-vivo-t-cell-depletion?utm_source=bc_rss&utm_medium=rss",
+          "url": "https://www.biocentury.com/article/661706/aribio-s-split-phase-iii-result-reflects-a-mixed-ctad?utm_source=bc_rss&utm_medium=rss",
           "type": "news",
-          "verified_date": "2026-11-18"
+          "verified_date": "2026-11-21"
         }
       ]
     },
     {
       "id": "5",
       "headline": "Local feedback governs cell fate transition to drive self-organized phenotypic equilibrium in hierarchical tumors",
-      "preview": "Study reveals how local feedback influences cancer stem cell dynamics in tumors.",
-      "article": "A new study published in PLOS Biology explores the mechanisms regulating cancer stem cell (CSC) transitions within hierarchical tumors using a Drosophila model. The research demonstrates that the differentiation of CSCs into transit amplifying progenitors (TAPs) is influenced by the local density of TAPs, establishing a feedback mechanism that stabilizes CSC populations.\n\nThe findings indicate that local cell interactions and signaling pathways, particularly involving EGFR, play crucial roles in maintaining the balance between CSCs and their differentiated progeny. This self-organizing principle could provide insights into tumor dynamics and potential therapeutic targets.\n\nWhy this matters: Understanding the local feedback mechanisms in tumor hierarchies may lead to novel strategies for targeting CSCs and improving cancer treatment outcomes.",
+      "preview": "Research reveals how local feedback influences cell fate transitions in tumors.",
+      "article": "Using a Drosophila model, researchers show that differentiation of cancer stem cells into progenitors depends on the fraction of neighboring progenitors. This local feedback mechanism predicts transition probabilities and stabilizes the stem cell fraction in tumors.\nWhy this matters: Understanding these mechanisms could lead to new strategies for targeting cancer stem cells, which are often responsible for treatment resistance and tumor recurrence.",
       "sources": [
         {
           "name": "PLOS Biology",
