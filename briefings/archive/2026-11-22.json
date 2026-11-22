@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-22",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Neutrophil Drug Delivery Systems Target Inflammation and Tumors in Preclinical Studies",
+      "preview": "Neutrophil-based drug delivery systems show promise for targeted therapies in inflammatory diseases and cancer. These systems exploit the natural recruitment pathways of neutrophils to deliver therapeutics effectively.",
+      "article": "Neutrophil-based drug delivery systems provide a biologically responsive strategy for transporting therapeutics to diseased tissues by exploiting the recruitment pathways of the most abundant leukocytes in circulation.\nWhy this matters: These systems could revolutionize treatment approaches for inflammatory diseases and cancer by enhancing drug delivery efficiency and targeting.\nRecent studies demonstrate that engineered nanoparticles can hitchhike on neutrophils, allowing for targeted delivery of drugs like NF-kappa-B inhibitors and doxorubicin to inflamed tissues without disrupting neutrophil function. Additionally, neutrophil membrane-coated carriers have shown enhanced localization to tumors, indicating a significant advancement in targeted therapy strategies."
+    },
+    {
+      "id": "2",
+      "headline": "Anti-PD-1 Therapy Modulates HIV-Specific CD8+ T Cells in Men with HIV",
+      "preview": "A clinical trial reveals that anti-PD-1 therapy can induce significant changes in HIV-specific CD8+ T-cell populations. This could have implications for HIV treatment strategies.",
+      "article": "A prospective phase one clinical trial assessing the effects of anti-PD-1 therapy, specifically nivolumab, in men with HIV receiving suppressive antiretroviral therapy has revealed complex changes in HIV-specific CD8+ T-cell phenotypes.\nWhy this matters: Understanding how immune checkpoint blockade affects HIV-specific T-cells could lead to new strategies for managing HIV and potentially reducing the viral reservoir.\nThe study found that anti-PD-1 administration led to measurable shifts in cellular composition and transcriptional activity, suggesting pathways for reinvigorating cytotoxic function in HIV-specific memory T cells. The findings indicate that anti-PD-1 treatment prompts differentiation of these T-cells into a memory-like state, which may be crucial for future viral control."
+    },
+    {
+      "id": "3",
+      "headline": "AriBio\u2019s split Phase III result reflects a mixed CTAD",
+      "preview": "AriBio's Phase III trial results show a significant benefit for Alzheimer\u2019s patients, but only in a specific subgroup. This highlights ongoing challenges in Alzheimer's research.",
+      "article": "AriBio delivered a rare Phase III win in Alzheimer\u2019s disease, with its oral therapy AR1001 showing a statistically significant benefit only among patients who entered the trial off symptomatic medication.\nWhy this matters: The mixed results from this trial underscore the complexities of Alzheimer\u2019s research and the need for more effective therapies.\nThe conference also featured a failed tau antibody trial and a third therapy targeting amyloid oligomers that missed its primary efficacy endpoint, illustrating the ongoing challenges in interpreting biomarkers and achieving significant treatment outcomes."
+    },
+    {
+      "id": "4",
+      "headline": "FDA rejects Capricor Therapeutics\u2019 Duchenne therapy, a decision that was a long time coming",
+      "preview": "The FDA has rejected Capricor Therapeutics' cell therapy for Duchenne muscular dystrophy, citing lack of efficacy in clinical trials. This decision reflects ongoing challenges in developing effective treatments for this condition.",
+      "article": "The Food and Drug Administration has rejected a cell therapy intended for patients with Duchenne muscular dystrophy developed by Capricor Therapeutics.\nWhy this matters: The rejection highlights the difficulties in bringing effective therapies to market for Duchenne, a disease with limited treatment options.\nCapricor conducted two randomized clinical trials, both of which failed to demonstrate that the therapy could prevent heart failure or preserve muscle function, raising questions about the future of drug development in this area."
+    },
+    {
+      "id": "5",
+      "headline": "When and how is preregistration in experimental biology worth the effort?",
+      "preview": "This article discusses the challenges and benefits of preregistration in experimental biology, emphasizing the need for transparency and reducing biases in research.",
+      "article": "Preregistration in experimental biology aims to enhance transparency and mitigate biases in research by requiring researchers to specify their study protocols before data collection.\nWhy this matters: Implementing preregistration could improve the reproducibility of biological research and help address issues like HARKing (hypothesizing after results are known).\nHowever, the article notes that many researchers resist preregistration due to concerns about limiting flexibility and increasing workload. It suggests that adapting preregistration practices to fit the unique needs of experimental biology could help overcome these challenges."
+    }
+  ]
+}

@@ -1,75 +1,35 @@
 {
-  "date": "2026-11-21",
+  "date": "2026-11-22",
   "items": [
     {
       "id": "1",
-      "headline": "Ubiquitin-Like Protein Imbalances Shape Tau Aggregation and Pathology in Alzheimer\u2019s Disease",
-      "preview": "A review highlights the role of ubiquitin-like proteins in Alzheimer's disease pathology.",
-      "article": "A comprehensive review published in Molecular Neurodegeneration Advances describes how an interconnected regulatory network of ubiquitin-like proteins coordinates cellular clearance, inflammatory responses, and protein accumulation in Alzheimer\u2019s disease. Researchers analyze the expanding roles of post-translational modifiers, including small ubiquitin-like modifier and others, framing the disorder as a systems-level collapse of proteostasis.\nWhy this matters: Understanding the roles of these proteins could lead to new therapeutic strategies for Alzheimer's disease by targeting the dysregulation of these pathways.\nThe review details how various modifiers influence amyloid precursor protein processing and tau aggregation, highlighting the complex interactions that contribute to neurodegeneration. The authors conclude that clinical progress depends on defining precise therapeutic windows and creating targeted strategies to rebalance disrupted pathways.",
-      "sources": [
-        {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/ubiquitin-like-protein-imbalances-shape-tau-aggregation-and-pathology-in-alzheimers-disease/",
-          "type": "news",
-          "verified_date": "2026-11-21"
-        }
-      ]
+      "headline": "Neutrophil Drug Delivery Systems Target Inflammation and Tumors in Preclinical Studies",
+      "preview": "Neutrophil-based drug delivery systems show promise for targeted therapies in inflammatory diseases and cancer. These systems exploit the natural recruitment pathways of neutrophils to deliver therapeutics effectively.",
+      "article": "Neutrophil-based drug delivery systems provide a biologically responsive strategy for transporting therapeutics to diseased tissues by exploiting the recruitment pathways of the most abundant leukocytes in circulation.\nWhy this matters: These systems could revolutionize treatment approaches for inflammatory diseases and cancer by enhancing drug delivery efficiency and targeting.\nRecent studies demonstrate that engineered nanoparticles can hitchhike on neutrophils, allowing for targeted delivery of drugs like NF-kappa-B inhibitors and doxorubicin to inflamed tissues without disrupting neutrophil function. Additionally, neutrophil membrane-coated carriers have shown enhanced localization to tumors, indicating a significant advancement in targeted therapy strategies."
     },
     {
       "id": "2",
-      "headline": "Laverock names CEO ahead of Series A; GH Research hires J&J depression-drug trial lead; TreeFrog taps former bluebird bio CFO",
-      "preview": "Leadership changes in biotech firms signal strategic shifts and upcoming clinical trials.",
-      "article": "Laverock Therapeutics has appointed Parker Moss as CEO and Paul J. Sekhri as executive chair as it prepares for a Series A funding round. GH Research has hired Vanina Popova, previously of J&J, to lead development for its inhaled depression treatment. TreeFrog Therapeutics has brought on James Sterling as CFO to oversee its financial strategies.\nWhy this matters: These leadership changes reflect the companies' strategic directions as they advance toward clinical trials and funding rounds, which are crucial for their growth and development in the competitive biotech landscape.",
-      "sources": [
-        {
-          "name": "European Biotechnology Magazine",
-          "url": "https://european-biotechnology.com/latest-news/laverock-names-ceo-ahead-of-series-a-gh-research-hires-j-treefrog-taps-former-bluebird-bio-cfo/",
-          "type": "news",
-          "verified_date": "2026-11-20"
-        }
-      ]
+      "headline": "Anti-PD-1 Therapy Modulates HIV-Specific CD8+ T Cells in Men with HIV",
+      "preview": "A clinical trial reveals that anti-PD-1 therapy can induce significant changes in HIV-specific CD8+ T-cell populations. This could have implications for HIV treatment strategies.",
+      "article": "A prospective phase one clinical trial assessing the effects of anti-PD-1 therapy, specifically nivolumab, in men with HIV receiving suppressive antiretroviral therapy has revealed complex changes in HIV-specific CD8+ T-cell phenotypes.\nWhy this matters: Understanding how immune checkpoint blockade affects HIV-specific T-cells could lead to new strategies for managing HIV and potentially reducing the viral reservoir.\nThe study found that anti-PD-1 administration led to measurable shifts in cellular composition and transcriptional activity, suggesting pathways for reinvigorating cytotoxic function in HIV-specific memory T cells. The findings indicate that anti-PD-1 treatment prompts differentiation of these T-cells into a memory-like state, which may be crucial for future viral control."
     },
     {
       "id": "3",
-      "headline": "Herbal Formula Yigong San Triggers Ferroptosis to Suppress Gastric Cancer",
-      "preview": "Yigong San, a traditional herbal formula, shows promise in treating gastric cancer via ferroptosis.",
-      "article": "A comprehensive preclinical investigation has demonstrated that the traditional herbal preparation Yigong San suppresses gastric cancer progression by initiating ferroptosis. The study found that Yigong San inhibits tumor proliferation and invasion while triggering iron-dependent cell death.\nWhy this matters: This research highlights the potential of traditional Chinese medicine as a source of multi-target anticancer agents with favorable safety profiles, offering an alternative to conventional chemotherapy that often has severe side effects.",
-      "sources": [
-        {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/herbal-formula-yigong-san-triggers-ferroptosis-to-suppress-gastric-cancer/",
-          "type": "news",
-          "verified_date": "2026-11-21"
-        }
-      ]
+      "headline": "AriBio\u2019s split Phase III result reflects a mixed CTAD",
+      "preview": "AriBio's Phase III trial results show a significant benefit for Alzheimer\u2019s patients, but only in a specific subgroup. This highlights ongoing challenges in Alzheimer's research.",
+      "article": "AriBio delivered a rare Phase III win in Alzheimer\u2019s disease, with its oral therapy AR1001 showing a statistically significant benefit only among patients who entered the trial off symptomatic medication.\nWhy this matters: The mixed results from this trial underscore the complexities of Alzheimer\u2019s research and the need for more effective therapies.\nThe conference also featured a failed tau antibody trial and a third therapy targeting amyloid oligomers that missed its primary efficacy endpoint, illustrating the ongoing challenges in interpreting biomarkers and achieving significant treatment outcomes."
     },
     {
       "id": "4",
-      "headline": "AriBio\u2019s split Phase III result reflects a mixed CTAD",
-      "preview": "AriBio reports mixed results from a Phase III trial at the CTAD conference.",
-      "article": "AriBio delivered a rare Phase III win in Alzheimer\u2019s disease, showing a statistically significant benefit only among patients who entered the trial off symptomatic medication. This mixed result highlights the complexities of interpreting clinical data in the context of ongoing research.\nWhy this matters: The findings raise questions about the need for further trials and the interpretation of tau biomarkers, which are critical in understanding Alzheimer\u2019s disease progression and treatment efficacy.",
-      "sources": [
-        {
-          "name": "BioCentury",
-          "url": "https://www.biocentury.com/article/661706/aribio-s-split-phase-iii-result-reflects-a-mixed-ctad?utm_source=bc_rss&utm_medium=rss",
-          "type": "news",
-          "verified_date": "2026-11-21"
-        }
-      ]
+      "headline": "FDA rejects Capricor Therapeutics\u2019 Duchenne therapy, a decision that was a long time coming",
+      "preview": "The FDA has rejected Capricor Therapeutics' cell therapy for Duchenne muscular dystrophy, citing lack of efficacy in clinical trials. This decision reflects ongoing challenges in developing effective treatments for this condition.",
+      "article": "The Food and Drug Administration has rejected a cell therapy intended for patients with Duchenne muscular dystrophy developed by Capricor Therapeutics.\nWhy this matters: The rejection highlights the difficulties in bringing effective therapies to market for Duchenne, a disease with limited treatment options.\nCapricor conducted two randomized clinical trials, both of which failed to demonstrate that the therapy could prevent heart failure or preserve muscle function, raising questions about the future of drug development in this area."
     },
     {
       "id": "5",
-      "headline": "Local feedback governs cell fate transition to drive self-organized phenotypic equilibrium in hierarchical tumors",
-      "preview": "Research reveals how local feedback influences cell fate transitions in tumors.",
-      "article": "Using a Drosophila model, researchers show that differentiation of cancer stem cells into progenitors depends on the fraction of neighboring progenitors. This local feedback mechanism predicts transition probabilities and stabilizes the stem cell fraction in tumors.\nWhy this matters: Understanding these mechanisms could lead to new strategies for targeting cancer stem cells, which are often responsible for treatment resistance and tumor recurrence.",
-      "sources": [
-        {
-          "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004086",
-          "type": "paper",
-          "verified_date": "2026-11-19"
-        }
-      ]
+      "headline": "When and how is preregistration in experimental biology worth the effort?",
+      "preview": "This article discusses the challenges and benefits of preregistration in experimental biology, emphasizing the need for transparency and reducing biases in research.",
+      "article": "Preregistration in experimental biology aims to enhance transparency and mitigate biases in research by requiring researchers to specify their study protocols before data collection.\nWhy this matters: Implementing preregistration could improve the reproducibility of biological research and help address issues like HARKing (hypothesizing after results are known).\nHowever, the article notes that many researchers resist preregistration due to concerns about limiting flexibility and increasing workload. It suggests that adapting preregistration practices to fit the unique needs of experimental biology could help overcome these challenges."
     }
   ]
 }
