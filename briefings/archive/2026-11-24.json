@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-24",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Ellipses eyes London listing; Isomorphic adds MSD deal after $5B raise; Adcendo reports sarcoma responses",
+      "preview": "British biotech sees significant developments with potential London listing and partnerships.",
+      "article": "Ellipses Pharma is exploring a London listing through a reverse takeover with Wolfram Resources, aiming for completion in early 2027. The company is progressing with cancer candidates EP0031 and EP0062, which supports the timing of this potential public offering.\nIsomorphic Labs has signed an oncology discovery deal with MSD following a $5 billion raise, utilizing its AI drug-design engine to develop small molecules against a cancer target. The agreement includes upfront payments and potential royalties.\nAdcendo has reported early tumor responses in its sarcoma ADC, ADCE-D01, showing a 30% response rate in a Phase 1 study. Meanwhile, Evaxion is refocusing its R&D on cancer vaccines, and Sanofi received FDA approval for a new treatment for Type 3 Gaucher disease. Asgard has secured funding to advance its cancer therapy toward clinical testing.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/ellipses-eyes-london-listing-isomorphic-adds-msd-deal-after-5b-raise-adcendo-reports-sarcoma-responses/",
+          "type": "news",
+          "verified_date": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Upadacitinib Maintains Rheumatoid Arthritis Remission Over Two Years in Canadian Clinical Practice",
+      "preview": "A study shows upadacitinib effectively maintains remission in rheumatoid arthritis patients over two years.",
+      "article": "A multicenter observational study in Canada demonstrated that upadacitinib maintained significant disease control in patients with moderate-to-severe rheumatoid arthritis over a 24-month period. Nearly 75% of participants achieved low disease activity scores at the two-year mark.\nThe CLOSE-UP study involved 412 patients and showed that therapeutic gains persisted across various treatment backgrounds, including those with previous treatment failures. The safety profile was consistent with previous clinical trials, with treatment-emergent adverse events reported in 61.7% of patients.\nWhy this matters: This real-world evidence supports the long-term effectiveness of upadacitinib, highlighting its potential as a reliable treatment option for rheumatoid arthritis.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/upadacitinib-maintains-rheumatoid-arthritis-remission-over-two-years-in-canadian-clinical-practice/",
+          "type": "news",
+          "verified_date": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "AC Immune selects ALS candidate after promising mouse data",
+      "preview": "AC Immune has chosen ACI-6758 as its lead candidate for ALS following successful preclinical results.",
+      "article": "AC Immune has selected ACI-6758 as its lead candidate for amyotrophic lateral sclerosis (ALS) after preclinical studies showed significant reductions in abnormal TDP-43 protein and improved motor function in mouse models. The intrabody is designed to target pathological TDP-43 while preserving its normal functions.\nIn mouse studies, ACI-6758 reduced pathological TDP-43 levels by up to 75% and improved motor function. The company is also developing a diagnostic tool to visualize TDP-43 pathology in patients, which could aid in the clinical development of ACI-6758.\nWhy this matters: Targeting TDP-43 is crucial as it is implicated in the majority of ALS cases, and ACI-6758's selective approach may offer a novel therapeutic strategy.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/ac-immune-selects-als-candidate-after-promising-mouse-data/",
+          "type": "news",
+          "verified_date": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Review Explores Exosome Therapy for Macrophage Regulation in Diabetic Foot Ulcers",
+      "preview": "A review discusses the potential of exosome therapy to improve healing in diabetic foot ulcers.",
+      "article": "Diabetic foot ulcers pose significant health challenges, often due to an imbalance between pro-inflammatory and reparative macrophages. Exosomes have shown promise in preclinical models for restoring this balance and promoting wound healing.\nThe review highlights various sources of exosomes, including stem cells and plant-derived vesicles, and their mechanisms of action in macrophage polarization. Advanced delivery systems like responsive hydrogels are also discussed to enhance therapeutic efficacy.\nWhy this matters: With high recurrence rates of diabetic foot ulcers, exosome therapy could represent a novel approach to improve healing outcomes and reduce disability.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/review-explores-exosome-therapy-for-macrophage-regulation-in-diabetic-foot-ulcers/",
+          "type": "news",
+          "verified_date": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "When should adaptation arise from a polygenic response versus few large-effect changes?",
+      "preview": "A new study explores the genetic basis of adaptation in evolutionary biology.",
+      "article": "This study investigates the conditions under which adaptation in traits may arise from numerous small genetic changes versus a few large-effect mutations. It frames the question in terms of the genetic architecture of traits and the selection pressures involved.\nThe authors model the adaptive response to sudden shifts in trait optimum, considering how genetic variation influences the contributions of large-effect and polygenic changes. They propose testable predictions based on their findings.\nWhy this matters: Understanding the genetic basis of adaptation is crucial for evolutionary biology and can inform conservation strategies and breeding programs.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004119",
+          "type": "paper",
+          "verified_date": "2026-11-23"
+        }
+      ]
+    }
+  ]
+}
