@@ -1,0 +1,623 @@
+{
+  "date": "2026-11-25",
+  "window_hours": 48,
+  "max_items": 5,
+  "max_per_source": 2,
+  "require_at_least_one_paper": true,
+  "rss_items_collected": 87,
+  "search_items_collected": 0,
+  "deduped_candidates": 84,
+  "fetched_ok": 28,
+  "fetched_dropped": 56,
+  "drop_reasons": {
+    "fetch_failed": 43,
+    "text_too_short_or_teaser": 13
+  },
+  "paper_guarantee_applied": true,
+  "rss_feeds_count": 43,
+  "rss_per_feed": [
+    {
+      "feed_url": "https://www.nature.com/subjects/biotechnology.rss",
+      "feed_title": "Biotechnology : nature.com subject feeds",
+      "items_total": 30,
+      "items_in_window": 21
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/gene-therapy.rss",
+      "feed_title": "Gene therapy : nature.com subject feeds",
+      "items_total": 30,
+      "items_in_window": 2
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/cell-therapies.rss",
+      "feed_title": "Cell therapies : nature.com subject feeds",
+      "items_total": 30,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.nature.com/subjects/cancer-therapy.rss",
+      "feed_title": "Cancer therapy : nature.com subject feeds",
+      "items_total": 30,
+      "items_in_window": 6
+    },
+    {
+      "feed_url": "https://www.nature.com/nm.rss.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.science.org/rss/news_current.xml",
+      "feed_title": "Latest News from Science Magazine",
+      "items_total": 10,
+      "items_in_window": 6
+    },
+    {
+      "feed_url": "https://www.cell.com/cell/current.rss?code=cell-site",
+      "feed_title": "Cell",
+      "items_total": 22,
+      "items_in_window": 3
+    },
+    {
+      "feed_url": "https://www.cell.com/cell/inpress.rss?code=cell-site",
+      "feed_title": "Cell",
+      "items_total": 67,
+      "items_in_window": 2
+    },
+    {
+      "feed_url": "https://www.cell.com/immunity/current.rss?code=cell-site",
+      "feed_title": "Immunity",
+      "items_total": 21,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/cancer-cell/current.rss?code=cell-site",
+      "feed_title": "Cancer Cell",
+      "items_total": 18,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.cell.com/rssfeed/molecular-therapy-family",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://rupress.org/rss/site_1000001.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://journals.plos.org/plosbiology/feed/atom",
+      "feed_title": "PLOS Biology",
+      "items_total": 30,
+      "items_in_window": 3
+    },
+    {
+      "feed_url": "https://www.biorxiv.org/rss/latest.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://connect.biorxiv.org/medrxiv/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.tctjournal.org/current.rss?code=ybmt-site",
+      "feed_title": "Transplantation and Cellular Therapy, Official Publication of the American Society for Transplantation and Cellular Therapy",
+      "items_total": 281,
+      "items_in_window": 2
+    },
+    {
+      "feed_url": "https://www.stemcellsciencenews.com/feed/",
+      "feed_title": "Science News",
+      "items_total": 11,
+      "items_in_window": 11
+    },
+    {
+      "feed_url": "https://globalstemcelltherapy.com/blog/feed/",
+      "feed_title": "Blog \u2013 Global Stem Cell Therapy",
+      "items_total": 12,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.fiercebiotech.com/rss/biotech",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.biopharmadive.com/feeds/news/",
+      "feed_title": "BioPharma Dive - Latest News",
+      "items_total": 10,
+      "items_in_window": 4
+    },
+    {
+      "feed_url": "https://endpts.com/feed/",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.statnews.com/category/biotech/feed/",
+      "feed_title": "STAT Biotech news: Market-moving coverage of drug development",
+      "items_total": 20,
+      "items_in_window": 4
+    },
+    {
+      "feed_url": "https://feeds.feedburner.com/GenGengNews",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "http://rss.biospace.com/news.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://bio.news/feed",
+      "feed_title": "Bio.News",
+      "items_total": 10,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://labiotech.eu/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://european-biotechnology.com/feed",
+      "feed_title": "European Biotechnology Magazine",
+      "items_total": 10,
+      "items_in_window": 6
+    },
+    {
+      "feed_url": "https://bioengineer.org/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://biotechexpressmag.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://biotecnika.org/category/biotech/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://lifescivc.com/feed",
+      "feed_title": "LifeSciVC",
+      "items_total": 20,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://decodingbio.substack.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://sarahconstantin.substack.com/feed",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://biocentury.com/rss/BioCentury",
+      "feed_title": "BioCentury",
+      "items_total": 50,
+      "items_in_window": 7
+    },
+    {
+      "feed_url": "https://biotechniques.com/feed",
+      "feed_title": "BioTechniques",
+      "items_total": 10,
+      "items_in_window": 4
+    },
+    {
+      "feed_url": "https://www.ema.europa.eu/en/news-events/rss-feeds?feed=press-releases",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.fda.gov/about-fda/what-we-do/rss-feeds",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://clinicaltrials.gov/ct2/rss/news.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.vfa.de/vfa.rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.bvmed.de/rss",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://www.sciencedaily.com/rss/feeds/biotechnology_and_bioengineering.xml",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    },
+    {
+      "feed_url": "https://phys.org/rss-feed/biology-news/biotechnology/",
+      "feed_title": "Biotechnology News - Biology News",
+      "items_total": 30,
+      "items_in_window": 6
+    },
+    {
+      "feed_url": "https://www.biologynews.net/rss.php",
+      "feed_title": "RSS",
+      "items_total": 0,
+      "items_in_window": 0
+    }
+  ],
+  "search_errors": [],
+  "paper_inserted_url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003805",
+  "paper_replaced_url": "https://phys.org/news/2026-11-dna-storage-human-cells-access.html",
+  "selection_source_counts": {
+    "STAT Biotech news: Market-moving coverage of drug development": 1,
+    "BioCentury": 1,
+    "European Biotechnology Magazine": 2,
+    "Biotechnology News - Biology News": 0,
+    "PLOS Biology": 1
+  },
+  "selected_count": 5,
+  "scored_preview_top50": [
+    {
+      "headline": "Opinion: Washington and Beijing are building walls around biotechnology. That\u2019s the wrong approach",
+      "url": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 7.14,
+      "score": 25
+    },
+    {
+      "headline": "Right tool, wrong timeline: The incentive Keytruda biosimilars are set to miss",
+      "url": "https://www.biocentury.com/article/661715/right-tool-wrong-timeline-the-incentive-keytruda-biosimilars-are-set-to-miss?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 17.44,
+      "score": 17
+    },
+    {
+      "headline": "Ellipses eyes London listing; Isomorphic adds MSD deal after $5B raise; Adcendo reports sarcoma responses",
+      "url": "https://european-biotechnology.com/latest-news/ellipses-eyes-london-listing-isomorphic-adds-msd-deal-after-5b-raise-adcendo-reports-sarcoma-responses/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 26.72,
+      "score": 16
+    },
+    {
+      "headline": "Abivax fights short seller\u2019s cancer claims ahead of FDA filing",
+      "url": "https://european-biotechnology.com/latest-news/abivax-fights-short-sellers-cancer-claims-ahead-of-fda-filing/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 47.46,
+      "score": 12
+    },
+    {
+      "headline": "AC Immune selects ALS candidate after promising mouse data",
+      "url": "https://european-biotechnology.com/latest-news/ac-immune-selects-als-candidate-after-promising-mouse-data/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 24.78,
+      "score": 11
+    },
+    {
+      "headline": "BioNTech founders in talks to raise $1B for mRNA cancer startup Arife",
+      "url": "https://european-biotechnology.com/latest-news/biontech-founders-in-talks-to-raise-1b-for-mrna-cancer-startup-arife/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 2.76,
+      "score": 10
+    },
+    {
+      "headline": "DNA storage system holds data in living human cells and protects access with genetic decoys",
+      "url": "https://phys.org/news/2026-11-dna-storage-human-cells-access.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 1.31,
+      "score": 10
+    },
+    {
+      "headline": "New PET tracer cocktail rapidly detects hospital-acquired bacterial infections",
+      "url": "https://phys.org/news/2026-11-pet-tracer-cocktail-rapidly-hospital.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 2.81,
+      "score": 10
+    },
+    {
+      "headline": "Sanofi to buy Insmed for $41B as Dupixent patent clock ticks",
+      "url": "https://european-biotechnology.com/latest-news/sanofi-to-buy-insmed-for-41b-as-dupixent-patent-clock-ticks/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 31.22,
+      "score": 7
+    },
+    {
+      "headline": "Sanofi\u2019s $41B Insmed buyout is a bet on more than Brinsupri",
+      "url": "https://www.biocentury.com/article/661733/sanofi-s-41b-insmed-buyout-is-a-bet-on-more-than-brinsupri?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 18.21,
+      "score": 7
+    },
+    {
+      "headline": "Species diversity increases information flow about predation in bird communities",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003805",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 26.64,
+      "score": 6
+    },
+    {
+      "headline": "Valneva delays next Shigella trial as it awaits $143M in Lyme vaccine payments from Pfizer",
+      "url": "https://european-biotechnology.com/latest-news/valneva-delays-next-shigella-trial-as-it-awaits-143m-in-lyme-vaccine-payments-from-pfizer/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 3.17,
+      "score": 6
+    },
+    {
+      "headline": "2026 in review: Neuroscience\u2019s new drugs and stubborn gaps",
+      "url": "https://www.biocentury.com/article/661719/2026-in-review-neuroscience-s-new-drugs-and-stubborn-gaps?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 41.19,
+      "score": 6
+    },
+    {
+      "headline": "New workflow advances programmable chromosome editing in plants",
+      "url": "https://phys.org/news/2026-11-workflow-advances-programmable-chromosome.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 16.31,
+      "score": 6
+    },
+    {
+      "headline": "Tiny tracker reveals the longest ever recorded hummingbird migration",
+      "url": "https://phys.org/news/2026-11-tiny-tracker-reveals-longest-hummingbird.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 23.64,
+      "score": 6
+    },
+    {
+      "headline": "Distinct trajectories and predictability of individual grouping patterns in dolphins link social ageing to longevity",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004022",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 26.64,
+      "score": 5
+    },
+    {
+      "headline": "After Overton, CNS milestones, COINS complexities \u2014 a BioCentury podcast",
+      "url": "https://www.biocentury.com/article/661728/after-overton-cns-milestones-coins-complexities-a-biocentury-podcast?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 39.51,
+      "score": 5
+    },
+    {
+      "headline": "The biotech bi-weekly: spatial biology goes large, transcriptomic perturbation prediction gets an update and key acquisitions loom in the pharma sphere",
+      "url": "https://www.biotechniques.com/computational-biology/the-biotech-bi-weekly-spatial-biology-goes-large-transcriptomic-perturbation-prediction-gets-an-update-and-key-acquisitions-loom-in-the-pharma-sphere/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 5.48,
+      "score": 5
+    },
+    {
+      "headline": "New robotics tech unlocks microbial mysteries of the deep ocean",
+      "url": "https://www.biotechniques.com/microbiology/new-robotics-tech-unlocks-microbial-mysteries-of-the-deep-ocean/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 7.63,
+      "score": 5
+    },
+    {
+      "headline": "Peek behind the paper | Investigating the interactomic landscape of survival motor neuron (SMN) and the SMN\u03947 truncated protein",
+      "url": "https://www.biotechniques.com/proteomics/peek-behind-the-paper-investigating-the-interactomic-landscape-of-survival-motor-neuron-smn-and-the-smn%ce%b47-truncated-protein/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 24.06,
+      "score": 5
+    },
+    {
+      "headline": "\u2018Man flu\u2019 may not be a myth after all: Zika research points to sex-specific immune responses",
+      "url": "https://www.biotechniques.com/immunology/man-flu-may-not-be-a-myth-after-all-zika-research-points-to-sex-specific-immune-responses/",
+      "source": "BioTechniques",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 25.16,
+      "score": 5
+    },
+    {
+      "headline": "Designing and optimizing genetic circuits in biology",
+      "url": "https://phys.org/news/2026-11-optimizing-genetic-circuits-biology.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 24.48,
+      "score": 5
+    },
+    {
+      "headline": "Recipe for one of the world's most important cancer drugs uncovered: Tobacco plants could produce the medicine",
+      "url": "https://phys.org/news/2026-11-recipe-world-important-cancer-drugs.html",
+      "source": "Biotechnology News - Biology News",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 40.31,
+      "score": 5
+    },
+    {
+      "headline": "STAT+: Limb-girdle muscular dystrophy gets its first FDA-approved drug, from BridgeBio",
+      "url": "https://www.statnews.com/2026/11/23/fda-approves-bridgebio-lgmd-drug-welgemda/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 43.25,
+      "score": 4
+    },
+    {
+      "headline": "STAT+: Roche\u2019s potential\u00a0breast cancer blockbuster drug wins second FDA nod",
+      "url": "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 26.21,
+      "score": 2
+    },
+    {
+      "headline": "STAT+: Medicare estimates $9.2 billion in savings from third round of negotiated drug prices",
+      "url": "https://www.statnews.com/2026/11/23/medicare-drug-price-negotiations-announcement-third-round/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": false,
+      "low_value_notice": false,
+      "age_hours": 40.31,
+      "score": 0
+    },
+    {
+      "headline": "LoQus23 chooses Lilly buyout as Huntington\u2019s program moves toward clinic",
+      "url": "https://www.biocentury.com/article/661723/loqus23-chooses-lilly-buyout-as-huntington-s-program-moves-toward-clinic?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": false,
+      "low_value_notice": false,
+      "age_hours": 44.16,
+      "score": 0
+    },
+    {
+      "headline": "Correction: Single-nucleus transcriptomics of wing sexual dimorphism and scale cell specialization in sulphur butterflies",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004125",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": true,
+      "age_hours": 26.64,
+      "score": -15
+    }
+  ],
+  "selected_items": [
+    {
+      "headline": "Opinion: Washington and Beijing are building walls around biotechnology. That\u2019s the wrong approach",
+      "url": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
+      "source": "STAT Biotech news: Market-moving coverage of drug development",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 7.14,
+      "score": 25
+    },
+    {
+      "headline": "Right tool, wrong timeline: The incentive Keytruda biosimilars are set to miss",
+      "url": "https://www.biocentury.com/article/661715/right-tool-wrong-timeline-the-incentive-keytruda-biosimilars-are-set-to-miss?utm_source=bc_rss&utm_medium=rss",
+      "source": "BioCentury",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 17.44,
+      "score": 17
+    },
+    {
+      "headline": "Ellipses eyes London listing; Isomorphic adds MSD deal after $5B raise; Adcendo reports sarcoma responses",
+      "url": "https://european-biotechnology.com/latest-news/ellipses-eyes-london-listing-isomorphic-adds-msd-deal-after-5b-raise-adcendo-reports-sarcoma-responses/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 26.72,
+      "score": 16
+    },
+    {
+      "headline": "Abivax fights short seller\u2019s cancer claims ahead of FDA filing",
+      "url": "https://european-biotechnology.com/latest-news/abivax-fights-short-sellers-cancer-claims-ahead-of-fda-filing/",
+      "source": "European Biotechnology Magazine",
+      "kind": "news",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 47.46,
+      "score": 12
+    },
+    {
+      "headline": "Species diversity increases information flow about predation in bird communities",
+      "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003805",
+      "source": "PLOS Biology",
+      "kind": "paper",
+      "topical": true,
+      "low_value_notice": false,
+      "age_hours": 26.64,
+      "score": 6
+    }
+  ]
+}

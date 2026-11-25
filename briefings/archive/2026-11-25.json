@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-25",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Opinion: Washington and Beijing are building walls around biotechnology. That\u2019s the wrong approach",
+      "preview": "The article discusses the recent moves by the U.S. and China to restrict biotechnology investments.",
+      "article": "For more than a decade, the Center for Research Innovation in Biotechnology has tracked experimental medicines entering human testing globally. Recent proposals from both the U.S. and China aim to restrict foreign investments in biotechnology, which could hinder innovation and collaboration.\n\nWhy this matters: The article argues that rather than building walls, both nations should focus on fostering engagement and investment in biotechnology to maintain leadership and drive innovation. The U.S. is currently losing ground in drug development, and restricting foreign investment may exacerbate this issue.",
+      "sources": [
+        {
+          "name": "STAT Biotech news: Market-moving coverage of drug development",
+          "url": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
+          "type": "news",
+          "verified_date": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Right tool, wrong timeline: The incentive Keytruda biosimilars are set to miss",
+      "preview": "The article highlights a gap in U.S. biosimilar policy regarding Keytruda.",
+      "article": "Congress is urged to extend Medicare\u2019s enhanced payment for biosimilars beyond 2027 to support the adoption of lower-cost alternatives to Keytruda. The current timeline risks leaving new entrants without necessary incentives as they enter the market.\n\nWhy this matters: Without an extension, the financial viability of Keytruda biosimilars may be compromised, limiting competition and potential savings for patients and the healthcare system.",
+      "sources": [
+        {
+          "name": "BioCentury",
+          "url": "https://www.biocentury.com/article/661715/right-tool-wrong-timeline-the-incentive-keytruda-biosimilars-are-set-to-miss?utm_source=bc_rss&utm_medium=rss",
+          "type": "news",
+          "verified_date": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Ellipses eyes London listing; Isomorphic adds MSD deal after $5B raise; Adcendo reports sarcoma responses",
+      "preview": "British biotech news highlights a potential London listing and early cancer trial results.",
+      "article": "Ellipses Pharma is exploring a London listing through a reverse takeover with Wolfram Resources. Meanwhile, Isomorphic Labs has signed a deal with MSD for oncology drug discovery following a $5 billion raise.\n\nWhy this matters: These developments reflect the growing interest and investment in biotech, particularly in oncology, which is crucial for advancing cancer treatments and therapies.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/ellipses-eyes-london-listing-isomorphic-adds-msd-deal-after-5b-raise-adcendo-reports-sarcoma-responses/",
+          "type": "news",
+          "verified_date": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Abivax fights short seller\u2019s cancer claims ahead of FDA filing",
+      "preview": "Abivax defends its ulcerative colitis drug against allegations of increased cancer risk.",
+      "article": "Abivax has rejected claims from a short seller that its drug obefazimod may raise cancer risk. The company plans to submit the drug for FDA approval by year-end, emphasizing the need for effective treatments for ulcerative colitis.\n\nWhy this matters: The outcome of Abivax's FDA filing could significantly impact treatment options for patients with ulcerative colitis, especially amid concerns over safety raised by external reports.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/abivax-fights-short-sellers-cancer-claims-ahead-of-fda-filing/",
+          "type": "news",
+          "verified_date": "2026-11-23"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Species diversity increases information flow about predation in bird communities",
+      "preview": "Research shows that bird species diversity enhances signaling about predation.",
+      "article": "A study demonstrates that increased species diversity among birds correlates with enhanced signaling regarding predation risks. The research highlights the importance of interspecific information flow in ecological communities.\n\nWhy this matters: Understanding how species diversity impacts communication and information flow can inform conservation efforts and ecosystem management strategies.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3003805",
+          "type": "paper",
+          "verified_date": "2026-11-24"
+        }
+      ]
+    }
+  ]
+}
