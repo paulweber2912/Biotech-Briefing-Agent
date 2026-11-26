@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-26",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Opinion: Washington and Beijing are building walls around biotechnology. That\u2019s the wrong approach",
+      "preview": "The article discusses the recent moves by the U.S. and China to restrict biotechnology investments.",
+      "article": "For more than a decade, my colleagues and I at the Center for Research Innovation in Biotechnology have tracked every experimental medicine that enters human testing anywhere in the world. Last December, I wrote in STAT that China had reached parity with the United States in terms of the absolute number of new drugs introduced into clinical trials each year. Starting in 2018, the rate of U.S. contributions began to stagnate. Meanwhile, in 2013, Chinese organizations had introduced about 30 new experimental drugs. A decade later, the number topped 400. And there is no reason to expect the momentum in either country is changing.\n\nOver the past month, both governments have seemingly been moving to wall themselves off. On Oct. 16, Beijing proposed barring foreign acquisition of its companies\u2019 proprietary cell and gene platforms. Within a week, the U.S. Department of the Treasury proposed restrictions that would bar Americans from taking equity stakes, forming joint ventures, or making limited-partner investments in Chinese biotech companies and their equipment suppliers. Why this matters: The proposals from Beijing and Washington do not impact licensing. American drugmakers can keep licensing Chinese molecules, and Chinese companies may develop new medicines to sell to the U.S. and European companies.",
+      "sources": [
+        {
+          "name": "STAT Biotech news: Market-moving coverage of drug development",
+          "url": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
+          "type": "news",
+          "verified_date": "2026-11-25"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Nose drops could offer world-first non-invasive delivery system for Alzheimer\u2019s drugs",
+      "preview": "Researchers have developed nose drops that may revolutionize Alzheimer's treatment delivery.",
+      "article": "Scientists at the University of Sydney have developed experimental nose drops that enhance learning and memory in aged mice while also preventing memory loss in a mouse model of Alzheimer\u2019s disease. The treatment uses mRNA technology similar to that developed for use in COVID-19 vaccines.\n\nThe findings show that delivering messenger RNA (mRNA) packaged in lipid nanoparticles can turn the nose into a drug factory, producing medically active proteins that can enter the brain and increase cognitive ability. Why this matters: If this approach can proceed quickly to clinical trials in humans, it could represent a world-first non-invasive delivery system to treat Alzheimer\u2019s that bypasses the blood-brain barrier.",
+      "sources": [
+        {
+          "name": "BioTechniques",
+          "url": "https://www.biotechniques.com/neuroscience/nose-drops-could-offer-world-first-non-invasive-delivery-system-for-alzheimers-drugs/",
+          "type": "news",
+          "verified_date": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Two-Pore Channel 2 Deletion Directs Context-Dependent Metabolic and Proteomic Remodeling in Melanoma",
+      "preview": "Research reveals how TPC2 deletion affects melanoma cell metabolism and proteomics.",
+      "article": "Knocking out the endolysosomal ion channel two-pore channel 2 (TPC2) remodels the cellular proteome and alters metabolic phenotypes in melanoma cells in a context-dependent manner. Researchers evaluated the functional and proteomic consequences of TPC2 deletion across human and murine melanoma cell lines.\n\nThe study found significant changes in protein expression and metabolic pathways, highlighting the complexity of TPC2's role in melanoma cell physiology. Why this matters: Understanding these metabolic shifts could inform future therapeutic strategies targeting melanoma.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/two-pore-channel-2-deletion-directs-context-dependent-metabolic-and-proteomic-remodeling-in-melanoma/",
+          "type": "news",
+          "verified_date": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Right tool, wrong timeline: The incentive Keytruda biosimilars are set to miss",
+      "preview": "The article discusses the timing issues facing Keytruda biosimilars in the U.S. market.",
+      "article": "Medicare\u2019s enhanced payment incentive for biosimilars is set to close to new entrants before biosimilars of Keytruda are expected to reach the U.S. market. This timing exposes a gap in U.S. biosimilar policy, risking leaving the next wave of competitors without an incentive designed to support their adoption.\n\nCongress should extend eligibility for the enhanced payment beyond 2027 to encourage practices to choose lower-cost alternatives to Keytruda at launch. Why this matters: Lowering the cost of the treatment backbone through biosimilars could free up healthcare spending for new therapies.",
+      "sources": [
+        {
+          "name": "BioCentury",
+          "url": "https://www.biocentury.com/article/661715/right-tool-wrong-timeline-the-incentive-keytruda-biosimilars-are-set-to-miss?utm_source=bc_rss&utm_medium=rss",
+          "type": "news",
+          "verified_date": "2026-11-24"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Social predictability increases with age in dolphins: A marker of longevity?",
+      "preview": "A study finds that social predictability in dolphins increases with age, suggesting longevity links.",
+      "article": "Research on wild Indo-Pacific bottlenose dolphins shows that individuals exhibit changes in their social predictability with age. The study found that predictability in group size increases with age, particularly in longer-lived dolphins.\n\nThis suggests that social competence may improve with experience, potentially offering fitness benefits. Why this matters: Understanding social ageing in dolphins could provide insights into the evolutionary aspects of social behavior and longevity.",
+      "sources": [
+        {
+          "name": "PLOS Biology",
+          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004107",
+          "type": "paper",
+          "verified_date": "2026-11-25"
+        }
+      ]
+    }
+  ]
+}
