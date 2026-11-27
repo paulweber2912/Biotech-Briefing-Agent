@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-27",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Review Analyzes How Cancer Immunotherapies Trigger Thrombosis and Shape Anticoagulation Strategies",
+      "preview": "A review in Biomarker Research explores the link between cancer immunotherapies and thrombosis.",
+      "article": "A comprehensive scientific review published in Biomarker Research evaluates the complex relationship between antitumor immunity and vascular complications, detailing how cancer immunotherapies trigger thrombosis and alter systemic coagulation pathways.\nWhy this matters: The authors emphasize that while these treatments provide revolutionary breakthroughs in tumor control, the vascular risks they pose demand precise mechanistic differentiation and carefully balanced management strategies.\nClinical investigations demonstrate that immune checkpoint inhibitors constitute an independent risk factor for thromboembolic events, with cumulative venous thromboembolism incidence reaching approximately 7.13 percent to 7.6 percent at six months. Furthermore, combination regimens exacerbate this risk compared to single-agent therapies.\nThe review also discusses the distinct clinical syndromes associated with CAR-T therapy and highlights the need for developing dynamic risk scoring frameworks to manage thrombosis in patients undergoing immunotherapy.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/review-analyzes-how-cancer-immunotherapies-trigger-thrombosis-and-shape-anticoagulation-strategies/",
+          "type": "news",
+          "verified_date": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Nose drops could offer world-first non-invasive delivery system for Alzheimer\u2019s drugs",
+      "preview": "Researchers at the University of Sydney have developed nose drops that could treat Alzheimer\u2019s disease.",
+      "article": "Inspired by science fiction, researchers have designed nose drops that protect against cognitive decline in mice and could offer a revolutionary delivery system to treat Alzheimer\u2019s disease.\nWhy this matters: If successful in humans, this approach could represent a world-first non-invasive delivery system to treat Alzheimer\u2019s that bypasses the blood\u2013brain barrier.\nThe study shows that delivering mRNA packaged in lipid nanoparticles can enhance learning and memory in aged mice while preventing memory loss in a mouse model of Alzheimer\u2019s disease. The findings suggest that this method could support neuron health and connectivity without clearing amyloid plaques, potentially complementing existing therapies.",
+      "sources": [
+        {
+          "name": "BioTechniques",
+          "url": "https://www.biotechniques.com/neuroscience/nose-drops-could-offer-world-first-non-invasive-delivery-system-for-alzheimers-drugs/",
+          "type": "news",
+          "verified_date": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "EVerZom leads \u20ac13.3M EU project to test extracellular vesicles where Takeda failed",
+      "preview": "EVerZom is leading a \u20ac13.3 million EU project to develop an extracellular vesicle therapy for Crohn\u2019s disease.",
+      "article": "French biotech EVerZom is leading a consortium that has secured \u20ac13.3 million in EU funding to bring its extracellular vesicle-based therapy for Crohn\u2019s disease-associated perianal fistulas into clinical trials.\nWhy this matters: EVerZom aims to overcome limitations of previous cell therapies by using biological material secreted by cells rather than the cells themselves.\nThe project will include a first-in-human Phase 1b/2a trial and a subsequent Phase 2b trial, focusing on safety, tolerability, and preliminary efficacy measures. EVerZom's approach promises advantages such as stability, consistency, and local retention of therapeutic agents.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/everzom-leads-e13-3m-eu-project-to-test-extracellular-vesicles-where-takeda-failed/",
+          "type": "news",
+          "verified_date": "2026-11-26"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Contera spins out RNA drug company Threepoint, opening door to outside investment",
+      "preview": "Contera Pharma has spun out its RNA drug business as Threepoint Therapeutics, seeking outside investment.",
+      "article": "Denmark-based Contera Pharma has spun out its RNA drug business as Threepoint Therapeutics, which is now open to outside investment as it grows.\nWhy this matters: The spin-out allows Threepoint to focus on RNA drug development, which has matured significantly, while Contera continues its work on Parkinson\u2019s disease.\nThreepoint's lead program targets Canavan disease with an antisense oligonucleotide designed to normalize N-acetylaspartate levels in the brain. The company aims to expand its pipeline and establish strategic partnerships for future growth.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/contera-spins-out-rna-drug-company-threepoint-opening-door-to-outside-investment/",
+          "type": "news",
+          "verified_date": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Periodontal Disease Is Modestly Associated With Increased Breast Cancer Risk",
+      "preview": "A review in Frontiers in Cellular and Infection Microbiology links periodontal disease to breast cancer risk.",
+      "article": "A comprehensive narrative review published in Frontiers in Cellular and Infection Microbiology evaluates the relationship between chronic periodontal disease and breast cancer incidence.\nWhy this matters: The review outlines how chronic inflammatory breakdown of periodontal tissues corresponds to a modest increase in breast cancer risk among adults.\nEpidemiological evidence indicates that individuals with periodontal disease have a higher hazard of developing breast cancer, with various studies showing adjusted hazard ratios indicating a positive association. The review also discusses the bidirectional relationship, where cancer treatments can lead to declines in periodontal health, creating a detrimental cycle.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/periodontal-disease-is-modestly-associated-with-increased-breast-cancer-risk/",
+          "type": "news",
+          "verified_date": "2026-11-27"
+        }
+      ]
+    }
+  ]
+}

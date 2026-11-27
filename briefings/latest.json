@@ -1,25 +1,25 @@
 {
-  "date": "2026-11-26",
+  "date": "2026-11-27",
   "items": [
     {
       "id": "1",
-      "headline": "Opinion: Washington and Beijing are building walls around biotechnology. That\u2019s the wrong approach",
-      "preview": "The article discusses the recent moves by the U.S. and China to restrict biotechnology investments.",
-      "article": "For more than a decade, my colleagues and I at the Center for Research Innovation in Biotechnology have tracked every experimental medicine that enters human testing anywhere in the world. Last December, I wrote in STAT that China had reached parity with the United States in terms of the absolute number of new drugs introduced into clinical trials each year. Starting in 2018, the rate of U.S. contributions began to stagnate. Meanwhile, in 2013, Chinese organizations had introduced about 30 new experimental drugs. A decade later, the number topped 400. And there is no reason to expect the momentum in either country is changing.\n\nOver the past month, both governments have seemingly been moving to wall themselves off. On Oct. 16, Beijing proposed barring foreign acquisition of its companies\u2019 proprietary cell and gene platforms. Within a week, the U.S. Department of the Treasury proposed restrictions that would bar Americans from taking equity stakes, forming joint ventures, or making limited-partner investments in Chinese biotech companies and their equipment suppliers. Why this matters: The proposals from Beijing and Washington do not impact licensing. American drugmakers can keep licensing Chinese molecules, and Chinese companies may develop new medicines to sell to the U.S. and European companies.",
+      "headline": "Review Analyzes How Cancer Immunotherapies Trigger Thrombosis and Shape Anticoagulation Strategies",
+      "preview": "A review in Biomarker Research explores the link between cancer immunotherapies and thrombosis.",
+      "article": "A comprehensive scientific review published in Biomarker Research evaluates the complex relationship between antitumor immunity and vascular complications, detailing how cancer immunotherapies trigger thrombosis and alter systemic coagulation pathways.\nWhy this matters: The authors emphasize that while these treatments provide revolutionary breakthroughs in tumor control, the vascular risks they pose demand precise mechanistic differentiation and carefully balanced management strategies.\nClinical investigations demonstrate that immune checkpoint inhibitors constitute an independent risk factor for thromboembolic events, with cumulative venous thromboembolism incidence reaching approximately 7.13 percent to 7.6 percent at six months. Furthermore, combination regimens exacerbate this risk compared to single-agent therapies.\nThe review also discusses the distinct clinical syndromes associated with CAR-T therapy and highlights the need for developing dynamic risk scoring frameworks to manage thrombosis in patients undergoing immunotherapy.",
       "sources": [
         {
-          "name": "STAT Biotech news: Market-moving coverage of drug development",
-          "url": "https://www.statnews.com/2026/11/25/us-china-biotech-race-policy-data/?utm_campaign=rss",
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/review-analyzes-how-cancer-immunotherapies-trigger-thrombosis-and-shape-anticoagulation-strategies/",
           "type": "news",
-          "verified_date": "2026-11-25"
+          "verified_date": "2026-11-27"
         }
       ]
     },
     {
       "id": "2",
       "headline": "Nose drops could offer world-first non-invasive delivery system for Alzheimer\u2019s drugs",
-      "preview": "Researchers have developed nose drops that may revolutionize Alzheimer's treatment delivery.",
-      "article": "Scientists at the University of Sydney have developed experimental nose drops that enhance learning and memory in aged mice while also preventing memory loss in a mouse model of Alzheimer\u2019s disease. The treatment uses mRNA technology similar to that developed for use in COVID-19 vaccines.\n\nThe findings show that delivering messenger RNA (mRNA) packaged in lipid nanoparticles can turn the nose into a drug factory, producing medically active proteins that can enter the brain and increase cognitive ability. Why this matters: If this approach can proceed quickly to clinical trials in humans, it could represent a world-first non-invasive delivery system to treat Alzheimer\u2019s that bypasses the blood-brain barrier.",
+      "preview": "Researchers at the University of Sydney have developed nose drops that could treat Alzheimer\u2019s disease.",
+      "article": "Inspired by science fiction, researchers have designed nose drops that protect against cognitive decline in mice and could offer a revolutionary delivery system to treat Alzheimer\u2019s disease.\nWhy this matters: If successful in humans, this approach could represent a world-first non-invasive delivery system to treat Alzheimer\u2019s that bypasses the blood\u2013brain barrier.\nThe study shows that delivering mRNA packaged in lipid nanoparticles can enhance learning and memory in aged mice while preventing memory loss in a mouse model of Alzheimer\u2019s disease. The findings suggest that this method could support neuron health and connectivity without clearing amyloid plaques, potentially complementing existing therapies.",
       "sources": [
         {
           "name": "BioTechniques",
@@ -31,13 +31,13 @@
     },
     {
       "id": "3",
-      "headline": "Two-Pore Channel 2 Deletion Directs Context-Dependent Metabolic and Proteomic Remodeling in Melanoma",
-      "preview": "Research reveals how TPC2 deletion affects melanoma cell metabolism and proteomics.",
-      "article": "Knocking out the endolysosomal ion channel two-pore channel 2 (TPC2) remodels the cellular proteome and alters metabolic phenotypes in melanoma cells in a context-dependent manner. Researchers evaluated the functional and proteomic consequences of TPC2 deletion across human and murine melanoma cell lines.\n\nThe study found significant changes in protein expression and metabolic pathways, highlighting the complexity of TPC2's role in melanoma cell physiology. Why this matters: Understanding these metabolic shifts could inform future therapeutic strategies targeting melanoma.",
+      "headline": "EVerZom leads \u20ac13.3M EU project to test extracellular vesicles where Takeda failed",
+      "preview": "EVerZom is leading a \u20ac13.3 million EU project to develop an extracellular vesicle therapy for Crohn\u2019s disease.",
+      "article": "French biotech EVerZom is leading a consortium that has secured \u20ac13.3 million in EU funding to bring its extracellular vesicle-based therapy for Crohn\u2019s disease-associated perianal fistulas into clinical trials.\nWhy this matters: EVerZom aims to overcome limitations of previous cell therapies by using biological material secreted by cells rather than the cells themselves.\nThe project will include a first-in-human Phase 1b/2a trial and a subsequent Phase 2b trial, focusing on safety, tolerability, and preliminary efficacy measures. EVerZom's approach promises advantages such as stability, consistency, and local retention of therapeutic agents.",
       "sources": [
         {
-          "name": "BIOENGINEER.ORG",
-          "url": "https://bioengineer.org/two-pore-channel-2-deletion-directs-context-dependent-metabolic-and-proteomic-remodeling-in-melanoma/",
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/everzom-leads-e13-3m-eu-project-to-test-extracellular-vesicles-where-takeda-failed/",
           "type": "news",
           "verified_date": "2026-11-26"
         }
@@ -45,29 +45,29 @@
     },
     {
       "id": "4",
-      "headline": "Right tool, wrong timeline: The incentive Keytruda biosimilars are set to miss",
-      "preview": "The article discusses the timing issues facing Keytruda biosimilars in the U.S. market.",
-      "article": "Medicare\u2019s enhanced payment incentive for biosimilars is set to close to new entrants before biosimilars of Keytruda are expected to reach the U.S. market. This timing exposes a gap in U.S. biosimilar policy, risking leaving the next wave of competitors without an incentive designed to support their adoption.\n\nCongress should extend eligibility for the enhanced payment beyond 2027 to encourage practices to choose lower-cost alternatives to Keytruda at launch. Why this matters: Lowering the cost of the treatment backbone through biosimilars could free up healthcare spending for new therapies.",
+      "headline": "Contera spins out RNA drug company Threepoint, opening door to outside investment",
+      "preview": "Contera Pharma has spun out its RNA drug business as Threepoint Therapeutics, seeking outside investment.",
+      "article": "Denmark-based Contera Pharma has spun out its RNA drug business as Threepoint Therapeutics, which is now open to outside investment as it grows.\nWhy this matters: The spin-out allows Threepoint to focus on RNA drug development, which has matured significantly, while Contera continues its work on Parkinson\u2019s disease.\nThreepoint's lead program targets Canavan disease with an antisense oligonucleotide designed to normalize N-acetylaspartate levels in the brain. The company aims to expand its pipeline and establish strategic partnerships for future growth.",
       "sources": [
         {
-          "name": "BioCentury",
-          "url": "https://www.biocentury.com/article/661715/right-tool-wrong-timeline-the-incentive-keytruda-biosimilars-are-set-to-miss?utm_source=bc_rss&utm_medium=rss",
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/contera-spins-out-rna-drug-company-threepoint-opening-door-to-outside-investment/",
           "type": "news",
-          "verified_date": "2026-11-24"
+          "verified_date": "2026-11-27"
         }
       ]
     },
     {
       "id": "5",
-      "headline": "Social predictability increases with age in dolphins: A marker of longevity?",
-      "preview": "A study finds that social predictability in dolphins increases with age, suggesting longevity links.",
-      "article": "Research on wild Indo-Pacific bottlenose dolphins shows that individuals exhibit changes in their social predictability with age. The study found that predictability in group size increases with age, particularly in longer-lived dolphins.\n\nThis suggests that social competence may improve with experience, potentially offering fitness benefits. Why this matters: Understanding social ageing in dolphins could provide insights into the evolutionary aspects of social behavior and longevity.",
+      "headline": "Periodontal Disease Is Modestly Associated With Increased Breast Cancer Risk",
+      "preview": "A review in Frontiers in Cellular and Infection Microbiology links periodontal disease to breast cancer risk.",
+      "article": "A comprehensive narrative review published in Frontiers in Cellular and Infection Microbiology evaluates the relationship between chronic periodontal disease and breast cancer incidence.\nWhy this matters: The review outlines how chronic inflammatory breakdown of periodontal tissues corresponds to a modest increase in breast cancer risk among adults.\nEpidemiological evidence indicates that individuals with periodontal disease have a higher hazard of developing breast cancer, with various studies showing adjusted hazard ratios indicating a positive association. The review also discusses the bidirectional relationship, where cancer treatments can lead to declines in periodontal health, creating a detrimental cycle.",
       "sources": [
         {
-          "name": "PLOS Biology",
-          "url": "https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3004107",
-          "type": "paper",
-          "verified_date": "2026-11-25"
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/periodontal-disease-is-modestly-associated-with-increased-breast-cancer-risk/",
+          "type": "news",
+          "verified_date": "2026-11-27"
         }
       ]
     }
