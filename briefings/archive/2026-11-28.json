@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-28",
+  "items": [
+    {
+      "id": "1",
+      "headline": "Newly discovered barrier could explain why nucleic acid medicines remain trapped inside cells",
+      "preview": "Researchers have identified a barrier that may prevent nucleic acid medicines from reaching their targets inside cells.",
+      "article": "Researchers from The University of Hong Kong have discovered a barrier within endolysosomes that may hinder nucleic acid medicines, such as antisense oligonucleotides (ASOs), from reaching their targets. This barrier forms dense, solid-like condensates that trap these medicines even when the endolysosomal membrane is damaged.\n\nWhy this matters: Understanding this hidden barrier could lead to improved drug delivery strategies, enhancing the effectiveness of nucleic acid medicines by allowing them to escape the endolysosomes and reach their intended cellular targets. The findings suggest that future drug development may focus on reducing the tendency of ASOs to become trapped in these condensates.",
+      "sources": [
+        {
+          "name": "Biotechnology News - Biology News",
+          "url": "https://phys.org/news/2026-11-newly-barrier-nucleic-acid-medicines.html",
+          "type": "news",
+          "verified_date": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "headline": "Contera spins out RNA drug company Threepoint, opening door to outside investment",
+      "preview": "Contera Pharma has spun out its RNA drug business as Threepoint Therapeutics, seeking outside investment.",
+      "article": "Denmark-based Contera Pharma has established Threepoint Therapeutics, a spin-out focused on RNA drug development. This move allows Threepoint to pursue outside investment as it advances its pipeline, including a program for Canavan disease.\n\nWhy this matters: The separation of RNA activities into Threepoint aims to provide a clearer focus for investors and partners, enhancing the potential for growth and collaboration in RNA medicine development. The company plans to expand its pipeline and establish strategic partnerships while continuing its collaboration with Lundbeck on neurological RNA medicines.",
+      "sources": [
+        {
+          "name": "European Biotechnology Magazine",
+          "url": "https://european-biotechnology.com/latest-news/contera-spins-out-rna-drug-company-threepoint-opening-door-to-outside-investment/",
+          "type": "news",
+          "verified_date": "2026-11-27"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "headline": "Open Source Python Tool Accurately Computes Relativistic Electron Bound States",
+      "preview": "A new Python package accurately solves the radial Dirac equation for bound-state electrons.",
+      "article": "The RWFS package, developed in Python, successfully computes bound-state solutions of the radial Dirac equation for various central-field potentials. It achieves high precision, with relative errors below 1.2\u00d710^-10 when compared to analytical solutions for hydrogen-like ions.\n\nWhy this matters: This tool provides researchers with a reliable and accessible means to explore relativistic atomic structures, facilitating advancements in computational physics and enabling the testing of central-field models without the need for extensive multi-electron codebases.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/open-source-python-tool-accurately-computes-relativistic-electron-bound-states/",
+          "type": "news",
+          "verified_date": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "headline": "Genomic Surveillance Tracks Influenza Disappearance and 2022 Reintroduction in New Zealand",
+      "preview": "A decade-long genomic surveillance study reveals the impact of COVID-19 measures on influenza in New Zealand.",
+      "article": "A national genomic surveillance effort in New Zealand has shown that strict COVID-19 measures eliminated seasonal influenza circulation from 2020 to 2022. The study analyzed nearly 4,000 influenza genomes, revealing a significant drop in genetic diversity during border closures and a subsequent reintroduction of influenza A(H3N2) in 2022.\n\nWhy this matters: The findings highlight how public health interventions can reshape epidemic dynamics and the importance of ongoing genomic surveillance to monitor respiratory pathogens' evolution and transmission patterns following major health crises.",
+      "sources": [
+        {
+          "name": "BIOENGINEER.ORG",
+          "url": "https://bioengineer.org/genomic-surveillance-tracks-influenza-disappearance-and-2022-reintroduction-in-new-zealand/",
+          "type": "news",
+          "verified_date": "2026-11-28"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "headline": "Raman spectroscopy meets the sugar shack",
+      "preview": "Researchers develop a Raman spectroscopy method to assess maple syrup quality efficiently.",
+      "article": "Researchers at Universit\u00e9 de Montr\u00e9al have developed a Raman spectroscopy technique to evaluate maple syrup quality, potentially reducing the need for extensive human tasting. The method analyzes syrup samples to determine color, taste, and sugar content using a laser and artificial intelligence.\n\nWhy this matters: This innovation could streamline the grading process in the maple syrup industry, allowing for faster assessments while maintaining quality standards. The project aims to enhance grading capacity and reduce the fatigue experienced by human tasters.",
+      "sources": [
+        {
+          "name": "Biotechnology News - Biology News",
+          "url": "https://phys.org/news/2026-11-raman-spectroscopy-sugar-shack.html",
+          "type": "news",
+          "verified_date": "2026-11-27"
+        }
+      ]
+    }
+  ]
+}
